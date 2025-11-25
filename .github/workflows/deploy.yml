@@ -14,16 +14,28 @@ jobs:
     - uses: actions/checkout@v6
       with:
         ref: dynamic
+        path: dynamic
+    - uses: actions/checkout@v6
+      with:
+        ref: main
+        path: main
     - name: Generate HTML from in
       run: |
         pwd
         ls
         git config --global user.name "${{ github.actor }}"
         git config --global user.email "${{ github.actor }}@users.noreply.github.com"
-        git checkout main
-        git merge dynamic
-        git push origin main
+        cd dynamic/
+        pwd
+        ls
+        #git switch main
+        #git merge dynamic
+        #git push origin main
         python3 updatehtml.py
+        mv *.html ../main/
+        cd ../main/
+        pwd
+        ls
         git add *.html
         git commit -m 'genstatic'
         git push
