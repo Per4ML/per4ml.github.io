@@ -32,7 +32,6 @@ def parsemembers(contents):
     else:
       fields = line.split('=')
       if len(fields) == 2:
-        print(fields[0],'=',fields[1])
         member[fields[0]] = fields[1]
   if 'name' in member:
     if 'img' in member:

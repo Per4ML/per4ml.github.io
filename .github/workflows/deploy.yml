@@ -19,23 +19,35 @@ jobs:
       with:
         ref: main
         path: main
-    - name: Generate HTML from in
+    - name: Generate HTML from infiles
       run: |
-        pwd
-        ls
-        git config --global user.name "${{ github.actor }}"
-        git config --global user.email "${{ github.actor }}@users.noreply.github.com"
         cd dynamic/
-        pwd
-        ls
+        python3 updatehtml.py
+        mv *.html ../main/
+        cd ../
+    - name: Detect changes
+      id: check_changes
+      run: |
+        cd main/
+        if git diff --quiet ; then
+          echo "Already up-to-date"
+          echo "::set-output name=changed::false"
+        else
+          echo "New modifications"
+          echo "::set-output name=changed::true"
+        fi
+        cd ../
+    - name: Update main
+      if: steps.check_changes.outputs.changed == 'true'
+      run: |
+        cd main/
+        #git config --global user.name "${{ github.actor }}"
+        #git config --global user.email "${{ github.actor }}@users.noreply.github.com"
+        git config user.name "github-actions[bot]"
+        git config user.email "{user.id}+{user.login}@users.noreply.github.com"
         #git switch main
         #git merge dynamic
         #git push origin main
-        python3 updatehtml.py
-        mv *.html ../main/
-        cd ../main/
-        pwd
-        ls
         git add *.html
         git commit -m 'genstatic'
         git push
