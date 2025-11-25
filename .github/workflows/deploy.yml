@@ -1,0 +1,29 @@
+name: Deploy static HTML
+
+on:
+  workflow_dispatch: {}
+  push:
+    branches:
+      - dynamic
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/setup-python@v6
+    - uses: actions/checkout@v6
+      with:
+        ref: dynamic
+    - name: Generate HTML from in
+      run: |
+        pwd
+        ls
+        git config --global user.name "${{ github.actor }}"
+        git config --global user.email "${{ github.actor }}@users.noreply.github.com"
+        git checkout main
+        git merge dynamic
+        git push origin main
+        python3 updatehtml.py
+        git add *.html
+        git commit -m 'genstatic'
+        git push
