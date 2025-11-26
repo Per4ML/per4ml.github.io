@@ -40,12 +40,11 @@ jobs:
     - name: Update main
       if: ${{ env.UPDATEHTML == 'true' }}
       run: |
-        echo "Running the UPDATEHTML part"
         cd main/
-        #git config --global user.name "${{ github.actor }}"
-        #git config --global user.email "${{ github.actor }}@users.noreply.github.com"
-        git config user.name "github-actions[bot]"
-        git config user.email "{user.id}+{user.login}@users.noreply.github.com"
+        git config user.name "${{ github.actor }}"
+        git config user.email "${{ github.actor }}@users.noreply.github.com"
+        #git config user.name "github-actions[bot]"
+        #git config user.email "github-actions[bot]@users.noreply.github.com"
         #git switch main
         #git merge dynamic
         #git push origin main
