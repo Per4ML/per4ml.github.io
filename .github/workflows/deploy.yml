@@ -31,15 +31,17 @@ jobs:
         cd main/
         if git diff --quiet ; then
           echo "Already up-to-date"
-          echo "::set-output name=changed::false"
+          echo "UPDATEHTML=false" >> "$GITHUB_ENV"
         else
           echo "New modifications"
-          echo "::set-output name=changed::true"
+          echo "UPDATEHTML=true" >> "$GITHUB_ENV"
         fi
         cd ../
     - name: Update main
       if: steps.check_changes.outputs.changed == 'true'
+      if: ${{ env.UPDATEHTML == 'true' }}
       run: |
+        echo "Running the UPDATEHTML part"
         cd main/
         #git config --global user.name "${{ github.actor }}"
         #git config --global user.email "${{ github.actor }}@users.noreply.github.com"
