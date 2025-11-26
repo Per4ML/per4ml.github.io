@@ -6,45 +6,57 @@ on:
     branches:
       - dynamic
 
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
 jobs:
-  generate:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/setup-python@v6
-    - uses: actions/checkout@v6
-      with:
-        ref: dynamic
-        path: dynamic
-    - uses: actions/checkout@v6
-      with:
-        ref: main
-        path: main
-    - name: Generate HTML from infiles
-      run: |
-        cd dynamic/
-        python3 updatehtml.py
-        mv *.html ../main/
-        cd ../
-    - name: Detect changes
-      id: check_changes
-      run: |
-        cd main/
-        if git diff --quiet ; then
-          echo "Already up-to-date"
-          echo "UPDATEHTML=false" >> "$GITHUB_ENV"
-        else
-          echo "New modifications"
-          echo "UPDATEHTML=true" >> "$GITHUB_ENV"
-        fi
-        cd ../
-    - name: Update main
-      if: ${{ env.UPDATEHTML == 'true' }}
-      run: |
-        cd main/
-        #git config user.name "${{ github.actor }}"
-        #git config user.email "${{ github.actor }}@users.noreply.github.com"
-        git config user.name "github-actions[bot]"
-        git config user.email "github-actions[bot]@users.noreply.github.com"
-        git add *.html
-        git commit -m "${{ github.actor }} genhtml"
-        git push origin
+      - name: Python
+        uses: actions/setup-python@v6
+      - name: Checkout dynamic branch
+        uses: actions/checkout@v6
+        with:
+          ref: dynamic
+          path: dynamic
+      - name: Checkout main branch
+        uses: actions/checkout@v6
+        with:
+          ref: main
+          path: main
+      - name: Generate HTML from infiles
+        run: |
+          cd dynamic/
+          python3 updatehtml.py
+          mv *.html ../main/
+          cd ../
+      - name: Detect changes
+        id: check_changes
+        run: |
+          cd main/
+          if git diff --quiet ; then
+            echo "Already up-to-date"
+            echo "UPDATEHTML=false" >> "$GITHUB_ENV"
+          else
+            echo "New modifications"
+            echo "UPDATEHTML=true" >> "$GITHUB_ENV"
+          fi
+      - name: Upload static HTML
+        if: ${{ env.UPDATEHTML == 'true' }}
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+      - name: Deploy to GitHub Pages
+        if: ${{ env.UPDATEHTML == 'true' }}
+        id: deployment
+        uses: actions/deploy-pages@v4
