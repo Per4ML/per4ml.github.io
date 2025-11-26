@@ -12,10 +12,12 @@ jobs:
     steps:
     - uses: actions/setup-python@v6
     - uses: actions/checkout@v6
+      permissions: read-all
       with:
         ref: dynamic
         path: dynamic
     - uses: actions/checkout@v6
+      permissions: write-all
       with:
         ref: main
         path: main
