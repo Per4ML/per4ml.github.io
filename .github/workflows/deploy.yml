@@ -41,15 +41,10 @@ jobs:
       if: ${{ env.UPDATEHTML == 'true' }}
       run: |
         cd main/
-        git config user.name "${{ github.actor }}"
-        git config user.email "${{ github.actor }}@users.noreply.github.com"
-        #git config user.name "github-actions[bot]"
-        #git config user.email "github-actions[bot]@users.noreply.github.com"
-        #git switch main
-        #git merge dynamic
-        #git push origin main
+        #git config user.name "${{ github.actor }}"
+        #git config user.email "${{ github.actor }}@users.noreply.github.com"
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
         git add *.html
-        git commit -m 'genstatic'
-        git push
-      env:
-        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        git commit -m "${{ github.actor }} genhtml"
+        git push origin
