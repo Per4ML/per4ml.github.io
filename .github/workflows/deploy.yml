@@ -17,6 +17,9 @@ concurrency:
 
 jobs:
   deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - name: Python
@@ -48,12 +51,12 @@ jobs:
             echo "New modifications"
             echo "UPDATEHTML=true" >> "$GITHUB_ENV"
           fi
-      - name: Push updates to main
+      - name: Upload static HTML
         if: ${{ env.UPDATEHTML == 'true' }}
-        run: |
-          cd main/
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add .
-          git commit -m "deploy from dynamic"
-          git push
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: 'main/'
+      - name: Deploy to GitHub Pages
+        if: ${{ env.UPDATEHTML == 'true' }}
+        id: deployment
+        uses: actions/deploy-pages@v4
