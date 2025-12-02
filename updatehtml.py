@@ -107,4 +107,3 @@ if __name__ == '__main__':
       with open(infile, 'r') as infile:
         contents = [line.rstrip() for line in infile.readlines()]
     processcontent(basename, contents)
-
