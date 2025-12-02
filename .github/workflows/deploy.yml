@@ -17,6 +17,9 @@ concurrency:
 
 jobs:
   deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - name: Python
@@ -26,11 +29,11 @@ jobs:
         with:
           ref: dynamic
           path: dynamic
-      - name: Checkout main branch
+      - name: Checkout static branch
         uses: actions/checkout@v6
         with:
-          ref: main
-          path: main
+          ref: static
+          path: static
       - name: Generate static files
         run: |
           cd dynamic/
@@ -40,7 +43,7 @@ jobs:
       - name: Detect changes
         id: check_changes
         run: |
-          cd main/
+          cd static/
           rm -rf *
           cp -r ../dynamic/* .
           if git diff --quiet ; then
@@ -51,13 +54,22 @@ jobs:
             echo "UPDATEHTML=true" >> "$GITHUB_ENV"
           fi
           cd ../
-      - name: Update main branch
+      - name: Update static branch
         if: ${{ env.UPDATEHTML == 'true' }}
         run: |
-          cd main/
+          cd static/
           git config --global user.name "Per4ML"
           git config --global user.email "actions@github.com"
           git add .
-          git commit -m "Generated main from dynamic"
-          git push origin main
+          git commit -m "Generated static from dynamic"
+          git push origin static
           cd ../
+      - name: Upload static HTML
+        if: ${{ env.UPDATEHTML == 'true' }}
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: 'static/'
+      - name: Deploy to GitHub Pages
+        if: ${{ env.UPDATEHTML == 'true' }}
+        id: deployment
+        uses: actions/deploy-pages@v4
