@@ -7,7 +7,7 @@ on:
       - dynamic
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -34,16 +34,18 @@ jobs:
         with:
           ref: main
           path: main
-      - name: Generate HTML from infiles
+      - name: Generate static files
         run: |
           cd dynamic/
           python3 updatehtml.py
-          mv *.html ../main/
+          rm -rf *.in *.py contents/
           cd ../
       - name: Detect changes
         id: check_changes
         run: |
           cd main/
+          rm -rf *
+          cp -r ../dynamic/* .
           if git diff --quiet ; then
             echo "Already up-to-date"
             echo "UPDATEHTML=false" >> "$GITHUB_ENV"
