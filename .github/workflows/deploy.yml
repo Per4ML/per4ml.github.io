@@ -51,6 +51,17 @@ jobs:
             echo "New modifications"
             echo "UPDATEHTML=true" >> "$GITHUB_ENV"
           fi
+          cd ../
+      - name: Update main branch
+        if: ${{ env.UPDATEHTML == 'true' }}
+        run: |
+          cd main/
+          git config --global user.name "Per4ML"
+          git config --global user.email "actions@github.com"
+          git add .
+          git commit -m "Generated main from dynamic"
+          git push origin main
+          cd ../
       - name: Upload static HTML
         if: ${{ env.UPDATEHTML == 'true' }}
         uses: actions/upload-pages-artifact@v3
@@ -60,14 +71,3 @@ jobs:
         if: ${{ env.UPDATEHTML == 'true' }}
         id: deployment
         uses: actions/deploy-pages@v4
-      - name: Update main branch
-        if: ${{ env.UPDATEHTML == 'true' }}
-        env:
-          REPO: ${{ github.repository }}
-        run: |
-          cd main/
-          git config --global user.name "Per4ML"
-          git config --global user.email "actions@github.com"
-          git add .
-          git commit -m "Generated main from dynamic"
-          git push main
