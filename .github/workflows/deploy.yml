@@ -46,12 +46,12 @@ jobs:
           cd static/
           rm -rf *
           cp -r ../dynamic/* .
-          if git diff --quiet ; then
-            echo "Already up-to-date"
-            echo "UPDATEHTML=false" >> "$GITHUB_ENV"
-          else
+          if [[ $(git status --porcelain=v1) ]] ; then
             echo "New modifications"
             echo "UPDATEHTML=true" >> "$GITHUB_ENV"
+          else
+            echo "Already up-to-date"
+            echo "UPDATEHTML=false" >> "$GITHUB_ENV"
           fi
           cd ../
       - name: Update static branch
