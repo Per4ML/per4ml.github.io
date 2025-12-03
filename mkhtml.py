@@ -1,14 +1,23 @@
 #! /usr/bin/env python3
 
-import os
+import os, re
+from errno import ENOENT
 
-def fillhtml(basename, contents):
-  with open(f'{basename}.html.in', 'r') as infile, \
-        open(f'{basename}.html', 'w') as outfile:
-    for line in infile.readlines():
-      outfile.write(line)
-      if 'class="pagecontent"' in line:
-        outfile.write('\n'.join(contents)+'\n')
+class HTMLTemplate:
+  def __init__(self, blank='contents/blank.html'):
+    if not os.path.isfile(blank):
+      raise FileNotFoundError(f'[Errno {ENOENT}]' + \
+                              f' No such file or directory: \'{blank}\'')
+    with open(blank, 'r') as infile:
+      self.blank = infile.read()
+    self.keys = ['PAGECONTENT']
+
+  def fill(self, keyvals, html=''):
+    if not html:
+      html = self.blank
+    for key in self.keys:
+      html = re.sub(key, keyvals[key] if key in keyvals else '', html)
+    return html
 
 def parsemembers(contents):
   lines = []
@@ -81,7 +90,7 @@ def parsepubs(contents):
   lines.append('</dl>')
   return lines
 
-def processcontent(basename, contents):
+def processcontent(template, basename, contents=[]):
   if not contents:
     pass
   elif basename == 'pubs':
@@ -94,16 +103,18 @@ def processcontent(basename, contents):
     ['<figure>',
     '<img src="images/per4ml.png" alt="Per4ML" class="stretch-figure">',
     '</figure>']
-  fillhtml(basename, contents)
+  html = template.fill({'PAGECONTENT': '\n'.join(contents)})
+  with open(f'{basename}.html', 'w') as outfile:
+    outfile.write(html)
 
 if __name__ == '__main__':
-  for basename in os.listdir():
-    if not basename.endswith('.html.in'):
-      continue
-    basename = basename[:-8]
-    infile = os.path.join('contents', basename)
-    contents = []
-    if os.path.isfile(infile):
-      with open(infile, 'r') as infile:
-        contents = [line.rstrip() for line in infile.readlines()]
-    processcontent(basename, contents)
+  # The blank template
+  template = HTMLTemplate()
+  # The content input files
+  contentfiles = [name for name in os.listdir('contents') if '.' not in name]
+  if 'index' not in contentfiles:
+    processcontent(template, 'index')
+  for basename in contentfiles:
+    with open(os.path.join('contents', basename), 'r') as infile:
+      contents = [line.rstrip() for line in infile.readlines()]
+    processcontent(template, basename, contents)

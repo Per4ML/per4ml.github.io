@@ -1,12 +1,12 @@
-name: Deploy static HTML
+name: Deploy Github Pages
 
 on:
   push:
     branches:
-      - static
+      - main
 
 permissions:
-  contents: write
+  contents: read
   pages: write
   id-token: write
 
@@ -23,54 +23,20 @@ jobs:
     steps:
       - name: Python
         uses: actions/setup-python@v6
-      - name: Checkout dynamic branch
+      - name: Checkout pages repository
         uses: actions/checkout@v6
         with:
-          ref: dynamic
-          path: dynamic
-      - name: Checkout static branch
-        uses: actions/checkout@v6
-        with:
-          ref: static
-          path: static
+          ref: main
+          path: main
       - name: Generate static files
         run: |
-          cd dynamic/
-          python3 updatehtml.py
-          rm -rf *.in *.py contents/
+          cd main/
+          ./deploy.sh --deploy
           cd ../
-      - name: Detect changes
-        id: check_changes
-        run: |
-          cd static/
-          rm -rf *
-          cp -r ../dynamic/* .
-          if [[ $(git status --porcelain=v1) ]] ; then
-            echo "New modifications"
-            echo "UPDATEHTML=true" >> "$GITHUB_ENV"
-          else
-            echo "Already up-to-date"
-            echo "UPDATEHTML=false" >> "$GITHUB_ENV"
-          fi
-          cd ../
-      - name: Update static branch
-        if: ${{ env.UPDATEHTML == 'true' }}
-        run: |
-          cd static/
-          find . -type f -exec chmod 644 {} \;
-          find . -type d -exec chmod 711 {} \;
-          git config --global user.name "Per4ML"
-          git config --global user.email "actions@github.com"
-          git add .
-          git commit -m "Generated static from dynamic"
-          git push origin static
-          cd ../
-      - name: Upload static HTML
-        if: ${{ env.UPDATEHTML == 'true' }}
+      - name: Upload pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: 'static/'
+          path: 'main/'
       - name: Deploy to GitHub Pages
-        if: ${{ env.UPDATEHTML == 'true' }}
         id: deployment
         uses: actions/deploy-pages@v4

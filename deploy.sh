@@ -28,19 +28,19 @@ done
 while getopts dh opt ; do
   case "${opt}" in
     d ) deploy=1    ;;
-    * ) print_usage ;;
+    h ) print_usage ;;
   esac
 done
 
 set -e
-python3 updatehtml.py
+python3 mkhtml.py
 set +e
 
 find . -type f -exec chmod 644 {} \;
 find . -type d -exec chmod 711 {} \;
 
 if [ -n "$deploy" ] ; then
-  rm -rf *.in *.py README* contents/ "$0"
+  rm -rf *.py README* contents/ "$0"
 else
   chmod 755 "$0"
 fi
