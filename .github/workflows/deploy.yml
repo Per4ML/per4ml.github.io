@@ -31,7 +31,10 @@ jobs:
       - name: Generate static files
         run: |
           cd main/
-          ./deploy.sh --deploy
+          python3 mkhtml.py
+          rm -rf mkhtml.py README.md contents/
+          find . -type f -exec chmod 644 {} \;
+          find . -type d -exec chmod 711 {} \;
           cd ../
       - name: Upload pages artifact
         uses: actions/upload-pages-artifact@v3
