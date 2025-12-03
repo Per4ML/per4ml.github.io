@@ -40,7 +40,7 @@ find . -type f -exec chmod 644 {} \;
 find . -type d -exec chmod 711 {} \;
 
 if [ -n "$deploy" ] ; then
-  rm -rf *.in *.py contents/ "$0"
+  rm -rf *.in *.py README* contents/ "$0"
 else
   chmod 755 "$0"
 fi
