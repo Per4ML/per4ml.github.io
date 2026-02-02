@@ -71,8 +71,9 @@ def parsenews(contents):
       level = 2
     else:
       lines.append(f'      <li>{line}</li>')
-  if level > 0:
+  if level > 1:
     lines.append('    </ul>')
+  if level > 0:
     lines.append('  </li>')
   lines.append('</ul>')
   return lines
