@@ -27,7 +27,7 @@ def parsemembers(contents):
                           '    <figure>\n' + \
                           f'      <img src="{url}" alt="{name}">\n' + \
                           f'      <figcaption>{name}</figcaption>\n' + \
-                          '    </figure\n' + \
+                          '    </figure>\n' + \
                           '  </div>'
   for line in contents:
     if line == '':
@@ -52,17 +52,18 @@ def parsemembers(contents):
   return lines
 
 def parsenews(contents):
-  lines = ['<ul style="list-style-type:circle; style="margin-bottom:80px;">']
+  lines = ['<ul style="list-style-type:circle;margin-bottom:80px;">']
   level = 0
   for line in contents:
     if line == '':
       if level > 1:
         lines.append('    </ul>')
-      lines.append('  </li>')
+      if level > 0:
+        lines.append('  </li>')
       level = 0
     elif level == 0:
       lines.append('  <li style="margin-top:20px;">')
-      lines.append('  ' + line)
+      lines.append('    ' + line)
       level = 1
     elif level == 1:
       lines.append('    <ul style="list-style-type:none; margin-bottom:20px;">')
