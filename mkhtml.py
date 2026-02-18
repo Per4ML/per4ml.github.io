@@ -165,13 +165,25 @@ class HTMLTemplate:
                             f'      <figcaption>{name}</figcaption>\n' + \
                             '    </figure>\n' + \
                             '  </div>'
+    imglink = lambda img, name, url='':  \
+              '  <div class="imgitem">\n' + \
+              f'    <a href=\"{url}\">' + \
+              '    <figure>\n' + \
+              f'      <img src="{img}" alt="{name}">\n' + \
+              f'      <figcaption>{name}</figcaption>\n' + \
+              '    </figure>\n' + \
+              '    </a>' + \
+              '  </div>'
     for member in json.loads(contents):
       if 'name' in member and 'img' in member:
-        lines.append(img(member['img'], member['name']))
+        if 'url' in member:
+          lines.append(imglink(member['img'], member['name'], member['url']))
+        else:
+          lines.append(img(member['img'], member['name']))
       else:
         lines.append(f'<h3>{member["name"]}</h3>')
-      if 'url' in member:
-        lines[-1] = f'<a href=\"{member["url"]}\">{lines[-1]}</a>'
+        if 'url' in member:
+          lines[-1] = f'<a href=\"{member["url"]}\">{lines[-1]}</a>'
     lines.append('</div>\n</div>')
     return lines
 
