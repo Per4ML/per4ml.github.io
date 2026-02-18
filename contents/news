@@ -1,1 +1,22 @@
-No news is good news
+// members is a json list
+// each element is a new item with key/value pairs
+// lines beginning with // are dropped as comments
+
+// news items should have a title
+// a bulleted list is an array keyed by 'bullets'
+// a generic text block is keyed by 'text'
+[
+  {
+    "title":  "TODO: update website template",
+    "text":   "Generated content can fit into a differently themed base-html"
+  },{
+    "title":  "Per4ML content improved",
+    "bullets":
+      [
+              "Publications content derived from bibtex",
+              "Publication list added",
+              "Members and News contents using json now",
+              "Notes added to content files for usage"
+      ]
+  }
+]

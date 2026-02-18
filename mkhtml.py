@@ -1,11 +1,12 @@
 #! /usr/bin/env python3
 
-import os, re
+import json, os, re
 from errno import ENOENT
 
 class PubParser:
   # the key shouldn't have / or . but some have it
-  starts = re.compile(r'@[a-zA-Z]+\s*{\s*[a-zA-Z0-9_:/\.-]+\s*,')
+  starts = re.compile(r'^@[a-zA-Z]+\s*{\s*[a-zA-Z0-9_:/\.-]+\s*,',
+                      flags=re.MULTILINE)
   field = re.compile(r'^\s*([a-zA-Z]+)\s*=\s*(.*)')
   domain = re.compile(r'http[s]?://(?:www\.)?([^/]+)')
   delims = { '{': '}', '\"': '\"' }
@@ -156,8 +157,7 @@ class HTMLTemplate:
     return html
 
   def parsemembers(self, contents):
-    lines = []
-    member = {}
+    contents = re.sub('^//.*$', '', '\n'.join(contents), flags=re.MULTILINE)
     lines = ['<div class="imgwrap">', '<div class="imggrid">']
     img = lambda url, name: '  <div class="imgitem">\n' + \
                             '    <figure>\n' + \
@@ -165,51 +165,29 @@ class HTMLTemplate:
                             f'      <figcaption>{name}</figcaption>\n' + \
                             '    </figure>\n' + \
                             '  </div>'
-    for line in contents:
-      if line == '':
-        if 'name' in member:
-          if 'img' in member:
-            line = img(member['img'], member['name'])
-          else:
-            line = f'<h3>{member["name"]}</h3>'
-          lines.append(line)
-        member = {}
+    for member in json.loads(contents):
+      if 'name' in member and 'img' in member:
+        lines.append(img(member['img'], member['name']))
       else:
-        fields = line.split('=')
-        if len(fields) == 2:
-          member[fields[0]] = fields[1]
-    if 'name' in member:
-      if 'img' in member:
-        line = img(member['img'], member['name'])
-      else:
-        line = f'<h3>{member["name"]}</h3>'
-      lines.append(line)
+        lines.append(f'<h3>{member["name"]}</h3>')
     lines.append('</div>\n</div>')
     return lines
 
   def parsenews(self, contents):
+    contents = re.sub('^//.*$', '', '\n'.join(contents), flags=re.MULTILINE)
     lines = ['<ul style="list-style-type:circle;margin-bottom:80px;">']
     level = 0
-    for line in contents:
-      if line == '':
-        if level > 1:
-          lines.append('    </ul>')
-        if level > 0:
-          lines.append('  </li>')
-        level = 0
-      elif level == 0:
-        lines.append('  <li style="margin-top:20px;">')
-        lines.append('    ' + line)
-        level = 1
-      elif level == 1:
+    for item in json.loads(contents):
+      lines.append('  <li style="margin-top:20px;">' + item['title'])
+      if 'bullets' in item:
         lines.append('    <ul style="list-style-type:none; margin-bottom:20px;">')
-        lines.append(f'      <li>{line}</li>')
-        level = 2
-      else:
-        lines.append(f'      <li>{line}</li>')
-    if level > 1:
-      lines.append('    </ul>')
-    if level > 0:
+        for bullet in item['bullets']:
+          lines.append(f'      <li>{bullet}</li>')
+        lines.append('    </ul>')
+      if 'text' in item:
+        lines.append('    <ul style="list-style-type:none; margin-bottom:20px;">')
+        lines.append(item['text'])
+        lines.append('    </ul>')
       lines.append('  </li>')
     lines.append('</ul>')
     return lines
