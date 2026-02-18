@@ -32,7 +32,7 @@ jobs:
         run: |
           cd main/
           python3 mkhtml.py
-          rm -rf mkhtml.py README.md contents/
+          rm -rf *.py README.md contents/ __pycache__/
           find . -type f -exec chmod 644 {} \;
           find . -type d -exec chmod 711 {} \;
           cd ../
