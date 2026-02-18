@@ -14,11 +14,9 @@
   },{
     "name":  "Jaya Sravani",
     "img":    "images/members/jaysra.jpeg"
-
   },{
     "name":  "Nirajan Banjade",
     "img":    "images/members/nirban.jpg"
-
   },{
     "name":  "Avaneesh Ramesh",
     "img":    "images/members/avaram.jpg"
@@ -28,21 +26,18 @@
   },{
     "name":  "Arunavo Dey",
     "img":   "images/members/arudey.jpg"
-
   },{
     "name":  "Banooqa Banday",
     "img":   "images/members/banban.png"
-
   },{
     "name":  "Elvis Fefey",
     "img":   "images/members/elvfef.png"
-
   },{
     "name":  "Mohammad Zaeed",
     "img":   "images/members/mohzae.png"
-
   },{
     "name":  "Chase Phelps",
-    "img":   "images/members/chaphe.png"
+    "img":   "images/members/chaphe.png",
+    "url":   "https://chaseleif.tech"
   }
 ]

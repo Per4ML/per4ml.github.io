@@ -170,6 +170,8 @@ class HTMLTemplate:
         lines.append(img(member['img'], member['name']))
       else:
         lines.append(f'<h3>{member["name"]}</h3>')
+      if 'url' in member:
+        lines[-1] = f'<a href=\"{member["url"]}\">{lines[-1]}</a>'
     lines.append('</div>\n</div>')
     return lines
 
@@ -227,13 +229,24 @@ class HTMLTemplate:
           lines.append(f'<dd><a href =\"{fields["url"]}\">{url[0]}</a>')
       if 'note' in fields:
         for note in fields['note']:
-          if note.startswith('video \\url{') and note.endswith('}'):
-            note = 'video=' + note.split('{')[1][:-1]
+          if ' \\url{' in note and note.endswith('}'):
+            note = note.split()
+            urlkind = note[0]
+            urlkind = urlkind[0].upper() + urlkind[1:]
+            note = urlkind + '=' + note[1].split('{')[1][:-1]
+            url = ''
             for _, url in PubParser.nextfield(note):
               pass
-            domain = PubParser.domain.search(url).groups()
+            if not url:
+              continue
+            domain = PubParser.domain.search(url)
+            if not domain:
+              continue
+            domain = domain.groups()
             if len(domain) == 1:
-              lines.append(f'<dd><a href =\"{url}\">Video: {domain[0]}</a>')
+              lines.append(f'<dd>' + \
+                          f'<a href =\"{url}\">{urlkind}: {domain[0]}' + \
+                          '</a>')
       key = fields['key']
       lines.append('<dd><span class=\"minimized-text\"' + \
                   f' onclick=\"toggletext(\'bib{key}\', this)\">' + \
