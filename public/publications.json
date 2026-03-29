@@ -1,0 +1,38 @@
+[
+  {
+    "id": "p1",
+    "title": "Distributed Transformer Optimization on Exascale Architectures",
+    "authors": "Dr. Sarah Chen, James Miller, Dr. Alan Turing",
+    "venue": "Supercomputing (SC25)",
+    "year": 2025,
+    "abstract": "This paper introduces a novel communication-efficient gradient synchronization algorithm that scales linearly up to 10,000 GPUs, reducing interconnect bottlenecks by 40%.",
+    "link": "#"
+  },
+  {
+    "id": "p2",
+    "title": "Energy-Aware Scheduling for Deep Learning Workloads",
+    "authors": "Maria Garcia, Dr. Sarah Chen",
+    "venue": "IEEE IPDPS",
+    "year": 2024,
+    "abstract": "We present a predictive scheduling framework that reduces cluster energy consumption by 22% without impacting training throughput or violating strict job deadlines.",
+    "link": "#"
+  },
+  {
+    "id": "p3",
+    "title": "Sparse Attention Mechanisms for Long-Context LLMs",
+    "authors": "James Miller, David Kim",
+    "venue": "NeurIPS",
+    "year": 2024,
+    "abstract": "A hardware-aware sparse attention mechanism optimized for modern HPC interconnects, enabling 1M+ token contexts with sub-quadratic memory scaling.",
+    "link": "#"
+  },
+  {
+    "id": "p4",
+    "title": "Federated Learning over High-Latency Academic Networks",
+    "authors": "Dr. Alan Turing, Maria Garcia",
+    "venue": "ICML",
+    "year": 2023,
+    "abstract": "An asynchronous federated learning approach designed to tolerate high-latency links between geographically distributed research institutions while maintaining differential privacy.",
+    "link": "#"
+  }
+]

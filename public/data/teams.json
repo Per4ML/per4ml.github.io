@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Aakash Dhakal",
+    "role": "Ph.D.",
+    "image": "https://picsum.photos/seed/alice/200/200"
+  },
+  {
+    "name": "Ankur Lahiry",
+    "role": "Ph.D.",
+    "image": "https://picsum.photos/seed/bob/200/200"
+  },
+  {
+    "name": "Charlie Davis",
+    "role": "PhD Student",
+    "image": "https://picsum.photos/seed/charlie/200/200"
+  },
+  {
+    "name": "Diana Prince",
+    "role": "PhD Student",
+    "image": "https://picsum.photos/seed/diana/200/200"
+  },
+  {
+    "name": "Evan Wright",
+    "role": "MS Student",
+    "image": "https://picsum.photos/seed/evan/200/200"
+  },
+  {
+    "name": "Fiona Gallagher",
+    "role": "Research Assistant",
+    "image": "https://picsum.photos/seed/fiona/200/200"
+  },
+  {
+    "name": "George Harris",
+    "role": "PhD Student",
+    "image": "https://picsum.photos/seed/george/200/200"
+  },
+  {
+    "name": "Hannah Lee",
+    "role": "Undergraduate Researcher",
+    "image": "https://picsum.photos/seed/hannah/200/200"
+  }
+]

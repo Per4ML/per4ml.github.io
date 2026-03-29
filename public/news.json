@@ -1,0 +1,17 @@
+[
+  { "id": 15, "date": "Mar 28", "title": "Lab Expansion", "description": "We are expanding our lab space to accommodate new GPU clusters.", "link": "" },
+  { "id": 14, "date": "Mar 15", "title": "New Grant Awarded", "description": "Received a $2M NSF grant for exascale computing research.", "link": "https://example.com" },
+  { "id": 13, "date": "Feb 28", "title": "Keynote at SC26", "description": "Dr. Sarah Chen will be giving the keynote address at Supercomputing 2026.", "link": "https://example.com" },
+  { "id": 12, "date": "Feb 10", "title": "Paper Accepted to NeurIPS", "description": "Our paper on sparse attention mechanisms was accepted.", "link": "https://example.com" },
+  { "id": 11, "date": "Jan 22", "title": "Welcome New PhD Students", "description": "Welcoming 5 new PhD students to the Per4ML lab.", "link": "" },
+  { "id": 10, "date": "Jan 05", "title": "Open Source Release", "description": "Released our new distributed training framework on GitHub.", "link": "https://github.com" },
+  { "id": 9, "date": "Dec 15", "title": "Best Paper Award", "description": "Won best paper at IEEE IPDPS for our energy-aware scheduling work.", "link": "https://example.com" },
+  { "id": 8, "date": "Nov 30", "title": "Industry Partnership", "description": "Partnering with TechCorp to optimize their ML pipelines.", "link": "" },
+  { "id": 7, "date": "Nov 12", "title": "Workshop Organized", "description": "Successfully hosted the 1st Workshop on ML Systems.", "link": "https://example.com" },
+  { "id": 6, "date": "Oct 25", "title": "New Cluster Online", "description": "Our new 100-node GPU cluster is now fully operational.", "link": "" },
+  { "id": 5, "date": "Oct 10", "title": "Research Highlighted", "description": "Our work was featured in Nature Computational Science.", "link": "https://example.com" },
+  { "id": 4, "date": "Sep 15", "title": "Fall Semester Begins", "description": "Kicking off the new academic year with exciting projects.", "link": "" },
+  { "id": 3, "date": "Aug 20", "title": "Summer Interns Farewell", "description": "Thank you to our amazing summer interns for their hard work.", "link": "" },
+  { "id": 2, "date": "Jul 05", "title": "Conference Presentation", "description": "Presented our latest findings at ICML.", "link": "https://example.com" },
+  { "id": 1, "date": "Jun 10", "title": "Lab Founded", "description": "The Per4ML lab is officially established.", "link": "" }
+]
