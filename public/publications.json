@@ -1,38 +1,194 @@
 [
   {
-    "id": "p1",
-    "title": "Distributed Transformer Optimization on Exascale Architectures",
-    "authors": "Dr. Sarah Chen, James Miller, Dr. Alan Turing",
-    "venue": "Supercomputing (SC25)",
-    "year": 2025,
-    "abstract": "This paper introduces a novel communication-efficient gradient synchronization algorithm that scales linearly up to 10,000 GPUs, reducing interconnect bottlenecks by 40%.",
-    "link": "#"
+    "id": "lahiry2025distributed",
+    "title": "A Distributed Framework for Causal Modeling of Performance Variability in GPU Traces",
+    "authors": "Lahiry, Ankur, Pokharel, Ayush, Banday, Banooqa, Ockerman, Seth, Gueroudji, Amal, Zaeed, Mohammad, Islam, Tanzima Z, Pouchard, Line",
+    "venue": "arXiv preprint arXiv:2510.18300",
+    "year": "2025",
+    "link": "https://arxiv.org/pdf/2510.18300v1"
   },
   {
-    "id": "p2",
-    "title": "Energy-Aware Scheduling for Deep Learning Workloads",
-    "authors": "Maria Garcia, Dr. Sarah Chen",
-    "venue": "IEEE IPDPS",
-    "year": 2024,
-    "abstract": "We present a predictive scheduling framework that reduces cluster energy consumption by 22% without impacting training throughput or violating strict job deadlines.",
-    "link": "#"
+    "id": "zaeed2025opal",
+    "title": "Opal: A Modular Framework for Optimizing Performance using Analytics and LLMs",
+    "authors": "Zaeed, Mohammad, Islam, Tanzima Z, In{\\dj}i{\\'c}, Vladimir",
+    "venue": "arXiv preprint arXiv:2510.00932",
+    "year": "2025",
+    "link": "https://arxiv.org/pdf/2510.00932v1"
   },
   {
-    "id": "p3",
-    "title": "Sparse Attention Mechanisms for Long-Context LLMs",
-    "authors": "James Miller, David Kim",
-    "venue": "NeurIPS",
-    "year": 2024,
-    "abstract": "A hardware-aware sparse attention mechanism optimized for modern HPC interconnects, enabling 1M+ token contexts with sub-quadratic memory scaling.",
-    "link": "#"
+    "id": "10.1145/3731599.3767559",
+    "title": "HPC Digital Twins for Evaluating Scheduling Policies, Incentive Structures and their Impact on Power and Cooling",
+    "authors": "Maiterth, Matthias, Brewer, Wesley H., Kuruvella, Jaya S., Dey, Arunavo, Islam, Tanzima Z., Kabir, Rashadul, Menear, Kevin, Duplyakin, Dmitry, Patki, Tapasya, Jones, Terry, Wang, Feiyi",
+    "venue": "Proceedings of the SC '25 Workshops of the International Conference for High Performance Computing, Networking, Storage and Analysis",
+    "year": "2025",
+    "link": "https://doi.org/10.1145/3731599.3767559"
   },
   {
-    "id": "p4",
-    "title": "Federated Learning over High-Latency Academic Networks",
-    "authors": "Dr. Alan Turing, Maria Garcia",
-    "venue": "ICML",
-    "year": 2023,
-    "abstract": "An asynchronous federated learning approach designed to tolerate high-latency links between geographically distributed research institutions while maintaining differential privacy.",
-    "link": "#"
+    "id": "10.1145/3731545.3731593",
+    "title": "ModelX\u202f: A Novel Transfer Learning Approach Across Heterogeneous Datasets",
+    "authors": "Dey, Arunavo, Antony, Neil, Dhakal, Aakash Raj, Thopalli, Kowshik, Thiagarajan, Jayaraman J., Patki, Tapasya, Marathe, Aniruddha, Scogland, Tom, Yeom, Jae-Seung, Islam, Tanzima",
+    "venue": "Proceedings of the 34th International Symposium on High-Performance Parallel and Distributed Computing",
+    "year": "2025",
+    "link": "https://doi.org/10.1145/3731545.3731593"
+  },
+  {
+    "id": "lahiry2025wander",
+    "title": "WANDER: An Explainable Decision-Support Framework for HPC",
+    "authors": "Lahiry, Ankur, Banday, Banooqa, Bhattarai, Yugesh, Islam, Tanzima Z",
+    "venue": "arXiv preprint arXiv:2506.04049",
+    "year": "2025",
+    "link": "https://arxiv.org/pdf/2506.04049v3"
+  },
+  {
+    "id": "fefey2025optimizing",
+    "title": "Optimizing Deep Learning Inference on Heterogeneous Devices on the Edge: An ILP-Based Rate Monotonic Scheduling Approach",
+    "authors": "Fefey, Elvis G, Islam, Tanzima",
+    "venue": "2025 IEEE Cloud Summit",
+    "year": "2025",
+    "link": "https://doi.org/10.1109/Cloud-Summit64795.2025.00011"
+  },
+  {
+    "id": "ramadan2025structure",
+    "title": "Structure-Aware Representation Learning for Effective Performance Prediction",
+    "authors": "Ramadan, Tarek, Pinnow, Nathan, Phelps, Chase, Thiagarajan, Jayaraman J, Islam, Tanzima Z",
+    "venue": "Concurrency and Computation: Practice and Experience",
+    "year": "2025",
+    "link": "https://doi.org/10.1002/cpe.70046"
+  },
+  {
+    "id": "dhakal2025xamm",
+    "title": "xAMM: \u201cAttention\u201d to Details Improves Cross-Platform Prediction Accuracy",
+    "authors": "Dhakal, Aakash Raj, Islam, Tanzima Z, Dey, Arunavo, Nichols, Daniel, Bhatele, Abhinav, Patki, Tapasya, Scogland, Tom, Yeom, Jae-Seung",
+    "venue": "2025 IEEE 25th International Symposium on Cluster, Cloud and Internet Computing (CCGrid)",
+    "year": "2025",
+    "link": "https://doi.org/10.1109/CCGRID64434.2025.00067"
+  },
+  {
+    "id": "banday2025role",
+    "title": "On the role of prompt construction in enhancing efficacy and efficiency of llm-based tabular data generation",
+    "authors": "Banday, Banooqa, Thopalli, Kowshik, Islam, Tanzima Z, Thiagarajan, Jayaraman J",
+    "venue": "ICASSP 2025-2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "year": "2025",
+    "link": "https://doi.org/10.1109/ICASSP49660.2025.10888077"
+  },
+  {
+    "id": "banday2024perfgen",
+    "title": "PERFGEN: A Synthesis and Evaluation Framework for Performance Data using Generative AI",
+    "authors": "Banday, Banooqa H, Islam, Tanzima Z, Marathe, Aniruddha",
+    "venue": "2024 IEEE 48th Annual Computers, Software, and Applications Conference (COMPSAC)",
+    "year": "2024",
+    "link": "https://doi.org/10.1109/COMPSAC61105.2024.00035"
+  },
+  {
+    "id": "dey2024relative",
+    "title": "Relative performance prediction using few-shot learning",
+    "authors": "Dey, Arunavo, Dhakal, Aakash, Islam, Tanzima Z, Yeom, Jae-Seung, Patki, Tapasya, Nichols, Daniel, Movsesyan, Alexander, Bhatele, Abhinav",
+    "venue": "2024 IEEE 48th Annual Computers, Software, and Applications Conference (COMPSAC)",
+    "year": "2024",
+    "link": "https://doi.org/10.1109/COMPSAC61105.2024.00278"
+  },
+  {
+    "id": "fefey2024toward",
+    "title": "Toward Efficient Deep Learning Inference: On-Node Heterogeneous Scheduling in Edge-Cloud Infrastructure",
+    "authors": "Fefey, Elvis G, Islam, Tanzima",
+    "venue": "2024 IEEE Cloud Summit",
+    "year": "2024",
+    "link": "https://doi.org/10.1109/Cloud-Summit61220.2024.00019"
+  },
+  {
+    "id": "phelps2024reimagine",
+    "title": "Reimagine Application Performance as a Graph: Novel Graph-Based Method for Performance Anomaly Classification in High-Performance Computing",
+    "authors": "Phelps, Chase, Lahiry, Ankur, Islam, Tanzima Z, Pouchard, Line C",
+    "venue": "2024 IEEE 48th Annual Computers, Software, and Applications Conference (COMPSAC)",
+    "year": "2024",
+    "link": "https://doi.org/10.1109/COMPSAC61105.2024.00041"
+  },
+  {
+    "id": "zaeed2024characterize",
+    "title": "Characterize and compare the performance of deep learning optimizers in recurrent neural network architectures",
+    "authors": "Zaeed, Mohammad, Islam, Tanzima Z, In{\\dj}i{\\'c}, Vladimir",
+    "venue": "2024 IEEE 48th Annual Computers, Software, and Applications Conference (COMPSAC)",
+    "year": "2024",
+    "link": "https://doi.org/10.1109/COMPSAC61105.2024.00016"
+  },
+  {
+    "id": "islam2024data",
+    "title": "Data-Driven Analysis to Understand GPU Hardware Resource Usage of Optimizations",
+    "authors": "Islam, Tanzima Z, Marathe, Aniruddha, Schutte, Holland, Zaeed, Mohammad",
+    "venue": "arXiv preprint arXiv:2408.10143",
+    "year": "2024",
+    "link": "https://doi.org/10.48550/arXiv.2408.10143"
+  },
+  {
+    "id": "gueroudji2024performance",
+    "title": "Performance Characterization and Provenance of Distributed Task-based Workflows on HPC Platforms",
+    "authors": "Gueroudji, Amal, Phelps, Chase, Islam, Tanzima Z, Carns, Philip, Snyder, Shane, Dorier, Matthieu, Ross, Robert B, Pouchard, Line C",
+    "venue": "SC24-W: Workshops of the International Conference for High Performance Computing, Networking, Storage and Analysis",
+    "year": "2024",
+    "link": "https://doi.org/10.1109/SCW63240.2024.00254"
+  },
+  {
+    "id": "phelps2023automatic",
+    "title": "Automatic Parallelization of Cellular Automata for Heterogeneous Platforms",
+    "authors": "Phelps, Chase, Islam, Tanzima",
+    "venue": "2023 IEEE 47th Annual Computers, Software, and Applications Conference (COMPSAC)",
+    "year": "2023",
+    "link": "https://doi.org/10.1109/COMPSAC57700.2023.00055"
+  },
+  {
+    "id": "dey2023signal",
+    "title": "Signal processing based method for real-time anomaly detection in high-performance computing",
+    "authors": "Dey, Arunavo, Islam, Tanzima, Phelps, Chase, Kelly, Christopher",
+    "venue": "2023 IEEE 47th Annual Computers, Software, and Applications Conference (COMPSAC)",
+    "year": "2023",
+    "link": "https://doi.org/10.1109/COMPSAC57700.2023.00037"
+  },
+  {
+    "id": "schutte2022libnvcd",
+    "title": "LIBNVCD: An Extendable and User-friendly Multi-GPU Performance Measurement Tool",
+    "authors": "Schutte, Holland, Phelps, Chase, Marathe, Aniruddha, Islam, Tanzima",
+    "venue": "2022 IEEE 46th Annual Computers, Software, and Applications Conference (COMPSAC)",
+    "year": "2022",
+    "link": "https://doi.org/10.1109/COMPSAC54236.2022.00019"
+  },
+  {
+    "id": "ramadan2021comparative",
+    "title": "Comparative code structure analysis using deep learning for performance prediction",
+    "authors": "Ramadan, Tarek, Islam, Tanzima Z, Phelps, Chase, Pinnow, Nathan, Thiagarajan, Jayaraman J",
+    "venue": "2021 IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS)",
+    "year": "2021",
+    "link": "https://doi.org/10.1109/ISPASS51385.2021.00032"
+  },
+  {
+    "id": "islam2021hpc",
+    "title": "HPC@ SCALE: a hands-on approach for training next-gen HPC software architects",
+    "authors": "Islam, Tanzima Z, Phelps, Chase",
+    "venue": "2021 IEEE 28th International Conference on High Performance Computing, Data and Analytics Workshop (HiPCW)",
+    "year": "2021",
+    "link": "https://doi.org/10.1109/HiPCW54834.2021.00011"
+  },
+  {
+    "id": "arunavo2025quantumx",
+    "title": "QUANTUMX: A Few-Shot-Learning Approach for Quantum Performance Modeling in HPC",
+    "authors": "Dey, Arunavo, Yeom, Jae-Seung, Patki, Tapasya, Islam, Tanzima Z",
+    "venue": "The 1st International Workshop on Software Frameworks for Integrating Quantum and HPC Ecosystems",
+    "year": "",
+    "link": "https://sfwqhe.github.io/sfwqhpc/QUANTUMX_Presentation_SWQHE_ICS25_Dey.pdf"
+  },
+  {
+    "id": "guite2022interactive",
+    "title": "Interactive Visual Analysis Tool for Anomaly Provenance Data",
+    "authors": "Guite, A, Islam, T, Kelley, C, Xu, W",
+    "venue": "Preprint/Misc",
+    "year": "",
+    "link": "https://sc22.supercomputing.org/proceedings/tech_poster/poster_files/rpost159s3-file3.pdf"
+  },
+  {
+    "id": "zaeedanalysis",
+    "title": "Analysis and Visualization of Important Performance Counters To Enhance Interpretability of Autotuner Output",
+    "authors": "Zaeed, Mohammad, Islam, Tanzima Z, Cho, Younghyun, Li, Xiaoye Sherry, Luo, Hengrui, Liu, Yang",
+    "venue": "Preprint/Misc",
+    "year": "",
+    "link": "https://sc22.supercomputing.org/proceedings/tech_poster/poster_files/rpost183s3-file3.pdf"
   }
 ]

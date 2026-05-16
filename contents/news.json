@@ -1,0 +1,72 @@
+[
+  {
+    "date": "2025-11",
+    "emoji": "💰",
+    "category": "Funding",
+    "headline": "AMD Research Gift",
+    "body": "Thank you to AMD for their generous research gift supporting our work on data-efficient ML for HPC systems."
+  },
+  {
+    "date": "2025-10",
+    "emoji": "📄",
+    "category": "Publication",
+    "headline": "Paper Accepted at ACM REP",
+    "body": "The lab's paper on performance reproducibility in HPC was accepted at the ACM Conference on Reproducibility and Replicability (REP)."
+  },
+  {
+    "date": "2025-09",
+    "emoji": "📄",
+    "category": "Publication",
+    "headline": "Paper at NeurIPS MLForSys Workshop",
+    "body": "Our work on few-shot transfer learning for HPC performance prediction was accepted at the NeurIPS 2025 Machine Learning for Systems workshop."
+  },
+  {
+    "date": "2025-09",
+    "emoji": "🎓",
+    "category": "Award",
+    "headline": "Promotion to Associate Professor",
+    "body": "Dr. Islam has been promoted to Associate Professor of Computer Science at Texas State University. Congratulations!"
+  },
+  {
+    "date": "2025-08",
+    "emoji": "🎤",
+    "category": "Service",
+    "headline": "SC'26 Track Chair",
+    "body": "Dr. Islam will serve as Track Chair for Supercomputing 2026 (SC'26), helping shape the premier international conference on HPC."
+  },
+  {
+    "date": "2025-08",
+    "emoji": "🎤",
+    "category": "Talk",
+    "headline": "Invited Talk at EuroPar'25",
+    "body": "Dr. Islam delivered an invited talk at the European Conference on Parallel and Distributed Computing (Euro-Par 2025)."
+  },
+  {
+    "date": "2025-08",
+    "emoji": "🎤",
+    "category": "Talk",
+    "headline": "Invited Talk at MDC'25",
+    "body": "Dr. Islam gave an invited talk at the Middleware for Data Centers workshop (MDC'25), presenting the lab's latest work on ML-driven performance optimization."
+  },
+  {
+    "date": "2025-07",
+    "emoji": "🏆",
+    "category": "Award",
+    "headline": "Best Paper Award at IEEE Cloud Summit",
+    "body": "Elvis Fefey received the Best Paper Award at the IEEE Cloud Summit 2025. Congratulations, Elvis!"
+  },
+  {
+    "date": "2025-06",
+    "emoji": "🎤",
+    "category": "Talk",
+    "headline": "Invited Talk at PASC'25",
+    "body": "Dr. Islam presented an invited talk at the Platform for Advanced Scientific Computing (PASC) Conference 2025."
+  },
+  {
+    "date": "2025-05",
+    "emoji": "📄",
+    "category": "Publication",
+    "headline": "QuantumX Paper at ICS'25",
+    "body": "Our paper introducing QuantumX — a few-shot learning approach for quantum performance modeling in HPC — was accepted at the ACM International Conference on Supercomputing (ICS'25)."
+  }
+]

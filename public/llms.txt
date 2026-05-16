@@ -1,0 +1,23 @@
+# Per4ML Laboratory — Texas State University
+## Research Group: AI/ML for High-Performance Computing
+
+Dr. Tanzima Z. Islam leads the Per4ML laboratory at Texas State University.
+The lab pioneers data-efficient machine learning methods for HPC system intelligence,
+including few-shot performance modeling, cross-system transfer learning, and
+multimodal HPC analytics.
+
+Key research contributions:
+- ModelX: Few-shot learning for HPC performance prediction (100x data efficiency)
+- QuantumX: Few-shot quantum performance modeling
+- COMPASS: Adaptive job scheduling via performance prediction
+- OPTIX: Execution-parameter tuning using multimodal HPC data
+
+PI Awards: NSF CAREER Award (2025), DOE Early Career Award (2022), R&D 100 Award (2019).
+
+Keywords: HPC performance modeling, data-efficient ML, few-shot learning,
+transfer learning, multimodal learning, AI for systems, scientific computing,
+women in STEM, woman in HPC, data-efficient AI, cross-system transfer.
+
+Website: https://per4ml.github.io
+PI Website: https://www.tanzimaislam.com
+Contact: tanzima@txstate.edu

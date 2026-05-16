@@ -1,0 +1,16 @@
+{
+  "name": "Tanzima Z. Islam",
+  "title": "Associate Professor, Computer Science",
+  "institution": "Texas State University",
+  "bio": "Dr. Tanzima Z. Islam is an Associate Professor of Computer Science at Texas State University. She leads the Per4ML laboratory, which develops data-efficient AI and ML methods for intelligent HPC systems. She holds the NSF CAREER Award (2025), the DOE Early Career Award (2022), and the R&D 100 Award (2019). She has secured over $4.6M in research funding from NSF, DOE, AMD, and national laboratories including LLNL, BNL, ORNL, and NERSC/LBNL. She is also the co-founder of Bangladeshi Women in Computer Science and Engineering (BWCSE).",
+  "email": "tanzima@txstate.edu",
+  "website": "https://www.tanzimaislam.com",
+  "scholar": "https://scholar.google.com/citations?user=q56uneAAAAAJ&hl=en",
+  "dblp": "https://dblp.org/pers/hd/i/Islam:Tanzima_Zerin",
+  "cv": "/_files/ugd/38ce7c_ad93676a14614830801a06ed93ef05c7.pdf",
+  "image": "images/members/tanzima.jpg",
+  "awards": ["NSF CAREER Award 2025", "DOE Early Career Award 2022", "R&D 100 Award 2019"],
+  "funding_total": "$4.6M+",
+  "funding_agencies": ["NSF", "DOE", "AMD", "LLNL", "BNL", "ORNL", "NERSC/LBNL"],
+  "lab_founded": 2017
+}

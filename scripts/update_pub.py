@@ -31,4 +31,4 @@ def generate_publication_json(bib_file, json_file):
     print(f"Success. Exported {len(publications)} publications to {json_file}.")
 
 if __name__ == "__main__":
-    generate_publication_json('publications.bib', 'publications.json')
+    generate_publication_json('contents/pubs.bib', 'publications.json')

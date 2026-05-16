@@ -1,0 +1,185 @@
+[
+  {
+    "id": "tanzima-islam",
+    "name": "Tanzima Z. Islam",
+    "level": "PI",
+    "role": "Associate Professor",
+    "image": "images/members/tanzima.jpg",
+    "url": "https://www.tanzimaislam.com",
+    "interests": [
+      "HPC Performance Modeling",
+      "Data-Efficient ML",
+      "Few-Shot Learning"
+    ],
+    "joined": "2017",
+    "active": true
+  },
+  {
+    "id": "ankur-lahiri",
+    "name": "Ankur Lahiri",
+    "level": "PhD",
+    "role": "Graduate Research Assistant",
+    "image": "images/members/ankur.png",
+    "url": "",
+    "interests": [
+      "Causal Modeling",
+      "Performance Variability"
+    ],
+    "joined": "2021",
+    "active": true
+  },
+  {
+    "id": "arunavo-dey",
+    "name": "Arunavo Dey",
+    "level": "PhD",
+    "role": "Graduate Research Assistant",
+    "image": "images/members/arunavo.jpg",
+    "url": "",
+    "interests": [
+      "Quantum Computing",
+      "Few-Shot Learning"
+    ],
+    "joined": "2022",
+    "active": true
+  },
+  {
+    "id": "ashna-nawar-ahmed",
+    "name": "Ashna Nawar Ahmed",
+    "level": "PhD",
+    "role": "Graduate Research Assistant",
+    "image": "images/members/ashna.jpeg",
+    "url": "",
+    "interests": [
+      "Data-Efficient ML",
+      "Scientific Computing"
+    ],
+    "joined": "2023",
+    "active": true
+  },
+  {
+    "id": "banooqa-banday",
+    "name": "Banooqa Banday",
+    "level": "PhD",
+    "role": "Graduate Research Assistant",
+    "image": "images/members/banooqa.png",
+    "url": "",
+    "interests": [
+      "Performance Reproducibility",
+      "HPC"
+    ],
+    "joined": "2022",
+    "active": true
+  },
+  {
+    "id": "elvis-fefey",
+    "name": "Elvis Fefey",
+    "level": "PhD",
+    "role": "Graduate Research Assistant",
+    "image": "images/members/elvis.png",
+    "url": "",
+    "interests": [
+      "Few-Shot Learning",
+      "Cross-Platform Transfer"
+    ],
+    "joined": "2021",
+    "active": true
+  },
+  {
+    "id": "mohammad-zaeed",
+    "name": "Mohammad Zaeed",
+    "level": "PhD",
+    "role": "Graduate Research Assistant",
+    "image": "images/members/zaeed.png",
+    "url": "",
+    "interests": [
+      "LLM for Systems",
+      "Performance Optimization"
+    ],
+    "joined": "2021",
+    "active": true
+  },
+  {
+    "id": "nawshin-tabassum-tanny",
+    "name": "Nawshin Tabassum Tanny",
+    "level": "PhD",
+    "role": "Graduate Research Assistant",
+    "image": "images/members/nawshin.jpg",
+    "url": "",
+    "interests": [
+      "Transfer Learning",
+      "HPC"
+    ],
+    "joined": "2022",
+    "active": true
+  },
+  {
+    "id": "nirajan-banjade",
+    "name": "Nirajan Banjade",
+    "level": "PhD",
+    "role": "Graduate Research Assistant",
+    "image": "images/members/nirajan.jpg",
+    "url": "",
+    "interests": [
+      "Performance Prediction",
+      "Transfer Learning"
+    ],
+    "joined": "2022",
+    "active": true
+  },
+  {
+    "id": "yugesh-bhattarai",
+    "name": "Yugesh Bhattarai",
+    "level": "PhD",
+    "role": "Graduate Research Assistant",
+    "image": "images/members/yugesh.jpeg",
+    "url": "",
+    "interests": [
+      "HPC",
+      "Performance Modeling"
+    ],
+    "joined": "2022",
+    "active": true
+  },
+  {
+    "id": "jaya-sravani",
+    "name": "Jaya Sravani",
+    "level": "MS",
+    "role": "Graduate Research Assistant",
+    "image": "images/members/jaya.jpeg",
+    "url": "",
+    "interests": [
+      "Machine Learning",
+      "HPC"
+    ],
+    "joined": "2023",
+    "active": true
+  },
+  {
+    "id": "avaneesh-ramesh",
+    "name": "Avaneesh Ramesh",
+    "level": "Undergraduate",
+    "role": "Undergraduate Research Assistant",
+    "image": "images/members/avaneesh.jpg",
+    "url": "",
+    "interests": [
+      "Machine Learning",
+      "HPC"
+    ],
+    "joined": "2024",
+    "active": true
+  },
+  {
+    "id": "chase-phelps",
+    "name": "Chase Phelps",
+    "level": "Undergraduate",
+    "role": "Undergraduate Research Assistant",
+    "image": "images/members/chase.png",
+    "url": "",
+    "interests": [
+      "Machine Learning",
+      "HPC"
+    ],
+    "joined": "2024",
+    "active": true
+  }
+]
