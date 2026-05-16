@@ -1,13 +1,17 @@
 [
-  { "text": "HPC Performance Modeling", "base_weight": 10, "aliases": ["performance modeling", "performance prediction"] },
+  { "text": "AI/ML for Modeling", "base_weight": 10, "aliases": ["Modeling", "Tabular", "Scientific data"] },
+  { "text": "Foundation Model",         "base_weight": 7,  "aliases": ["AI", "pre-training"] },
   { "text": "Few-Shot Learning",         "base_weight": 9,  "aliases": ["few-shot", "FSL"] },
   { "text": "Transfer Learning",         "base_weight": 9,  "aliases": ["cross-system transfer", "domain adaptation"] },
-  { "text": "Data-Efficient ML",         "base_weight": 8,  "aliases": ["data-efficient", "data efficiency"] },
-  { "text": "Multimodal Learning",       "base_weight": 7,  "aliases": ["multimodal", "heterogeneous data"] },
+  { "text": "Surrogate Modeling",         "base_weight": 9,  "aliases": ["few-shot", "FSL"] },
+  { "text": "Decision-making",         "base_weight": 8,  "aliases": ["counterfactual", "C3G"] },
+  { "text": "Time-Efficient Learning",         "base_weight": 8,  "aliases": ["time-efficient", "efficiency learning"] },
+  { "text": "Data-Efficient AI/ML",         "base_weight": 8,  "aliases": ["data-efficient", "data efficiency"] },
+  { "text": "Heterogeneous Data",       "base_weight": 7,  "aliases": ["multimodal", "heterogeneous"] },
   { "text": "Scientific Computing",      "base_weight": 7,  "aliases": ["scientific applications", "HPC applications"] },
   { "text": "AI for Systems",            "base_weight": 8,  "aliases": ["ML for systems", "systems intelligence"] },
   { "text": "Quantum Performance",       "base_weight": 5,  "aliases": ["quantum computing", "QuantumX"] },
   { "text": "Reproducibility",           "base_weight": 6,  "aliases": ["reproducible", "nondeterminism"] },
   { "text": "Power-Performance",         "base_weight": 6,  "aliases": ["power-performance trade-off", "energy efficiency"] },
-  { "text": "Women in HPC",              "base_weight": 5,  "aliases": ["women in STEM", "BWCSE"] }
+  { "text": "Women in HPC",              "base_weight": 6,  "aliases": ["women in STEM", "BWCSE"] }
 ]

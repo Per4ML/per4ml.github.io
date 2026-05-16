@@ -7,11 +7,25 @@
     "body": "Thank you to AMD for their generous research gift supporting our work on data-efficient ML for HPC systems."
   },
   {
+    "date": "2025-11",
+    "emoji": "💰",
+    "category": "Funding",
+    "headline": "💰 AMD Gift",
+    "body": "Thank you to AMD for their generous research gift supporting our work."
+  },
+  {
     "date": "2025-10",
     "emoji": "📄",
     "category": "Publication",
     "headline": "Paper Accepted at ACM REP",
     "body": "The lab's paper on performance reproducibility in HPC was accepted at the ACM Conference on Reproducibility and Replicability (REP)."
+  },
+  {
+    "date": "2025-10",
+    "emoji": "📰",
+    "category": "paper",
+    "headline": "🔬ACM REP",
+    "body": "Our paper titled \"Reproducibility for HPC and Distributed Environments: Committees, Nondeterminism, Performance and Workflows\" was published at ACM REP and is now available in the ACM Digital Library."
   },
   {
     "date": "2025-09",
@@ -26,6 +40,13 @@
     "category": "Award",
     "headline": "Promotion to Associate Professor",
     "body": "Dr. Islam has been promoted to Associate Professor of Computer Science at Texas State University. Congratulations!"
+  },
+  {
+    "date": "2025-09",
+    "emoji": "📄",
+    "category": "Publication",
+    "headline": "🔬MLForSys@NeurIPS",
+    "body": "Our paper titled \"Attention-Informed Surrogates for Navigating Power-Performance Trade-offs in HPC\" has been accepted at ML For Systems workshop@NeurIPS!"
   },
   {
     "date": "2025-08",
@@ -49,11 +70,46 @@
     "body": "Dr. Islam gave an invited talk at the Middleware for Data Centers workshop (MDC'25), presenting the lab's latest work on ML-driven performance optimization."
   },
   {
+    "date": "2025-08",
+    "emoji": "🔬",
+    "category": "Research",
+    "headline": "🎤 MDC'25",
+    "body": "Invited Talk @ Monterey Data Conference (Monterey, CA) — Exciting discussions on deploying ModelX into HPC production facilities!"
+  },
+  {
+    "date": "2025-08",
+    "emoji": "📰",
+    "category": "Awards",
+    "headline": "🥳 Promotion",
+    "body": "Promoted to Associate Professor! Grateful to my students, collaborators, mentors, and the Almighty."
+  },
+  {
+    "date": "2025-08",
+    "emoji": "📰",
+    "category": "Papers",
+    "headline": "🎤 EuroPar'25",
+    "body": "Honored to give an invited talk at EuroPar's Women in HPC session on bridging key gaps in performance-aware code development."
+  },
+  {
+    "date": "2025-08",
+    "emoji": "📰",
+    "category": "Awards",
+    "headline": "🏅 Track Chair@SC'26",
+    "body": "Honored to serve as Performance Track Chair for SC’26."
+  },
+  {
     "date": "2025-07",
     "emoji": "🏆",
     "category": "Award",
     "headline": "Best Paper Award at IEEE Cloud Summit",
     "body": "Elvis Fefey received the Best Paper Award at the IEEE Cloud Summit 2025. Congratulations, Elvis!"
+  },
+  {
+    "date": "2025-07",
+    "emoji": "📄",
+    "category": "Publication",
+    "headline": "🏆 Best Paper Award",
+    "body": "My Ph.D. student Elvis Fefey’s research on heterogeneous scheduling algorithms just won the Best Paper Award at IEEE Cloud Summit! Proud advisor moment! 🎉"
   },
   {
     "date": "2025-06",
@@ -63,10 +119,619 @@
     "body": "Dr. Islam presented an invited talk at the Platform for Advanced Scientific Computing (PASC) Conference 2025."
   },
   {
+    "date": "2025-06",
+    "emoji": "🔬",
+    "category": "Research",
+    "headline": "🎤 PASC'25",
+    "body": "Invited Talk @ ML4SW Workshop (PASC’25, Switzerland) — Great interest in integrating ModelX into HPC+AI/ML libraries!"
+  },
+  {
     "date": "2025-05",
     "emoji": "📄",
     "category": "Publication",
     "headline": "QuantumX Paper at ICS'25",
     "body": "Our paper introducing QuantumX — a few-shot learning approach for quantum performance modeling in HPC — was accepted at the ACM International Conference on Supercomputing (ICS'25)."
+  },
+  {
+    "date": "2025-05",
+    "emoji": "📄",
+    "category": "Publication",
+    "headline": "🔬ICS'25",
+    "body": "Our paper \"QuantumX: A Few-Shot-Learning Approach for Quantum Performance Modeling in HPC\" has been accepted at the International Workshop on Software Frameworks for Integrating Quantum and HPC Ecosystems in conjunction with ICS'25!"
+  },
+  {
+    "date": "2025-04",
+    "emoji": "🔬",
+    "category": "Research",
+    "headline": "🧑‍🎓 First Prelim",
+    "body": "Elvis Fefey passed his prelim exam! This milestone is especially exciting because Elvis is the first Ph.D. student to join Per4ML and also the first from our lab to reach and pass this critical stage. Congratulations, Elvis!"
+  },
+  {
+    "date": "2025-04",
+    "emoji": "📄",
+    "category": "Publication",
+    "headline": "🔬 Journal accepted",
+    "body": "Our paper titled \"Structure‐Aware Representation Learning for Effective Performance Prediction\" has been published in Concurrency and Computation: Practice and Experience."
+  },
+  {
+    "date": "2025-04",
+    "emoji": "📄",
+    "category": "Publication",
+    "headline": "🔬HPDC'25",
+    "body": "📄 Paper Accepted @ HPDC’25 (19% acceptance) — “ModelX: A Novel Transfer Learning Approach Across Heterogeneous Datasets” (led by Arunavo Dey), considered for Best Paper Award!"
+  },
+  {
+    "date": "2025-02",
+    "emoji": "📄",
+    "category": "Publication",
+    "headline": "🔬 CCGrid'25",
+    "body": "Our paper, \"xAMM: Attention to Details Improves Cross-Platform Prediction Accuracy,\" (pronounced as \"Exam\") has been accepted in the ML4Sys/Sys4ML track at CCGrid 2025 (Acceptance rate: 25%)! This research has been funded by LLNL's Fractal project. Kudos, Aakash and the team!"
+  },
+  {
+    "date": "2025-01",
+    "emoji": "📄",
+    "category": "Publication",
+    "headline": "🔬 ICASSP'25",
+    "body": "Congratulations to Banooqa for her paper titled \"On the role of prompt construction in enhancing efficacy and efficiency of llm-based tabular data generation\", funded by my ECRP. This project was done in collaboration with Kowshik Thopalli@LLNL and Dr. Jayaraman J. Thiagarajan@Apple."
+  },
+  {
+    "date": "2025-01",
+    "emoji": "🏆",
+    "category": "Award",
+    "headline": "💰 NSF CAREER Award",
+    "body": "I have been awarded the prestigious NSF CAREER award this year! This project will achieve my vision of AI4Performance!"
+  },
+  {
+    "date": "2024-11",
+    "emoji": "📰",
+    "category": "News",
+    "headline": "WHPC Panelist@SC'24",
+    "body": "Gave an invited talk about my career path in the SDSC booth #3107 (exhibition floor) on Wednesday at 2pm. Thank you WHPC!"
+  },
+  {
+    "date": "2024-11",
+    "emoji": "📰",
+    "category": "News",
+    "headline": "🔬 WORKS'24",
+    "body": "Our paper, titled 'Performance Characterization and Provenance of Distributed Task-based Workflows on HPC Platforms,' has been accepted in the WORKS workshop at SC'24."
+  },
+  {
+    "date": "2024-11",
+    "emoji": "📰",
+    "category": "News",
+    "headline": "SC'24 BoF",
+    "body": "I will be giving a talk about our research on performance and result reproducibility in the Reproducibility BoF on Tuesday from 5:15-6:45pm in B201 @SC'24."
+  },
+  {
+    "date": "2024-10",
+    "emoji": "🏆",
+    "category": "Award",
+    "headline": "Research Millionaire",
+    "body": "I am grateful to have received the College of Science and Engineering (CoSE)’s “Research Millionaire” award. This award honors CoSE faculty that have been awarded $1M or more in research grant funding over the past three fiscal years (FY2022-2024)."
+  },
+  {
+    "date": "2024-09",
+    "emoji": "🔬",
+    "category": "Research",
+    "headline": "CCDSC'24",
+    "body": "I had a great time at the CCDSC'24 workshop in Lyon, France. Fun fact: You get invited by Jack Dongarra, the 2022 Turing Award winner, to be in one of those. [Turing Award is equivalent to the Nobel Prize in Computer Science]"
+  },
+  {
+    "date": "2024-09",
+    "emoji": "📰",
+    "category": "News",
+    "headline": "ISC'25 Poster",
+    "body": "I am co-chairing the poster session at ISC'24. Please consider submitting your work. If you would like to serve as a reviewer, please contact me."
+  },
+  {
+    "date": "2024-05",
+    "emoji": "🔬",
+    "category": "Research",
+    "headline": "LLNL Intern",
+    "body": "Congratulations to Aakash for securing a data analytics internship at LLNL for summer'24!"
+  },
+  {
+    "date": "2024-05",
+    "emoji": "📄",
+    "category": "Publication",
+    "headline": "🔬 IEEE COMPSAC'24",
+    "body": "Congratulations to Banooqa, Zaeed, Chase+Ankur, and Arunavo for their respective papers at IEEE COMPSAC in Osaka, Japan! These papers range from addressing gaps that enable the effective use of LLMs, GNNs, and transfer learning for performance analytics."
+  },
+  {
+    "date": "2024-01",
+    "emoji": "💰",
+    "category": "Funding",
+    "headline": "💰 AMD Gift",
+    "body": "Thank you, AMD for continuing to support research on AI/ML-driven performance analytics!"
+  },
+  {
+    "date": "2023-09",
+    "emoji": "📄",
+    "category": "Publication",
+    "headline": "🔬ICMLA'23",
+    "body": "Our paper on using graph-based representation learning for performance analytics has been accepted at International Conference on Machine Learning and Applications (ICMLA)! (Acceptance rate ~25%)"
+  },
+  {
+    "date": "2023-09",
+    "emoji": "🏆",
+    "category": "Award",
+    "headline": "🏅 Presidential Seminar Award",
+    "body": "I am honored to have been selected as this year's Presidential Seminar Award winner! This award is presented to a TxState faculty for their superlative scholarly and creative activities."
+  },
+  {
+    "date": "2023-09",
+    "emoji": "📰",
+    "category": "Papers",
+    "headline": "🔬 SC'23 poster",
+    "body": "Our research poster, \"Graph-Based Anomaly Detection in Chimbuko: Feasible or Fallible?\" has been accepted in the SC'23 research poster session."
+  },
+  {
+    "date": "2023-08",
+    "emoji": "📰",
+    "category": "Papers",
+    "headline": "🔬REWORDS'23",
+    "body": "Our paper titled \"Building the I (Interoperability) of FAIR for performance reproducibility of large-scale composable workflows in RECUP\" has been accepted at the Reproducible Workflows, Data Management, and Security workshop."
+  },
+  {
+    "date": "2023-08",
+    "emoji": "🏆",
+    "category": "Award",
+    "headline": "🏅 Valero Award",
+    "body": "The faculty senate has awarded me the prestigious and selective Valero Award. Thanks!"
+  },
+  {
+    "date": "2023-08",
+    "emoji": "🏆",
+    "category": "Award",
+    "headline": "🏅 COSE Award'23",
+    "body": "I have been awarded the \"Presidential Distinction Award\", the highest award for creative and scholarly activities in the College of Science and Engineering (COSE) at TxState."
+  },
+  {
+    "date": "2023-05",
+    "emoji": "📄",
+    "category": "Publication",
+    "headline": "🔬IEEE COMPSAC'23",
+    "body": "We have two papers accepted at IEEE COMPSAC'23. Congratulations to Arunavo and Chase (acceptance rate:"
+  },
+  {
+    "date": "2023-04",
+    "emoji": "📰",
+    "category": "News",
+    "headline": "Invited talk",
+    "body": "I have been invited to the Rising Stars Panel at UT Austin."
+  },
+  {
+    "date": "2023-04",
+    "emoji": "🔬",
+    "category": "Research",
+    "headline": "SRP-HPC'23",
+    "body": "We have received DOE's SRP-HPC fund again this year, which will allow faculty-led (that's me) research team of 4 students (2 Ph.D.s, 1 M.S. and 1 undergrad) to visit Brookhaven lab in the summer."
+  },
+  {
+    "date": "2023-01",
+    "emoji": "💰",
+    "category": "Funding",
+    "headline": "AMD gift",
+    "body": "Thanks AMD for supporting our research through generous gifts!"
+  },
+  {
+    "date": "2022-12",
+    "emoji": "💰",
+    "category": "Funding",
+    "headline": "Sloan Foundation",
+    "body": "Our joint proposal with University of Colorado Boulder to the Sloan Foundation has been funded!"
+  },
+  {
+    "date": "2022-10",
+    "emoji": "📄",
+    "category": "Publication",
+    "headline": "🔬NYSDS Workshop",
+    "body": "Congratulations to Elvis, Zaeed, and Arunavo for getting their lightening talks accepted at NYSDS on how they plan to leverage ML for HPC."
+  },
+  {
+    "date": "2022-09",
+    "emoji": "🏆",
+    "category": "Award",
+    "headline": "DOE Next-gen Data Management",
+    "body": "Excited! Our collaborative proposal with Brookhaven National Lab and Argonne National Lab has been funded by DOE."
+  },
+  {
+    "date": "2022-06",
+    "emoji": "🏆",
+    "category": "Award",
+    "headline": "DOE ECRP Award",
+    "body": "I have received the Early Career Research award from the Department of Energy (DOE) for the innovative application of deep learning to accelerate real-time performance analytics!"
+  },
+  {
+    "date": "2022-06",
+    "emoji": "🔬",
+    "category": "Research",
+    "headline": "SRP-HPC",
+    "body": "I have received DOE's SRP-HPC fellowship and will be conducting research over the summer as a visiting scholar at Brookhaven National Laboratory. My students--Chase Phelps, Arunavo Dey, and Alicia Guite (sophomore) will also join me."
+  },
+  {
+    "date": "2022-05",
+    "emoji": "📰",
+    "category": "News",
+    "headline": "Graduation",
+    "body": "Congratulations to Tarek Ramadan for successfully defending his M.Sc. thesis."
+  },
+  {
+    "date": "2022-04",
+    "emoji": "🎤",
+    "category": "Service",
+    "headline": "CHEOPS'22",
+    "body": "I have been invited to give a talk at the CHEOPS workshop colocated with EuroSys'22."
+  },
+  {
+    "date": "2022-04",
+    "emoji": "📄",
+    "category": "Publication",
+    "headline": "🔬COMPSAC'22",
+    "body": "Our paper \"libNVCD: An Extendable and User-friendly Multi-GPU Performance Measurement Tool\" has been accepted at IEEE COMPSAC'22 (acceptance rate: 23%)!"
+  },
+  {
+    "date": "2022-02",
+    "emoji": "🎤",
+    "category": "Service",
+    "headline": "SC'22",
+    "body": "I am chairing the Performance measurement, modeling, and analysis track at SC this year. Excited and honored!"
+  },
+  {
+    "date": "2022-01",
+    "emoji": "🏆",
+    "category": "Award",
+    "headline": "AMD Gift",
+    "body": "Thanks to AMD for the 50K gift! This is the second year of our collaboration. Here is to many more!"
+  },
+  {
+    "date": "2021-12",
+    "emoji": "📄",
+    "category": "Publication",
+    "headline": "HiPCW'21",
+    "body": "My invited paper talks about designing an HPC course focusing on distributed memory parallelism and scalable parallel I/O patterns."
+  },
+  {
+    "date": "2021-08",
+    "emoji": "🏆",
+    "category": "Award",
+    "headline": "🏅 College achievement award",
+    "body": "I won the College of Science and Engineering's \"Achievement Award in Scholarly Activities\" at TxState. Honored!"
+  },
+  {
+    "date": "2021-05",
+    "emoji": "📰",
+    "category": "News",
+    "headline": "Summer Internships",
+    "body": "Congratulations to Chase Phelps and Tarek Ramadan for securing internships at LLNL and LBNL, respectively!"
+  },
+  {
+    "date": "2021-04",
+    "emoji": "📄",
+    "category": "Publication",
+    "headline": "COMPSAC'21",
+    "body": "Our paper \"College Life is Hard! - Shedding Light on Stress Prediction for Autistic College Students using Data-Driven Analysis\" accepted at COMPSAC'21."
+  },
+  {
+    "date": "2021-03",
+    "emoji": "📄",
+    "category": "Publication",
+    "headline": "ISPASS'21",
+    "body": "Our paper on \"comparative Code Structure Analysis using Deep Learning for Performance Prediction\" has been accepted at ISPASS'21."
+  },
+  {
+    "date": "2021-02",
+    "emoji": "🎤",
+    "category": "Service",
+    "headline": "RobustScience Community I",
+    "body": "Excited to be in the RobustScience virtual café talking about scalability, reproducibility, and trustworthy issues of scientific workflows."
+  },
+  {
+    "date": "2021-01",
+    "emoji": "🏆",
+    "category": "Award",
+    "headline": "AMD Research Gift",
+    "body": "My team will develop performance models for the next-gen AMD GPUs and improve their performance profiler rocprof. Thanks AMD for the gift!"
+  },
+  {
+    "date": "2021-01",
+    "emoji": "🏆",
+    "category": "Award",
+    "headline": "REP Funding",
+    "body": "Received funding from the Research Enhancement Program at TXST for developing deep learning models using code structure to predict performance."
+  },
+  {
+    "date": "2020-11",
+    "emoji": "🏆",
+    "category": "Award",
+    "headline": "AMD Equipment Grant",
+    "body": "AMD has granted $100K worth of on-prem and Cloud HPC resources to TXST for COVID-19 related research. Read here: https://www.amd.com/en/corporate/hpc-fund"
+  },
+  {
+    "date": "2020-09",
+    "emoji": "🎤",
+    "category": "Service",
+    "headline": "Tapia 2020",
+    "body": "Organized a panel at ACM Richard Tapia Celebration of Diversity in Computing Conference on High Performance Computing. Take a look: video presentation and slides: https://drive.google.com/file/d/18daQuN8CCdkrIKgm2cHNrUBKJDggfZyx/view?usp=sharing"
+  },
+  {
+    "date": "2020-08",
+    "emoji": "🎤",
+    "category": "Service",
+    "headline": "ECP Hackathon",
+    "body": "Invited talk at the Exascale Computing Project's annual hackathon organized by ORNL and BNL on Dashing (here)."
+  },
+  {
+    "date": "2020-08",
+    "emoji": "🎤",
+    "category": "Service",
+    "headline": "AMD Talk",
+    "body": "I gave a talk at AMD on my research in performance analysis on various architectures."
+  },
+  {
+    "date": "2020-07",
+    "emoji": "🎤",
+    "category": "Service",
+    "headline": "Purdue talk",
+    "body": "Gave invited talk \"Learning to Manage in Grad School for a Sustainable Career in Future\" at Purdue University. Here is an uncut version."
+  },
+  {
+    "date": "2019-12",
+    "emoji": "🏆",
+    "category": "Award",
+    "headline": "🏅 R&D 100 Award Winner",
+    "body": "Our research on scalable checkpoint restart won the R&D 100 award."
+  },
+  {
+    "date": "2019-11",
+    "emoji": "📄",
+    "category": "Publication",
+    "headline": "ProTools",
+    "body": "Our paper titled \"Towards A Programmable Analysis and Visualization Framework for Interactive Performance Analytics\" accepted in the ProTools workshop at SC'19."
+  },
+  {
+    "date": "2019-08",
+    "emoji": "📰",
+    "category": "News",
+    "headline": "Join TXST",
+    "body": "I have moved! I have joined Texas State University in San Marcos. It was incredibly hard to leave my colleagues, students, and friends in beautiful Bellingham behind."
+  },
+  {
+    "date": "2019-07",
+    "emoji": "📄",
+    "category": "Publication",
+    "headline": "SC19",
+    "body": "Our paper titled \"Performance Optimality or Reproducibility: That is the Question\" has been accepted in the performance track at SC'19 (acceptance rate: 72/344 = 20%)! Congratulations to Alex for his first SC paper."
+  },
+  {
+    "date": "2019-06",
+    "emoji": "📰",
+    "category": "News",
+    "headline": "LBL",
+    "body": "Visiting faculty scholar at LBNL with my students for the summer."
+  },
+  {
+    "date": "2019-04",
+    "emoji": "📰",
+    "category": "News",
+    "headline": "Internship",
+    "body": "Received the DOE SRP fellowship for my proposal titled \"Proxy application validation for Exascale Co-design\"."
+  },
+  {
+    "date": "2019-02",
+    "emoji": "🎤",
+    "category": "Service",
+    "headline": "ISC",
+    "body": "Congratulations to Gian-Carlo for getting his first research poster accepted at ISC'19!"
+  },
+  {
+    "date": "2019-02",
+    "emoji": "🎤",
+    "category": "Service",
+    "headline": "BDCAA",
+    "body": "I am organizing the first workshop on how different application domains generate and analyze big data by leveraging HPC. The workshop (BDCAA) will be organized in conjunction with the IEEE COMPSAC'19 in Mulwaukee."
+  },
+  {
+    "date": "2019-02",
+    "emoji": "🎤",
+    "category": "Service",
+    "headline": "GHC",
+    "body": "Super excited to be a part of the Computer Systems Engineering (CSE) track at GHC 2019. About time women working in computer systems meet!"
+  },
+  {
+    "date": "2018-11",
+    "emoji": "🎤",
+    "category": "Service",
+    "headline": "CRA-W",
+    "body": "Attending the CRA-W Career mentoring workshop in Phonix, AZ."
+  },
+  {
+    "date": "2018-11",
+    "emoji": "📰",
+    "category": "News",
+    "headline": "SRP",
+    "body": "Invited to present my research at the Sustainable Research Pathways Program in Lawrence Berkeley National Laboratory"
+  },
+  {
+    "date": "2018-09",
+    "emoji": "📄",
+    "category": "Publication",
+    "headline": "SC18 poster",
+    "body": "Our poster titled \"Automatic Generation of Mixed-Precision Programs\" has been accepted at SC'18. This work has been done in collaboration with LLNL."
+  },
+  {
+    "date": "2018-09",
+    "emoji": "🏆",
+    "category": "Award",
+    "headline": "XSEDE",
+    "body": "Received XSEDE allocation grant for my Parallel Computing course. Happy computing!"
+  },
+  {
+    "date": "2018-09",
+    "emoji": "🎤",
+    "category": "Service",
+    "headline": "ICPP vice-chair",
+    "body": "I am the vice-chair of the performance track at ICPP 2019. Make sure to submit your work at the conference."
+  },
+  {
+    "date": "2018-06",
+    "emoji": "📄",
+    "category": "Publication",
+    "headline": "ACM BCB",
+    "body": "Our paper titled \"Low Rank Smoothed Sampling Methods for Identifying Impactful Pair-wise Mutations\" has been accepted at ACM Conference on Bioinformatics, Computational Biology, and Health Informatics. Congratulations Nick!"
+  },
+  {
+    "date": "2018-06",
+    "emoji": "📰",
+    "category": "News",
+    "headline": "Interns",
+    "body": "Several of my students are interning at research labs such as LLNL, PNNL. Happy summer!"
+  },
+  {
+    "date": "2017-12",
+    "emoji": "📄",
+    "category": "Publication",
+    "headline": "IPDPS 2018",
+    "body": "Our paper titled \"PADDLE: Performance Analysis using a Data-driven Learning Environment\" has been accepted at IPDPS 2018!"
+  },
+  {
+    "date": "2017-09",
+    "emoji": "📰",
+    "category": "News",
+    "headline": "Join WWU",
+    "body": "Joined as an Assistant Professor in CS at WWU."
+  },
+  {
+    "date": "2017-01",
+    "emoji": "📄",
+    "category": "Publication",
+    "headline": "IPDPS17",
+    "body": "Our paper on scalable file system for burst buffers titled \"MetaKV: A key-value store for metadata management of distributed burst buffers\" has been accepted in IPDPS'17 [Acceptance rate ~22%]."
+  },
+  {
+    "date": "2016-12",
+    "emoji": "🎤",
+    "category": "Service",
+    "headline": "ICDCS17",
+    "body": "I am a TPC member of the workshop \"Advancing Science via Large Scale Text Analytics over Scientific Articles\" that will be hosted as a part of the IEEE International Conference on Distributed Computing Systems (ICDCS) 2017."
+  },
+  {
+    "date": "2016-10",
+    "emoji": "🎤",
+    "category": "Service",
+    "headline": "SC17 TPC",
+    "body": "I will serve as a TPC member for the performance track in SC'17."
+  },
+  {
+    "date": "2016-09",
+    "emoji": "📄",
+    "category": "Publication",
+    "headline": "HiPC 2016",
+    "body": "Our paper titled \"CMT-bone - A Proxy Application for Compressible Multiphase Turbulent Flows\" has been accepted in the 23rd IEEE International Conference on High Performance Computing, Data, and Analytics that will be held in Hyderabad, India during Dec 19-22 2016."
+  },
+  {
+    "date": "2016-08",
+    "emoji": "📄",
+    "category": "Publication",
+    "headline": "SC16",
+    "body": "My paper with the title \"A Machine Learning Framework for Performance Coverage Analysis of Proxy Applications\" has been accepted in the International Conference for High Performance Computing, Networking, Storage and Analysis (SC) 2016!"
+  },
+  {
+    "date": "2016-05",
+    "emoji": "🏆",
+    "category": "Award",
+    "headline": "LEARN@LLNL",
+    "body": "Started my own project as the PI on applying machine-learning to analyze application performance. The coolest parts of my project are (a) managing an awesome team; (b) working directly with the applications that are important for LLNL. Excited!"
+  },
+  {
+    "date": "2016-05",
+    "emoji": "📄",
+    "category": "Publication",
+    "headline": "IPDPS",
+    "body": "Attending IPDPS 2016 in Chicago. Our paper on \"I/O aware power shifting\" will be presented in the \"I/O and Storage Track\"."
+  },
+  {
+    "date": "2016-03",
+    "emoji": "🏆",
+    "category": "Award",
+    "headline": "LEARN proposal",
+    "body": "Heard back from the LLNL research council and they are interested to move forward with my LEARN proposal. The idea is about developing machine-learning techniques for correlating a plethora of system performance metrics to application performance."
+  },
+  {
+    "date": "2016-01",
+    "emoji": "🎤",
+    "category": "Service",
+    "headline": "PC",
+    "body": "I have been invited as a Program Committee member at the workshop \"Tools for Program Development and Analysis in Computational Science\" co-located with ICCS 2016."
+  },
+  {
+    "date": "2015-12",
+    "emoji": "📄",
+    "category": "Publication",
+    "headline": "IPDPS 2016",
+    "body": "Our paper titled \"I/O Aware Power Shifting\" has been accepted in IPDPS 2016."
+  },
+  {
+    "date": "2015-10",
+    "emoji": "📄",
+    "category": "Publication",
+    "headline": "FTA",
+    "body": "Our paper titled \"Fault Tolerance Assistant (FTA): An Exception Handling Approach for MPI Programs\" has been accepted in the ExaMPI workshop at SC'15."
+  },
+  {
+    "date": "2015-08",
+    "emoji": "📰",
+    "category": "News",
+    "headline": "Best poster 2015",
+    "body": "Our poster titled \"Towards Scientific-Data Compression Using Variable Clustering\" received the Best Poster Award in the Computation Directorate's scholar poster session at LLNL."
+  },
+  {
+    "date": "2015-07",
+    "emoji": "📄",
+    "category": "Publication",
+    "headline": "IJHPCA",
+    "body": "Our paper titled \"Exploring the MPI Tool Information Interface: Features and Capabilities\" has been accepted in IJHPCA."
+  },
+  {
+    "date": "2015-06",
+    "emoji": "📄",
+    "category": "Publication",
+    "headline": "JoGC",
+    "body": "My work titled \"Reliable and Efficient Distributed Checkpointing System for Grid Environments\" has been accepted in Journal of Grid Computing."
+  },
+  {
+    "date": "2015-03",
+    "emoji": "🎤",
+    "category": "Service",
+    "headline": "ERC",
+    "body": "My work on proxy application validation is one of the few projects that have been selected to showcase LLNL's research in achieving the laboratory's mission to the External Review Committee (ERC)."
+  },
+  {
+    "date": "2015-02",
+    "emoji": "🎤",
+    "category": "Service",
+    "headline": "JOWOG",
+    "body": "I presented my work on proxy application validation at the Joint Operations Weapons Operations Group (JOWOG) 34 meeting at Sandia National Laboratory in New Mexico."
+  },
+  {
+    "date": "2014-11",
+    "emoji": "📄",
+    "category": "Publication",
+    "headline": "SC'14 poster",
+    "body": "Our poster on the feasibility of applying lossy compression on checkpoints has been accepted in SC'14."
+  },
+  {
+    "date": "2014-08",
+    "emoji": "📄",
+    "category": "Publication",
+    "headline": "Best poster'14",
+    "body": "Our poster titled \"Lossy Compression for Checkpointing: Fallible or Feasible?\" received the Best Poster Award in the 2014 Computation Directorate's scholar poster symposium."
+  },
+  {
+    "date": "2014-04",
+    "emoji": "📄",
+    "category": "Publication",
+    "headline": "Best poster'14",
+    "body": "My poster on proxy application validation secured the 2nd place in Computation's Annual Postdoc Poster Symposium."
   }
 ]
