@@ -4,17 +4,21 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite --port=3000 --host=0.0.0.0",
+    "prebuild": "python3 scripts/bib2json.py && python3 scripts/generate_seo.py",
     "build": "vite build",
+    "dev": "python3 scripts/bib2json.py && python3 scripts/generate_seo.py && vite --port=3000 --host=0.0.0.0",
     "preview": "vite preview",
+    "admin": "node admin/server.js",
     "clean": "rm -rf dist",
     "lint": "tsc --noEmit"
   },
   "dependencies": {
     "@google/genai": "^1.29.0",
     "@tailwindcss/vite": "^4.1.14",
+    "@types/d3-cloud": "^1.2.9",
     "@vitejs/plugin-react": "^5.0.4",
     "d3": "^7.9.0",
+    "d3-cloud": "^1.2.9",
     "dotenv": "^17.2.3",
     "express": "^4.21.2",
     "lucide-react": "^0.546.0",

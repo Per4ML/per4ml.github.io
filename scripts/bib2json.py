@@ -4,12 +4,22 @@ bib2json.py — Per4ML build-time content pipeline.
 
 Three jobs in one pass:
   1. publications.bib → src/data/publications.json
-  2. keywords.json + bib text → src/data/keywords_computed.json
+  2. keywords.json (seed list) + bib text → src/data/keywords_computed.json
   3. bib stats → src/data/stats.json
+
+Keyword word-cloud (job 2):
+  • SEED keywords come from contents/keywords.json — edit that file to add a
+    research area; each entry is { "text": ..., "aliases": [...] }. Aliases are
+    extra phrases that count as a mention of the keyword in a paper.
+  • DERIVED keywords are mined automatically from the papers themselves
+    (explicit bib `keywords={}` fields + recurring title phrases / acronyms).
+  • The WEIGHT (`value`) of every word is how many papers mention it.
+    Seed keywords are floored at 1 so a research area always shows even with
+    no matching paper yet.
+Re-run this script (or `npm run dev` / `npm run build`) to refresh the cloud.
 """
 
 import json
-import math
 import os
 import re
 import sys
@@ -23,6 +33,8 @@ REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BIB_FILE = os.path.join(REPO_ROOT, "contents", "pubs.bib")
 KEYWORDS_FILE = os.path.join(REPO_ROOT, "contents", "keywords.json")
 OUT_PUBS = os.path.join(REPO_ROOT, "src", "data", "publications.json")
+# Second copy served at the site root — the publication mindmap fetches it.
+OUT_PUBS_PUBLIC = os.path.join(REPO_ROOT, "public", "publications.json")
 OUT_KEYWORDS = os.path.join(REPO_ROOT, "src", "data", "keywords_computed.json")
 OUT_STATS = os.path.join(REPO_ROOT, "src", "data", "stats.json")
 
@@ -99,32 +111,121 @@ def job1_publications(entries: list) -> list:
     return pubs
 
 
+# Generic words that should never become a derived keyword on their own.
+_STOPWORDS = {
+    "a", "an", "the", "and", "or", "of", "for", "in", "on", "to", "with",
+    "using", "via", "based", "toward", "towards", "their", "its", "from",
+    "into", "as", "at", "by", "is", "are", "be", "this", "that", "these",
+    "those", "we", "our", "study", "studies", "paper", "approach", "method",
+    "methods", "framework", "frameworks", "novel", "new", "modular",
+    "distributed", "evaluating", "impact", "use", "uses", "case", "cases",
+    "analysis", "system", "systems", "data", "model", "models", "learning",
+    "performance", "between", "across", "over", "under", "results",
+}
+
+
+def _document_frequency(terms: list[str], corpora: list[str]) -> int:
+    """How many papers mention ANY of `terms` (word-boundary, case-insensitive)."""
+    patterns = [re.compile(r"\b" + re.escape(t.lower()) + r"\b") for t in terms if t]
+    count = 0
+    for corpus in corpora:
+        if any(p.search(corpus) for p in patterns):
+            count += 1
+    return count
+
+
+def _mine_derived(entries: list, corpora: list[str], seed_terms: set[str]) -> dict[str, int]:
+    """
+    Pull candidate keywords straight out of the papers:
+      • explicit bib `keywords={}` fields, and
+      • recurring 2–3 word title phrases / all-caps acronyms.
+    Returns {display_text: document_frequency}. Anything already represented by
+    a seed keyword/alias is skipped (the seed already carries it).
+    """
+    # lowercased key -> (display form, min papers required to keep it)
+    candidates: dict[str, tuple[str, int]] = {}
+
+    def add(display: str, min_df: int):
+        key = display.lower().strip()
+        if len(key) < 3:
+            return
+        # Skip if subsumed by (or subsuming) a seed term/alias.
+        if any(key in s or s in key for s in seed_terms):
+            return
+        # Keep the lowest threshold seen for a candidate (author keyword wins).
+        if key in candidates:
+            display, min_df = candidates[key][0], min(candidates[key][1], min_df)
+        candidates[key] = (display.strip(), min_df)
+
+    for e in entries:
+        # 1) Author-provided keyword fields — trustworthy, kept at df>=1.
+        for kw in re.split(r"[;,]", e.get("keywords", "")):
+            kw = clean_latex(kw).strip()
+            if kw:
+                # Title-case for display, but keep existing acronyms uppercase.
+                kw = " ".join(w if w.isupper() else w.capitalize() for w in kw.split())
+                add(kw, 1)
+
+        # 2) Title-mined terms — must recur (df>=2) to skip one-off tool names.
+        title = clean_latex(e.get("title", ""))
+        for tok in re.findall(r"\b[A-Z][A-Z0-9]{1,6}s?\b", title):  # acronyms
+            add(tok, 2)
+        words = re.findall(r"[A-Za-z][A-Za-z0-9\-]+", title.lower())
+        for n in (2, 3):  # recurring 2–3 word phrases, stopword edges trimmed
+            for i in range(len(words) - n + 1):
+                gram = words[i:i + n]
+                if gram[0] in _STOPWORDS or gram[-1] in _STOPWORDS:
+                    continue
+                if any(len(w) < 3 for w in gram):
+                    continue
+                add(" ".join(gram).title(), 2)
+
+    # Score every candidate by how many papers mention it; keep recurring ones.
+    derived: dict[str, int] = {}
+    for key, (display, min_df) in candidates.items():
+        df = _document_frequency([key], corpora)
+        if df >= min_df:
+            derived[display] = df
+    return derived
+
+
 def job2_keywords(entries: list, keywords_path: str) -> list:
     with open(keywords_path, encoding="utf-8") as fh:
-        curated = json.load(fh)
+        seeds = json.load(fh)
 
-    # Build one big corpus string per entry (title + abstract + keywords)
+    # One lowercased, LaTeX-cleaned text blob per paper (no author names).
     corpora = []
     for e in entries:
-        text = " ".join([
+        corpora.append(clean_latex(" ".join([
             e.get("title", ""),
-            e.get("abstract", ""),
+            e.get("booktitle", ""),
+            e.get("journal", ""),
+            e.get("maintitle", ""),
+            e.get("series", ""),
             e.get("keywords", ""),
-        ]).lower()
-        corpora.append(text)
+            e.get("note", ""),
+            e.get("abstract", ""),
+        ])).lower())
 
-    results = []
-    for kw in curated:
+    results: dict[str, int] = {}   # display text -> value (paper count)
+    seed_terms: set[str] = set()   # every seed text + alias, lowercased
+
+    # --- Seed keywords: value = papers mentioning text/alias, floored at 1. ---
+    for kw in seeds:
         terms = [kw["text"]] + kw.get("aliases", [])
-        match_count = sum(
-            1 for corpus in corpora
-            if any(term.lower() in corpus for term in terms)
-        )
-        final_weight = kw["base_weight"] + math.log2(1 + match_count)
-        results.append({"text": kw["text"], "value": round(final_weight, 2)})
+        for t in terms:
+            seed_terms.add(t.lower())
+        df = _document_frequency(terms, corpora)
+        results[kw["text"]] = max(df, 1)
 
-    results.sort(key=lambda x: x["value"], reverse=True)
-    return results
+    # --- Derived keywords mined from the papers. ---
+    for display, df in _mine_derived(entries, corpora, seed_terms).items():
+        if display not in results:
+            results[display] = df
+
+    out = [{"text": text, "value": value} for text, value in results.items()]
+    out.sort(key=lambda x: (-x["value"], x["text"].lower()))
+    return out
 
 
 def job3_stats(entries: list) -> dict:
@@ -146,9 +247,11 @@ def main():
     print(f"  Found {len(entries)} entries.")
 
     pubs = job1_publications(entries)
-    with open(OUT_PUBS, "w", encoding="utf-8") as fh:
-        json.dump(pubs, fh, indent=2, ensure_ascii=False)
-    print(f"  -> {OUT_PUBS} ({len(pubs)} publications)")
+    for out_path in (OUT_PUBS, OUT_PUBS_PUBLIC):
+        os.makedirs(os.path.dirname(out_path), exist_ok=True)
+        with open(out_path, "w", encoding="utf-8") as fh:
+            json.dump(pubs, fh, indent=2, ensure_ascii=False)
+        print(f"  -> {out_path} ({len(pubs)} publications)")
 
     if os.path.exists(KEYWORDS_FILE):
         kws = job2_keywords(entries, KEYWORDS_FILE)

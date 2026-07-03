@@ -1,2 +1,8 @@
 **__pycache__/
 *.html
+node_modules
+.env
+dist
+src/data/publications.json
+src/data/keywords_computed.json
+src/data/stats.json

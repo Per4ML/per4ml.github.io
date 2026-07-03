@@ -1,0 +1,67 @@
+[
+  {
+    "id": "khaled-ibrahim",
+    "name": "Khaled Ibrahim",
+    "affiliation": "LBNL"
+  },
+  {
+    "id": "yang-liu",
+    "name": "Yang Liu",
+    "affiliation": "LBNL"
+  },
+  {
+    "id": "jae-seung-yeom",
+    "name": "Jae-Seung Yeom",
+    "affiliation": "LLNL"
+  },
+  {
+    "id": "jayaraman-j-thiagarajan",
+    "name": "Jayaraman J. Thiagarajan",
+    "affiliation": "Former: LLNL, Current: Apple"
+  },
+  {
+    "id": "barry-rountree",
+    "name": "Barry Rountree",
+    "affiliation": "LLNL"
+  },
+  {
+    "id": "aniruddha-marathe",
+    "name": "Aniruddha Marathe",
+    "affiliation": "LLNL"
+  },
+  {
+    "id": "kathryn-mohror",
+    "name": "Kathryn Mohror",
+    "affiliation": "LLNL"
+  },
+  {
+    "id": "tapasya-patki",
+    "name": "Tapasya Patki",
+    "affiliation": "LLNL"
+  },
+  {
+    "id": "kerstin-kleese-van-dam",
+    "name": "Kerstin Kleese Van Dam",
+    "affiliation": "BNL"
+  },
+  {
+    "id": "line-pouchard",
+    "name": "Line Pouchard",
+    "affiliation": "Sandia NL"
+  },
+  {
+    "id": "bogdan-nicolae",
+    "name": "Bogdan Nicolae",
+    "affiliation": "ANL"
+  },
+  {
+    "id": "rob-ross",
+    "name": "Rob Ross",
+    "affiliation": "ANL"
+  },
+  {
+    "id": "terry-jones",
+    "name": "Terry Jones",
+    "affiliation": "ORNL"
+  }
+]

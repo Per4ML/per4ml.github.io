@@ -1,0 +1,92 @@
+[
+  {
+    "id": "tarek-ramadan",
+    "name": "Tarek Ramadan",
+    "note": "M.Sc., Oracle"
+  },
+  {
+    "id": "russell-hernandez-ruiz",
+    "name": "Russell Hernandez Ruiz",
+    "note": "B.Sc., TxState"
+  },
+  {
+    "id": "ethan-greene",
+    "name": "Ethan Greene",
+    "note": "B.Sc., TxState"
+  },
+  {
+    "id": "holland-schutte",
+    "name": "Holland Schutte",
+    "note": "B.Sc., WWU"
+  },
+  {
+    "id": "gian-carlo-defazio",
+    "name": "Gian-Carlo DeFazio",
+    "note": "B.Sc., currently at LLNL"
+  },
+  {
+    "id": "nathan-pinnow",
+    "name": "Nathan Pinnow",
+    "note": "M.Sc., currently at LLNL"
+  },
+  {
+    "id": "nicholas-majeske",
+    "name": "Nicholas Majeske",
+    "note": "M.Sc., currently Ph.D. student at Indiana University"
+  },
+  {
+    "id": "anna-zivkovik",
+    "name": "Anna Zivkovik",
+    "note": "B.Sc., WWU"
+  },
+  {
+    "id": "jack-stratton",
+    "name": "Jack Stratton",
+    "note": "B.Sc., WWU"
+  },
+  {
+    "id": "david-smith",
+    "name": "David Smith",
+    "note": "B.Sc., WWU"
+  },
+  {
+    "id": "tony-dinh",
+    "name": "Tony Dinh",
+    "note": "B.Sc., WWU"
+  },
+  {
+    "id": "trevor-marcus",
+    "name": "Trevor Marcus",
+    "note": "B.Sc., WWU"
+  },
+  {
+    "id": "chloe-dawson",
+    "name": "Chloe Dawson",
+    "note": "B.Sc., WWU"
+  },
+  {
+    "id": "alexis-ayala",
+    "name": "Alexis Ayala",
+    "note": "B.Sc., graduate student at WWU"
+  },
+  {
+    "id": "quentin-jensen",
+    "name": "Quentin Jensen",
+    "note": "B.Sc., graduate student at WWU"
+  },
+  {
+    "id": "philip-wu-liang",
+    "name": "Philip Wu Liang",
+    "note": "B.Sc., WWU"
+  },
+  {
+    "id": "forest-sweeney",
+    "name": "Forest Sweeney",
+    "note": "B.Sc., WWU"
+  },
+  {
+    "id": "cody-pragner",
+    "name": "Cody Pragner",
+    "note": "B.Sc., WWU"
+  }
+]

@@ -164,6 +164,21 @@ with open(CSV_FILE, newline='', encoding='utf-8-sig') as csvfile:
             updated_projects.append(generated)
 
 
+#
+# Preserve existing projects that are NOT in the CSV (append, never drop).
+#
+
+csv_ids = {p["id"] for p in updated_projects}
+
+for project_id, project in existing_projects.items():
+
+    if project_id not in csv_ids:
+
+        updated_projects.append(project)
+
+        print(f"Preserved (not in CSV): {project['title']}")
+
+
 updated_projects.sort(
     key=lambda x: x["title"]
 )

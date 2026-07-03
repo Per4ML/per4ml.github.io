@@ -1,23 +1,123 @@
-# Per4ML Laboratory — Texas State University
-## Research Group: AI/ML for High-Performance Computing
+# Per4ML Research Group — Data-Efficient AI/ML for HPC
 
-Dr. Tanzima Z. Islam leads the Per4ML laboratory at Texas State University.
-The lab pioneers data-efficient machine learning methods for HPC system intelligence,
-including few-shot performance modeling, cross-system transfer learning, and
-multimodal HPC analytics.
+> Dr. Tanzima Z. Islam is an Associate Professor of Computer Science at Texas State University. She leads the Per4ML laboratory, which develops data-efficient AI and ML methods for intelligent HPC systems. She holds the NSF CAREER Award (2025), the DOE Early Career Award (2022), and the R&D 100 Award (2019). She has secured over $4.6M in research funding from NSF, DOE, AMD, and national laboratories including LLNL, BNL, ORNL, and NERSC/LBNL. She is also the co-founder of Bangladeshi Women in Computer Science and Engineering (BWCSE).
 
-Key research contributions:
-- ModelX: Few-shot learning for HPC performance prediction (100x data efficiency)
-- QuantumX: Few-shot quantum performance modeling
-- COMPASS: Adaptive job scheduling via performance prediction
-- OPTIX: Execution-parameter tuning using multimodal HPC data
+- Principal Investigator: Tanzima Z. Islam, Associate Professor, Computer Science, Texas State University
+- Website: https://per4ml.github.io
+- PI website: https://www.tanzimaislam.com
+- Google Scholar: https://scholar.google.com/citations?user=q56uneAAAAAJ&hl=en
+- Research funding secured: $4.6M+ (NSF, DOE, AMD, LLNL, BNL, ORNL, NERSC/LBNL)
 
-PI Awards: NSF CAREER Award (2025), DOE Early Career Award (2022), R&D 100 Award (2019).
+## Research Areas
+The group works on, and welcomes collaborators and students in, the following topics:
 
-Keywords: HPC performance modeling, data-efficient ML, few-shot learning,
-transfer learning, multimodal learning, AI for systems, scientific computing,
-women in STEM, woman in HPC, data-efficient AI, cross-system transfer.
+- Multimodal Representation Learning
+- Data-Efficient AI
+- Foundation Models
+- Heterogeneous Data
+- Graphs
+- Trees
+- Tables
+- Text
+- Images
+- Count Data
+- Prediction
+- Generation
+- Counterfactual Decision Making
+- Transfer Learning
+- Agentic Systems
+- Performance Optimization
+- HPC
+- Healthcare
 
-Website: https://per4ml.github.io
-PI Website: https://www.tanzimaislam.com
-Contact: tanzima@txstate.edu
+## Current Team
+- Tanzima Z. Islam (PI)
+- Ankur Lahiri (PhD)
+- Ashna Nawar Ahmed (PhD)
+- Banooqa Banday (PhD)
+- Chase Phelps (PhD)
+- Elvis Fefey (PhD)
+- Mohammad Zaeed (PhD)
+- Nawshin Tabassum Tanny (PhD)
+- Yugesh Bhattarai (PhD)
+- Jaya Sravani (MS)
+
+## Selected Projects
+- CESAR Co-Design Project: Comparative Performance analysis — Performance
+- CESAR Co-Design Project: Proxy Application Development and Validation — Performance
+- Cache Bottleneck Characterization — Cache Analysis
+- Data-driven decision making — Optimization
+- ECRP+Fractal: Few-Shot Transfer Learning for Performance — Few-Shot Learning, HPC, Performance, Prediction, Transfer Learning
+- ECRP: PerfGen: Synthesizing Performance using GenAI — GAN, GenAI, HPC, LLM, Machine Learning, Optimization, Performance
+- ECRP: Performance-in-a-Graph (PinG) — HPC, Machine Learning, Performance
+- MPI and MPI_T — Performance
+- Performance Characterization — HPC, Optimization, Performance
+- Performance-Aware Application Development — Machine Learning, Performance
+- Ph.D. Thesis: Scalable Checkpoint/Restart — Fault Tolerance, Performance
+- Power-Aware Resilience — HPC, Performance
+- RECUP: Perf. Reproducibility — HPC, Performance, Reproducibility
+- Reliable and Efficient Checkpointing for Cycle-sharing Systems — Fault Tolerance, Transfer Learning
+
+## Publications
+- A Distributed Framework for Causal Modeling of Performance Variability in GPU Traces (2025). arXiv preprint arXiv:2510.18300. Authors: Lahiry, Ankur, Pokharel, Ayush, Banday, Banooqa, Ockerman, Seth, Gueroudji, Amal, Zaeed, Mohammad, Islam, Tanzima Z, Pouchard, Line. https://arxiv.org/pdf/2510.18300v1
+- Opal: A Modular Framework for Optimizing Performance using Analytics and LLMs (2025). arXiv preprint arXiv:2510.00932. Authors: Zaeed, Mohammad, Islam, Tanzima Z, Inđić, Vladimir. https://arxiv.org/pdf/2510.00932v1
+- HPC Digital Twins for Evaluating Scheduling Policies, Incentive Structures and their Impact on Power and Cooling (2025). Proceedings of the SC '25 Workshops of the International Conference for High Performance Computing, Networking, Storage and Analysis. Authors: Maiterth, Matthias, Brewer, Wesley H., Kuruvella, Jaya S., Dey, Arunavo, Islam, Tanzima Z., Kabir, Rashadul, Menear, Kevin, Duplyakin, Dmitry, Patki, Tapasya, Jones, Terry, Wang, Feiyi. https://doi.org/10.1145/3731599.3767559
+- ModelX : A Novel Transfer Learning Approach Across Heterogeneous Datasets (2025). Proceedings of the 34th International Symposium on High-Performance Parallel and Distributed Computing. Authors: Dey, Arunavo, Antony, Neil, Dhakal, Aakash Raj, Thopalli, Kowshik, Thiagarajan, Jayaraman J., Patki, Tapasya, Marathe, Aniruddha, Scogland, Tom, Yeom, Jae-Seung, Islam, Tanzima. https://doi.org/10.1145/3731545.3731593
+- WANDER: An Explainable Decision-Support Framework for HPC (2025). arXiv preprint arXiv:2506.04049. Authors: Lahiry, Ankur, Banday, Banooqa, Bhattarai, Yugesh, Islam, Tanzima Z. https://arxiv.org/pdf/2506.04049v3
+- Optimizing Deep Learning Inference on Heterogeneous Devices on the Edge: An ILP-Based Rate Monotonic Scheduling Approach (2025). 2025 IEEE Cloud Summit. Authors: Fefey, Elvis G, Islam, Tanzima. https://doi.org/10.1109/Cloud-Summit64795.2025.00011
+- Structure-Aware Representation Learning for Effective Performance Prediction (2025). Concurrency and Computation: Practice and Experience. Authors: Ramadan, Tarek, Pinnow, Nathan, Phelps, Chase, Thiagarajan, Jayaraman J, Islam, Tanzima Z. https://doi.org/10.1002/cpe.70046
+- xAMM: “Attention” to Details Improves Cross-Platform Prediction Accuracy (2025). 2025 IEEE 25th International Symposium on Cluster, Cloud and Internet Computing (CCGrid). Authors: Dhakal, Aakash Raj, Islam, Tanzima Z, Dey, Arunavo, Nichols, Daniel, Bhatele, Abhinav, Patki, Tapasya, Scogland, Tom, Yeom, Jae-Seung. https://doi.org/10.1109/CCGRID64434.2025.00067
+- On the role of prompt construction in enhancing efficacy and efficiency of llm-based tabular data generation (2025). ICASSP 2025-2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). Authors: Banday, Banooqa, Thopalli, Kowshik, Islam, Tanzima Z, Thiagarajan, Jayaraman J. https://doi.org/10.1109/ICASSP49660.2025.10888077
+- PERFGEN: A Synthesis and Evaluation Framework for Performance Data using Generative AI (2024). 2024 IEEE 48th Annual Computers, Software, and Applications Conference (COMPSAC). Authors: Banday, Banooqa H, Islam, Tanzima Z, Marathe, Aniruddha. https://doi.org/10.1109/COMPSAC61105.2024.00035
+- Relative performance prediction using few-shot learning (2024). 2024 IEEE 48th Annual Computers, Software, and Applications Conference (COMPSAC). Authors: Dey, Arunavo, Dhakal, Aakash, Islam, Tanzima Z, Yeom, Jae-Seung, Patki, Tapasya, Nichols, Daniel, Movsesyan, Alexander, Bhatele, Abhinav. https://doi.org/10.1109/COMPSAC61105.2024.00278
+- Toward Efficient Deep Learning Inference: On-Node Heterogeneous Scheduling in Edge-Cloud Infrastructure (2024). 2024 IEEE Cloud Summit. Authors: Fefey, Elvis G, Islam, Tanzima. https://doi.org/10.1109/Cloud-Summit61220.2024.00019
+- Reimagine Application Performance as a Graph: Novel Graph-Based Method for Performance Anomaly Classification in High-Performance Computing (2024). 2024 IEEE 48th Annual Computers, Software, and Applications Conference (COMPSAC). Authors: Phelps, Chase, Lahiry, Ankur, Islam, Tanzima Z, Pouchard, Line C. https://doi.org/10.1109/COMPSAC61105.2024.00041
+- Characterize and compare the performance of deep learning optimizers in recurrent neural network architectures (2024). 2024 IEEE 48th Annual Computers, Software, and Applications Conference (COMPSAC). Authors: Zaeed, Mohammad, Islam, Tanzima Z, Inđić, Vladimir. https://doi.org/10.1109/COMPSAC61105.2024.00016
+- Data-Driven Analysis to Understand GPU Hardware Resource Usage of Optimizations (2024). arXiv preprint arXiv:2408.10143. Authors: Islam, Tanzima Z, Marathe, Aniruddha, Schutte, Holland, Zaeed, Mohammad. https://doi.org/10.48550/arXiv.2408.10143
+- Performance Characterization and Provenance of Distributed Task-based Workflows on HPC Platforms (2024). SC24-W: Workshops of the International Conference for High Performance Computing, Networking, Storage and Analysis. Authors: Gueroudji, Amal, Phelps, Chase, Islam, Tanzima Z, Carns, Philip, Snyder, Shane, Dorier, Matthieu, Ross, Robert B, Pouchard, Line C. https://doi.org/10.1109/SCW63240.2024.00254
+- Automatic Parallelization of Cellular Automata for Heterogeneous Platforms (2023). 2023 IEEE 47th Annual Computers, Software, and Applications Conference (COMPSAC). Authors: Phelps, Chase, Islam, Tanzima. https://doi.org/10.1109/COMPSAC57700.2023.00055
+- Signal processing based method for real-time anomaly detection in high-performance computing (2023). 2023 IEEE 47th Annual Computers, Software, and Applications Conference (COMPSAC). Authors: Dey, Arunavo, Islam, Tanzima, Phelps, Chase, Kelly, Christopher. https://doi.org/10.1109/COMPSAC57700.2023.00037
+- LIBNVCD: An Extendable and User-friendly Multi-GPU Performance Measurement Tool (2022). 2022 IEEE 46th Annual Computers, Software, and Applications Conference (COMPSAC). Authors: Schutte, Holland, Phelps, Chase, Marathe, Aniruddha, Islam, Tanzima. https://doi.org/10.1109/COMPSAC54236.2022.00019
+- Comparative code structure analysis using deep learning for performance prediction (2021). 2021 IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS). Authors: Ramadan, Tarek, Islam, Tanzima Z, Phelps, Chase, Pinnow, Nathan, Thiagarajan, Jayaraman J. https://doi.org/10.1109/ISPASS51385.2021.00032
+- HPC@ SCALE: a hands-on approach for training next-gen HPC software architects (2021). 2021 IEEE 28th International Conference on High Performance Computing, Data and Analytics Workshop (HiPCW). Authors: Islam, Tanzima Z, Phelps, Chase. https://doi.org/10.1109/HiPCW54834.2021.00011
+- QUANTUMX: A Few-Shot-Learning Approach for Quantum Performance Modeling in HPC (0). The 1st International Workshop on Software Frameworks for Integrating Quantum and HPC Ecosystems. Authors: Dey, Arunavo, Yeom, Jae-Seung, Patki, Tapasya, Islam, Tanzima Z. https://sfwqhe.github.io/sfwqhpc/QUANTUMX_Presentation_SWQHE_ICS25_Dey.pdf
+- Interactive Visual Analysis Tool for Anomaly Provenance Data (0). Authors: Guite, A, Islam, T, Kelley, C, Xu, W. https://sc22.supercomputing.org/proceedings/tech_poster/poster_files/rpost159s3-file3.pdf
+- Analysis and Visualization of Important Performance Counters To Enhance Interpretability of Autotuner Output (0). Authors: Zaeed, Mohammad, Islam, Tanzima Z, Cho, Younghyun, Li, Xiaoye Sherry, Luo, Hengrui, Liu, Yang. https://sc22.supercomputing.org/proceedings/tech_poster/poster_files/rpost183s3-file3.pdf
+
+## Alumni / Past Members
+- Tarek Ramadan (M.Sc., Oracle)
+- Russell Hernandez Ruiz (B.Sc., TxState)
+- Ethan Greene (B.Sc., TxState)
+- Holland Schutte (B.Sc., WWU)
+- Gian-Carlo DeFazio (B.Sc., currently at LLNL)
+- Nathan Pinnow (M.Sc., currently at LLNL)
+- Nicholas Majeske (M.Sc., currently Ph.D. student at Indiana University)
+- Anna Zivkovik (B.Sc., WWU)
+- Jack Stratton (B.Sc., WWU)
+- David Smith (B.Sc., WWU)
+- Tony Dinh (B.Sc., WWU)
+- Trevor Marcus (B.Sc., WWU)
+- Chloe Dawson (B.Sc., WWU)
+- Alexis Ayala (B.Sc., graduate student at WWU)
+- Quentin Jensen (B.Sc., graduate student at WWU)
+- Philip Wu Liang (B.Sc., WWU)
+- Forest Sweeney (B.Sc., WWU)
+- Cody Pragner (B.Sc., WWU)
+
+## Collaborators
+- Khaled Ibrahim (LBNL)
+- Yang Liu (LBNL)
+- Jae-Seung Yeom (LLNL)
+- Jayaraman J. Thiagarajan (Former: LLNL, Current: Apple)
+- Barry Rountree (LLNL)
+- Aniruddha Marathe (LLNL)
+- Kathryn Mohror (LLNL)
+- Tapasya Patki (LLNL)
+- Kerstin Kleese Van Dam (BNL)
+- Line Pouchard (Sandia NL)
+- Bogdan Nicolae (ANL)
+- Rob Ross (ANL)
+- Terry Jones (ORNL)
+
+## For prospective students & collaborators
+The lab welcomes PhD applicants, MS students, and undergraduate researchers interested in the research areas above. Reach out via the PI's website: https://www.tanzimaislam.com

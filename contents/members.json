@@ -3,7 +3,6 @@
     "id": "tanzima-islam",
     "name": "Tanzima Z. Islam",
     "level": "PI",
-    "role": "Associate Professor",
     "image": "images/members/tanzima.jpg",
     "url": "https://www.tanzimaislam.com",
     "interests": [
@@ -18,7 +17,6 @@
     "id": "ankur-lahiri",
     "name": "Ankur Lahiri",
     "level": "PhD",
-    "role": "Graduate Research Assistant",
     "image": "images/members/ankur.png",
     "url": "",
     "interests": [
@@ -29,24 +27,9 @@
     "active": true
   },
   {
-    "id": "arunavo-dey",
-    "name": "Arunavo Dey",
-    "level": "PhD",
-    "role": "Graduate Research Assistant",
-    "image": "images/members/arunavo.jpg",
-    "url": "",
-    "interests": [
-      "Quantum Computing",
-      "Few-Shot Learning"
-    ],
-    "joined": "2022",
-    "active": true
-  },
-  {
     "id": "ashna-nawar-ahmed",
     "name": "Ashna Nawar Ahmed",
     "level": "PhD",
-    "role": "Graduate Research Assistant",
     "image": "images/members/ashna.jpeg",
     "url": "",
     "interests": [
@@ -60,7 +43,6 @@
     "id": "banooqa-banday",
     "name": "Banooqa Banday",
     "level": "PhD",
-    "role": "Graduate Research Assistant",
     "image": "images/members/banooqa.png",
     "url": "",
     "interests": [
@@ -71,10 +53,22 @@
     "active": true
   },
   {
+    "id": "chase-phelps",
+    "name": "Chase Phelps",
+    "level": "PhD",
+    "image": "images/members/chase.png",
+    "url": "",
+    "interests": [
+      "Systems",
+      "Scaling"
+    ],
+    "joined": "2020",
+    "active": true
+  },
+  {
     "id": "elvis-fefey",
     "name": "Elvis Fefey",
     "level": "PhD",
-    "role": "Graduate Research Assistant",
     "image": "images/members/elvis.png",
     "url": "",
     "interests": [
@@ -88,7 +82,6 @@
     "id": "mohammad-zaeed",
     "name": "Mohammad Zaeed",
     "level": "PhD",
-    "role": "Graduate Research Assistant",
     "image": "images/members/zaeed.png",
     "url": "",
     "interests": [
@@ -102,7 +95,6 @@
     "id": "nawshin-tabassum-tanny",
     "name": "Nawshin Tabassum Tanny",
     "level": "PhD",
-    "role": "Graduate Research Assistant",
     "image": "images/members/nawshin.jpg",
     "url": "",
     "interests": [
@@ -113,24 +105,9 @@
     "active": true
   },
   {
-    "id": "nirajan-banjade",
-    "name": "Nirajan Banjade",
-    "level": "PhD",
-    "role": "Graduate Research Assistant",
-    "image": "images/members/nirajan.jpg",
-    "url": "",
-    "interests": [
-      "Performance Prediction",
-      "Transfer Learning"
-    ],
-    "joined": "2022",
-    "active": true
-  },
-  {
     "id": "yugesh-bhattarai",
     "name": "Yugesh Bhattarai",
     "level": "PhD",
-    "role": "Graduate Research Assistant",
     "image": "images/members/yugesh.jpeg",
     "url": "",
     "interests": [
@@ -141,10 +118,22 @@
     "active": true
   },
   {
+    "id": "arunavo-dey",
+    "name": "Arunavo Dey",
+    "level": "MS",
+    "image": "images/members/arunavo.jpg",
+    "url": "",
+    "interests": [
+      "Quantum Computing",
+      "Few-Shot Learning"
+    ],
+    "joined": "2022",
+    "active": false
+  },
+  {
     "id": "jaya-sravani",
     "name": "Jaya Sravani",
     "level": "MS",
-    "role": "Graduate Research Assistant",
     "image": "images/members/jaya.jpeg",
     "url": "",
     "interests": [
@@ -158,28 +147,25 @@
     "id": "avaneesh-ramesh",
     "name": "Avaneesh Ramesh",
     "level": "Undergraduate",
-    "role": "Undergraduate Research Assistant",
     "image": "images/members/avaneesh.jpg",
     "url": "",
     "interests": [
       "Machine Learning",
       "HPC"
     ],
-    "joined": "2024",
-    "active": true
+    "joined": "2022",
+    "active": false
   },
   {
-    "id": "chase-phelps",
-    "name": "Chase Phelps",
+    "id": "nirajan-banjade",
+    "name": "Nirajan Banjade",
     "level": "Undergraduate",
-    "role": "Undergraduate Research Assistant",
-    "image": "images/members/chase.png",
+    "image": "images/members/nirajan.jpg",
     "url": "",
     "interests": [
-      "Machine Learning",
-      "HPC"
+      "Foundation model"
     ],
     "joined": "2024",
-    "active": true
+    "active": false
   }
 ]

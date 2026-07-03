@@ -1,34 +1,160 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap');
 @import "tailwindcss";
 
-@custom-variant dark (&:where(.dark, .dark *));
-
-@theme {
-  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
-  --font-display: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+/* ─── Dark mode (default) ─────────────────────────────────────────────────── */
+:root {
+  --color-bg:      #0b0f1e;
+  --color-surface: #131928;
+  --color-accent:  #f59e0b;
+  --color-gold:    #fbbf24;
+  --color-text:    #f1f5ff;
+  --color-muted:   #7a8fb5;
+  --color-border:  #1e2a45;
+  --color-nav-bg:  rgba(11,15,30,0.92);
+  --color-accent-hover-bg: rgba(245,158,11,0.12);
 }
 
-@layer utilities {
-  .animate-scroll {
-    animation: scroll 40s linear infinite;
-  }
-  .custom-scrollbar::-webkit-scrollbar {
-    width: 6px;
-  }
-  .custom-scrollbar::-webkit-scrollbar-track {
-    background: #f1f5f9;
-    border-radius: 4px;
-  }
-  .custom-scrollbar::-webkit-scrollbar-thumb {
-    background: #cbd5e1;
-    border-radius: 4px;
-  }
-  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
-    background: #94a3b8;
-  }
+/* ─── Light mode (cream) ──────────────────────────────────────────────────── */
+[data-theme="light"] {
+  --color-bg:      #faf7f0;
+  --color-surface: #f0ebe0;
+  --color-accent:  #d97706;
+  --color-gold:    #b45309;
+  --color-text:    #1a1712;
+  --color-muted:   #6b5f4f;
+  --color-border:  #ddd3c0;
+  --color-nav-bg:  rgba(250,247,240,0.95);
+  --color-accent-hover-bg: rgba(217,119,6,0.10);
 }
 
-@keyframes scroll {
-  0% { transform: translateX(0); }
-  100% { transform: translateX(-50%); }
+html {
+  scroll-behavior: smooth;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: var(--color-bg);
+  transition: background-color 0.3s ease;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Plus Jakarta Sans', 'Inter', ui-sans-serif, system-ui, sans-serif;
+}
+
+code, .font-mono {
+  font-family: 'JetBrains Mono', ui-monospace, monospace;
+}
+
+/* Smooth scroll target offset for sticky nav */
+section[id] {
+  scroll-margin-top: 72px;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-surface);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-border);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-muted);
+}
+
+/* Horizontal scroll strip (Team) */
+.scroll-strip {
+  overflow-x: auto;
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-border) var(--color-surface);
+  -webkit-overflow-scrolling: touch;
+}
+
+/* ─── Section reveal animation ────────────────────────────────────────────── */
+/* Sections start hidden; JS adds [data-visible] when IntersectionObserver fires */
+.section-reveal {
+  opacity: 0;
+  transform: translateY(48px);
+  transition:
+    opacity 0.85s cubic-bezier(0.16, 1, 0.3, 1),
+    transform 0.85s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.section-reveal[data-visible="true"] {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Staggered children inside a revealed section */
+.section-reveal .stagger-child {
+  opacity: 0;
+  transform: translateY(28px);
+  transition:
+    opacity 0.65s cubic-bezier(0.16, 1, 0.3, 1),
+    transform 0.65s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.section-reveal[data-visible="true"] .stagger-child {
+  opacity: 1;
+  transform: translateY(0);
+}
+.section-reveal[data-visible="true"] .stagger-child:nth-child(1) { transition-delay: 0.10s; }
+.section-reveal[data-visible="true"] .stagger-child:nth-child(2) { transition-delay: 0.20s; }
+.section-reveal[data-visible="true"] .stagger-child:nth-child(3) { transition-delay: 0.30s; }
+.section-reveal[data-visible="true"] .stagger-child:nth-child(4) { transition-delay: 0.40s; }
+.section-reveal[data-visible="true"] .stagger-child:nth-child(5) { transition-delay: 0.50s; }
+
+/* Tag chip base */
+.tag-chip {
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: 9999px;
+  font-size: 0.72rem;
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 500;
+  color: var(--color-accent);
+  border: 1px solid var(--color-accent);
+  background: transparent;
+  white-space: nowrap;
+}
+
+/* ─── People Carousel ────────────────────────────────────────────── */
+.people-carousel-shell {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  overflow: hidden;
+  mask-image: linear-gradient(to right, transparent, black 8%, black 92%, transparent);
+  -webkit-mask-image: linear-gradient(to right, transparent, black 8%, black 92%, transparent);
+}
+
+.people-carousel-track {
+  display: flex;
+  gap: 1rem;
+  width: max-content;
+  animation: people-marquee 40s linear infinite;
+}
+
+.people-carousel-shell:hover .people-carousel-track {
+  animation-play-state: paused;
+}
+
+@keyframes people-marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .people-carousel-track {
+    animation: none;
+  }
+  .people-carousel-shell {
+    overflow-x: auto;
+  }
 }

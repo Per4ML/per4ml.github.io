@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-05",
+    "emoji": "📰",
+    "category": "paper",
+    "headline": "🔬KDD'26",
+    "body": "Congratulations to Zaeed for his paper OPTIMAS: for being accepted at KDD'26. This year, KDD received 3252 valid submissions, with an overall acceptance rate of ~18.5%."
+  },
+  {
+    "date": "2026-05",
+    "emoji": "💰",
+    "category": "Funding",
+    "headline": "CRA Funding",
+    "body": "Thanks to CRA for a $10K grant supporting an undergraduate research student during Summer 2026."
+  },
+  {
     "date": "2025-11",
     "emoji": "💰",
     "category": "Funding",
