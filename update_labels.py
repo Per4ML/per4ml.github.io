@@ -1,0 +1,49 @@
+import json
+from pathlib import Path
+
+labels = {
+    "0": "Frontend Core & Layout",
+    "1": "Project Documentation & Metadata",
+    "2": "Branding & Team Visuals",
+    "3": "Lab Identity & Members",
+    "4": "Project Performance Artifacts",
+    "5": "Static Site Generator (mkhtml)",
+    "6": "BibTeX Processing Pipeline",
+    "7": "News Management Scripts",
+    "8": "Research Carousel UI",
+    "9": "HPC & Fault Tolerance Research",
+    "10": "Project Data Management",
+    "11": "Team Member UI",
+    "12": "Machine Learning Research",
+    "13": "Member Data Management",
+    "14": "Mindmap Data Pipeline",
+    "15": "Publication Mindmap UI",
+    "16": "About Page UI",
+    "17": "Publication Data Management",
+    "18": "Build Configuration (Vite)",
+    "19": "Power Analysis Research",
+    "20": "Latency Analysis Research",
+    "21": "Member: Banooqa & Nawshin",
+    "22": "Member: Avaneesh",
+    "23": "Member: Chase",
+    "24": "Member: Ashna",
+    "25": "Member: Elvis",
+    "26": "Member: Ankur"
+}
+
+# Save labels
+with open('graphify-out/community_labels.json', 'w', encoding='utf-8') as f:
+    json.dump(labels, f, indent=2)
+
+# Update GRAPH_REPORT.md
+report_path = Path('graphify-out/GRAPH_REPORT.md')
+if report_path.exists():
+    content = report_path.read_text(encoding='utf-8')
+    for cid, label in labels.items():
+        # Replace "Community X" with the descriptive label
+        # Covers: [[_COMMUNITY_Community X|Community X]], "Community X", etc.
+        generic = f"Community {cid}"
+        content = content.replace(generic, label)
+    
+    report_path.write_text(content, encoding='utf-8')
+    print("Updated GRAPH_REPORT.md and created community_labels.json")

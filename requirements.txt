@@ -1,0 +1,4 @@
+# Python dependencies for the content-update scripts in scripts/
+# Install with:  pip install -r requirements.txt
+bibtexparser>=1.4,<2.0   # scripts/bib2json.py — parses contents/pubs.bib
+pandas>=2.0              # scripts/update_members.py — reads the team CSV

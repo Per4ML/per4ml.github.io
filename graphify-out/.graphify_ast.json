@@ -1,0 +1,2814 @@
+{
+  "nodes": [
+    {
+      "id": "mkhtml_py",
+      "label": "mkhtml.py",
+      "file_type": "code",
+      "source_file": "mkhtml.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "per4ml_mkhtml_pubparser",
+      "label": "PubParser",
+      "file_type": "code",
+      "source_file": "mkhtml.py",
+      "source_location": "L6"
+    },
+    {
+      "id": "per4ml_mkhtml_pubparser_init",
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "mkhtml.py",
+      "source_location": "L41"
+    },
+    {
+      "id": "per4ml_mkhtml_nextfield",
+      "label": "nextfield()",
+      "file_type": "code",
+      "source_file": "mkhtml.py",
+      "source_location": "L49"
+    },
+    {
+      "id": "per4ml_mkhtml_pubparser_nextbib",
+      "label": ".nextbib()",
+      "file_type": "code",
+      "source_file": "mkhtml.py",
+      "source_location": "L70"
+    },
+    {
+      "id": "per4ml_mkhtml_pubparser_iter",
+      "label": ".__iter__()",
+      "file_type": "code",
+      "source_file": "mkhtml.py",
+      "source_location": "L102"
+    },
+    {
+      "id": "per4ml_mkhtml_pubparser_next",
+      "label": ".__next__()",
+      "file_type": "code",
+      "source_file": "mkhtml.py",
+      "source_location": "L110"
+    },
+    {
+      "id": "per4ml_mkhtml_htmltemplate",
+      "label": "HTMLTemplate",
+      "file_type": "code",
+      "source_file": "mkhtml.py",
+      "source_location": "L116"
+    },
+    {
+      "id": "per4ml_mkhtml_htmltemplate_init",
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "mkhtml.py",
+      "source_location": "L117"
+    },
+    {
+      "id": "per4ml_mkhtml_htmltemplate_fill",
+      "label": ".fill()",
+      "file_type": "code",
+      "source_file": "mkhtml.py",
+      "source_location": "L125"
+    },
+    {
+      "id": "per4ml_mkhtml_htmltemplate_processcontent",
+      "label": ".processcontent()",
+      "file_type": "code",
+      "source_file": "mkhtml.py",
+      "source_location": "L139"
+    },
+    {
+      "id": "per4ml_mkhtml_htmltemplate_parsemembers",
+      "label": ".parsemembers()",
+      "file_type": "code",
+      "source_file": "mkhtml.py",
+      "source_location": "L159"
+    },
+    {
+      "id": "per4ml_mkhtml_htmltemplate_parsenews",
+      "label": ".parsenews()",
+      "file_type": "code",
+      "source_file": "mkhtml.py",
+      "source_location": "L190"
+    },
+    {
+      "id": "per4ml_mkhtml_htmltemplate_parsepubs",
+      "label": ".parsepubs()",
+      "file_type": "code",
+      "source_file": "mkhtml.py",
+      "source_location": "L209"
+    },
+    {
+      "id": "vite_config_ts",
+      "label": "vite.config.ts",
+      "file_type": "code",
+      "source_file": "vite.config.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "per4ml_vite_config_env",
+      "label": "env",
+      "file_type": "code",
+      "source_file": "vite.config.ts",
+      "source_location": "L7"
+    },
+    {
+      "id": "scripts_bib2json_py",
+      "label": "bib2json.py",
+      "file_type": "code",
+      "source_file": "scripts/bib2json.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "scripts_bib2json_clean_latex",
+      "label": "clean_latex()",
+      "file_type": "code",
+      "source_file": "scripts/bib2json.py",
+      "source_location": "L30"
+    },
+    {
+      "id": "scripts_bib2json_split_authors",
+      "label": "split_authors()",
+      "file_type": "code",
+      "source_file": "scripts/bib2json.py",
+      "source_location": "L52"
+    },
+    {
+      "id": "scripts_bib2json_extract_award",
+      "label": "extract_award()",
+      "file_type": "code",
+      "source_file": "scripts/bib2json.py",
+      "source_location": "L60"
+    },
+    {
+      "id": "scripts_bib2json_load_bib",
+      "label": "load_bib()",
+      "file_type": "code",
+      "source_file": "scripts/bib2json.py",
+      "source_location": "L67"
+    },
+    {
+      "id": "scripts_bib2json_job1_publications",
+      "label": "job1_publications()",
+      "file_type": "code",
+      "source_file": "scripts/bib2json.py",
+      "source_location": "L75"
+    },
+    {
+      "id": "scripts_bib2json_job2_keywords",
+      "label": "job2_keywords()",
+      "file_type": "code",
+      "source_file": "scripts/bib2json.py",
+      "source_location": "L102"
+    },
+    {
+      "id": "scripts_bib2json_job3_stats",
+      "label": "job3_stats()",
+      "file_type": "code",
+      "source_file": "scripts/bib2json.py",
+      "source_location": "L130"
+    },
+    {
+      "id": "scripts_bib2json_main",
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "scripts/bib2json.py",
+      "source_location": "L137"
+    },
+    {
+      "id": "scripts_bib2json_rationale_31",
+      "label": "Remove common LaTeX markup from a string.",
+      "file_type": "rationale",
+      "source_file": "scripts/bib2json.py",
+      "source_location": "L31"
+    },
+    {
+      "id": "scripts_bib2json_rationale_53",
+      "label": "Split BibTeX author field on ' and ' into a list.",
+      "file_type": "rationale",
+      "source_file": "scripts/bib2json.py",
+      "source_location": "L53"
+    },
+    {
+      "id": "scripts_bib2json_rationale_61",
+      "label": "Return 'Best Paper' if note contains that phrase, else empty string.",
+      "file_type": "rationale",
+      "source_file": "scripts/bib2json.py",
+      "source_location": "L61"
+    },
+    {
+      "id": "scripts_update_members_py",
+      "label": "update_members.py",
+      "file_type": "code",
+      "source_file": "scripts/update_members.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "scripts_update_members_slugify",
+      "label": "slugify()",
+      "file_type": "code",
+      "source_file": "scripts/update_members.py",
+      "source_location": "L15"
+    },
+    {
+      "id": "scripts_update_members_normalize_level",
+      "label": "normalize_level()",
+      "file_type": "code",
+      "source_file": "scripts/update_members.py",
+      "source_location": "L28"
+    },
+    {
+      "id": "scripts_update_members_default_role",
+      "label": "default_role()",
+      "file_type": "code",
+      "source_file": "scripts/update_members.py",
+      "source_location": "L59"
+    },
+    {
+      "id": "scripts_update_members_rationale_16",
+      "label": "Yugesh Bhattarai     ->     yugesh-bhattarai",
+      "file_type": "rationale",
+      "source_file": "scripts/update_members.py",
+      "source_location": "L16"
+    },
+    {
+      "id": "scripts_update_news_py",
+      "label": "update_news.py",
+      "file_type": "code",
+      "source_file": "scripts/update_news.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "scripts_update_news_clean_html",
+      "label": "clean_html()",
+      "file_type": "code",
+      "source_file": "scripts/update_news.py",
+      "source_location": "L40"
+    },
+    {
+      "id": "scripts_update_news_parse_date",
+      "label": "parse_date()",
+      "file_type": "code",
+      "source_file": "scripts/update_news.py",
+      "source_location": "L52"
+    },
+    {
+      "id": "scripts_update_news_normalize_category",
+      "label": "normalize_category()",
+      "file_type": "code",
+      "source_file": "scripts/update_news.py",
+      "source_location": "L93"
+    },
+    {
+      "id": "scripts_update_news_make_news_key",
+      "label": "make_news_key()",
+      "file_type": "code",
+      "source_file": "scripts/update_news.py",
+      "source_location": "L102"
+    },
+    {
+      "id": "scripts_update_news_load_existing_news",
+      "label": "load_existing_news()",
+      "file_type": "code",
+      "source_file": "scripts/update_news.py",
+      "source_location": "L109"
+    },
+    {
+      "id": "scripts_update_news_row_to_news_item",
+      "label": "row_to_news_item()",
+      "file_type": "code",
+      "source_file": "scripts/update_news.py",
+      "source_location": "L117"
+    },
+    {
+      "id": "scripts_update_news_sort_csv_oldest_to_newest",
+      "label": "sort_csv_oldest_to_newest()",
+      "file_type": "code",
+      "source_file": "scripts/update_news.py",
+      "source_location": "L134"
+    },
+    {
+      "id": "scripts_update_news_update_news_json",
+      "label": "update_news_json()",
+      "file_type": "code",
+      "source_file": "scripts/update_news.py",
+      "source_location": "L160"
+    },
+    {
+      "id": "scripts_update_news_main",
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "scripts/update_news.py",
+      "source_location": "L205"
+    },
+    {
+      "id": "scripts_update_news_rationale_135",
+      "label": "Sort news.csv in place so the latest news appears at the very end.",
+      "file_type": "rationale",
+      "source_file": "scripts/update_news.py",
+      "source_location": "L135"
+    },
+    {
+      "id": "scripts_update_pub_py",
+      "label": "update_pub.py",
+      "file_type": "code",
+      "source_file": "scripts/update_pub.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "scripts_update_pub_generate_publication_json",
+      "label": "generate_publication_json()",
+      "file_type": "code",
+      "source_file": "scripts/update_pub.py",
+      "source_location": "L4"
+    },
+    {
+      "id": "scripts_update_pub_rationale_5",
+      "label": "Parses BibTeX and outputs a clean JSON array for the static site.",
+      "file_type": "rationale",
+      "source_file": "scripts/update_pub.py",
+      "source_location": "L5"
+    },
+    {
+      "id": "scripts_update_projects_py",
+      "label": "update_projects.py",
+      "file_type": "code",
+      "source_file": "scripts/update_projects.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "scripts_update_projects_slugify",
+      "label": "slugify()",
+      "file_type": "code",
+      "source_file": "scripts/update_projects.py",
+      "source_location": "L12"
+    },
+    {
+      "id": "scripts_update_projects_image_name_from_title",
+      "label": "image_name_from_title()",
+      "file_type": "code",
+      "source_file": "scripts/update_projects.py",
+      "source_location": "L25"
+    },
+    {
+      "id": "scripts_update_projects_infer_tags",
+      "label": "infer_tags()",
+      "file_type": "code",
+      "source_file": "scripts/update_projects.py",
+      "source_location": "L41"
+    },
+    {
+      "id": "scripts_update_projects_load_existing_json",
+      "label": "load_existing_json()",
+      "file_type": "code",
+      "source_file": "scripts/update_projects.py",
+      "source_location": "L81"
+    },
+    {
+      "id": "scripts_update_projects_rationale_13",
+      "label": "Convert title to URL-safe id:     'Few-Shot Transfer Learning for Performance'",
+      "file_type": "rationale",
+      "source_file": "scripts/update_projects.py",
+      "source_location": "L13"
+    },
+    {
+      "id": "scripts_update_projects_rationale_26",
+      "label": "Creates image path:     PerfGen -> images/projects/perfgen.png",
+      "file_type": "rationale",
+      "source_file": "scripts/update_projects.py",
+      "source_location": "L26"
+    },
+    {
+      "id": "scripts_update_projects_rationale_42",
+      "label": "Extract rough tags from project title + description.      Extend this dictionary",
+      "file_type": "rationale",
+      "source_file": "scripts/update_projects.py",
+      "source_location": "L42"
+    },
+    {
+      "id": "scripts_generate_mindmap_data_py",
+      "label": "generate_mindmap_data.py",
+      "file_type": "code",
+      "source_file": "scripts/generate_mindmap_data.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "scripts_generate_mindmap_data_parse_bibtex",
+      "label": "parse_bibtex()",
+      "file_type": "code",
+      "source_file": "scripts/generate_mindmap_data.py",
+      "source_location": "L4"
+    },
+    {
+      "id": "scripts_generate_mindmap_data_build_hierarchy",
+      "label": "build_hierarchy()",
+      "file_type": "code",
+      "source_file": "scripts/generate_mindmap_data.py",
+      "source_location": "L31"
+    },
+    {
+      "id": "scripts_generate_mindmap_data_rationale_5",
+      "label": "A simple parser to extract publications from a BibTeX string.     In a real scen",
+      "file_type": "rationale",
+      "source_file": "scripts/generate_mindmap_data.py",
+      "source_location": "L5"
+    },
+    {
+      "id": "scripts_generate_mindmap_data_rationale_32",
+      "label": "Builds a hierarchical JSON structure for the D3 mindmap.     Root -> Research Ar",
+      "file_type": "rationale",
+      "source_file": "scripts/generate_mindmap_data.py",
+      "source_location": "L32"
+    },
+    {
+      "id": "src_app_tsx",
+      "label": "App.tsx",
+      "file_type": "code",
+      "source_file": "src/App.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_app_theme",
+      "label": "Theme",
+      "file_type": "code",
+      "source_file": "src/App.tsx",
+      "source_location": "L13"
+    },
+    {
+      "id": "src_app_getsystemtheme",
+      "label": "getSystemTheme()",
+      "file_type": "code",
+      "source_file": "src/App.tsx",
+      "source_location": "L15"
+    },
+    {
+      "id": "src_app_wavedivider",
+      "label": "WaveDivider()",
+      "file_type": "code",
+      "source_file": "src/App.tsx",
+      "source_location": "L22"
+    },
+    {
+      "id": "src_app_zone",
+      "label": "Zone()",
+      "file_type": "code",
+      "source_file": "src/App.tsx",
+      "source_location": "L44"
+    },
+    {
+      "id": "src_app_app",
+      "label": "App()",
+      "file_type": "code",
+      "source_file": "src/App.tsx",
+      "source_location": "L52"
+    },
+    {
+      "id": "src_main_tsx",
+      "label": "main.tsx",
+      "file_type": "code",
+      "source_file": "src/main.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_components_projects_tsx",
+      "label": "Projects.tsx",
+      "file_type": "code",
+      "source_file": "src/components/Projects.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "components_projects_project",
+      "label": "Project",
+      "file_type": "code",
+      "source_file": "src/components/Projects.tsx",
+      "source_location": "L4"
+    },
+    {
+      "id": "components_projects_allprojects",
+      "label": "allProjects",
+      "file_type": "code",
+      "source_file": "src/components/Projects.tsx",
+      "source_location": "L15"
+    },
+    {
+      "id": "components_projects_projects",
+      "label": "Projects()",
+      "file_type": "code",
+      "source_file": "src/components/Projects.tsx",
+      "source_location": "L17"
+    },
+    {
+      "id": "components_projects_projectcard",
+      "label": "ProjectCard()",
+      "file_type": "code",
+      "source_file": "src/components/Projects.tsx",
+      "source_location": "L70"
+    },
+    {
+      "id": "src_components_hero_tsx",
+      "label": "Hero.tsx",
+      "file_type": "code",
+      "source_file": "src/components/Hero.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "components_hero_heroprops",
+      "label": "HeroProps",
+      "file_type": "code",
+      "source_file": "src/components/Hero.tsx",
+      "source_location": "L6"
+    },
+    {
+      "id": "components_hero_hero",
+      "label": "Hero()",
+      "file_type": "code",
+      "source_file": "src/components/Hero.tsx",
+      "source_location": "L8"
+    },
+    {
+      "id": "src_components_navbar_tsx",
+      "label": "NavBar.tsx",
+      "file_type": "code",
+      "source_file": "src/components/NavBar.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "components_navbar_nav_links",
+      "label": "NAV_LINKS",
+      "file_type": "code",
+      "source_file": "src/components/NavBar.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "components_navbar_sunicon",
+      "label": "SunIcon()",
+      "file_type": "code",
+      "source_file": "src/components/NavBar.tsx",
+      "source_location": "L14"
+    },
+    {
+      "id": "components_navbar_moonicon",
+      "label": "MoonIcon()",
+      "file_type": "code",
+      "source_file": "src/components/NavBar.tsx",
+      "source_location": "L30"
+    },
+    {
+      "id": "components_navbar_navbarprops",
+      "label": "NavBarProps",
+      "file_type": "code",
+      "source_file": "src/components/NavBar.tsx",
+      "source_location": "L38"
+    },
+    {
+      "id": "components_navbar_navbar",
+      "label": "NavBar()",
+      "file_type": "code",
+      "source_file": "src/components/NavBar.tsx",
+      "source_location": "L43"
+    },
+    {
+      "id": "src_components_team_tsx",
+      "label": "Team.tsx",
+      "file_type": "code",
+      "source_file": "src/components/Team.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "components_team_member",
+      "label": "Member",
+      "file_type": "code",
+      "source_file": "src/components/Team.tsx",
+      "source_location": "L4"
+    },
+    {
+      "id": "components_team_members",
+      "label": "members",
+      "file_type": "code",
+      "source_file": "src/components/Team.tsx",
+      "source_location": "L16"
+    },
+    {
+      "id": "components_team_level_order",
+      "label": "LEVEL_ORDER",
+      "file_type": "code",
+      "source_file": "src/components/Team.tsx",
+      "source_location": "L18"
+    },
+    {
+      "id": "components_team_level_colors",
+      "label": "LEVEL_COLORS",
+      "file_type": "code",
+      "source_file": "src/components/Team.tsx",
+      "source_location": "L19"
+    },
+    {
+      "id": "components_team_groupbylevel",
+      "label": "groupByLevel()",
+      "file_type": "code",
+      "source_file": "src/components/Team.tsx",
+      "source_location": "L28"
+    },
+    {
+      "id": "components_team_team",
+      "label": "Team()",
+      "file_type": "code",
+      "source_file": "src/components/Team.tsx",
+      "source_location": "L37"
+    },
+    {
+      "id": "components_team_membercard",
+      "label": "MemberCard()",
+      "file_type": "code",
+      "source_file": "src/components/Team.tsx",
+      "source_location": "L105"
+    },
+    {
+      "id": "src_components_news_tsx",
+      "label": "News.tsx",
+      "file_type": "code",
+      "source_file": "src/components/News.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "components_news_newsentry",
+      "label": "NewsEntry",
+      "file_type": "code",
+      "source_file": "src/components/News.tsx",
+      "source_location": "L4"
+    },
+    {
+      "id": "components_news_news",
+      "label": "news",
+      "file_type": "code",
+      "source_file": "src/components/News.tsx",
+      "source_location": "L12"
+    },
+    {
+      "id": "components_news_dot_colors",
+      "label": "DOT_COLORS",
+      "file_type": "code",
+      "source_file": "src/components/News.tsx",
+      "source_location": "L15"
+    },
+    {
+      "id": "src_components_contact_tsx",
+      "label": "Contact.tsx",
+      "file_type": "code",
+      "source_file": "src/components/Contact.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "components_contact_contact",
+      "label": "Contact()",
+      "file_type": "code",
+      "source_file": "src/components/Contact.tsx",
+      "source_location": "L4"
+    },
+    {
+      "id": "src_components_publicationmindmap_tsx",
+      "label": "PublicationMindmap.tsx",
+      "file_type": "code",
+      "source_file": "src/components/PublicationMindmap.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "components_publicationmindmap_mindmapnode",
+      "label": "MindmapNode",
+      "file_type": "code",
+      "source_file": "src/components/PublicationMindmap.tsx",
+      "source_location": "L5"
+    },
+    {
+      "id": "components_publicationmindmap_research_themes",
+      "label": "RESEARCH_THEMES",
+      "file_type": "code",
+      "source_file": "src/components/PublicationMindmap.tsx",
+      "source_location": "L11"
+    },
+    {
+      "id": "components_publicationmindmap_buildtreehierarchy",
+      "label": "buildTreeHierarchy()",
+      "file_type": "code",
+      "source_file": "src/components/PublicationMindmap.tsx",
+      "source_location": "L19"
+    },
+    {
+      "id": "components_publicationmindmap_publicationmindmap",
+      "label": "PublicationMindmap()",
+      "file_type": "code",
+      "source_file": "src/components/PublicationMindmap.tsx",
+      "source_location": "L60"
+    },
+    {
+      "id": "src_components_research_tsx",
+      "label": "Research.tsx",
+      "file_type": "code",
+      "source_file": "src/components/Research.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "components_research_keywordentry",
+      "label": "KeywordEntry",
+      "file_type": "code",
+      "source_file": "src/components/Research.tsx",
+      "source_location": "L7"
+    },
+    {
+      "id": "components_research_cloudword",
+      "label": "CloudWord",
+      "file_type": "code",
+      "source_file": "src/components/Research.tsx",
+      "source_location": "L8"
+    },
+    {
+      "id": "components_research_project",
+      "label": "Project",
+      "file_type": "code",
+      "source_file": "src/components/Research.tsx",
+      "source_location": "L10"
+    },
+    {
+      "id": "components_research_allprojects",
+      "label": "allProjects",
+      "file_type": "code",
+      "source_file": "src/components/Research.tsx",
+      "source_location": "L21"
+    },
+    {
+      "id": "components_research_wordcloud",
+      "label": "WordCloud()",
+      "file_type": "code",
+      "source_file": "src/components/Research.tsx",
+      "source_location": "L26"
+    },
+    {
+      "id": "components_research_projectcard",
+      "label": "ProjectCard()",
+      "file_type": "code",
+      "source_file": "src/components/Research.tsx",
+      "source_location": "L88"
+    },
+    {
+      "id": "components_research_arrowstyle",
+      "label": "arrowStyle",
+      "file_type": "code",
+      "source_file": "src/components/Research.tsx",
+      "source_location": "L173"
+    },
+    {
+      "id": "components_research_projectcarousel",
+      "label": "ProjectCarousel()",
+      "file_type": "code",
+      "source_file": "src/components/Research.tsx",
+      "source_location": "L196"
+    },
+    {
+      "id": "components_research_research",
+      "label": "Research()",
+      "file_type": "code",
+      "source_file": "src/components/Research.tsx",
+      "source_location": "L331"
+    },
+    {
+      "id": "src_components_funding_tsx",
+      "label": "Funding.tsx",
+      "file_type": "code",
+      "source_file": "src/components/Funding.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "components_funding_funders",
+      "label": "FUNDERS",
+      "file_type": "code",
+      "source_file": "src/components/Funding.tsx",
+      "source_location": "L4"
+    },
+    {
+      "id": "components_funding_funding",
+      "label": "Funding()",
+      "file_type": "code",
+      "source_file": "src/components/Funding.tsx",
+      "source_location": "L15"
+    },
+    {
+      "id": "src_components_publications_tsx",
+      "label": "Publications.tsx",
+      "file_type": "code",
+      "source_file": "src/components/Publications.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "components_publications_publication",
+      "label": "Publication",
+      "file_type": "code",
+      "source_file": "src/components/Publications.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "components_publications_publications",
+      "label": "Publications()",
+      "file_type": "code",
+      "source_file": "src/components/Publications.tsx",
+      "source_location": "L16"
+    },
+    {
+      "id": "components_publications_inputstyle",
+      "label": "inputStyle",
+      "file_type": "code",
+      "source_file": "src/components/Publications.tsx",
+      "source_location": "L210"
+    },
+    {
+      "id": "src_components_about_tsx",
+      "label": "About.tsx",
+      "file_type": "code",
+      "source_file": "src/components/About.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "components_about_usecountup",
+      "label": "useCountUp()",
+      "file_type": "code",
+      "source_file": "src/components/About.tsx",
+      "source_location": "L5"
+    },
+    {
+      "id": "components_about_about",
+      "label": "About()",
+      "file_type": "code",
+      "source_file": "src/components/About.tsx",
+      "source_location": "L22"
+    },
+    {
+      "id": "components_about_linkstyle",
+      "label": "linkStyle",
+      "file_type": "code",
+      "source_file": "src/components/About.tsx",
+      "source_location": "L153"
+    }
+  ],
+  "edges": [
+    {
+      "source": "mkhtml_py",
+      "target": "json",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "mkhtml.py",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "mkhtml_py",
+      "target": "os",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "mkhtml.py",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "mkhtml_py",
+      "target": "re",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "mkhtml.py",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "mkhtml_py",
+      "target": "errno",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "mkhtml.py",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "mkhtml_py",
+      "target": "per4ml_mkhtml_pubparser",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mkhtml.py",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "per4ml_mkhtml_pubparser",
+      "target": "per4ml_mkhtml_pubparser_init",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "mkhtml.py",
+      "source_location": "L41",
+      "weight": 1.0
+    },
+    {
+      "source": "mkhtml_py",
+      "target": "per4ml_mkhtml_nextfield",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mkhtml.py",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
+      "source": "per4ml_mkhtml_pubparser",
+      "target": "per4ml_mkhtml_pubparser_nextbib",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "mkhtml.py",
+      "source_location": "L70",
+      "weight": 1.0
+    },
+    {
+      "source": "per4ml_mkhtml_pubparser",
+      "target": "per4ml_mkhtml_pubparser_iter",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "mkhtml.py",
+      "source_location": "L102",
+      "weight": 1.0
+    },
+    {
+      "source": "per4ml_mkhtml_pubparser",
+      "target": "per4ml_mkhtml_pubparser_next",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "mkhtml.py",
+      "source_location": "L110",
+      "weight": 1.0
+    },
+    {
+      "source": "mkhtml_py",
+      "target": "per4ml_mkhtml_htmltemplate",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mkhtml.py",
+      "source_location": "L116",
+      "weight": 1.0
+    },
+    {
+      "source": "per4ml_mkhtml_htmltemplate",
+      "target": "per4ml_mkhtml_htmltemplate_init",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "mkhtml.py",
+      "source_location": "L117",
+      "weight": 1.0
+    },
+    {
+      "source": "per4ml_mkhtml_htmltemplate",
+      "target": "per4ml_mkhtml_htmltemplate_fill",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "mkhtml.py",
+      "source_location": "L125",
+      "weight": 1.0
+    },
+    {
+      "source": "per4ml_mkhtml_htmltemplate",
+      "target": "per4ml_mkhtml_htmltemplate_processcontent",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "mkhtml.py",
+      "source_location": "L139",
+      "weight": 1.0
+    },
+    {
+      "source": "per4ml_mkhtml_htmltemplate",
+      "target": "per4ml_mkhtml_htmltemplate_parsemembers",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "mkhtml.py",
+      "source_location": "L159",
+      "weight": 1.0
+    },
+    {
+      "source": "per4ml_mkhtml_htmltemplate",
+      "target": "per4ml_mkhtml_htmltemplate_parsenews",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "mkhtml.py",
+      "source_location": "L190",
+      "weight": 1.0
+    },
+    {
+      "source": "per4ml_mkhtml_htmltemplate",
+      "target": "per4ml_mkhtml_htmltemplate_parsepubs",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "mkhtml.py",
+      "source_location": "L209",
+      "weight": 1.0
+    },
+    {
+      "source": "per4ml_mkhtml_pubparser_nextbib",
+      "target": "per4ml_mkhtml_nextfield",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "mkhtml.py",
+      "source_location": "L91",
+      "weight": 1.0
+    },
+    {
+      "source": "per4ml_mkhtml_pubparser_iter",
+      "target": "per4ml_mkhtml_pubparser_nextbib",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "mkhtml.py",
+      "source_location": "L104",
+      "weight": 1.0
+    },
+    {
+      "source": "per4ml_mkhtml_htmltemplate_processcontent",
+      "target": "per4ml_mkhtml_htmltemplate_parsepubs",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "mkhtml.py",
+      "source_location": "L144",
+      "weight": 1.0
+    },
+    {
+      "source": "per4ml_mkhtml_htmltemplate_processcontent",
+      "target": "per4ml_mkhtml_htmltemplate_parsenews",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "mkhtml.py",
+      "source_location": "L146",
+      "weight": 1.0
+    },
+    {
+      "source": "per4ml_mkhtml_htmltemplate_processcontent",
+      "target": "per4ml_mkhtml_htmltemplate_parsemembers",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "mkhtml.py",
+      "source_location": "L148",
+      "weight": 1.0
+    },
+    {
+      "source": "per4ml_mkhtml_htmltemplate_processcontent",
+      "target": "per4ml_mkhtml_htmltemplate_fill",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "mkhtml.py",
+      "source_location": "L153",
+      "weight": 1.0
+    },
+    {
+      "source": "per4ml_mkhtml_htmltemplate_parsepubs",
+      "target": "per4ml_mkhtml_pubparser",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "mkhtml.py",
+      "source_location": "L211",
+      "weight": 1.0
+    },
+    {
+      "source": "per4ml_mkhtml_htmltemplate_parsepubs",
+      "target": "per4ml_mkhtml_nextfield",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "mkhtml.py",
+      "source_location": "L250",
+      "weight": 1.0
+    },
+    {
+      "source": "vite_config_ts",
+      "target": "vite",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "vite.config.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "vite_config_ts",
+      "target": "plugin_react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "vite.config.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "vite_config_ts",
+      "target": "path",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "vite.config.ts",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "vite_config_ts",
+      "target": "vite",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "vite.config.ts",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "vite_config_ts",
+      "target": "per4ml_vite_config_env",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "vite.config.ts",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_bib2json_py",
+      "target": "json",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/bib2json.py",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_bib2json_py",
+      "target": "math",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/bib2json.py",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_bib2json_py",
+      "target": "os",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/bib2json.py",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_bib2json_py",
+      "target": "re",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/bib2json.py",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_bib2json_py",
+      "target": "sys",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/bib2json.py",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_bib2json_py",
+      "target": "datetime",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/bib2json.py",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_bib2json_py",
+      "target": "bibtexparser",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/bib2json.py",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_bib2json_py",
+      "target": "bibtexparser_bparser",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/bib2json.py",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_bib2json_py",
+      "target": "bibtexparser_customization",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/bib2json.py",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_bib2json_py",
+      "target": "scripts_bib2json_clean_latex",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/bib2json.py",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_bib2json_py",
+      "target": "scripts_bib2json_split_authors",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/bib2json.py",
+      "source_location": "L52",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_bib2json_py",
+      "target": "scripts_bib2json_extract_award",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/bib2json.py",
+      "source_location": "L60",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_bib2json_py",
+      "target": "scripts_bib2json_load_bib",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/bib2json.py",
+      "source_location": "L67",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_bib2json_py",
+      "target": "scripts_bib2json_job1_publications",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/bib2json.py",
+      "source_location": "L75",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_bib2json_py",
+      "target": "scripts_bib2json_job2_keywords",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/bib2json.py",
+      "source_location": "L102",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_bib2json_py",
+      "target": "scripts_bib2json_job3_stats",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/bib2json.py",
+      "source_location": "L130",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_bib2json_py",
+      "target": "scripts_bib2json_main",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/bib2json.py",
+      "source_location": "L137",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_bib2json_split_authors",
+      "target": "scripts_bib2json_clean_latex",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/bib2json.py",
+      "source_location": "L57",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_bib2json_job1_publications",
+      "target": "scripts_bib2json_clean_latex",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/bib2json.py",
+      "source_location": "L78",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_bib2json_job1_publications",
+      "target": "scripts_bib2json_extract_award",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/bib2json.py",
+      "source_location": "L80",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_bib2json_job1_publications",
+      "target": "scripts_bib2json_split_authors",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/bib2json.py",
+      "source_location": "L87",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_bib2json_main",
+      "target": "scripts_bib2json_load_bib",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/bib2json.py",
+      "source_location": "L145",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_bib2json_main",
+      "target": "scripts_bib2json_job1_publications",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/bib2json.py",
+      "source_location": "L148",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_bib2json_main",
+      "target": "scripts_bib2json_job2_keywords",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/bib2json.py",
+      "source_location": "L154",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_bib2json_main",
+      "target": "scripts_bib2json_job3_stats",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/bib2json.py",
+      "source_location": "L161",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_bib2json_rationale_31",
+      "target": "scripts_bib2json_clean_latex",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/bib2json.py",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_bib2json_rationale_53",
+      "target": "scripts_bib2json_split_authors",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/bib2json.py",
+      "source_location": "L53",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_bib2json_rationale_61",
+      "target": "scripts_bib2json_extract_award",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/bib2json.py",
+      "source_location": "L61",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_update_members_py",
+      "target": "pandas",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/update_members.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_update_members_py",
+      "target": "json",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/update_members.py",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_update_members_py",
+      "target": "os",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/update_members.py",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_update_members_py",
+      "target": "re",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/update_members.py",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_update_members_py",
+      "target": "datetime",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/update_members.py",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_update_members_py",
+      "target": "scripts_update_members_slugify",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/update_members.py",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_update_members_py",
+      "target": "scripts_update_members_normalize_level",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/update_members.py",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_update_members_py",
+      "target": "scripts_update_members_default_role",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/update_members.py",
+      "source_location": "L59",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_update_members_rationale_16",
+      "target": "scripts_update_members_slugify",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/update_members.py",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_update_news_py",
+      "target": "argparse",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/update_news.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_update_news_py",
+      "target": "csv",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/update_news.py",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_update_news_py",
+      "target": "json",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/update_news.py",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_update_news_py",
+      "target": "re",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/update_news.py",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_update_news_py",
+      "target": "pathlib",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/update_news.py",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_update_news_py",
+      "target": "html",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/update_news.py",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_update_news_py",
+      "target": "datetime",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/update_news.py",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_update_news_py",
+      "target": "scripts_update_news_clean_html",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/update_news.py",
+      "source_location": "L40",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_update_news_py",
+      "target": "scripts_update_news_parse_date",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/update_news.py",
+      "source_location": "L52",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_update_news_py",
+      "target": "scripts_update_news_normalize_category",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/update_news.py",
+      "source_location": "L93",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_update_news_py",
+      "target": "scripts_update_news_make_news_key",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/update_news.py",
+      "source_location": "L102",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_update_news_py",
+      "target": "scripts_update_news_load_existing_news",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/update_news.py",
+      "source_location": "L109",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_update_news_py",
+      "target": "scripts_update_news_row_to_news_item",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/update_news.py",
+      "source_location": "L117",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_update_news_py",
+      "target": "scripts_update_news_sort_csv_oldest_to_newest",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/update_news.py",
+      "source_location": "L134",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_update_news_py",
+      "target": "scripts_update_news_update_news_json",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/update_news.py",
+      "source_location": "L160",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_update_news_py",
+      "target": "scripts_update_news_main",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/update_news.py",
+      "source_location": "L205",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_update_news_normalize_category",
+      "target": "scripts_update_news_clean_html",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/update_news.py",
+      "source_location": "L94",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_update_news_row_to_news_item",
+      "target": "scripts_update_news_clean_html",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/update_news.py",
+      "source_location": "L118",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_update_news_row_to_news_item",
+      "target": "scripts_update_news_parse_date",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/update_news.py",
+      "source_location": "L120",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_update_news_row_to_news_item",
+      "target": "scripts_update_news_normalize_category",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/update_news.py",
+      "source_location": "L122",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_update_news_sort_csv_oldest_to_newest",
+      "target": "scripts_update_news_parse_date",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/update_news.py",
+      "source_location": "L145",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_update_news_update_news_json",
+      "target": "scripts_update_news_load_existing_news",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/update_news.py",
+      "source_location": "L161",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_update_news_update_news_json",
+      "target": "scripts_update_news_make_news_key",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/update_news.py",
+      "source_location": "L164",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_update_news_update_news_json",
+      "target": "scripts_update_news_row_to_news_item",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/update_news.py",
+      "source_location": "L174",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_update_news_main",
+      "target": "scripts_update_news_sort_csv_oldest_to_newest",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/update_news.py",
+      "source_location": "L219",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_update_news_main",
+      "target": "scripts_update_news_update_news_json",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/update_news.py",
+      "source_location": "L221",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_update_news_rationale_135",
+      "target": "scripts_update_news_sort_csv_oldest_to_newest",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/update_news.py",
+      "source_location": "L135",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_update_pub_py",
+      "target": "json",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/update_pub.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_update_pub_py",
+      "target": "bibtexparser",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/update_pub.py",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_update_pub_py",
+      "target": "scripts_update_pub_generate_publication_json",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/update_pub.py",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_update_pub_rationale_5",
+      "target": "scripts_update_pub_generate_publication_json",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/update_pub.py",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_update_projects_py",
+      "target": "csv",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/update_projects.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_update_projects_py",
+      "target": "json",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/update_projects.py",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_update_projects_py",
+      "target": "re",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/update_projects.py",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_update_projects_py",
+      "target": "os",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/update_projects.py",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_update_projects_py",
+      "target": "pathlib",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/update_projects.py",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_update_projects_py",
+      "target": "scripts_update_projects_slugify",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/update_projects.py",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_update_projects_py",
+      "target": "scripts_update_projects_image_name_from_title",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/update_projects.py",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_update_projects_py",
+      "target": "scripts_update_projects_infer_tags",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/update_projects.py",
+      "source_location": "L41",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_update_projects_py",
+      "target": "scripts_update_projects_load_existing_json",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/update_projects.py",
+      "source_location": "L81",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_update_projects_image_name_from_title",
+      "target": "scripts_update_projects_slugify",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/update_projects.py",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_update_projects_rationale_13",
+      "target": "scripts_update_projects_slugify",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/update_projects.py",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_update_projects_rationale_26",
+      "target": "scripts_update_projects_image_name_from_title",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/update_projects.py",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_update_projects_rationale_42",
+      "target": "scripts_update_projects_infer_tags",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/update_projects.py",
+      "source_location": "L42",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_generate_mindmap_data_py",
+      "target": "json",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/generate_mindmap_data.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_generate_mindmap_data_py",
+      "target": "re",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/generate_mindmap_data.py",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_generate_mindmap_data_py",
+      "target": "scripts_generate_mindmap_data_parse_bibtex",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/generate_mindmap_data.py",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_generate_mindmap_data_py",
+      "target": "scripts_generate_mindmap_data_build_hierarchy",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/generate_mindmap_data.py",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_generate_mindmap_data_rationale_5",
+      "target": "scripts_generate_mindmap_data_parse_bibtex",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/generate_mindmap_data.py",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_generate_mindmap_data_rationale_32",
+      "target": "scripts_generate_mindmap_data_build_hierarchy",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/generate_mindmap_data.py",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_tsx",
+      "target": "src_components_navbar_tsx",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_tsx",
+      "target": "src_components_hero_tsx",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_tsx",
+      "target": "src_components_about_tsx",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_tsx",
+      "target": "src_components_research_tsx",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_tsx",
+      "target": "src_components_news_tsx",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_tsx",
+      "target": "src_components_team_tsx",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_tsx",
+      "target": "src_components_publications_tsx",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_tsx",
+      "target": "src_components_projects_tsx",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_tsx",
+      "target": "src_components_funding_tsx",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_tsx",
+      "target": "src_components_contact_tsx",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_tsx",
+      "target": "src_app_theme",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_tsx",
+      "target": "src_app_getsystemtheme",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_tsx",
+      "target": "src_app_wavedivider",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_tsx",
+      "target": "src_app_zone",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L44",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_tsx",
+      "target": "src_app_app",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L52",
+      "weight": 1.0
+    },
+    {
+      "source": "src_main_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_main_tsx",
+      "target": "client",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_main_tsx",
+      "target": "src_app_tsx",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_main_tsx",
+      "target": "users_tanzi_research_stash_per4ml_src_index_css",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_projects_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Projects.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_projects_tsx",
+      "target": "users_tanzi_research_stash_per4ml_contents_projects_json",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Projects.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_projects_tsx",
+      "target": "components_projects_project",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Projects.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_projects_tsx",
+      "target": "components_projects_allprojects",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Projects.tsx",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_projects_tsx",
+      "target": "components_projects_projects",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Projects.tsx",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_projects_tsx",
+      "target": "components_projects_projectcard",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Projects.tsx",
+      "source_location": "L70",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_hero_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Hero.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_hero_tsx",
+      "target": "components_hero_heroprops",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Hero.tsx",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_hero_tsx",
+      "target": "components_hero_hero",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Hero.tsx",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_navbar_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/NavBar.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_navbar_tsx",
+      "target": "components_navbar_nav_links",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/NavBar.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_navbar_tsx",
+      "target": "components_navbar_sunicon",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/NavBar.tsx",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_navbar_tsx",
+      "target": "components_navbar_moonicon",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/NavBar.tsx",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_navbar_tsx",
+      "target": "components_navbar_navbarprops",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/NavBar.tsx",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_navbar_tsx",
+      "target": "components_navbar_navbar",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/NavBar.tsx",
+      "source_location": "L43",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_team_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Team.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_team_tsx",
+      "target": "users_tanzi_research_stash_per4ml_contents_members_json",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Team.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_team_tsx",
+      "target": "components_team_member",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Team.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_team_tsx",
+      "target": "components_team_members",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Team.tsx",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_team_tsx",
+      "target": "components_team_level_order",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Team.tsx",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_team_tsx",
+      "target": "components_team_level_colors",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Team.tsx",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_team_tsx",
+      "target": "components_team_groupbylevel",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Team.tsx",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_team_tsx",
+      "target": "components_team_team",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Team.tsx",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_team_tsx",
+      "target": "components_team_membercard",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Team.tsx",
+      "source_location": "L105",
+      "weight": 1.0
+    },
+    {
+      "source": "components_team_team",
+      "target": "components_team_groupbylevel",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Team.tsx",
+      "source_location": "L50",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_news_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/News.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_news_tsx",
+      "target": "users_tanzi_research_stash_per4ml_contents_news_json",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/News.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_news_tsx",
+      "target": "components_news_newsentry",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/News.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_news_tsx",
+      "target": "components_news_news",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/News.tsx",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_news_tsx",
+      "target": "components_news_dot_colors",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/News.tsx",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_news_tsx",
+      "target": "components_news_news",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/News.tsx",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_contact_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Contact.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_contact_tsx",
+      "target": "users_tanzi_research_stash_per4ml_contents_pi_json",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Contact.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_contact_tsx",
+      "target": "components_contact_contact",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Contact.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_publicationmindmap_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/PublicationMindmap.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_publicationmindmap_tsx",
+      "target": "d3",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/PublicationMindmap.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_publicationmindmap_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/PublicationMindmap.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_publicationmindmap_tsx",
+      "target": "components_publicationmindmap_mindmapnode",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/PublicationMindmap.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_publicationmindmap_tsx",
+      "target": "components_publicationmindmap_research_themes",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/PublicationMindmap.tsx",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_publicationmindmap_tsx",
+      "target": "components_publicationmindmap_buildtreehierarchy",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/PublicationMindmap.tsx",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_publicationmindmap_tsx",
+      "target": "components_publicationmindmap_publicationmindmap",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/PublicationMindmap.tsx",
+      "source_location": "L60",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_research_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Research.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_research_tsx",
+      "target": "d3",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Research.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_research_tsx",
+      "target": "d3_cloud",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Research.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_research_tsx",
+      "target": "users_tanzi_research_stash_per4ml_contents_projects_json",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Research.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_research_tsx",
+      "target": "components_research_keywordentry",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Research.tsx",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_research_tsx",
+      "target": "components_research_cloudword",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Research.tsx",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_research_tsx",
+      "target": "components_research_project",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Research.tsx",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_research_tsx",
+      "target": "components_research_allprojects",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Research.tsx",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_research_tsx",
+      "target": "components_research_wordcloud",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Research.tsx",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_research_tsx",
+      "target": "components_research_projectcard",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Research.tsx",
+      "source_location": "L88",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_research_tsx",
+      "target": "components_research_arrowstyle",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Research.tsx",
+      "source_location": "L173",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_research_tsx",
+      "target": "components_research_projectcarousel",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Research.tsx",
+      "source_location": "L196",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_research_tsx",
+      "target": "components_research_research",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Research.tsx",
+      "source_location": "L331",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_funding_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Funding.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_funding_tsx",
+      "target": "users_tanzi_research_stash_per4ml_contents_pi_json",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Funding.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_funding_tsx",
+      "target": "components_funding_funders",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Funding.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_funding_tsx",
+      "target": "components_funding_funding",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Funding.tsx",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_publications_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Publications.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_publications_tsx",
+      "target": "components_publications_publication",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Publications.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_publications_tsx",
+      "target": "components_publications_publications",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Publications.tsx",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_publications_tsx",
+      "target": "components_publications_inputstyle",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Publications.tsx",
+      "source_location": "L210",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_about_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/About.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_about_tsx",
+      "target": "users_tanzi_research_stash_per4ml_contents_pi_json",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/About.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_about_tsx",
+      "target": "users_tanzi_research_stash_per4ml_src_data_stats_json",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/About.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_about_tsx",
+      "target": "components_about_usecountup",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/About.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_about_tsx",
+      "target": "components_about_about",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/About.tsx",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_about_tsx",
+      "target": "components_about_linkstyle",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/About.tsx",
+      "source_location": "L153",
+      "weight": 1.0
+    },
+    {
+      "source": "components_about_about",
+      "target": "components_about_usecountup",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/About.tsx",
+      "source_location": "L35",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

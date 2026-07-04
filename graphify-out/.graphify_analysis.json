@@ -1,0 +1,461 @@
+{
+  "communities": {
+    "0": [
+      "components_contact_contact",
+      "components_funding_funders",
+      "components_funding_funding",
+      "components_hero_hero",
+      "components_hero_heroprops",
+      "components_navbar_moonicon",
+      "components_navbar_nav_links",
+      "components_navbar_navbar",
+      "components_navbar_navbarprops",
+      "components_navbar_sunicon",
+      "components_news_dot_colors",
+      "components_news_news",
+      "components_news_newsentry",
+      "components_projects_allprojects",
+      "components_projects_project",
+      "components_projects_projectcard",
+      "components_projects_projects",
+      "components_publications_inputstyle",
+      "components_publications_publication",
+      "components_publications_publications",
+      "src_app_app",
+      "src_app_getsystemtheme",
+      "src_app_theme",
+      "src_app_tsx",
+      "src_app_wavedivider",
+      "src_app_zone",
+      "src_components_contact_tsx",
+      "src_components_funding_tsx",
+      "src_components_hero_tsx",
+      "src_components_navbar_tsx",
+      "src_components_news_tsx",
+      "src_components_projects_tsx",
+      "src_components_publications_tsx",
+      "src_main_tsx"
+    ],
+    "1": [
+      "ai_discoverability",
+      "bib2json_pipeline",
+      "claude_md",
+      "compass",
+      "contents_blank_html",
+      "data_efficient_ml",
+      "few_shot_learning",
+      "gemini_api_key",
+      "hpc_performance_modeling",
+      "index_html",
+      "keyword_wordcloud",
+      "legacy_static_site",
+      "modelx",
+      "optix",
+      "perfgen",
+      "plan_md",
+      "public_blank_html",
+      "public_llms_txt",
+      "public_robots_txt",
+      "quantumx",
+      "readme_md",
+      "recup",
+      "research_carousel_md",
+      "tanzima_islam",
+      "transfer_learning",
+      "vite_react_stack"
+    ],
+    "2": [
+      "avatar752_image",
+      "courses2_image",
+      "csedico_image",
+      "papersico2_image",
+      "per4ml_lab",
+      "per4ml_png",
+      "per4ml_svg",
+      "team_anklah",
+      "team_arudey",
+      "team_ashahm",
+      "team_avaram",
+      "team_banban",
+      "team_chaphe",
+      "team_elvfef",
+      "team_jaysra",
+      "team_mohzae",
+      "team_nawtan",
+      "team_nirban",
+      "team_yugbha"
+    ],
+    "3": [
+      "avatar752_icon",
+      "courses2_icon",
+      "csedico_icon",
+      "images_avatar752_icon",
+      "images_courses2_icon",
+      "images_csedico_icon",
+      "images_papersico2_icon",
+      "images_per4ml_logo_png",
+      "images_per4ml_logo_svg",
+      "member_arunavo",
+      "member_jaya",
+      "member_nirajan",
+      "member_tanzima",
+      "member_yugesh",
+      "member_zaeed",
+      "papersico2_icon",
+      "per4ml_logo_png",
+      "per4ml_logo_svg"
+    ],
+    "4": [
+      "cmtbone_comm_coverage_chart",
+      "cmtbone_resource_importance",
+      "dashing_perf_counter_wheel",
+      "dashing_plasma_dgemm",
+      "fractal_llm_pipeline",
+      "fractal_llm_translation",
+      "fractal_relative_performance",
+      "ping_comd_config",
+      "ping_cosine_similarity",
+      "ping_graph_construction",
+      "recup_feature_selection",
+      "recup_lu_lattice_diagram",
+      "veritas_perf_dump",
+      "veritas_preprocessor_module",
+      "veritas_struct_diagram"
+    ],
+    "5": [
+      "mkhtml_py",
+      "per4ml_mkhtml_htmltemplate",
+      "per4ml_mkhtml_htmltemplate_fill",
+      "per4ml_mkhtml_htmltemplate_init",
+      "per4ml_mkhtml_htmltemplate_parsemembers",
+      "per4ml_mkhtml_htmltemplate_parsenews",
+      "per4ml_mkhtml_htmltemplate_parsepubs",
+      "per4ml_mkhtml_htmltemplate_processcontent",
+      "per4ml_mkhtml_nextfield",
+      "per4ml_mkhtml_pubparser",
+      "per4ml_mkhtml_pubparser_init",
+      "per4ml_mkhtml_pubparser_iter",
+      "per4ml_mkhtml_pubparser_next",
+      "per4ml_mkhtml_pubparser_nextbib"
+    ],
+    "6": [
+      "scripts_bib2json_clean_latex",
+      "scripts_bib2json_extract_award",
+      "scripts_bib2json_job1_publications",
+      "scripts_bib2json_job2_keywords",
+      "scripts_bib2json_job3_stats",
+      "scripts_bib2json_load_bib",
+      "scripts_bib2json_main",
+      "scripts_bib2json_py",
+      "scripts_bib2json_rationale_31",
+      "scripts_bib2json_rationale_53",
+      "scripts_bib2json_rationale_61",
+      "scripts_bib2json_split_authors"
+    ],
+    "7": [
+      "scripts_update_news_clean_html",
+      "scripts_update_news_load_existing_news",
+      "scripts_update_news_main",
+      "scripts_update_news_make_news_key",
+      "scripts_update_news_normalize_category",
+      "scripts_update_news_parse_date",
+      "scripts_update_news_py",
+      "scripts_update_news_rationale_135",
+      "scripts_update_news_row_to_news_item",
+      "scripts_update_news_sort_csv_oldest_to_newest",
+      "scripts_update_news_update_news_json"
+    ],
+    "8": [
+      "components_research_allprojects",
+      "components_research_arrowstyle",
+      "components_research_cloudword",
+      "components_research_keywordentry",
+      "components_research_project",
+      "components_research_projectcard",
+      "components_research_projectcarousel",
+      "components_research_research",
+      "components_research_wordcloud",
+      "src_components_research_tsx"
+    ],
+    "9": [
+      "falcon_erasure_coding",
+      "falcon_network_transfer",
+      "falcon_recovery_overhead_chart",
+      "fta_comm_world",
+      "fta_mpi_recovery_diagram",
+      "fta_shrinking_recovery",
+      "phdthesis_ale3d_benchmark",
+      "phdthesis_cactus_benchmark",
+      "phdthesis_compression_strategy",
+      "phdthesis_recovery_overhead_chart"
+    ],
+    "10": [
+      "scripts_update_projects_image_name_from_title",
+      "scripts_update_projects_infer_tags",
+      "scripts_update_projects_load_existing_json",
+      "scripts_update_projects_py",
+      "scripts_update_projects_rationale_13",
+      "scripts_update_projects_rationale_26",
+      "scripts_update_projects_rationale_42",
+      "scripts_update_projects_slugify"
+    ],
+    "11": [
+      "components_team_groupbylevel",
+      "components_team_level_colors",
+      "components_team_level_order",
+      "components_team_member",
+      "components_team_membercard",
+      "components_team_members",
+      "components_team_team",
+      "src_components_team_tsx"
+    ],
+    "12": [
+      "comparative_code_deep_learning",
+      "comparative_code_pipeline",
+      "comparative_code_rose",
+      "ml_for_ddm_supervised",
+      "ml_for_ddm_taxonomy",
+      "ml_for_ddm_unsupervised",
+      "perfgen_architecture",
+      "perfgen_generative_model"
+    ],
+    "13": [
+      "scripts_update_members_default_role",
+      "scripts_update_members_normalize_level",
+      "scripts_update_members_py",
+      "scripts_update_members_rationale_16",
+      "scripts_update_members_slugify"
+    ],
+    "14": [
+      "scripts_generate_mindmap_data_build_hierarchy",
+      "scripts_generate_mindmap_data_parse_bibtex",
+      "scripts_generate_mindmap_data_py",
+      "scripts_generate_mindmap_data_rationale_32",
+      "scripts_generate_mindmap_data_rationale_5"
+    ],
+    "15": [
+      "components_publicationmindmap_buildtreehierarchy",
+      "components_publicationmindmap_mindmapnode",
+      "components_publicationmindmap_publicationmindmap",
+      "components_publicationmindmap_research_themes",
+      "src_components_publicationmindmap_tsx"
+    ],
+    "16": [
+      "components_about_about",
+      "components_about_linkstyle",
+      "components_about_usecountup",
+      "src_components_about_tsx"
+    ],
+    "17": [
+      "scripts_update_pub_generate_publication_json",
+      "scripts_update_pub_py",
+      "scripts_update_pub_rationale_5"
+    ],
+    "18": [
+      "per4ml_vite_config_env",
+      "vite_config_ts"
+    ],
+    "19": [
+      "powerio_idle_power_phase",
+      "powerio_paradis_power_usage"
+    ],
+    "20": [
+      "cache_high_latency_pattern",
+      "cache_latency_3d_chart"
+    ],
+    "21": [
+      "member_banooqa",
+      "member_nawshin"
+    ],
+    "22": [
+      "member_avaneesh"
+    ],
+    "23": [
+      "member_chase"
+    ],
+    "24": [
+      "member_ashna"
+    ],
+    "25": [
+      "member_elvis"
+    ],
+    "26": [
+      "member_ankur"
+    ]
+  },
+  "cohesion": {
+    "0": 0.06,
+    "1": 0.11,
+    "2": 0.12,
+    "3": 0.12,
+    "4": 0.15,
+    "5": 0.23,
+    "6": 0.29,
+    "7": 0.36,
+    "8": 0.2,
+    "9": 0.24,
+    "10": 0.29,
+    "11": 0.29,
+    "12": 0.29,
+    "13": 0.4,
+    "14": 0.4,
+    "15": 0.4,
+    "16": 0.67,
+    "17": 0.67,
+    "18": 1.0,
+    "19": 1.0,
+    "20": 1.0,
+    "21": 1.0,
+    "22": 1.0,
+    "23": 1.0,
+    "24": 1.0,
+    "25": 1.0,
+    "26": 1.0
+  },
+  "gods": [
+    {
+      "id": "per4ml_lab",
+      "label": "Per4ML Laboratory — research group at Texas State University",
+      "degree": 23
+    },
+    {
+      "id": "public_llms_txt",
+      "label": "public/llms.txt — AI crawler hints for Per4ML",
+      "degree": 10
+    },
+    {
+      "id": "plan_md",
+      "label": "PLAN.md — Per4ML website implementation plan",
+      "degree": 9
+    },
+    {
+      "id": "per4ml_mkhtml_htmltemplate",
+      "label": "HTMLTemplate",
+      "degree": 7
+    },
+    {
+      "id": "per4ml_logo_png",
+      "label": "Per4ML Logo PNG - Green stylized text logo reading 'PER4ML' with circuit board graphic, primary visual identity of the Per4ML research lab",
+      "degree": 7
+    },
+    {
+      "id": "per4ml_mkhtml_pubparser",
+      "label": "PubParser",
+      "degree": 6
+    },
+    {
+      "id": "scripts_bib2json_job1_publications",
+      "label": "job1_publications()",
+      "degree": 5
+    },
+    {
+      "id": "scripts_bib2json_main",
+      "label": "main()",
+      "degree": 5
+    },
+    {
+      "id": "scripts_update_news_row_to_news_item",
+      "label": "row_to_news_item()",
+      "degree": 5
+    },
+    {
+      "id": "scripts_update_news_update_news_json",
+      "label": "update_news_json()",
+      "degree": 5
+    }
+  ],
+  "surprises": [
+    {
+      "source": "Papers Icon (papersico2)",
+      "target": "Per4ML Laboratory — research group at Texas State University",
+      "source_files": [
+        "images/papersico2.png",
+        "index.html"
+      ],
+      "confidence": "INFERRED",
+      "relation": "conceptually_related_to",
+      "why": "inferred connection - not explicitly stated in source; crosses file types (doc ↔ image); connects across different repos/directories; peripheral node `Papers Icon (papersico2)` unexpectedly reaches hub `Per4ML Laboratory — research group at Texas State University`"
+    },
+    {
+      "source": "Courses Icon (courses2)",
+      "target": "Per4ML Laboratory — research group at Texas State University",
+      "source_files": [
+        "images/courses2.png",
+        "index.html"
+      ],
+      "confidence": "INFERRED",
+      "relation": "conceptually_related_to",
+      "why": "inferred connection - not explicitly stated in source; crosses file types (doc ↔ image); connects across different repos/directories; peripheral node `Courses Icon (courses2)` unexpectedly reaches hub `Per4ML Laboratory — research group at Texas State University`"
+    },
+    {
+      "source": "CS Education / Computer with Graduation Cap Icon",
+      "target": "Per4ML Laboratory — research group at Texas State University",
+      "source_files": [
+        "images/CSedico.png",
+        "index.html"
+      ],
+      "confidence": "INFERRED",
+      "relation": "conceptually_related_to",
+      "why": "inferred connection - not explicitly stated in source; crosses file types (doc ↔ image); connects across different repos/directories; peripheral node `CS Education / Computer with Graduation Cap Icon` unexpectedly reaches hub `Per4ML Laboratory — research group at Texas State University`"
+    },
+    {
+      "source": "Avatar / Robot Icon (avatar752)",
+      "target": "Per4ML Laboratory — research group at Texas State University",
+      "source_files": [
+        "images/avatar752.png",
+        "index.html"
+      ],
+      "confidence": "INFERRED",
+      "relation": "conceptually_related_to",
+      "why": "inferred connection - not explicitly stated in source; crosses file types (doc ↔ image); connects across different repos/directories; peripheral node `Avatar / Robot Icon (avatar752)` unexpectedly reaches hub `Per4ML Laboratory — research group at Texas State University`"
+    },
+    {
+      "source": "contents/blank.html — legacy static HTML template",
+      "target": "public/blank.html — legacy static HTML template (public copy)",
+      "source_files": [
+        "contents/blank.html",
+        "public/blank.html"
+      ],
+      "confidence": "INFERRED",
+      "relation": "semantically_similar_to",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories; semantically similar concepts with no structural link"
+    }
+  ],
+  "questions": [
+    {
+      "type": "bridge_node",
+      "question": "Why does `Per4ML Laboratory — research group at Texas State University` connect `Community 2` to `Community 1`?",
+      "why": "High betweenness centrality (0.025) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `Dr. Tanzima Z. Islam — PI, Associate Professor` connect `Community 1` to `Community 2`?",
+      "why": "High betweenness centrality (0.010) - this node is a cross-community bridge."
+    },
+    {
+      "type": "verify_inferred",
+      "question": "Are the 4 inferred relationships involving `Per4ML Laboratory — research group at Texas State University` (e.g. with `Papers Icon (papersico2)` and `Courses Icon (courses2)`) actually correct?",
+      "why": "`Per4ML Laboratory — research group at Texas State University` has 4 INFERRED edges - model-reasoned connections that need verification."
+    },
+    {
+      "type": "verify_inferred",
+      "question": "Are the 7 inferred relationships involving `Per4ML Logo PNG - Green stylized text logo reading 'PER4ML' with circuit board graphic, primary visual identity of the Per4ML research lab` (e.g. with `Per4ML Logo SVG - Scalable vector version of the Per4ML lab logo, AI-generated content signed by Canva, 1920x768px, created with Inkscape` and `Per4ML Logo PNG duplicate (images/per4ml.png) - Green Per4ML logo with circuit board graphic, duplicate in images directory`) actually correct?",
+      "why": "`Per4ML Logo PNG - Green stylized text logo reading 'PER4ML' with circuit board graphic, primary visual identity of the Per4ML research lab` has 7 INFERRED edges - model-reasoned connections that need verification."
+    },
+    {
+      "type": "isolated_nodes",
+      "question": "What connects `env`, `Remove common LaTeX markup from a string.`, `Split BibTeX author field on ' and ' into a list.` to the rest of the system?",
+      "why": "84 weakly-connected nodes found - possible documentation gaps or missing edges."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Community 0` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.06 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Community 1` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.11 - nodes in this community are weakly interconnected."
+    }
+  ]
+}

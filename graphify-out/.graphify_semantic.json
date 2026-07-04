@@ -1,0 +1,2523 @@
+{
+  "nodes": [
+    {
+      "id": "index_html",
+      "label": "index.html — SPA entry point",
+      "file_type": "code",
+      "source_file": "index.html",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_md",
+      "label": "README.md — AI Studio app setup guide",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "plan_md",
+      "label": "PLAN.md — Per4ML website implementation plan",
+      "file_type": "document",
+      "source_file": "PLAN.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "claude_md",
+      "label": "CLAUDE.md — Claude Code project instructions",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "research_carousel_md",
+      "label": "research-carousel.md — auto-scrolling project carousel spec",
+      "file_type": "document",
+      "source_file": "research-carousel.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "contents_blank_html",
+      "label": "contents/blank.html — legacy static HTML template",
+      "file_type": "code",
+      "source_file": "contents/blank.html",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_blank_html",
+      "label": "public/blank.html — legacy static HTML template (public copy)",
+      "file_type": "code",
+      "source_file": "public/blank.html",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_llms_txt",
+      "label": "public/llms.txt — AI crawler hints for Per4ML",
+      "file_type": "document",
+      "source_file": "public/llms.txt",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_robots_txt",
+      "label": "public/robots.txt — AI-discoverability directives",
+      "file_type": "document",
+      "source_file": "public/robots.txt",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "per4ml_lab",
+      "label": "Per4ML Laboratory — research group at Texas State University",
+      "file_type": "rationale",
+      "source_file": "index.html",
+      "source_location": null,
+      "source_url": "https://per4ml.github.io",
+      "captured_at": null,
+      "author": "Tanzima Z. Islam",
+      "contributor": null
+    },
+    {
+      "id": "tanzima_islam",
+      "label": "Dr. Tanzima Z. Islam — PI, Associate Professor",
+      "file_type": "rationale",
+      "source_file": "PLAN.md",
+      "source_location": null,
+      "source_url": "https://www.tanzimaislam.com",
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "hpc_performance_modeling",
+      "label": "HPC Performance Modeling — research theme",
+      "file_type": "rationale",
+      "source_file": "public/llms.txt",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "few_shot_learning",
+      "label": "Few-Shot Learning for HPC — research theme",
+      "file_type": "rationale",
+      "source_file": "public/llms.txt",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "transfer_learning",
+      "label": "Transfer Learning / Cross-System Transfer — research theme",
+      "file_type": "rationale",
+      "source_file": "public/llms.txt",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "data_efficient_ml",
+      "label": "Data-Efficient ML — research theme",
+      "file_type": "rationale",
+      "source_file": "public/llms.txt",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "modelx",
+      "label": "ModelX — few-shot HPC performance prediction",
+      "file_type": "rationale",
+      "source_file": "public/llms.txt",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "quantumx",
+      "label": "QuantumX — few-shot quantum performance modeling",
+      "file_type": "rationale",
+      "source_file": "public/llms.txt",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "compass",
+      "label": "COMPASS — adaptive HPC job scheduling via performance prediction",
+      "file_type": "rationale",
+      "source_file": "public/llms.txt",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "optix",
+      "label": "OPTIX — execution-parameter tuning using multimodal HPC data",
+      "file_type": "rationale",
+      "source_file": "public/llms.txt",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "perfgen",
+      "label": "PerfGen — GAN/LLM-based HPC performance data synthesis",
+      "file_type": "rationale",
+      "source_file": "PLAN.md",
+      "source_location": "Section 2 projects.json",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "recup",
+      "label": "RECUP — HPC performance reproducibility research",
+      "file_type": "rationale",
+      "source_file": "PLAN.md",
+      "source_location": "Section 2 projects.json",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "vite_react_stack",
+      "label": "Vite + React (TypeScript) — frontend stack",
+      "file_type": "rationale",
+      "source_file": "PLAN.md",
+      "source_location": "Section 0",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "bib2json_pipeline",
+      "label": "BibTeX → JSON build pipeline — content pipeline design",
+      "file_type": "rationale",
+      "source_file": "PLAN.md",
+      "source_location": "Section 6",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ai_discoverability",
+      "label": "AI Discoverability — first-class SEO requirement for AI crawlers",
+      "file_type": "rationale",
+      "source_file": "PLAN.md",
+      "source_location": "Section 5",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "keyword_wordcloud",
+      "label": "Keyword Word Cloud — BibTeX-frequency + curator-weight merged visualization",
+      "file_type": "rationale",
+      "source_file": "PLAN.md",
+      "source_location": "Section 2 keywords.json",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "legacy_static_site",
+      "label": "Legacy static HTML/Python template site — pre-Vite architecture",
+      "file_type": "rationale",
+      "source_file": "contents/blank.html",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "gemini_api_key",
+      "label": "GEMINI_API_KEY — environment variable for AI Studio integration",
+      "file_type": "rationale",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "phdthesis_recovery_overhead_chart",
+      "label": "PhD Thesis: Recovery Overhead Reduction Chart (ALE3D and Cactus)",
+      "file_type": "image",
+      "source_file": "images/projects/phdthesis.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "phdthesis_compression_strategy",
+      "label": "Compression Strategy for Checkpoint Recovery (Aware+Grouped)",
+      "file_type": "rationale",
+      "source_file": "images/projects/phdthesis.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "phdthesis_ale3d_benchmark",
+      "label": "ALE3D Benchmark Application",
+      "file_type": "rationale",
+      "source_file": "images/projects/phdthesis.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "phdthesis_cactus_benchmark",
+      "label": "Cactus Benchmark Application",
+      "file_type": "rationale",
+      "source_file": "images/projects/phdthesis.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "powerio_paradis_power_usage",
+      "label": "ParaDiS Power Usage Chart - 1 Socket (Watts over time, idle phase visible)",
+      "file_type": "image",
+      "source_file": "images/projects/power-io.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "powerio_idle_power_phase",
+      "label": "Idle Power Phase (~20W) during IO in ParaDiS",
+      "file_type": "rationale",
+      "source_file": "images/projects/power-io.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "comparative_code_pipeline",
+      "label": "Comparative Code Analysis Pipeline: Source Code -> ROSE AST -> Deep Representation Learning -> Neural Network Prediction",
+      "file_type": "image",
+      "source_file": "images/projects/comparative_code.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "comparative_code_rose",
+      "label": "ROSE Compiler Framework for AST Generation",
+      "file_type": "rationale",
+      "source_file": "images/projects/comparative_code.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "comparative_code_deep_learning",
+      "label": "Deep Representation Learning from AST (Node Rep -> Code Rep)",
+      "file_type": "rationale",
+      "source_file": "images/projects/comparative_code.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "dashing_perf_counter_wheel",
+      "label": "DASHING: PLASMA-DGEMM Performance Counter Radial Analysis (IPC, Cache, TLB, Branch categories)",
+      "file_type": "image",
+      "source_file": "images/projects/dashing.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "dashing_plasma_dgemm",
+      "label": "PLASMA-DGEMM Kernel Performance Counter Analysis",
+      "file_type": "rationale",
+      "source_file": "images/projects/dashing.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "cmtbone_comm_coverage_chart",
+      "label": "CMTbone vs CMTnek Comm Kernel: Coverage vs Resource Importance Scatter Plot",
+      "file_type": "image",
+      "source_file": "images/projects/cmtbone-comm.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "cmtbone_resource_importance",
+      "label": "Hardware Resource Importance (PREFETCH, FP, BR, L1, L2, L3, TLB, MEM) for CMT kernels",
+      "file_type": "rationale",
+      "source_file": "images/projects/cmtbone-comm.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "cache_latency_3d_chart",
+      "label": "Cache Latency 3D Visualization: Latency by Row/Column with color-coded ranges",
+      "file_type": "image",
+      "source_file": "images/projects/cache.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "cache_high_latency_pattern",
+      "label": "High Latency Pattern (>300 cycles) in Cache Access for Low Columns",
+      "file_type": "rationale",
+      "source_file": "images/projects/cache.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "veritas_struct_diagram",
+      "label": "VERITAS System Architecture: perf-dump -> Preprocessor -> Analysis -> Visualization pipeline with Parent/Proxy App code regions",
+      "file_type": "image",
+      "source_file": "images/projects/veritas-struct.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "veritas_preprocessor_module",
+      "label": "VERITAS Preprocessor Module (uses Static Event Map and Resource Groups)",
+      "file_type": "rationale",
+      "source_file": "images/projects/veritas-struct.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "veritas_perf_dump",
+      "label": "perf-dump Data Collection Tool in VERITAS",
+      "file_type": "rationale",
+      "source_file": "images/projects/veritas-struct.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "recup_lu_lattice_diagram",
+      "label": "RECUP: LU Decomposition Lattice Diagram showing feature subset combinations (L, N, C, P, T nodes)",
+      "file_type": "image",
+      "source_file": "images/projects/recup.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "recup_feature_selection",
+      "label": "Feature Subset Selection via Lattice Traversal (RECUP LU benchmark)",
+      "file_type": "rationale",
+      "source_file": "images/projects/recup.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "perfgen_architecture",
+      "label": "PerfGen System Architecture: User data -> Preprocessing -> Generative Model -> Conditional/Unconditional Samples",
+      "file_type": "image",
+      "source_file": "images/projects/perfgen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "perfgen_generative_model",
+      "label": "PerfGen Generative Model for Performance Data Synthesis",
+      "file_type": "rationale",
+      "source_file": "images/projects/perfgen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ml_for_ddm_taxonomy",
+      "label": "Machine Learning Taxonomy: Supervised, Unsupervised, Reinforcement Learning with Applications",
+      "file_type": "image",
+      "source_file": "images/projects/ml_for_ddm.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ml_for_ddm_supervised",
+      "label": "Supervised Learning Applications (Classification, Regression, Diagnostics)",
+      "file_type": "rationale",
+      "source_file": "images/projects/ml_for_ddm.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ml_for_ddm_unsupervised",
+      "label": "Unsupervised Learning Applications (Clustering, Dimensionality Reduction, Recommender Systems)",
+      "file_type": "rationale",
+      "source_file": "images/projects/ml_for_ddm.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ping_graph_construction",
+      "label": "PING: Single-Graph Construction via Top-N Cosine Similarity on HPC run configurations (CoMD application)",
+      "file_type": "image",
+      "source_file": "images/projects/ping.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ping_cosine_similarity",
+      "label": "Cosine Similarity for Performance Graph Edge Construction (PING)",
+      "file_type": "rationale",
+      "source_file": "images/projects/ping.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ping_comd_config",
+      "label": "CoMD Application Configuration Space (algorithm, bw_level, task_count, power_cap, thread_count)",
+      "file_type": "rationale",
+      "source_file": "images/projects/ping.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "fractal_llm_pipeline",
+      "label": "FRACTAL: LLM-based Cross-Platform Performance Counter Translation Pipeline (Platform A -> Platform C -> Platform B)",
+      "file_type": "image",
+      "source_file": "images/projects/fractal.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "fractal_llm_translation",
+      "label": "LLM Function g(C_A)->C_P for Hardware Performance Counter Translation Across Platforms",
+      "file_type": "rationale",
+      "source_file": "images/projects/fractal.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "fractal_relative_performance",
+      "label": "Relative Performance Prediction f(C_P)->T_B/P for Cross-Platform Benchmarking",
+      "file_type": "rationale",
+      "source_file": "images/projects/fractal.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "fta_mpi_recovery_diagram",
+      "label": "FTA: Fault Tolerant MPI Recovery Diagram - Shrinking vs Non-Shrinking Recovery with FTA_COMM_WORLD",
+      "file_type": "image",
+      "source_file": "images/projects/fta.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "fta_comm_world",
+      "label": "FTA_COMM_WORLD: Fault-Tolerant MPI Communicator Abstraction",
+      "file_type": "rationale",
+      "source_file": "images/projects/fta.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "fta_shrinking_recovery",
+      "label": "Shrinking Recovery Mode in FTA (reduces process count after failure)",
+      "file_type": "rationale",
+      "source_file": "images/projects/fta.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "falcon_recovery_overhead_chart",
+      "label": "FALCON: Recovery Overhead Comparison Chart - Falcon vs Dedicated Checkpoint at Various Checkpoint Sizes",
+      "file_type": "image",
+      "source_file": "images/projects/falcon.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "falcon_erasure_coding",
+      "label": "FALCON Erasure Coding for Checkpoint Recovery",
+      "file_type": "rationale",
+      "source_file": "images/projects/falcon.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "falcon_network_transfer",
+      "label": "Network Transfer and Disk Write Overhead in FALCON Checkpoint Recovery",
+      "file_type": "rationale",
+      "source_file": "images/projects/falcon.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "papersico2_image",
+      "label": "Papers Icon (papersico2)",
+      "file_type": "image",
+      "source_file": "images/papersico2.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "courses2_image",
+      "label": "Courses Icon (courses2)",
+      "file_type": "image",
+      "source_file": "images/courses2.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "avatar752_image",
+      "label": "Avatar / Robot Icon (avatar752)",
+      "file_type": "image",
+      "source_file": "images/avatar752.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "csedico_image",
+      "label": "CS Education / Computer with Graduation Cap Icon",
+      "file_type": "image",
+      "source_file": "images/CSedico.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "per4ml_png",
+      "label": "Per4ML Logo (PNG) - green stylized text with circuit board motif",
+      "file_type": "image",
+      "source_file": "images/per4ml.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "per4ml_svg",
+      "label": "Per4ML Logo (SVG) - vector version of lab branding",
+      "file_type": "image",
+      "source_file": "images/per4ml.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "team_mohzae",
+      "label": "Mohammad Zaeed - Team Member (Ph.D.)",
+      "file_type": "image",
+      "source_file": "images/team/mohzae.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "team_yugbha",
+      "label": "Yugesh Bhattarai - Team Member (Sophomore)",
+      "file_type": "image",
+      "source_file": "images/team/yugbha.jpeg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "team_elvfef",
+      "label": "Elvis Fefey - Team Member (Ph.D.)",
+      "file_type": "image",
+      "source_file": "images/team/elvfef.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "team_avaram",
+      "label": "Avaneesh Ramesh - Team Member (Alum: High School, Undergrad at UT Austin)",
+      "file_type": "image",
+      "source_file": "images/team/avaram.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "team_ashahm",
+      "label": "Ashna Nawar Ahmed - Team Member (Ph.D.)",
+      "file_type": "image",
+      "source_file": "images/team/ashahm.jpeg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "team_banban",
+      "label": "Banooqa Banday - Team Member (Ph.D.)",
+      "file_type": "image",
+      "source_file": "images/team/banban.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "team_arudey",
+      "label": "Arunavo Dey - Team Member (Alum: Ph.D. student at Oregon State)",
+      "file_type": "image",
+      "source_file": "images/team/arudey.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "team_nirban",
+      "label": "Nirajan Banjade - Team Member (Junior)",
+      "file_type": "image",
+      "source_file": "images/team/nirban.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "team_anklah",
+      "label": "Ankur Lahiri - Team Member (Ph.D.)",
+      "file_type": "image",
+      "source_file": "images/team/anklah.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "team_chaphe",
+      "label": "Chase Phelps - Team Member (Ph.D.)",
+      "file_type": "image",
+      "source_file": "images/team/chaphe.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "team_nawtan",
+      "label": "Nawshin Tabassum Tanny - Team Member (Ph.D.)",
+      "file_type": "image",
+      "source_file": "images/team/nawtan.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "team_jaysra",
+      "label": "Jaya Sravani - Team Member (Alum: M.Sc.)",
+      "file_type": "image",
+      "source_file": "images/team/jaysra.jpeg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "papersico2_icon",
+      "label": "Papers Icon (papersico2.png) - Green circular icon with document/checklist symbol, used as navigation icon for publications section",
+      "file_type": "image",
+      "source_file": "public/papersico2.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "courses2_icon",
+      "label": "Courses Icon (courses2.png) - Green circular icon with open book symbol, used as navigation icon for courses section",
+      "file_type": "image",
+      "source_file": "public/courses2.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "avatar752_icon",
+      "label": "Avatar/Team Icon (avatar752.png) - Green circular icon with robot/avatar figure, used as navigation icon for team/members section",
+      "file_type": "image",
+      "source_file": "public/avatar752.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "csedico_icon",
+      "label": "CS/Education Icon (CSedico.png) - Green circular icon with graduation cap on monitor/computer, representing CS education or courses",
+      "file_type": "image",
+      "source_file": "public/CSedico.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "per4ml_logo_png",
+      "label": "Per4ML Logo PNG - Green stylized text logo reading 'PER4ML' with circuit board graphic, primary visual identity of the Per4ML research lab",
+      "file_type": "image",
+      "source_file": "public/per4ml.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "per4ml_logo_svg",
+      "label": "Per4ML Logo SVG - Scalable vector version of the Per4ML lab logo, AI-generated content signed by Canva, 1920x768px, created with Inkscape",
+      "file_type": "image",
+      "source_file": "public/per4ml.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "images_papersico2_icon",
+      "label": "Papers Icon duplicate (images/papersico2.png) - Green circular icon with document/checklist symbol, navigation icon for publications",
+      "file_type": "image",
+      "source_file": "public/images/papersico2.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "images_courses2_icon",
+      "label": "Courses Icon duplicate (images/courses2.png) - Green circular open book icon, navigation icon for courses section",
+      "file_type": "image",
+      "source_file": "public/images/courses2.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "images_avatar752_icon",
+      "label": "Avatar/Team Icon duplicate (images/avatar752.png) - Green circular robot/avatar icon, navigation icon for team/members section",
+      "file_type": "image",
+      "source_file": "public/images/avatar752.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "images_csedico_icon",
+      "label": "CS/Education Icon duplicate (images/CSedico.png) - Green circular graduation cap on computer icon, CS education icon",
+      "file_type": "image",
+      "source_file": "public/images/CSedico.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "images_per4ml_logo_png",
+      "label": "Per4ML Logo PNG duplicate (images/per4ml.png) - Green Per4ML logo with circuit board graphic, duplicate in images directory",
+      "file_type": "image",
+      "source_file": "public/images/per4ml.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "images_per4ml_logo_svg",
+      "label": "Per4ML Logo SVG duplicate (images/per4ml.svg) - Scalable vector Per4ML logo, duplicate in images directory",
+      "file_type": "image",
+      "source_file": "public/images/per4ml.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "member_tanzima",
+      "label": "Tanzima Islam - Professional headshot of a South Asian woman smiling in a university hallway corridor, wearing dark blazer and pearl necklace, principal investigator / faculty lead of Per4ML lab",
+      "file_type": "image",
+      "source_file": "public/images/members/tanzima.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "member_nirajan",
+      "label": "Nirajan - Professional portrait of a young South Asian man in white dress shirt against gray background, Per4ML lab member",
+      "file_type": "image",
+      "source_file": "public/images/members/nirajan.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "member_arunavo",
+      "label": "Arunavo - Portrait of a young South Asian man with glasses and denim shirt against ocean/water background, Per4ML lab member",
+      "file_type": "image",
+      "source_file": "public/images/members/arunavo.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "member_avaneesh",
+      "label": "Avaneesh - Selfie of a young South Asian person with sunglasses at a beach/waterfront, wearing Champion hoodie, Per4ML lab member",
+      "file_type": "image",
+      "source_file": "public/images/members/avaneesh.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "member_chase",
+      "label": "Chase - Portrait of a man with long hair and beard captured via video call, Per4ML lab member",
+      "file_type": "image",
+      "source_file": "public/images/members/chase.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "member_yugesh",
+      "label": "Yugesh - Portrait of a young South Asian man with glasses at outdoor restaurant setting at night, Per4ML lab member",
+      "file_type": "image",
+      "source_file": "public/images/members/yugesh.jpeg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "member_ashna",
+      "label": "Ashna - Portrait of a South Asian woman with glasses wearing patterned ethnic attire in a cafe setting, Per4ML lab member",
+      "file_type": "image",
+      "source_file": "public/images/members/ashna.jpeg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "member_zaeed",
+      "label": "Zaeed - Professional headshot of a South Asian man in collared shirt against white background, Per4ML lab member",
+      "file_type": "image",
+      "source_file": "public/images/members/zaeed.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "member_nawshin",
+      "label": "Nawshin - Portrait of a woman wearing red/maroon hijab and glasses, smiling outdoors in garden setting, Per4ML lab member",
+      "file_type": "image",
+      "source_file": "public/images/members/nawshin.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "member_elvis",
+      "label": "Elvis - Portrait of a Black man captured via video call against plain background, Per4ML lab member",
+      "file_type": "image",
+      "source_file": "public/images/members/elvis.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "member_banooqa",
+      "label": "Banooqa - Portrait of a woman wearing salmon/coral hijab, smiling indoors against beige background, Per4ML lab member",
+      "file_type": "image",
+      "source_file": "public/images/members/banooqa.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "member_ankur",
+      "label": "Ankur - Portrait of a South Asian man with glasses smiling, captured via video call, Per4ML lab member",
+      "file_type": "image",
+      "source_file": "public/images/members/ankur.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "member_jaya",
+      "label": "Jaya - Professional portrait of a young South Asian woman in blazer, smiling outdoors in residential setting, Per4ML lab member",
+      "file_type": "image",
+      "source_file": "public/images/members/jaya.jpeg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "index_html",
+      "target": "per4ml_lab",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "index.html",
+      "source_location": "JSON-LD structured data, meta tags",
+      "weight": 1.0
+    },
+    {
+      "source": "index_html",
+      "target": "tanzima_islam",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "index.html",
+      "source_location": "JSON-LD founder field",
+      "weight": 1.0
+    },
+    {
+      "source": "index_html",
+      "target": "ai_discoverability",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "index.html",
+      "source_location": "Open Graph, Twitter Card, JSON-LD meta tags",
+      "weight": 1.0
+    },
+    {
+      "source": "plan_md",
+      "target": "vite_react_stack",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "PLAN.md",
+      "source_location": "Section 0",
+      "weight": 1.0
+    },
+    {
+      "source": "plan_md",
+      "target": "bib2json_pipeline",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "PLAN.md",
+      "source_location": "Section 6",
+      "weight": 1.0
+    },
+    {
+      "source": "plan_md",
+      "target": "ai_discoverability",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "PLAN.md",
+      "source_location": "Section 5",
+      "weight": 1.0
+    },
+    {
+      "source": "plan_md",
+      "target": "keyword_wordcloud",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "PLAN.md",
+      "source_location": "Section 2, 3",
+      "weight": 1.0
+    },
+    {
+      "source": "plan_md",
+      "target": "tanzima_islam",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "PLAN.md",
+      "source_location": "Section 10 PI Bio",
+      "weight": 1.0
+    },
+    {
+      "source": "plan_md",
+      "target": "modelx",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "PLAN.md",
+      "source_location": "Section 2 projects.json example",
+      "weight": 1.0
+    },
+    {
+      "source": "plan_md",
+      "target": "perfgen",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "PLAN.md",
+      "source_location": "Section 2 projects.json",
+      "weight": 1.0
+    },
+    {
+      "source": "plan_md",
+      "target": "recup",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "PLAN.md",
+      "source_location": "Section 2 projects.json",
+      "weight": 1.0
+    },
+    {
+      "source": "public_llms_txt",
+      "target": "per4ml_lab",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "public/llms.txt",
+      "source_location": "header",
+      "weight": 1.0
+    },
+    {
+      "source": "public_llms_txt",
+      "target": "tanzima_islam",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "public/llms.txt",
+      "source_location": "line 3",
+      "weight": 1.0
+    },
+    {
+      "source": "public_llms_txt",
+      "target": "modelx",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "public/llms.txt",
+      "source_location": "Key research contributions",
+      "weight": 1.0
+    },
+    {
+      "source": "public_llms_txt",
+      "target": "quantumx",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "public/llms.txt",
+      "source_location": "Key research contributions",
+      "weight": 1.0
+    },
+    {
+      "source": "public_llms_txt",
+      "target": "compass",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "public/llms.txt",
+      "source_location": "Key research contributions",
+      "weight": 1.0
+    },
+    {
+      "source": "public_llms_txt",
+      "target": "optix",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "public/llms.txt",
+      "source_location": "Key research contributions",
+      "weight": 1.0
+    },
+    {
+      "source": "public_llms_txt",
+      "target": "ai_discoverability",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "public/llms.txt",
+      "source_location": "entire file",
+      "weight": 1.0
+    },
+    {
+      "source": "public_robots_txt",
+      "target": "ai_discoverability",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "public/robots.txt",
+      "source_location": "entire file",
+      "weight": 1.0
+    },
+    {
+      "source": "claude_md",
+      "target": "vite_react_stack",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": "Architecture section",
+      "weight": 1.0
+    },
+    {
+      "source": "claude_md",
+      "target": "bib2json_pipeline",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": "Content Pipeline section",
+      "weight": 1.0
+    },
+    {
+      "source": "bib2json_pipeline",
+      "target": "keyword_wordcloud",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "PLAN.md",
+      "source_location": "Section 6.1 Job 2",
+      "weight": 1.0
+    },
+    {
+      "source": "modelx",
+      "target": "few_shot_learning",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "public/llms.txt",
+      "source_location": "Key research contributions",
+      "weight": 1.0
+    },
+    {
+      "source": "modelx",
+      "target": "transfer_learning",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "PLAN.md",
+      "source_location": "Section 2 projects.json example",
+      "weight": 1.0
+    },
+    {
+      "source": "modelx",
+      "target": "hpc_performance_modeling",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "public/llms.txt",
+      "source_location": "Key research contributions",
+      "weight": 1.0
+    },
+    {
+      "source": "quantumx",
+      "target": "few_shot_learning",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "public/llms.txt",
+      "source_location": "Key research contributions",
+      "weight": 1.0
+    },
+    {
+      "source": "perfgen",
+      "target": "data_efficient_ml",
+      "relation": "implements",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "PLAN.md",
+      "source_location": "Section 2 projects.json PerfGen abstract",
+      "weight": 0.85
+    },
+    {
+      "source": "per4ml_lab",
+      "target": "tanzima_islam",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "index.html",
+      "source_location": "JSON-LD founder",
+      "weight": 1.0
+    },
+    {
+      "source": "per4ml_lab",
+      "target": "hpc_performance_modeling",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "public/llms.txt",
+      "source_location": "header description",
+      "weight": 1.0
+    },
+    {
+      "source": "per4ml_lab",
+      "target": "data_efficient_ml",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "public/llms.txt",
+      "source_location": "header description",
+      "weight": 1.0
+    },
+    {
+      "source": "contents_blank_html",
+      "target": "legacy_static_site",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "contents/blank.html",
+      "source_location": "entire file",
+      "weight": 1.0
+    },
+    {
+      "source": "public_blank_html",
+      "target": "legacy_static_site",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "public/blank.html",
+      "source_location": "entire file",
+      "weight": 1.0
+    },
+    {
+      "source": "legacy_static_site",
+      "target": "vite_react_stack",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "PLAN.md",
+      "source_location": "Section 0 constraint: Do NOT revert to static HTML/Python templates",
+      "weight": 0.75
+    },
+    {
+      "source": "readme_md",
+      "target": "gemini_api_key",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "step 2",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_md",
+      "target": "vite_react_stack",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "README.md",
+      "source_location": "npm run dev instruction",
+      "weight": 0.85
+    },
+    {
+      "source": "research_carousel_md",
+      "target": "plan_md",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "research-carousel.md",
+      "source_location": "entire spec — carousel component maps to Projects/Research sections in PLAN.md",
+      "weight": 0.75
+    },
+    {
+      "source": "public_llms_txt",
+      "target": "few_shot_learning",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "public/llms.txt",
+      "source_location": "Keywords line",
+      "weight": 1.0
+    },
+    {
+      "source": "public_llms_txt",
+      "target": "transfer_learning",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "public/llms.txt",
+      "source_location": "Keywords line",
+      "weight": 1.0
+    },
+    {
+      "source": "public_llms_txt",
+      "target": "data_efficient_ml",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "public/llms.txt",
+      "source_location": "Keywords line",
+      "weight": 1.0
+    },
+    {
+      "source": "contents_blank_html",
+      "target": "public_blank_html",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "contents/blank.html",
+      "source_location": "identical file content",
+      "weight": 0.95
+    },
+    {
+      "source": "phdthesis_recovery_overhead_chart",
+      "target": "phdthesis_compression_strategy",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "images/projects/phdthesis.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "phdthesis_recovery_overhead_chart",
+      "target": "phdthesis_ale3d_benchmark",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "images/projects/phdthesis.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "phdthesis_recovery_overhead_chart",
+      "target": "phdthesis_cactus_benchmark",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "images/projects/phdthesis.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "phdthesis_compression_strategy",
+      "target": "falcon_erasure_coding",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "images/projects/phdthesis.png",
+      "source_location": null,
+      "weight": 0.65
+    },
+    {
+      "source": "powerio_paradis_power_usage",
+      "target": "powerio_idle_power_phase",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "images/projects/power-io.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "comparative_code_pipeline",
+      "target": "comparative_code_rose",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "images/projects/comparative_code.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "comparative_code_pipeline",
+      "target": "comparative_code_deep_learning",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "images/projects/comparative_code.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "comparative_code_rose",
+      "target": "comparative_code_deep_learning",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "images/projects/comparative_code.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "dashing_perf_counter_wheel",
+      "target": "dashing_plasma_dgemm",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "images/projects/dashing.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "cmtbone_comm_coverage_chart",
+      "target": "cmtbone_resource_importance",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "images/projects/cmtbone-comm.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "cmtbone_resource_importance",
+      "target": "dashing_plasma_dgemm",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "images/projects/cmtbone-comm.png",
+      "source_location": null,
+      "weight": 0.75
+    },
+    {
+      "source": "cache_latency_3d_chart",
+      "target": "cache_high_latency_pattern",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "images/projects/cache.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "veritas_struct_diagram",
+      "target": "veritas_preprocessor_module",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "images/projects/veritas-struct.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "veritas_struct_diagram",
+      "target": "veritas_perf_dump",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "images/projects/veritas-struct.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "veritas_perf_dump",
+      "target": "veritas_preprocessor_module",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "images/projects/veritas-struct.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "veritas_struct_diagram",
+      "target": "dashing_perf_counter_wheel",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "images/projects/veritas-struct.png",
+      "source_location": null,
+      "weight": 0.75
+    },
+    {
+      "source": "recup_lu_lattice_diagram",
+      "target": "recup_feature_selection",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "images/projects/recup.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "recup_feature_selection",
+      "target": "cmtbone_resource_importance",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "images/projects/recup.png",
+      "source_location": null,
+      "weight": 0.65
+    },
+    {
+      "source": "perfgen_architecture",
+      "target": "perfgen_generative_model",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "images/projects/perfgen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "perfgen_generative_model",
+      "target": "ml_for_ddm_unsupervised",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "images/projects/perfgen.png",
+      "source_location": null,
+      "weight": 0.75
+    },
+    {
+      "source": "ml_for_ddm_taxonomy",
+      "target": "ml_for_ddm_supervised",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "images/projects/ml_for_ddm.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ml_for_ddm_taxonomy",
+      "target": "ml_for_ddm_unsupervised",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "images/projects/ml_for_ddm.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ml_for_ddm_supervised",
+      "target": "comparative_code_deep_learning",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "images/projects/ml_for_ddm.png",
+      "source_location": null,
+      "weight": 0.75
+    },
+    {
+      "source": "ping_graph_construction",
+      "target": "ping_cosine_similarity",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "images/projects/ping.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ping_graph_construction",
+      "target": "ping_comd_config",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "images/projects/ping.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ping_cosine_similarity",
+      "target": "recup_feature_selection",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "images/projects/ping.png",
+      "source_location": null,
+      "weight": 0.65
+    },
+    {
+      "source": "fractal_llm_pipeline",
+      "target": "fractal_llm_translation",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "images/projects/fractal.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "fractal_llm_pipeline",
+      "target": "fractal_relative_performance",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "images/projects/fractal.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "fractal_llm_translation",
+      "target": "fractal_relative_performance",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "images/projects/fractal.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "fractal_llm_translation",
+      "target": "cmtbone_resource_importance",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.55,
+      "source_file": "images/projects/fractal.png",
+      "source_location": null,
+      "weight": 0.55
+    },
+    {
+      "source": "fta_mpi_recovery_diagram",
+      "target": "fta_comm_world",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "images/projects/fta.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "fta_mpi_recovery_diagram",
+      "target": "fta_shrinking_recovery",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "images/projects/fta.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "fta_comm_world",
+      "target": "phdthesis_recovery_overhead_chart",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "images/projects/fta.png",
+      "source_location": null,
+      "weight": 0.75
+    },
+    {
+      "source": "falcon_recovery_overhead_chart",
+      "target": "falcon_erasure_coding",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "images/projects/falcon.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "falcon_recovery_overhead_chart",
+      "target": "falcon_network_transfer",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "images/projects/falcon.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "falcon_recovery_overhead_chart",
+      "target": "phdthesis_recovery_overhead_chart",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "images/projects/falcon.png",
+      "source_location": null,
+      "weight": 0.85
+    },
+    {
+      "source": "falcon_erasure_coding",
+      "target": "fta_comm_world",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "images/projects/falcon.png",
+      "source_location": null,
+      "weight": 0.65
+    },
+    {
+      "source": "per4ml_png",
+      "target": "per4ml_lab",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "images/per4ml.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "per4ml_svg",
+      "target": "per4ml_lab",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "images/per4ml.svg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "per4ml_png",
+      "target": "per4ml_svg",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "images/per4ml.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "team_mohzae",
+      "target": "per4ml_lab",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "images/team/mohzae.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "team_yugbha",
+      "target": "per4ml_lab",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "images/team/yugbha.jpeg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "team_elvfef",
+      "target": "per4ml_lab",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "images/team/elvfef.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "team_avaram",
+      "target": "per4ml_lab",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "images/team/avaram.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "team_ashahm",
+      "target": "per4ml_lab",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "images/team/ashahm.jpeg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "team_banban",
+      "target": "per4ml_lab",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "images/team/banban.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "team_arudey",
+      "target": "per4ml_lab",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "images/team/arudey.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "team_nirban",
+      "target": "per4ml_lab",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "images/team/nirban.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "team_anklah",
+      "target": "per4ml_lab",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "images/team/anklah.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "team_chaphe",
+      "target": "per4ml_lab",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "images/team/chaphe.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "team_nawtan",
+      "target": "per4ml_lab",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "images/team/nawtan.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "team_jaysra",
+      "target": "per4ml_lab",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "images/team/jaysra.jpeg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "papersico2_image",
+      "target": "per4ml_lab",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "images/papersico2.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "courses2_image",
+      "target": "per4ml_lab",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "images/courses2.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "csedico_image",
+      "target": "per4ml_lab",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "images/CSedico.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "avatar752_image",
+      "target": "per4ml_lab",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "images/avatar752.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "papersico2_image",
+      "target": "courses2_image",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "images/papersico2.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "per4ml_logo_svg",
+      "target": "per4ml_logo_png",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "public/per4ml.svg",
+      "source_location": "inkscape:export-filename attribute line 21",
+      "weight": 1.0
+    },
+    {
+      "source": "images_per4ml_logo_png",
+      "target": "per4ml_logo_png",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "public/images/per4ml.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "images_per4ml_logo_svg",
+      "target": "per4ml_logo_svg",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "public/images/per4ml.svg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "images_papersico2_icon",
+      "target": "papersico2_icon",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "public/images/papersico2.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "images_courses2_icon",
+      "target": "courses2_icon",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "public/images/courses2.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "images_avatar752_icon",
+      "target": "avatar752_icon",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "public/images/avatar752.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "images_csedico_icon",
+      "target": "csedico_icon",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "public/images/CSedico.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "member_tanzima",
+      "target": "member_nirajan",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "public/images/members/tanzima.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "member_tanzima",
+      "target": "member_arunavo",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "public/images/members/tanzima.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "member_tanzima",
+      "target": "member_zaeed",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "public/images/members/tanzima.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "member_tanzima",
+      "target": "member_jaya",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "public/images/members/tanzima.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "member_nirajan",
+      "target": "member_arunavo",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "public/images/members/nirajan.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "member_arunavo",
+      "target": "member_yugesh",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "public/images/members/arunavo.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "member_nawshin",
+      "target": "member_banooqa",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "public/images/members/nawshin.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "papersico2_icon",
+      "target": "per4ml_logo_png",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "public/papersico2.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "courses2_icon",
+      "target": "per4ml_logo_png",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "public/courses2.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "avatar752_icon",
+      "target": "per4ml_logo_png",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "public/avatar752.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "csedico_icon",
+      "target": "per4ml_logo_png",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "public/CSedico.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "member_tanzima",
+      "target": "per4ml_logo_png",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "public/images/members/tanzima.jpg",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "hyper_ai_discoverability_trio",
+      "label": "AI discoverability implemented via robots.txt + llms.txt + JSON-LD in index.html",
+      "nodes": [
+        "public_robots_txt",
+        "public_llms_txt",
+        "index_html"
+      ],
+      "relation": "implement",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "PLAN.md"
+    },
+    {
+      "id": "hyper_hpc_research_themes",
+      "label": "Per4ML core research themes: few-shot learning, transfer learning, HPC performance modeling",
+      "nodes": [
+        "few_shot_learning",
+        "transfer_learning",
+        "hpc_performance_modeling"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "public/llms.txt"
+    },
+    {
+      "id": "hyper_bib2json_outputs",
+      "label": "bib2json.py pipeline produces publications.json, keywords_computed.json, stats.json consumed by React components",
+      "nodes": [
+        "bib2json_pipeline",
+        "keyword_wordcloud",
+        "per4ml_lab"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "PLAN.md"
+    },
+    {
+      "id": "hpc_checkpoint_recovery_systems",
+      "label": "HPC Checkpoint and Recovery Systems: FALCON, FTA, and PhD Thesis all address fault tolerance and recovery overhead reduction in parallel applications",
+      "nodes": [
+        "falcon_recovery_overhead_chart",
+        "fta_mpi_recovery_diagram",
+        "phdthesis_recovery_overhead_chart"
+      ],
+      "relation": "implement",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "images/projects/falcon.png"
+    },
+    {
+      "id": "performance_counter_analysis_tools",
+      "label": "Performance Counter Analysis Projects: DASHING, VERITAS, and CMTbone-comm all analyze hardware performance counters for HPC applications",
+      "nodes": [
+        "dashing_perf_counter_wheel",
+        "veritas_struct_diagram",
+        "cmtbone_comm_coverage_chart"
+      ],
+      "relation": "implement",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "images/projects/dashing.png"
+    },
+    {
+      "id": "ml_for_hpc_performance_prediction",
+      "label": "ML-driven HPC Performance Prediction: PING, PerfGen, and Comparative Code all apply machine learning to predict or model HPC application performance",
+      "nodes": [
+        "ping_graph_construction",
+        "perfgen_architecture",
+        "comparative_code_pipeline"
+      ],
+      "relation": "participate_in",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "images/projects/ping.png"
+    },
+    {
+      "id": "phd_team_members",
+      "label": "Ph.D. Team Members of Per4ML Lab",
+      "nodes": [
+        "team_mohzae",
+        "team_elvfef",
+        "team_ashahm",
+        "team_banban",
+        "team_anklah",
+        "team_chaphe",
+        "team_nawtan"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "contents/Team+Members.csv"
+    },
+    {
+      "id": "site_branding_assets",
+      "label": "Per4ML Website Branding and Navigation Icons",
+      "nodes": [
+        "per4ml_png",
+        "per4ml_svg",
+        "papersico2_image",
+        "courses2_image",
+        "csedico_image"
+      ],
+      "relation": "form",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "images/per4ml.png"
+    },
+    {
+      "id": "alum_team_members",
+      "label": "Alumni Team Members of Per4ML Lab",
+      "nodes": [
+        "team_avaram",
+        "team_arudey",
+        "team_jaysra"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "contents/Team+Members.csv"
+    },
+    {
+      "id": "he_per4ml_site_icons",
+      "label": "Per4ML website navigation icons - papersico2, courses2, avatar752, CSedico form the icon set for the Per4ML lab website navigation",
+      "nodes": [
+        "papersico2_icon",
+        "courses2_icon",
+        "avatar752_icon",
+        "csedico_icon"
+      ],
+      "relation": "participate_in",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "public/per4ml.png"
+    },
+    {
+      "id": "he_per4ml_lab_members",
+      "label": "Per4ML research lab member portraits - all member headshots belong to the same lab group led by Tanzima Islam",
+      "nodes": [
+        "member_tanzima",
+        "member_nirajan",
+        "member_arunavo",
+        "member_avaneesh",
+        "member_chase",
+        "member_yugesh",
+        "member_ashna",
+        "member_zaeed",
+        "member_nawshin",
+        "member_elvis",
+        "member_banooqa",
+        "member_ankur",
+        "member_jaya"
+      ],
+      "relation": "participate_in",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "public/images/members/tanzima.jpg"
+    },
+    {
+      "id": "he_per4ml_branding_assets",
+      "label": "Per4ML branding assets - logo PNG, logo SVG, and site icons form the visual identity system of the Per4ML lab",
+      "nodes": [
+        "per4ml_logo_png",
+        "per4ml_logo_svg",
+        "papersico2_icon",
+        "courses2_icon",
+        "avatar752_icon",
+        "csedico_icon"
+      ],
+      "relation": "form",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "public/per4ml.png"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

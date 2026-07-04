@@ -1,0 +1,814 @@
+{
+  "nodes": [
+    {
+      "id": "phdthesis_recovery_overhead_chart",
+      "label": "PhD Thesis: Recovery Overhead Reduction Chart (ALE3D and Cactus)",
+      "file_type": "image",
+      "source_file": "images/projects/phdthesis.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "phdthesis_compression_strategy",
+      "label": "Compression Strategy for Checkpoint Recovery (Aware+Grouped)",
+      "file_type": "rationale",
+      "source_file": "images/projects/phdthesis.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "phdthesis_ale3d_benchmark",
+      "label": "ALE3D Benchmark Application",
+      "file_type": "rationale",
+      "source_file": "images/projects/phdthesis.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "phdthesis_cactus_benchmark",
+      "label": "Cactus Benchmark Application",
+      "file_type": "rationale",
+      "source_file": "images/projects/phdthesis.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "powerio_paradis_power_usage",
+      "label": "ParaDiS Power Usage Chart - 1 Socket (Watts over time, idle phase visible)",
+      "file_type": "image",
+      "source_file": "images/projects/power-io.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "powerio_idle_power_phase",
+      "label": "Idle Power Phase (~20W) during IO in ParaDiS",
+      "file_type": "rationale",
+      "source_file": "images/projects/power-io.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "comparative_code_pipeline",
+      "label": "Comparative Code Analysis Pipeline: Source Code -> ROSE AST -> Deep Representation Learning -> Neural Network Prediction",
+      "file_type": "image",
+      "source_file": "images/projects/comparative_code.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "comparative_code_rose",
+      "label": "ROSE Compiler Framework for AST Generation",
+      "file_type": "rationale",
+      "source_file": "images/projects/comparative_code.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "comparative_code_deep_learning",
+      "label": "Deep Representation Learning from AST (Node Rep -> Code Rep)",
+      "file_type": "rationale",
+      "source_file": "images/projects/comparative_code.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "dashing_perf_counter_wheel",
+      "label": "DASHING: PLASMA-DGEMM Performance Counter Radial Analysis (IPC, Cache, TLB, Branch categories)",
+      "file_type": "image",
+      "source_file": "images/projects/dashing.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "dashing_plasma_dgemm",
+      "label": "PLASMA-DGEMM Kernel Performance Counter Analysis",
+      "file_type": "rationale",
+      "source_file": "images/projects/dashing.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "cmtbone_comm_coverage_chart",
+      "label": "CMTbone vs CMTnek Comm Kernel: Coverage vs Resource Importance Scatter Plot",
+      "file_type": "image",
+      "source_file": "images/projects/cmtbone-comm.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "cmtbone_resource_importance",
+      "label": "Hardware Resource Importance (PREFETCH, FP, BR, L1, L2, L3, TLB, MEM) for CMT kernels",
+      "file_type": "rationale",
+      "source_file": "images/projects/cmtbone-comm.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "cache_latency_3d_chart",
+      "label": "Cache Latency 3D Visualization: Latency by Row/Column with color-coded ranges",
+      "file_type": "image",
+      "source_file": "images/projects/cache.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "cache_high_latency_pattern",
+      "label": "High Latency Pattern (>300 cycles) in Cache Access for Low Columns",
+      "file_type": "rationale",
+      "source_file": "images/projects/cache.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "veritas_struct_diagram",
+      "label": "VERITAS System Architecture: perf-dump -> Preprocessor -> Analysis -> Visualization pipeline with Parent/Proxy App code regions",
+      "file_type": "image",
+      "source_file": "images/projects/veritas-struct.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "veritas_preprocessor_module",
+      "label": "VERITAS Preprocessor Module (uses Static Event Map and Resource Groups)",
+      "file_type": "rationale",
+      "source_file": "images/projects/veritas-struct.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "veritas_perf_dump",
+      "label": "perf-dump Data Collection Tool in VERITAS",
+      "file_type": "rationale",
+      "source_file": "images/projects/veritas-struct.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "recup_lu_lattice_diagram",
+      "label": "RECUP: LU Decomposition Lattice Diagram showing feature subset combinations (L, N, C, P, T nodes)",
+      "file_type": "image",
+      "source_file": "images/projects/recup.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "recup_feature_selection",
+      "label": "Feature Subset Selection via Lattice Traversal (RECUP LU benchmark)",
+      "file_type": "rationale",
+      "source_file": "images/projects/recup.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "perfgen_architecture",
+      "label": "PerfGen System Architecture: User data -> Preprocessing -> Generative Model -> Conditional/Unconditional Samples",
+      "file_type": "image",
+      "source_file": "images/projects/perfgen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "perfgen_generative_model",
+      "label": "PerfGen Generative Model for Performance Data Synthesis",
+      "file_type": "rationale",
+      "source_file": "images/projects/perfgen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ml_for_ddm_taxonomy",
+      "label": "Machine Learning Taxonomy: Supervised, Unsupervised, Reinforcement Learning with Applications",
+      "file_type": "image",
+      "source_file": "images/projects/ml_for_ddm.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ml_for_ddm_supervised",
+      "label": "Supervised Learning Applications (Classification, Regression, Diagnostics)",
+      "file_type": "rationale",
+      "source_file": "images/projects/ml_for_ddm.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ml_for_ddm_unsupervised",
+      "label": "Unsupervised Learning Applications (Clustering, Dimensionality Reduction, Recommender Systems)",
+      "file_type": "rationale",
+      "source_file": "images/projects/ml_for_ddm.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ping_graph_construction",
+      "label": "PING: Single-Graph Construction via Top-N Cosine Similarity on HPC run configurations (CoMD application)",
+      "file_type": "image",
+      "source_file": "images/projects/ping.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ping_cosine_similarity",
+      "label": "Cosine Similarity for Performance Graph Edge Construction (PING)",
+      "file_type": "rationale",
+      "source_file": "images/projects/ping.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ping_comd_config",
+      "label": "CoMD Application Configuration Space (algorithm, bw_level, task_count, power_cap, thread_count)",
+      "file_type": "rationale",
+      "source_file": "images/projects/ping.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "fractal_llm_pipeline",
+      "label": "FRACTAL: LLM-based Cross-Platform Performance Counter Translation Pipeline (Platform A -> Platform C -> Platform B)",
+      "file_type": "image",
+      "source_file": "images/projects/fractal.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "fractal_llm_translation",
+      "label": "LLM Function g(C_A)->C_P for Hardware Performance Counter Translation Across Platforms",
+      "file_type": "rationale",
+      "source_file": "images/projects/fractal.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "fractal_relative_performance",
+      "label": "Relative Performance Prediction f(C_P)->T_B/P for Cross-Platform Benchmarking",
+      "file_type": "rationale",
+      "source_file": "images/projects/fractal.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "fta_mpi_recovery_diagram",
+      "label": "FTA: Fault Tolerant MPI Recovery Diagram - Shrinking vs Non-Shrinking Recovery with FTA_COMM_WORLD",
+      "file_type": "image",
+      "source_file": "images/projects/fta.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "fta_comm_world",
+      "label": "FTA_COMM_WORLD: Fault-Tolerant MPI Communicator Abstraction",
+      "file_type": "rationale",
+      "source_file": "images/projects/fta.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "fta_shrinking_recovery",
+      "label": "Shrinking Recovery Mode in FTA (reduces process count after failure)",
+      "file_type": "rationale",
+      "source_file": "images/projects/fta.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "falcon_recovery_overhead_chart",
+      "label": "FALCON: Recovery Overhead Comparison Chart - Falcon vs Dedicated Checkpoint at Various Checkpoint Sizes",
+      "file_type": "image",
+      "source_file": "images/projects/falcon.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "falcon_erasure_coding",
+      "label": "FALCON Erasure Coding for Checkpoint Recovery",
+      "file_type": "rationale",
+      "source_file": "images/projects/falcon.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "falcon_network_transfer",
+      "label": "Network Transfer and Disk Write Overhead in FALCON Checkpoint Recovery",
+      "file_type": "rationale",
+      "source_file": "images/projects/falcon.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "phdthesis_recovery_overhead_chart",
+      "target": "phdthesis_compression_strategy",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "images/projects/phdthesis.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "phdthesis_recovery_overhead_chart",
+      "target": "phdthesis_ale3d_benchmark",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "images/projects/phdthesis.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "phdthesis_recovery_overhead_chart",
+      "target": "phdthesis_cactus_benchmark",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "images/projects/phdthesis.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "phdthesis_compression_strategy",
+      "target": "falcon_erasure_coding",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "images/projects/phdthesis.png",
+      "source_location": null,
+      "weight": 0.65
+    },
+    {
+      "source": "powerio_paradis_power_usage",
+      "target": "powerio_idle_power_phase",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "images/projects/power-io.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "comparative_code_pipeline",
+      "target": "comparative_code_rose",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "images/projects/comparative_code.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "comparative_code_pipeline",
+      "target": "comparative_code_deep_learning",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "images/projects/comparative_code.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "comparative_code_rose",
+      "target": "comparative_code_deep_learning",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "images/projects/comparative_code.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "dashing_perf_counter_wheel",
+      "target": "dashing_plasma_dgemm",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "images/projects/dashing.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "cmtbone_comm_coverage_chart",
+      "target": "cmtbone_resource_importance",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "images/projects/cmtbone-comm.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "cmtbone_resource_importance",
+      "target": "dashing_plasma_dgemm",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "images/projects/cmtbone-comm.png",
+      "source_location": null,
+      "weight": 0.75
+    },
+    {
+      "source": "cache_latency_3d_chart",
+      "target": "cache_high_latency_pattern",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "images/projects/cache.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "veritas_struct_diagram",
+      "target": "veritas_preprocessor_module",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "images/projects/veritas-struct.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "veritas_struct_diagram",
+      "target": "veritas_perf_dump",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "images/projects/veritas-struct.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "veritas_perf_dump",
+      "target": "veritas_preprocessor_module",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "images/projects/veritas-struct.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "veritas_struct_diagram",
+      "target": "dashing_perf_counter_wheel",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "images/projects/veritas-struct.png",
+      "source_location": null,
+      "weight": 0.75
+    },
+    {
+      "source": "recup_lu_lattice_diagram",
+      "target": "recup_feature_selection",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "images/projects/recup.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "recup_feature_selection",
+      "target": "cmtbone_resource_importance",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "images/projects/recup.png",
+      "source_location": null,
+      "weight": 0.65
+    },
+    {
+      "source": "perfgen_architecture",
+      "target": "perfgen_generative_model",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "images/projects/perfgen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "perfgen_generative_model",
+      "target": "ml_for_ddm_unsupervised",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "images/projects/perfgen.png",
+      "source_location": null,
+      "weight": 0.75
+    },
+    {
+      "source": "ml_for_ddm_taxonomy",
+      "target": "ml_for_ddm_supervised",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "images/projects/ml_for_ddm.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ml_for_ddm_taxonomy",
+      "target": "ml_for_ddm_unsupervised",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "images/projects/ml_for_ddm.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ml_for_ddm_supervised",
+      "target": "comparative_code_deep_learning",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "images/projects/ml_for_ddm.png",
+      "source_location": null,
+      "weight": 0.75
+    },
+    {
+      "source": "ping_graph_construction",
+      "target": "ping_cosine_similarity",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "images/projects/ping.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ping_graph_construction",
+      "target": "ping_comd_config",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "images/projects/ping.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ping_cosine_similarity",
+      "target": "recup_feature_selection",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "images/projects/ping.png",
+      "source_location": null,
+      "weight": 0.65
+    },
+    {
+      "source": "fractal_llm_pipeline",
+      "target": "fractal_llm_translation",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "images/projects/fractal.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "fractal_llm_pipeline",
+      "target": "fractal_relative_performance",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "images/projects/fractal.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "fractal_llm_translation",
+      "target": "fractal_relative_performance",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "images/projects/fractal.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "fractal_llm_translation",
+      "target": "cmtbone_resource_importance",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.55,
+      "source_file": "images/projects/fractal.png",
+      "source_location": null,
+      "weight": 0.55
+    },
+    {
+      "source": "fta_mpi_recovery_diagram",
+      "target": "fta_comm_world",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "images/projects/fta.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "fta_mpi_recovery_diagram",
+      "target": "fta_shrinking_recovery",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "images/projects/fta.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "fta_comm_world",
+      "target": "phdthesis_recovery_overhead_chart",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "images/projects/fta.png",
+      "source_location": null,
+      "weight": 0.75
+    },
+    {
+      "source": "falcon_recovery_overhead_chart",
+      "target": "falcon_erasure_coding",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "images/projects/falcon.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "falcon_recovery_overhead_chart",
+      "target": "falcon_network_transfer",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "images/projects/falcon.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "falcon_recovery_overhead_chart",
+      "target": "phdthesis_recovery_overhead_chart",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "images/projects/falcon.png",
+      "source_location": null,
+      "weight": 0.85
+    },
+    {
+      "source": "falcon_erasure_coding",
+      "target": "fta_comm_world",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "images/projects/falcon.png",
+      "source_location": null,
+      "weight": 0.65
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "hpc_checkpoint_recovery_systems",
+      "label": "HPC Checkpoint and Recovery Systems: FALCON, FTA, and PhD Thesis all address fault tolerance and recovery overhead reduction in parallel applications",
+      "nodes": ["falcon_recovery_overhead_chart", "fta_mpi_recovery_diagram", "phdthesis_recovery_overhead_chart"],
+      "relation": "implement",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "images/projects/falcon.png"
+    },
+    {
+      "id": "performance_counter_analysis_tools",
+      "label": "Performance Counter Analysis Projects: DASHING, VERITAS, and CMTbone-comm all analyze hardware performance counters for HPC applications",
+      "nodes": ["dashing_perf_counter_wheel", "veritas_struct_diagram", "cmtbone_comm_coverage_chart"],
+      "relation": "implement",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "images/projects/dashing.png"
+    },
+    {
+      "id": "ml_for_hpc_performance_prediction",
+      "label": "ML-driven HPC Performance Prediction: PING, PerfGen, and Comparative Code all apply machine learning to predict or model HPC application performance",
+      "nodes": ["ping_graph_construction", "perfgen_architecture", "comparative_code_pipeline"],
+      "relation": "participate_in",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "images/projects/ping.png"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}
