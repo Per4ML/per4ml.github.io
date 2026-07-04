@@ -31,7 +31,7 @@ export default function Contact() {
           Interested in Joining the Lab?
         </h2>
         <p style={{ color: 'var(--color-muted)', lineHeight: 1.8, marginBottom: '2rem', fontSize: '1rem' }}>
-          The Per4ML lab welcomes motivated PhD applicants, MS students, and undergraduate researchers interested in data-efficient ML for HPC, few-shot learning, and AI for systems. We value diversity and especially encourage women and underrepresented groups to apply.
+          The Per4ML lab welcomes motivated PhD applicants, MS students, and undergraduate researchers interested in data-efficient ML for HPC, few-shot learning, and AI for systems.
         </p>
 
         <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem', justifyContent: 'center', marginBottom: '2.5rem' }}>

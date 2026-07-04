@@ -5,6 +5,6 @@
   { "name": "LLNL",  "label": "Lawrence Livermore National Laboratory" },
   { "name": "BNL",   "label": "Brookhaven National Laboratory" },
   { "name": "ORNL",  "label": "Oak Ridge National Laboratory" },
-  { "name": "NERSC", "label": "NERSC / Lawrence Berkeley National Lab" },
+  { "name": "TACC",  "label": "Texas Advanced Computing Center" },
   { "name": "TXST",  "label": "Texas State University" }
 ]
