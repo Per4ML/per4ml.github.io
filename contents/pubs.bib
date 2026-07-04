@@ -289,7 +289,9 @@ author = {Dey, Arunavo and Antony, Neil and Dhakal, Aakash Raj and Thopalli, Kow
 @article{phelpsgraph,
   title={Graph Based Anomaly Detection in Chimbuko: Feasible or Fallible?},
   author={Phelps, Chase and Lahiry, Ankur and Islam, Tanzima Z and Kelly, Christopher},
-  year={2023}
+  booktitle={2023 International Conference for High Performance Computing, Networking, Storage, and Analysis (SC'23)},
+  year={2023},
+  note={Poster. \url{https://sc23.supercomputing.org/proceedings/tech_poster/poster_files/rpost184s3-file3.pdf}}
 }
 
 % ===================== 2022 =====================
@@ -552,10 +554,10 @@ author = {Dey, Arunavo and Antony, Neil and Dhakal, Aakash Raj and Thopalli, Kow
   year={2014}
 }
 
-% venue unverified — Scholar listed an invalid journal string for this entry
-@article{tramm2014xsbench,
-  title={XSBench--The development and verification of a performance abstraction for Monte Carlo reactor analysis},
+@inproceedings{tramm2014xsbench,
+  title={XSBench -- the development and verification of a performance abstraction for Monte Carlo reactor analysis},
   author={Tramm, John R and Siegel, Andrew R and Islam, Tanzima and Schulz, Martin},
+  booktitle={Proceedings of PHYSOR 2014, Kyoto, Japan, Sep 28 -- Oct 3, 2014},
   year={2014}
 }
 
@@ -570,22 +572,42 @@ author = {Dey, Arunavo and Antony, Neil and Dhakal, Aakash Raj and Thopalli, Kow
 
 % ===================== 2012 =====================
 
-@inproceedings{islam2012mcrengine,
-  title={MCRENGINE: A Scalable Checkpointing System Using Data-Aware Aggregation and Compression},
-  author={Islam, Tanzima Zerin and Mohror, Kathryn and Bagchi, Saurabh and Moody, Adam and de Supinski, Bronis R and Eigenmann, Rudolf},
-  booktitle={International Conference on High Performance Computing, Network, Storage and Analysis},
-  pages={10},
-  year={2012},
-  organization={ACM/IEEE}
+@inproceedings{2388996.2389020,
+author = {Islam, Tanzima Zerin and Mohror, Kathryn and Bagchi, Saurabh and Moody, Adam and de Supinski, Bronis R. and Eigenmann, Rudolf},
+title = {McrEngine: a scalable checkpointing system using data-aware aggregation and compression},
+year = {2012},
+isbn = {9781467308045},
+publisher = {IEEE Computer Society Press},
+address = {Washington, DC, USA},
+abstract = {High performance computing (HPC) systems use checkpoint-restart to tolerate failures. Typically, applications store their states in checkpoints on a parallel file system (PFS). As applications scale up, checkpoint-restart incurs high overheads due to contention for PFS resources. The high overheads force large-scale applications to reduce checkpoint frequency, which means more compute time is lost in the event of failure.We alleviate this problem through a scalable checkpoint-restart system, mcrEngine. mcrEngine aggregates checkpoints from multiple application processes with knowledge of the data semantics available through widely-used I/O libraries, e.g., HDF5 and netCDF, and compresses them. Our novel scheme improves compressibility of checkpoints up to 115\% over simple concatenation and compression. Our evaluation with large-scale application checkpoints show that mcrEngine reduces checkpointing overhead by up to 87\% and restart overhead by up to 62\% over a baseline with no aggregation or compression.},
+booktitle = {Proceedings of the International Conference on High Performance Computing, Networking, Storage and Analysis},
+articleno = {17},
+numpages = {11},
+location = {Salt Lake City, Utah},
+series = {SC '12}
 }
 
-@incollection{daw2012low,
-  title={Low Rank Approximation Methods for Identifying Impactful Pairwise Protein Mutations},
-  author={Daw, Chris and Cruz, Brian Barragan and Majeske, Nicholas and Jagodzinski, Filip and Islam, Tanzima and Hutchinson, Brian},
-  booktitle={Algorithms and Methods in Structural Bioinformatics},
-  pages={63--87},
-  year={2012},
-  publisher={Springer International Publishing Cham}
+
+@Inbook{Daw2022,
+author="Daw, Chris
+and Cruz, Brian Barragan
+and Majeske, Nicholas
+and Jagodzinski, Filip
+and Islam, Tanzima
+and Hutchinson, Brian",
+editor="Haspel, Nurit
+and Jagodzinski, Filip
+and Molloy, Kevin",
+title="Low Rank Approximation Methods for Identifying Impactful Pairwise Protein Mutations",
+bookTitle="Algorithms and Methods in Structural Bioinformatics",
+year="2022",
+publisher="Springer International Publishing",
+address="Cham",
+pages="63--87",
+abstract="Assessing how an amino acid mutation impacts protein structure and stability provides insights that advance drug design efforts for combating a variety of debilitating diseases. Performing point mutations via mutagenesis experiments on physical proteins to infer the effects of the mutations is time consuming even for a single amino acid substitution, let alone for all possible mutations. Computational approaches are available for generating mutant decoys and assessing them en masse to infer which mutations are impactful. However due to the combinatorial increase in the count of possible decoys with two mutations, even computational approaches have their limitations. In this work we have generated in silico for several proteins the sets of exhaustive mutants with two amino acid substitutions. We explore how to reconstruct from the exhaustive sets the information about which pairwise mutations are impactful, with the added goal that we sample as few decoys as possible. Previously, we sampled a subset of the ground truth and attempted a reconstruction of the data using singular value decomposition. Here we introduce a new tailored approach that decomposes the result into two components, the low-rank and sparse matrix. We demonstrate that this approach outperforms previous attempts at low sampling percentages with a variety of biologically inspired and random sampling strategies.",
+isbn="978-3-031-05914-8",
+doi="10.1007/978-3-031-05914-8_4",
+url="https://doi.org/10.1007/978-3-031-05914-8_4"
 }
 
 % ===================== 2011 =====================
@@ -593,30 +615,26 @@ author = {Dey, Arunavo and Antony, Neil and Dhakal, Aakash Raj and Thopalli, Kow
 @article{hossain2011eunomia,
   title={Eunomia: A fast and collaborative interference avoidance technique for wireless medical devices},
   author={Hossain, Mohammad S and Islam, Tanzima Zerin and Wei, Jinliang and Raghunathan, Vijay and Bagchi, Saurabh},
-  year={2011}
+  year={2011},
+  note={Fast abstract. \url{https://docs.lib.purdue.edu/ecetr/422/}}
 }
 
 % ===================== 2009 =====================
 
-@inproceedings{islam2009falcon,
-  title={Falcon: A System for Reliable Checkpoint Recovery in Shared Grid Environments},
-  author={Islam, Tanzima Zerin and Bagchi, Saurabh and Eigenmann, Rudolf},
-  booktitle={Proceedings of the Conference on High Performance Computing Networking, Storage and Analysis},
-  pages={50},
-  year={2009},
-  organization={ACM}
-}
+@inproceedings{10.1145/1654059.1654110, author = {Islam, Tanzima Zerin and Bagchi, Saurabh and Eigenmann, Rudolf}, title = {FALCON: a system for reliable checkpoint recovery in shared grid environments}, year = {2009}, isbn = {9781605587448}, publisher = {Association for Computing Machinery}, address = {New York, NY, USA}, url = {https://doi.org/10.1145/1654059.1654110}, doi = {10.1145/1654059.1654110}, abstract = {In Fine-Grained Cycle Sharing (FGCS) systems, machine owners voluntarily share their unused CPU cycles with guest jobs, as long as their performance degradation is tolerable. However, unpredictable evictions of guest jobs lead to fluctuating completion times. Checkpoint-recovery is an attractive mechanism for recovering from such "failures". Today's FGCS systems often use expensive, high-performance dedicated checkpoint servers. However, in geographically distributed clusters, this may incur high checkpoint transfer latencies. In this paper we present a system called Falcon that uses available disk resources of the FGCS machines as shared checkpoint repositories. However, an unavailable storage host may lead to loss of checkpoint data. Therefore, we model failures of storage hosts and develop a prediction algorithm for choosing reliable checkpoint repositories. We experiment with Falcon in the university-wide Condor testbed at Purdue and show improved and consistent performance for guest jobs in the presence of irregular resource availability.}, booktitle = {Proceedings of the Conference on High Performance Computing Networking, Storage and Analysis}, articleno = {50}, numpages = {12}, keywords = {reliability, failure model, cycle-sharing systems, checkpointing, Condor}, location = {Portland, Oregon}, series = {SC '09} }
 
 % ===================== 2007 =====================
 
-@inproceedings{hossain2007gpnocsim,
-  title={gpNoCsim-A General Purpose Simulator for Network-on-Chip},
-  author={Hossain, Hemayet and Ahmed, Mostak and Al-Nayeem, Abdullah and Islam, Tanzima Zerin and Akbar, M},
-  booktitle={Information and Communication Technology, 2007. ICICT'07. International Conference on},
-  pages={254--257},
+@INPROCEEDINGS{4261411,
+  author={Hossain, Hemayet and Ahmed, Mostak and Al-Nayeem, Abdullah and Islam, Tanzima Zerin and Akbar, Md. Mostofa},
+  booktitle={2007 International Conference on Information and Communication Technology}, 
+  title={Gpnocsim - A General Purpose Simulator for Network-On-Chip}, 
   year={2007},
-  organization={IEEE}
-}
+  volume={},
+  number={},
+  pages={254-257},
+  keywords={Network-on-a-chip;Object oriented modeling;Switches;Computer architecture;Computational modeling;Computer science;Java;Network topology;Communications technology;Computer simulation;NoC;SoC;Wormhole Switching},
+  doi={10.1109/ICICT.2007.375388}}
 
 % ===================== 2006 =====================
 
@@ -627,12 +645,4 @@ author = {Dey, Arunavo and Antony, Neil and Dhakal, Aakash Raj and Thopalli, Kow
   school={BS Thesis, Department of Computer Science and Engineering, BUET, Dhaka, Bangladesh}
 }
 
-% ===================== 2005 =====================
 
-% year approximate — MSc thesis dated July 2005 in the school field
-@phdthesis{hossaingeneral,
-  title={A General Purpose Simulator for Network on Chip},
-  author={Hossain, Hemayet and Ahmed, Mostak and Al-Nayeem, Abdullah and Islam, Tanzima Zerin and Akbar, Md Mostofa},
-  year={2005},
-  school={MSc Thesis, Department of Computer Science and Engineering, BUET}
-}
