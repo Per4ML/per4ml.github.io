@@ -1,5 +1,6 @@
 **__pycache__/
 *.html
+!index.html
 node_modules
 .env
 dist
