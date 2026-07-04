@@ -8,6 +8,58 @@ This contains everything you need to run your app locally.
 
 View your app in AI Studio: https://ai.studio/apps/d77e50db-c751-4246-8d66-1d16e8428668
 
+---
+
+## 🚀 Quick reference: publish a change
+
+Whenever you change something on the site, do these steps to make it go live. The
+live site is **https://per4ml.github.io**.
+
+**1. Edit the right file.** Everything lives under `contents/` (data) or `src/`
+(page text). See [What drives each section](#what-drives-each-section) below to
+find the file. Common ones:
+
+| To change… | Edit this file |
+| --- | --- |
+| Publications | `contents/pubs.bib` |
+| Team members | `contents/members.json` |
+| News | `contents/news.json` |
+| Funders | `contents/funders.json` |
+| PI bio / funding total / email | `contents/pi.json` |
+| "Interested in Joining the Lab?" text | `src/components/Contact.tsx` |
+
+**2. (If you edited a `.json` file) check it's still valid** — a missing comma
+between entries breaks the whole site:
+
+```bash
+cd ~/Research/Stash/Per4ML
+python3 -m json.tool contents/funders.json    # swap in the file you edited; no error = valid
+```
+
+**3. (Optional) preview it locally** before publishing:
+
+```bash
+npm run dev        # then open the URL it prints (Ctrl-C to stop)
+```
+
+**4. Commit and push** — this is what actually publishes it:
+
+```bash
+cd ~/Research/Stash/Per4ML
+git add -A                                  # stage every change
+git commit -m "Update PI bio"               # describe what you changed
+git push                                    # upload — the site rebuilds automatically
+```
+
+Wait ~1–2 minutes after `git push`; GitHub rebuilds and redeploys the site on its
+own. Refresh the page with **Cmd-Shift-R** if you still see the old version.
+
+> **Reminder:** never edit files in `src/data/` or `public/*.json` — those are
+> generated automatically from `contents/` on every build and your edits there
+> would be overwritten. Always edit the source in `contents/` (or `src/`).
+
+---
+
 ## Run Locally
 
 **Prerequisites:**  Node.js

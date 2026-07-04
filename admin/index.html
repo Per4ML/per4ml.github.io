@@ -1,0 +1,395 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Per4ML · Content Entry</title>
+  <style>
+    :root {
+      --bg: #f4f1ea; --surface: #fbf9f4; --border: #d9d3c5;
+      --text: #1f2430; --muted: #6b7280; --accent: #c2410c;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; background: var(--bg); color: var(--text);
+      font-family: -apple-system, "Plus Jakarta Sans", "Segoe UI", sans-serif;
+      line-height: 1.5; padding: 2.5rem 1rem;
+    }
+    .wrap { max-width: 720px; margin: 0 auto; }
+    h1 { font-size: 1.7rem; font-weight: 800; margin: 0 0 .25rem; }
+    .sub { color: var(--muted); margin: 0 0 1.75rem; font-size: .92rem; }
+    .card {
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: 1rem; padding: 1.75rem;
+    }
+    label { display: block; font-weight: 600; font-size: .85rem; margin: 1rem 0 .35rem; }
+    .hint { font-weight: 400; color: var(--muted); font-size: .78rem; }
+    input, select, textarea {
+      width: 100%; padding: .6rem .75rem; font: inherit;
+      border: 1px solid var(--border); border-radius: .55rem;
+      background: #fff; color: var(--text);
+    }
+    textarea { resize: vertical; min-height: 90px; }
+    .row { display: flex; gap: 1rem; flex-wrap: wrap; }
+    .row > div { flex: 1; min-width: 180px; }
+    .check { display: flex; align-items: center; gap: .5rem; margin-top: 1rem; }
+    .check input { width: auto; }
+    .check label { margin: 0; }
+    fieldset { border: 0; padding: 0; margin: 0; }
+    button {
+      margin-top: 1.5rem; width: 100%; padding: .8rem;
+      background: var(--accent); color: #fff; border: 0; border-radius: .6rem;
+      font-weight: 700; font-size: 1rem; cursor: pointer;
+    }
+    button:disabled { opacity: .5; cursor: default; }
+    button.danger { background: #fff; color: #b91c1c; border: 1px solid #fca5a5; }
+    #msg { margin-top: 1.25rem; padding: .9rem 1rem; border-radius: .6rem;
+      font-size: .9rem; white-space: pre-wrap; display: none; }
+    #msg.ok { display: block; background: #ecfdf5; border: 1px solid #6ee7b7; color: #065f46; }
+    #msg.err { display: block; background: #fef2f2; border: 1px solid #fca5a5; color: #991b1b; }
+    .type-select { margin-bottom: .5rem; }
+    [hidden] { display: none !important; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Per4ML · Add Content</h1>
+    <p class="sub">Pick what you're adding, fill the fields, and submit. It writes
+      straight into the matching <code>contents/</code> file. Existing entries are
+      preserved. Run <code>npm run dev</code> afterwards to see it on the site.</p>
+
+    <div class="card">
+      <label class="type-select" for="type">What are you adding?</label>
+      <select id="type">
+        <option value="member">Team member</option>
+        <option value="alumni">Alumni (past member)</option>
+        <option value="collaborator">Collaborator</option>
+        <option value="news">News item</option>
+        <option value="project">Research project</option>
+        <option value="funder">Funder</option>
+        <option value="publication">Publication (paper)</option>
+      </select>
+
+      <!-- TEAM MEMBER -->
+      <fieldset data-type="member">
+        <label>Add new, or pick someone to edit / remove</label>
+        <select class="js-picker" data-type="member">
+          <option value="">➕ Add new member</option>
+        </select>
+        <input type="hidden" name="_editId" class="js-editid" value="" />
+
+        <label>Full name <span class="hint">(required)</span></label>
+        <input name="name" placeholder="Jane Doe" />
+        <div class="row">
+          <div>
+            <label>Level</label>
+            <select name="level">
+              <option>PhD</option><option>MS</option><option>Undergraduate</option>
+              <option>Postdoc</option><option>PI</option><option>Alumni</option>
+            </select>
+          </div>
+          <div>
+            <label>Joined (year)</label>
+            <input name="joined" placeholder="2026" />
+          </div>
+        </div>
+        <label>Profile URL</label>
+        <input name="url" placeholder="https://…" />
+        <label>Image path <span class="hint">(blank = images/members/&lt;firstname&gt;.jpg)</span></label>
+        <input name="image" placeholder="images/members/jane.jpg" />
+        <label>Research interests <span class="hint">(comma-separated)</span></label>
+        <input name="interests" placeholder="HPC, Few-Shot Learning" />
+        <div class="check"><input type="checkbox" name="active" id="m-active" checked /><label for="m-active">Active (uncheck to move to Alumni)</label></div>
+
+        <button type="button" class="js-remove danger" hidden>Remove this member</button>
+      </fieldset>
+
+      <!-- ALUMNI (past member) -->
+      <fieldset data-type="alumni" hidden>
+        <label>Add new, or pick an alum to edit / remove</label>
+        <select class="js-picker" data-type="alumni">
+          <option value="">➕ Add new alum</option>
+        </select>
+        <input type="hidden" name="_editId" class="js-editid" value="" />
+
+        <label>Full name <span class="hint">(required)</span></label>
+        <input name="name" placeholder="Jane Doe" />
+        <label>Note <span class="hint">(degree &amp; where they are now — shown in parentheses)</span></label>
+        <input name="note" placeholder="M.Sc., currently at LLNL" />
+        <p class="hint" style="margin-top:.75rem">Tip: a current team member you mark inactive is added to Alumni automatically — you only add people here who were never in the team list.</p>
+
+        <button type="button" class="js-remove danger" hidden>Remove this alum</button>
+      </fieldset>
+
+      <!-- COLLABORATOR -->
+      <fieldset data-type="collaborator" hidden>
+        <label>Add new, or pick a collaborator to edit / remove</label>
+        <select class="js-picker" data-type="collaborator">
+          <option value="">➕ Add new collaborator</option>
+        </select>
+        <input type="hidden" name="_editId" class="js-editid" value="" />
+
+        <label>Full name <span class="hint">(required)</span></label>
+        <input name="name" placeholder="Jane Doe" />
+        <label>Affiliation <span class="hint">(shown in parentheses)</span></label>
+        <input name="affiliation" placeholder="LLNL" />
+
+        <button type="button" class="js-remove danger" hidden>Remove this collaborator</button>
+      </fieldset>
+
+      <!-- NEWS -->
+      <fieldset data-type="news" hidden>
+        <div class="row">
+          <div>
+            <label>Category</label>
+            <select name="category">
+              <option>Publication</option><option>Funding</option><option>Award</option>
+              <option>Service</option><option>Talk</option><option>Research</option><option>News</option>
+            </select>
+          </div>
+          <div>
+            <label>Date <span class="hint">(YYYY-MM)</span></label>
+            <input name="date" placeholder="2026-06" />
+          </div>
+        </div>
+        <label>Headline <span class="hint">(required)</span></label>
+        <input name="headline" placeholder="Paper accepted at SC'26" />
+        <label>Body <span class="hint">(required)</span></label>
+        <textarea name="body" placeholder="Congratulations to…"></textarea>
+      </fieldset>
+
+      <!-- PROJECT -->
+      <fieldset data-type="project" hidden>
+        <label>Title <span class="hint">(required)</span></label>
+        <input name="title" placeholder="Few-Shot Performance Modeling" />
+        <label>Abstract <span class="hint">(required)</span></label>
+        <textarea name="abstract" placeholder="This project…"></textarea>
+        <label>Tags <span class="hint">(comma-separated; blank = Research)</span></label>
+        <input name="tags" placeholder="HPC, Transfer Learning" />
+        <div class="row">
+          <div>
+            <label>Link URL</label>
+            <input name="url" placeholder="https://…" />
+          </div>
+          <div>
+            <label>Image path <span class="hint">(blank = auto)</span></label>
+            <input name="image" placeholder="images/projects/name.png" />
+          </div>
+        </div>
+        <div class="check"><input type="checkbox" name="featured" id="p-featured" checked /><label for="p-featured">Featured</label></div>
+        <div class="check"><input type="checkbox" name="active" id="p-active" checked /><label for="p-active">Active</label></div>
+      </fieldset>
+
+      <!-- FUNDER -->
+      <fieldset data-type="funder" hidden>
+        <div class="row">
+          <div>
+            <label>Acronym <span class="hint">(required)</span></label>
+            <input name="name" placeholder="ARPA-E" />
+          </div>
+          <div>
+            <label>Full name <span class="hint">(required)</span></label>
+            <input name="label" placeholder="Advanced Research Projects Agency–Energy" />
+          </div>
+        </div>
+      </fieldset>
+
+      <!-- PUBLICATION -->
+      <fieldset data-type="publication" hidden>
+        <label>Paste a BibTeX entry <span class="hint">(easiest — leave the fields below blank)</span></label>
+        <textarea name="bibtex" placeholder="@inproceedings{key2026, title={…}, author={…}, year={2026}, booktitle={…}, url={…} }"></textarea>
+        <p class="sub" style="margin:.75rem 0 0">— or — build it from fields:</p>
+        <div class="row">
+          <div>
+            <label>Entry type</label>
+            <select name="entrytype">
+              <option value="article">article (journal / preprint)</option>
+              <option value="inproceedings">inproceedings (conference)</option>
+            </select>
+          </div>
+          <div>
+            <label>Citation key <span class="hint">(blank = auto)</span></label>
+            <input name="key" placeholder="doe2026method" />
+          </div>
+        </div>
+        <label>Title</label>
+        <input name="title" placeholder="A New Method for…" />
+        <label>Authors <span class="hint">(BibTeX style: Last, First and Last, First)</span></label>
+        <input name="authors" placeholder="Doe, Jane and Islam, Tanzima Z" />
+        <div class="row">
+          <div>
+            <label>Year</label>
+            <input name="year" placeholder="2026" />
+          </div>
+          <div>
+            <label>Venue <span class="hint">(journal or conference)</span></label>
+            <input name="venue" placeholder="SC '26" />
+          </div>
+        </div>
+        <label>URL</label>
+        <input name="url" placeholder="https://…" />
+        <p class="hint" style="margin-top:.75rem">Submitting regenerates the publications list, word cloud, mindmap, and stats automatically.</p>
+      </fieldset>
+
+      <button id="submit">Add to site</button>
+      <div id="msg"></div>
+    </div>
+  </div>
+
+  <script>
+    const typeSel = document.getElementById('type');
+    const groups = [...document.querySelectorAll('fieldset[data-type]')];
+    const btn = document.getElementById('submit');
+    const msg = document.getElementById('msg');
+    const clearMsg = () => { msg.className = ''; msg.textContent = ''; };
+
+    // Types that support pick → edit / remove (have a .js-picker + .js-editid).
+    // optionLabel builds the dropdown text; nouns are used in button labels.
+    const EDITABLE = {
+      member:       { noun: 'member',       optionLabel: m => `${m.name} (${m.level})` },
+      alumni:       { noun: 'alum',         optionLabel: m => `${m.name}${m.note ? ' (' + m.note + ')' : ''}` },
+      collaborator: { noun: 'collaborator', optionLabel: m => `${m.name}${m.affiliation ? ' (' + m.affiliation + ')' : ''}` },
+    };
+    const groupOf = t => groups.find(g => g.dataset.type === t);
+    const caches = {};  // type -> { id: item }
+
+    function setField(group, name, value) {
+      const el = group.querySelector(`[name="${name}"]`);
+      if (!el) return;
+      if (Array.isArray(value)) value = value.join(', ');
+      if (el.type === 'checkbox') el.checked = value !== false;
+      else el.value = value ?? '';
+    }
+
+    async function loadList(type) {
+      const group = groupOf(type);
+      const picker = group.querySelector('.js-picker');
+      const placeholder = picker.options[0] ? picker.options[0].outerHTML
+        : `<option value="">➕ Add new</option>`;
+      try {
+        const res = await fetch('/api/list/' + type);
+        const data = await res.json();
+        caches[type] = {};
+        const keep = picker.value;
+        picker.innerHTML = placeholder;
+        (data.items || []).forEach(item => {
+          caches[type][item.id] = item;
+          const o = document.createElement('option');
+          o.value = item.id;
+          o.textContent = EDITABLE[type].optionLabel(item);
+          picker.appendChild(o);
+        });
+        if (caches[type][keep]) picker.value = keep;
+      } catch (_) { /* server not reachable yet */ }
+    }
+
+    function applyMode(type) {
+      const group = groupOf(type);
+      const picker = group.querySelector('.js-picker');
+      const editId = group.querySelector('.js-editid');
+      const removeBtn = group.querySelector('.js-remove');
+      const item = (caches[type] || {})[picker.value];
+      if (item) {
+        editId.value = item.id;
+        group.querySelectorAll('[name]').forEach(el => {
+          if (el.name === '_editId') return;
+          if (item[el.name] !== undefined) setField(group, el.name, item[el.name]);
+          else if (el.type === 'checkbox') el.checked = true;
+          else el.value = '';
+        });
+        removeBtn.hidden = false;
+      } else {
+        editId.value = '';
+        group.querySelectorAll('[name]').forEach(el => {
+          if (el.name === '_editId') return;
+          if (el.type === 'checkbox') el.checked = true;
+          else if (el.tagName !== 'SELECT') el.value = '';
+        });
+        removeBtn.hidden = true;
+      }
+      updateSubmitLabel();
+    }
+
+    function updateSubmitLabel() {
+      const t = typeSel.value;
+      const editing = EDITABLE[t] && groupOf(t).querySelector('.js-editid').value;
+      btn.textContent = editing ? `Update ${EDITABLE[t].noun}` : 'Add to site';
+    }
+
+    // Wire each editable type's picker + remove button once.
+    Object.keys(EDITABLE).forEach(type => {
+      const group = groupOf(type);
+      group.querySelector('.js-picker').addEventListener('change', () => { applyMode(type); clearMsg(); });
+      group.querySelector('.js-remove').addEventListener('click', async () => {
+        const id = group.querySelector('.js-editid').value;
+        const item = (caches[type] || {})[id];
+        if (!id || !item) return;
+        if (!confirm(`Remove “${item.name}”? This cannot be undone.`)) return;
+        const removeBtn = group.querySelector('.js-remove');
+        removeBtn.disabled = true;
+        try {
+          const res = await fetch('/api/remove/' + type, {
+            method: 'POST', headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ id }),
+          });
+          const data = await res.json();
+          msg.className = data.ok ? 'ok' : 'err';
+          msg.textContent = data.message;
+          if (data.ok) { group.querySelector('.js-picker').value = ''; await loadList(type); applyMode(type); }
+        } catch (e) {
+          msg.className = 'err'; msg.textContent = 'Could not reach the server: ' + e.message;
+        } finally { removeBtn.disabled = false; }
+      });
+    });
+
+    // ── Type switching ─────────────────────────────────────────────────────
+    function showGroup() {
+      const t = typeSel.value;
+      groups.forEach(g => { g.hidden = g.dataset.type !== t; });
+      clearMsg();
+      if (EDITABLE[t]) loadList(t).then(() => applyMode(t));
+      updateSubmitLabel();
+    }
+    typeSel.addEventListener('change', showGroup);
+    showGroup();
+
+    // ── Submit (add or update) ─────────────────────────────────────────────
+    btn.addEventListener('click', async () => {
+      const t = typeSel.value;
+      const group = groupOf(t);
+      const fields = {};
+      group.querySelectorAll('input, select, textarea').forEach(el => {
+        if (!el.name) return;
+        fields[el.name] = el.type === 'checkbox' ? el.checked : el.value.trim();
+      });
+
+      btn.disabled = true; btn.textContent = 'Saving…';
+      clearMsg();
+      try {
+        const res = await fetch('/api/add/' + t, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(fields),
+        });
+        const data = await res.json();
+        msg.className = data.ok ? 'ok' : 'err';
+        msg.textContent = data.message;
+        if (data.ok) {
+          if (EDITABLE[t]) {
+            group.querySelector('.js-picker').value = '';
+            await loadList(t);
+            applyMode(t);          // back to "Add new" with cleared fields
+          } else {
+            group.querySelectorAll('input:not([type=checkbox]), textarea').forEach(el => (el.value = ''));
+          }
+        }
+      } catch (e) {
+        msg.className = 'err';
+        msg.textContent = 'Could not reach the server: ' + e.message;
+      } finally {
+        btn.disabled = false; updateSubmitLabel();
+      }
+    });
+  </script>
+</body>
+</html>
