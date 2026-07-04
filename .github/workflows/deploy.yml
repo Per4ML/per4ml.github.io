@@ -15,31 +15,47 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      - name: Install npm dependencies
+        run: npm ci
+
+      - name: Build site
+        run: npm run build
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
   deploy:
+    needs: build
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - name: Python
-        uses: actions/setup-python@v6
-      - name: Checkout pages repository
-        uses: actions/checkout@v6
-        with:
-          ref: main
-          path: main
-      - name: Generate static files
-        run: |
-          cd main/
-          python3 mkhtml.py
-          rm -rf *.py README.md contents/ __pycache__/
-          find . -type f -exec chmod 644 {} \;
-          find . -type d -exec chmod 711 {} \;
-          cd ../
-      - name: Upload pages artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: 'main/'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
