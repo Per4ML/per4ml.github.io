@@ -1,12 +1,12 @@
 # Per4ML Research Group — Data-Efficient AI/ML for HPC
 
-> Dr. Tanzima Z. Islam is an Associate Professor of Computer Science at Texas State University. She leads the Per4ML laboratory, which develops data-efficient AI and ML methods for intelligent HPC systems. She holds the NSF CAREER Award (2025), the DOE Early Career Award (2022), and the R&D 100 Award (2019). She has secured over $4.6M in research funding from NSF, DOE, AMD, and national laboratories including LLNL, BNL, ORNL, and NERSC/LBNL. She is also the co-founder of Bangladeshi Women in Computer Science and Engineering (BWCSE).
+> Dr. Tanzima Z. Islam is an Associate Professor of Computer Science at Texas State University. She leads the Per4ML laboratory, which develops data-efficient AI and ML methods for intelligent HPC systems. She holds the NSF CAREER Award (2025), the DOE Early Career Award (2022), and the R&D 100 Award (2019). She has secured over $4.6M in research funding from NSF, DOE, AMD, and national laboratories including LLNL, BNL, ORNL, and LBNL. She is also the co-founder of Bangladeshi Women in Computer Science and Engineering (BWCSE).
 
 - Principal Investigator: Tanzima Z. Islam, Associate Professor, Computer Science, Texas State University
 - Website: https://per4ml.github.io
 - PI website: https://www.tanzimaislam.com
 - Google Scholar: https://scholar.google.com/citations?user=q56uneAAAAAJ&hl=en
-- Research funding secured: $4.6M+ (NSF, DOE, AMD, LLNL, BNL, ORNL, NERSC/LBNL)
+- Research funding secured: $4.6M+ (NSF, DOE, AMD, LLNL, BNL, ORNL, LBNL)
 
 ## Research Areas
 The group works on, and welcomes collaborators and students in, the following topics:

@@ -57,6 +57,16 @@ export default function App() {
 
   const toggleTheme = () => setTheme(t => (t === 'dark' ? 'light' : 'dark'));
 
+  // On a fresh load with a hash (e.g. /#publications, or /publications which
+  // redirects here), scroll to the section once it has mounted. The browser's
+  // native hash-scroll fires before React renders the section, so it misses.
+  useEffect(() => {
+    const id = window.location.hash.slice(1).split(/[?&]/)[0];
+    if (!id) return;
+    const t = setTimeout(() => document.getElementById(id)?.scrollIntoView(), 100);
+    return () => clearTimeout(t);
+  }, []);
+
   return (
     <>
       <NavBar theme={theme} toggleTheme={toggleTheme} />
