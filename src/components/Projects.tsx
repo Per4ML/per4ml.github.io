@@ -43,7 +43,7 @@ export default function Projects() {
         transition: 'opacity 0.7s ease, transform 0.7s ease',
       }}
     >
-      <div style={{ maxWidth: 1100, margin: '0 auto' }}>
+      <div className="content-col">
         <div style={{ textAlign: 'center', marginBottom: '1rem' }}>
           <span style={{ fontSize: '0.75rem', fontWeight: 600, letterSpacing: '0.15em', textTransform: 'uppercase', color: 'var(--color-accent)', fontFamily: 'JetBrains Mono, monospace' }}>
             Active Projects
@@ -133,7 +133,7 @@ function ProjectCard({ project }: { project: Project }) {
             <span key={tag} className="tag-chip">{tag}</span>
           ))}
         </div>
-        <p style={{ margin: 0, fontSize: '0.92rem', color: 'var(--color-muted)', lineHeight: 1.7 }}>
+        <p style={{ margin: 0, fontSize: '1rem', color: 'var(--color-muted)', lineHeight: 1.65 }}>
           {project.abstract}
         </p>
       </div>

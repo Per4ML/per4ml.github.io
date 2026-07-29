@@ -83,7 +83,8 @@ export default function NavBar({ theme, toggleTheme }: NavBarProps) {
       }}
     >
       <nav
-        style={{ maxWidth: 1280, margin: '0 auto', display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '0 1.5rem', height: 64 }}
+        className="content-col"
+        style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '0 1.5rem', height: 64 }}
         aria-label="Main navigation"
       >
         <a

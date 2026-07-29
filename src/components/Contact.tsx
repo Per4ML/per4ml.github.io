@@ -26,7 +26,7 @@ export default function Contact() {
         transition: 'opacity 0.7s ease, transform 0.7s ease',
       }}
     >
-      <div style={{ maxWidth: 700, margin: '0 auto', textAlign: 'center' }}>
+      <div className="content-col" style={{ textAlign: 'center' }}>
         <h2 style={{ margin: '0 0 1rem 0', fontSize: 'clamp(1.75rem, 3vw, 2.5rem)', fontWeight: 800, color: 'var(--color-text)' }}>
           Interested in Joining the Lab?
         </h2>
@@ -59,10 +59,10 @@ export default function Contact() {
           borderRadius: '0.75rem',
           padding: '1.5rem 2rem',
         }}>
-          <p style={{ margin: '0 0 0.5rem 0', fontSize: '0.85rem', color: 'var(--color-muted)' }}>
+          <p style={{ margin: '0 0 0.5rem 0', fontSize: '0.95rem', color: 'var(--color-muted)' }}>
             <strong style={{ color: 'var(--color-text)' }}>Institution:</strong> {piData.institution}
           </p>
-          <p style={{ margin: 0, fontSize: '0.85rem', color: 'var(--color-muted)' }}>
+          <p style={{ margin: 0, fontSize: '0.95rem', color: 'var(--color-muted)' }}>
             <strong style={{ color: 'var(--color-text)' }}>Department:</strong> Computer Science
           </p>
         </div>

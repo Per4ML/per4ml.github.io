@@ -56,7 +56,7 @@ export default function News() {
         transition: 'opacity 0.7s ease, transform 0.7s ease',
       }}
     >
-      <div style={{ maxWidth: 1100, margin: '0 auto' }}>
+      <div className="content-col">
         <h2 style={{ textAlign: 'center', margin: '0 0 3rem 0', fontSize: 'clamp(1.75rem, 3vw, 2.5rem)', fontWeight: 800, color: 'var(--color-text)' }}>
           Recent Updates
         </h2>
@@ -138,7 +138,7 @@ export default function News() {
                     <h3 style={{ margin: '0 0 0.4rem 0', fontSize: '1rem', fontWeight: 700, color: 'var(--color-text)' }}>
                       {item.headline}
                     </h3>
-                    <p style={{ margin: 0, fontSize: '0.88rem', color: 'var(--color-muted)', lineHeight: 1.6 }}>
+                    <p style={{ margin: 0, fontSize: '1rem', color: 'var(--color-muted)', lineHeight: 1.65 }}>
                       {item.body}
                     </p>
                   </div>

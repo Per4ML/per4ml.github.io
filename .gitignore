@@ -2,6 +2,7 @@
 *.html
 !index.html
 node_modules
+.venv
 .env
 dist
 src/data/publications.json

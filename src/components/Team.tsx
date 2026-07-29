@@ -81,7 +81,7 @@ export default function Team() {
         transition: 'opacity 0.7s ease, transform 0.7s ease',
       }}
     >
-      <div style={{ maxWidth: 1100, margin: '0 auto' }}>
+      <div className="content-col">
         <h2 style={{ textAlign: 'center', margin: '0 0 3rem 0', fontSize: 'clamp(1.75rem, 3vw, 2.5rem)', fontWeight: 800, color: 'var(--color-text)' }}>
           Meet the Team
         </h2>

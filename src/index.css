@@ -2,6 +2,8 @@
 
 /* ─── Dark mode (default) ─────────────────────────────────────────────────── */
 :root {
+  /* Content column width, shared by every section (matches tanzimaislam.com) */
+  --content-width: min(1440px, 92vw);
   --color-bg:      #0b0f1e;
   --color-surface: #131928;
   --color-accent:  #f59e0b;
@@ -31,14 +33,26 @@ html {
   background-color: var(--color-bg);
   color: var(--color-text);
   font-family: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  /* Base type scale — matches tanzimaislam.com (18px body copy).
+     Every component sizes text in rem, so this scales the whole site. */
+  font-size: 18px;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 body {
   margin: 0;
   min-height: 100vh;
+  font-size: 1rem;
+  line-height: 1.65;
   background-color: var(--color-bg);
   transition: background-color 0.3s ease;
+}
+
+/* Shared content column — same width as tanzimaislam.com */
+.content-col {
+  width: 100%;
+  max-width: var(--content-width);
+  margin: 0 auto;
 }
 
 h1, h2, h3, h4, h5 {
@@ -127,7 +141,7 @@ section[id] {
 /* ─── People Carousel ────────────────────────────────────────────── */
 .people-carousel-shell {
   width: 100%;
-  max-width: 1100px;
+  max-width: var(--content-width);
   margin: 0 auto;
   overflow: hidden;
   mask-image: linear-gradient(to right, transparent, black 8%, black 92%, transparent);

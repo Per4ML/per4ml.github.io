@@ -158,7 +158,7 @@ function ProjectCard({ project }: { project: Project }) {
           ))}
         </div>
         <p style={{
-          margin: 0, fontSize: '0.83rem', color: 'var(--color-muted)', lineHeight: 1.65,
+          margin: 0, fontSize: '0.95rem', color: 'var(--color-muted)', lineHeight: 1.65,
           height: '8.25rem', display: '-webkit-box', WebkitLineClamp: 6, WebkitBoxOrient: 'vertical', overflow: 'hidden',
         }}>
           {snippet}
@@ -338,7 +338,7 @@ export default function Research() {
       }}
     >
       {/* Contained header + word cloud */}
-      <div style={{ maxWidth: 1100, margin: '0 auto', padding: '0 1.5rem' }}>
+      <div className="content-col" style={{ padding: '0 1.5rem' }}>
         <h2 style={{ textAlign: 'center', margin: '0 0 0.75rem 0', fontSize: 'clamp(1.75rem, 3vw, 2.5rem)', fontWeight: 800, color: 'var(--color-text)' }}>
           Research Areas
         </h2>

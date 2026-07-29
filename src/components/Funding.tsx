@@ -32,7 +32,7 @@ export default function Funding() {
         transition: 'opacity 0.7s ease, transform 0.7s ease',
       }}
     >
-      <div style={{ maxWidth: 1000, margin: '0 auto' }}>
+      <div className="content-col">
         <h2 style={{ textAlign: 'center', margin: '0 0 0.75rem 0', fontSize: 'clamp(1.75rem, 3vw, 2.5rem)', fontWeight: 800, color: 'var(--color-text)' }}>
           Our Funders
         </h2>

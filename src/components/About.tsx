@@ -25,7 +25,7 @@ export default function About() {
         transition: 'opacity 0.7s ease, transform 0.7s ease',
       }}
     >
-      <div style={{ maxWidth: 1100, margin: '0 auto', width: '100%' }}>
+      <div className="content-col" style={{ width: '100%' }}>
         <div
           style={{
             display: 'flex',

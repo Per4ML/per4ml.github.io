@@ -1,5 +1,12 @@
 [
   {
+    "date": "2026-07",
+    "emoji": "💰",
+    "category": "Funding",
+    "headline": "DOE Genesis Mission Award",
+    "body": "We are thrilled to lead a U.S. Department of Energy (DOE) #GenesisMission award entitled \"OptiX: A Multi-Modal Foundation Model for Performance-Aware HPC Code Intelligence\". The project includes Chris Kelly and Ozgur Kilic from BNL, Johannes Doerfert from LLNL, and Shahriar Nirjon from UNC at Chapel Hill."
+  },
+  {
     "date": "2026-05",
     "emoji": "📰",
     "category": "paper",
