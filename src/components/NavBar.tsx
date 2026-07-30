@@ -83,32 +83,25 @@ export default function NavBar({ theme, toggleTheme }: NavBarProps) {
       }}
     >
       <nav
-        className="content-col"
-        style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '0 1.5rem', height: 64 }}
+        className="content-col site-nav"
         aria-label="Main navigation"
       >
         <a
           href="#hero"
-          style={{ fontFamily: 'Plus Jakarta Sans, Inter, sans-serif', fontWeight: 800, fontSize: '1.2rem', color: 'var(--color-accent)', textDecoration: 'none', letterSpacing: '-0.02em' }}
+          style={{ fontFamily: 'Plus Jakarta Sans, Inter, sans-serif', fontWeight: 800, fontSize: '1.2rem', color: 'var(--color-accent)', textDecoration: 'none', letterSpacing: '-0.02em', flexShrink: 0 }}
         >
           Per4ML
         </a>
 
-        <ul style={{ display: 'flex', gap: '0.25rem', listStyle: 'none', margin: 0, padding: 0, overflowX: 'auto' }}>
+        <ul className="site-nav__links">
           {NAV_LINKS.map(link => (
             <li key={link.href}>
               <a
                 href={link.href}
+                className="site-nav__link"
                 style={{
-                  display: 'block',
-                  padding: '0.35rem 0.75rem',
-                  borderRadius: '0.375rem',
-                  fontSize: '0.85rem',
                   fontWeight: active === link.href.slice(1) ? 600 : 400,
                   color: active === link.href.slice(1) ? 'var(--color-accent)' : 'var(--color-muted)',
-                  textDecoration: 'none',
-                  transition: 'color 0.2s',
-                  whiteSpace: 'nowrap',
                 }}
                 onMouseEnter={e => { (e.target as HTMLElement).style.color = 'var(--color-text)'; }}
                 onMouseLeave={e => {
