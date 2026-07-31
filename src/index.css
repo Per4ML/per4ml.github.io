@@ -68,6 +68,17 @@ section[id] {
   scroll-margin-top: 72px;
 }
 
+/* The nav "Projects" link targets the carousel block inside #research, so it
+ * needs extra clearance to sit below the fixed nav rather than under it. */
+#projects {
+  scroll-margin-top: 100px;
+}
+
+/* Space the hero clears for the fixed nav (see the 860px block below) */
+:root {
+  --hero-nav-offset: 72px;
+}
+
 /* ---- Site navigation ---- */
 .site-nav {
   display: flex;
@@ -124,6 +135,14 @@ section[id] {
 
   section[id] {
     scroll-margin-top: 130px;
+  }
+
+  #projects {
+    scroll-margin-top: 160px;
+  }
+
+  :root {
+    --hero-nav-offset: 140px;
   }
 }
 

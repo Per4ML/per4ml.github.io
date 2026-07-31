@@ -85,7 +85,7 @@ export default function Hero({ theme }: HeroProps) {
         background: 'linear-gradient(160deg, var(--color-surface) 0%, var(--color-bg) 100%)',
         overflow: 'hidden',
         transition: 'background 0.4s ease',
-        paddingTop: 72, // clear the fixed nav
+        paddingTop: 'var(--hero-nav-offset)', // clear the fixed nav (taller when links wrap)
       }}
     >
       <canvas
@@ -104,6 +104,22 @@ export default function Hero({ theme }: HeroProps) {
 
       {/* Content */}
       <div style={{ position: 'relative', zIndex: 1, textAlign: 'center', padding: '2rem 1.5rem 3rem', maxWidth: 860, width: '100%' }}>
+        <img
+          src="/images/lab/per4ml-mark.png"
+          alt="Per4ML logo"
+          width={700}
+          height={339}
+          style={{
+            display: 'block',
+            height: 'clamp(72px, 13vw, 112px)',
+            width: 'auto',
+            margin: '0 auto 1rem auto',
+            filter: isDark
+              ? 'drop-shadow(0 4px 18px rgba(56,189,248,0.25))'
+              : 'drop-shadow(0 4px 14px rgba(15,42,74,0.18))',
+          }}
+        />
+
         <span style={{
           display: 'inline-block',
           marginBottom: '0.75rem',

@@ -66,6 +66,8 @@ def main():
         "name": "Per4ML Research Group",
         "alternateName": "Per4ML Laboratory",
         "url": BASE_URL,
+        "logo": f"{BASE_URL}/images/lab/per4ml-logo.png",
+        "image": f"{BASE_URL}/images/lab/og-image.png",
         "description": (pi.get("bio", "") or
                         "Data-efficient AI and ML methods for high-performance computing."),
         "parentOrganization": {"@type": "CollegeOrUniversity",

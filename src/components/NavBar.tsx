@@ -2,11 +2,10 @@ import { useEffect, useState } from 'react';
 
 const NAV_LINKS = [
   { href: '#about',        label: 'About' },
-  { href: '#research',     label: 'Research' },
+  { href: '#projects',     label: 'Projects' },
   { href: '#news',         label: 'News' },
   { href: '#team',         label: 'Team' },
   { href: '#publications', label: 'Publications' },
-  { href: '#projects',     label: 'Projects' },
   { href: '#funding',      label: 'Funding' },
   { href: '#contact',      label: 'Contact' },
 ];
@@ -88,8 +87,15 @@ export default function NavBar({ theme, toggleTheme }: NavBarProps) {
       >
         <a
           href="#hero"
-          style={{ fontFamily: 'Plus Jakarta Sans, Inter, sans-serif', fontWeight: 800, fontSize: '1.2rem', color: 'var(--color-accent)', textDecoration: 'none', letterSpacing: '-0.02em', flexShrink: 0 }}
+          style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', fontFamily: 'Plus Jakarta Sans, Inter, sans-serif', fontWeight: 800, fontSize: '1.2rem', color: 'var(--color-accent)', textDecoration: 'none', letterSpacing: '-0.02em', flexShrink: 0 }}
         >
+          <img
+            src="/images/lab/per4ml-mark.png"
+            alt=""
+            width={50}
+            height={24}
+            style={{ height: 24, width: 'auto', display: 'block' }}
+          />
           Per4ML
         </a>
 

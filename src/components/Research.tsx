@@ -359,16 +359,19 @@ export default function Research() {
           )}
         </div>
 
-        <h3 style={{ margin: '0 0 1.5rem 0', fontSize: '1rem', fontWeight: 600, color: 'var(--color-muted)', letterSpacing: '0.08em', textTransform: 'uppercase', fontFamily: 'JetBrains Mono, monospace' }}>
-          Active Projects
-          <span style={{ marginLeft: '0.75rem', fontSize: '0.75rem', fontWeight: 400, color: 'var(--color-border)', textTransform: 'none', letterSpacing: 0 }}>
-            — hover to pause
-          </span>
-        </h3>
+        {/* Nav "Projects" scrolls here — the carousel is the only project list on the site */}
+        <div id="projects">
+          <h3 style={{ margin: '0 0 1.5rem 0', fontSize: '1rem', fontWeight: 600, color: 'var(--color-muted)', letterSpacing: '0.08em', textTransform: 'uppercase', fontFamily: 'JetBrains Mono, monospace' }}>
+            Active Projects
+            <span style={{ marginLeft: '0.75rem', fontSize: '0.75rem', fontWeight: 400, color: 'var(--color-border)', textTransform: 'none', letterSpacing: 0 }}>
+              — hover to pause
+            </span>
+          </h3>
 
-        {/* Carousel aligned with the content column */}
-        <div style={{ background: 'var(--color-surface)', borderRadius: '1rem', border: '1px solid var(--color-border)', overflow: 'hidden' }}>
-          <ProjectCarousel projects={sorted} />
+          {/* Carousel aligned with the content column */}
+          <div style={{ background: 'var(--color-surface)', borderRadius: '1rem', border: '1px solid var(--color-border)', overflow: 'hidden' }}>
+            <ProjectCarousel projects={sorted} />
+          </div>
         </div>
       </div>
     </section>
