@@ -69,11 +69,40 @@ def split_authors(author_field: str) -> list[str]:
     return [clean_latex(p.strip()) for p in parts]
 
 
+# Award phrasings used in the CV bib, most specific first. The first pattern
+# that matches wins, so "best student paper finalist" is not swallowed by the
+# looser "best paper" rule.
+_AWARD_PATTERNS = [
+    (r"best\s+student\s+paper\s+finalist", "Best Student Paper Finalist"),
+    (r"best\s+student\s+paper", "Best Student Paper"),
+    (r"best\s+paper\s+finalist", "Best Paper Finalist"),
+    (r"best\s+paper", "Best Paper"),
+    (r"student\s+research\s+competition.*prize", "SRC Prize Winner"),
+]
+
+
 def extract_award(note: str) -> str:
-    """Return 'Best Paper' if note contains that phrase, else empty string."""
-    if note and re.search(r"best\s+paper", note, re.IGNORECASE):
-        return "Best Paper"
+    """Return a normalized award label found in `note`, else empty string."""
+    if not note:
+        return ""
+    for pattern, label in _AWARD_PATTERNS:
+        if re.search(pattern, note, re.IGNORECASE):
+            return label
     return ""
+
+
+def extract_acceptance_rate(note: str) -> str:
+    """Return e.g. '24%' when the note records a conference acceptance rate."""
+    if not note:
+        return ""
+    m = re.search(r"acceptance\s+rate:?\s*\(?\s*(\d+(?:\.\d+)?)\s*\\?%", note,
+                  re.IGNORECASE)
+    if m:
+        return f"{m.group(1)}%"
+    # Also matches the "(19% acceptance rate)" ordering used in the CV.
+    m = re.search(r"(\d+(?:\.\d+)?)\s*\\?%\s*acceptance\s+rate", note,
+                  re.IGNORECASE)
+    return f"{m.group(1)}%" if m else ""
 
 
 def load_bib(path: str):
@@ -103,6 +132,8 @@ def job1_publications(entries: list) -> list:
             "pdf": clean_latex(e.get("pdf", "")),
             "url": clean_latex(e.get("url", "")),
             "award": award,
+            "acceptanceRate": extract_acceptance_rate(note_raw),
+            "note": clean_latex(note_raw),
             "keywords": kws,
         }
         pubs.append(pub)

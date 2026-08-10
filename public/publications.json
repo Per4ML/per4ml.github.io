@@ -1,18 +1,20 @@
 [
   {
     "key": "zaeed2026optimas",
-    "title": "Optimas: An Intelligent Analytics-Informed Generative AI Framework for Performance Optimization",
+    "title": "OPTIMAS: An Intelligent Analytics-Informed Generative AI Framework for Performance Optimization",
     "authors": [
       "Zaeed, Mohammad",
       "Islam, Tanzima Z",
-      "Indic, Vladimir"
+      "Inđić, Vladimir"
     ],
-    "venue": "KDD",
+    "venue": "32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)",
     "year": 2026,
     "doi": "",
     "pdf": "",
-    "url": "",
+    "url": "https://arxiv.org/abs/2604.23892",
     "award": "",
+    "acceptanceRate": "18.5%",
+    "note": "Accepted. Acceptance rate: 18.5%",
     "keywords": []
   },
   {
@@ -31,6 +33,8 @@
     "pdf": "",
     "url": "",
     "award": "",
+    "acceptanceRate": "",
+    "note": "r̆lhttps://arxiv.org/abs/2604.22688",
     "keywords": []
   },
   {
@@ -44,27 +48,68 @@
     ],
     "venue": "The International Journal of High Performance Computing Applications",
     "year": 2026,
+    "doi": "10.1177/10943420251404998",
+    "pdf": "",
+    "url": "https://doi.org/10.1177/10943420251404998",
+    "award": "",
+    "acceptanceRate": "",
+    "note": "",
+    "keywords": []
+  },
+  {
+    "key": "yasmin2026modelxc",
+    "title": "ModelXc: A Novel Data-Efficient Personalization for Fall Detection",
+    "authors": [
+      "Yasmin, Awatif",
+      "Mahmud, Tarek",
+      "Alamgeer, Sana",
+      "Islam, Tanzima Z",
+      "Ngu, Anne"
+    ],
+    "venue": "International Conference on Digital Health",
+    "year": 2026,
     "doi": "",
     "pdf": "",
     "url": "",
     "award": "",
+    "acceptanceRate": "32.4%",
+    "note": "Accepted. Acceptance rate: 32.4%",
     "keywords": []
   },
   {
-    "key": "nawar2026attention",
+    "key": "fefey2026load",
+    "title": "Load-Aware Offline Scheduling for Heterogeneous Edge Deep Learning Inference",
+    "authors": [
+      "Fefey, Elvis G",
+      "Islam, Tanzima Z"
+    ],
+    "venue": "IEEE Cloud Summit",
+    "year": 2026,
+    "doi": "",
+    "pdf": "",
+    "url": "",
+    "award": "",
+    "acceptanceRate": "34.4%",
+    "note": "Accepted. Acceptance rate: 34.4%",
+    "keywords": []
+  },
+  {
+    "key": "ahmed2025attention",
     "title": "Attention-Informed Surrogates for Navigating Power-Performance Trade-offs in HPC",
     "authors": [
-      "Nawar Ahmed, Ashna",
+      "Ahmed, Ashna N",
       "Banday, Banooqa",
       "Jones, Terry",
       "Islam, Tanzima Z"
     ],
-    "venue": "NeurIPS ML for Systems Workshop",
+    "venue": "Workshop on ML for Systems in Conjunction with NeurIPS",
     "year": 2025,
     "doi": "",
     "pdf": "",
-    "url": "",
+    "url": "https://arxiv.org/abs/2601.15399",
     "award": "",
+    "acceptanceRate": "",
+    "note": "Accepted.",
     "keywords": []
   },
   {
@@ -89,6 +134,8 @@
     "pdf": "",
     "url": "",
     "award": "",
+    "acceptanceRate": "",
+    "note": "",
     "keywords": []
   },
   {
@@ -98,16 +145,18 @@
       "Sirvent, Raül",
       "Carratalá-Saez, Rocı́o",
       "Gueroudji, Amal",
-      "Islam, Tanzima",
+      "Islam, Tanzima Z",
       "Pouchard, Line",
       "Taufer, Michela"
     ],
-    "venue": "Proceedings of the 3rd ACM Conference on Reproducibility and Replicability",
+    "venue": "ACM Conference on Reproducibility and Replicability (ACM REP)",
     "year": 2025,
-    "doi": "",
+    "doi": "10.1145/3736731.3746141",
     "pdf": "",
-    "url": "",
+    "url": "https://doi.org/10.1145/3736731.3746141",
     "award": "",
+    "acceptanceRate": "",
+    "note": "",
     "keywords": []
   },
   {
@@ -129,6 +178,8 @@
     "pdf": "",
     "url": "",
     "award": "",
+    "acceptanceRate": "",
+    "note": "",
     "keywords": []
   },
   {
@@ -148,11 +199,13 @@
     "pdf": "",
     "url": "",
     "award": "",
+    "acceptanceRate": "",
+    "note": "",
     "keywords": []
   },
   {
     "key": "maiterth2025hpc",
-    "title": "HPC digital twins for evaluating scheduling policies, incentive structures and their impact on power and cooling",
+    "title": "HPC Digital Twins for Evaluating Scheduling Policies, Incentive Structures and their Impact on Power and Cooling",
     "authors": [
       "Maiterth, Matthias",
       "Brewer, Wesley H",
@@ -164,19 +217,21 @@
       "Duplyakin, Dmitry",
       "Patki, Tapasya",
       "Jones, Terry",
-      "others"
+      "Wang, Feiyi"
     ],
     "venue": "Proceedings of the SC'25 Workshops of the International Conference for High Performance Computing, Networking, Storage and Analysis",
     "year": 2025,
-    "doi": "",
+    "doi": "10.1145/3731599.3767559",
     "pdf": "",
-    "url": "",
+    "url": "https://doi.org/10.1145/3731599.3767559",
     "award": "",
+    "acceptanceRate": "",
+    "note": "",
     "keywords": []
   },
   {
     "key": "dey2025modelx",
-    "title": "ModelX : A Novel Transfer Learning Approach Across Heterogeneous Datasets",
+    "title": "ModelX: A Novel Transfer Learning Approach Across Heterogeneous Datasets",
     "authors": [
       "Dey, Arunavo",
       "Antony, Neil",
@@ -187,7 +242,7 @@
       "Marathe, Aniruddha",
       "Scogland, Tom",
       "Yeom, Jae-Seung",
-      "Islam, Tanzima"
+      "Islam, Tanzima Z"
     ],
     "venue": "Proceedings of the 34th International Symposium on High-Performance Parallel and Distributed Computing",
     "year": 2025,
@@ -195,6 +250,8 @@
     "pdf": "",
     "url": "https://doi.org/10.1145/3731545.3731593",
     "award": "",
+    "acceptanceRate": "19%",
+    "note": "Accepted. Acceptance rate: 19%",
     "keywords": [
       "transfer learning",
       "heterogeneous domains",
@@ -207,14 +264,16 @@
     "title": "Optimizing Deep Learning Inference on Heterogeneous Devices on the Edge: An ILP-Based Rate Monotonic Scheduling Approach",
     "authors": [
       "Fefey, Elvis G",
-      "Islam, Tanzima"
+      "Islam, Tanzima Z"
     ],
     "venue": "2025 IEEE Cloud Summit",
     "year": 2025,
-    "doi": "",
+    "doi": "10.1109/Cloud-Summit64795.2025.00011",
     "pdf": "",
     "url": "https://doi.org/10.1109/Cloud-Summit64795.2025.00011",
     "award": "Best Paper",
+    "acceptanceRate": "",
+    "note": "Best Paper Award.",
     "keywords": []
   },
   {
@@ -229,10 +288,12 @@
     ],
     "venue": "Concurrency and Computation: Practice and Experience",
     "year": 2025,
-    "doi": "",
+    "doi": "10.1002/cpe.70046",
     "pdf": "",
-    "url": "https://doi.org/10.1002/cpe.70046",
+    "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/cpe.70046",
     "award": "",
+    "acceptanceRate": "",
+    "note": "",
     "keywords": []
   },
   {
@@ -250,32 +311,36 @@
     ],
     "venue": "2025 IEEE 25th International Symposium on Cluster, Cloud and Internet Computing (CCGrid)",
     "year": 2025,
-    "doi": "",
+    "doi": "10.1109/CCGRID64434.2025.00067",
     "pdf": "",
     "url": "https://doi.org/10.1109/CCGRID64434.2025.00067",
     "award": "",
+    "acceptanceRate": "25%",
+    "note": "Accepted. Acceptance rate: 25%",
     "keywords": []
   },
   {
     "key": "banday2025role",
-    "title": "On the role of prompt construction in enhancing efficacy and efficiency of llm-based tabular data generation",
+    "title": "On The Role of Prompt Construction In Enhancing Efficacy and Efficiency of LLM-Based Tabular Data Generation",
     "authors": [
       "Banday, Banooqa",
       "Thopalli, Kowshik",
       "Islam, Tanzima Z",
       "Thiagarajan, Jayaraman J"
     ],
-    "venue": "ICASSP 2025-2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "venue": "2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
     "year": 2025,
-    "doi": "",
+    "doi": "10.1109/ICASSP49660.2025.10888077",
     "pdf": "",
     "url": "https://doi.org/10.1109/ICASSP49660.2025.10888077",
     "award": "",
+    "acceptanceRate": "",
+    "note": "",
     "keywords": []
   },
   {
     "key": "kelly2025performance",
-    "title": "Performance analysis and data reduction for exascale scientific workflows",
+    "title": "Performance Analysis and Data Reduction for Exascale Scientific Workflows",
     "authors": [
       "Kelly, Christopher",
       "Xu, Wei",
@@ -285,12 +350,14 @@
       "Yoo, Shinjae",
       "Kleese Van Dam, Kerstin"
     ],
-    "venue": "The International Journal of High Performance Computing Applications",
+    "venue": "The International Journal of High Performance Computing Applications (IJHPCA)",
     "year": 2025,
-    "doi": "",
+    "doi": "10.1177/10943420251316253",
     "pdf": "",
-    "url": "",
+    "url": "https://doi.org/10.1177/10943420251316253",
     "award": "",
+    "acceptanceRate": "",
+    "note": "",
     "keywords": []
   },
   {
@@ -299,15 +366,16 @@
     "authors": [
       "Lahiry, Ankur",
       "Banday, Banooqa",
-      "Bhattarai, Yugesh",
       "Islam, Tanzima Z"
     ],
     "venue": "arXiv preprint arXiv:2506.04049",
     "year": 2025,
     "doi": "",
     "pdf": "",
-    "url": "",
+    "url": "https://arxiv.org/abs/2506.04049",
     "award": "",
+    "acceptanceRate": "",
+    "note": "Preprint, arXiv:2506.04049",
     "keywords": []
   },
   {
@@ -324,6 +392,8 @@
     "pdf": "",
     "url": "",
     "award": "",
+    "acceptanceRate": "",
+    "note": "",
     "keywords": []
   },
   {
@@ -336,15 +406,17 @@
     ],
     "venue": "2024 IEEE 48th Annual Computers, Software, and Applications Conference (COMPSAC)",
     "year": 2024,
-    "doi": "",
+    "doi": "10.1109/COMPSAC61105.2024.00035",
     "pdf": "",
     "url": "https://doi.org/10.1109/COMPSAC61105.2024.00035",
     "award": "",
+    "acceptanceRate": "24%",
+    "note": "Acceptance rate: 24%",
     "keywords": []
   },
   {
     "key": "dey2024relative",
-    "title": "Relative performance prediction using few-shot learning",
+    "title": "Relative Performance Prediction using Few-Shot Learning",
     "authors": [
       "Dey, Arunavo",
       "Dhakal, Aakash",
@@ -357,10 +429,12 @@
     ],
     "venue": "2024 IEEE 48th Annual Computers, Software, and Applications Conference (COMPSAC)",
     "year": 2024,
-    "doi": "",
+    "doi": "10.1109/COMPSAC61105.2024.00278",
     "pdf": "",
     "url": "https://doi.org/10.1109/COMPSAC61105.2024.00278",
     "award": "",
+    "acceptanceRate": "24%",
+    "note": "Acceptance rate: 24%",
     "keywords": []
   },
   {
@@ -368,14 +442,16 @@
     "title": "Toward Efficient Deep Learning Inference: On-Node Heterogeneous Scheduling in Edge-Cloud Infrastructure",
     "authors": [
       "Fefey, Elvis G",
-      "Islam, Tanzima"
+      "Islam, Tanzima Z"
     ],
     "venue": "2024 IEEE Cloud Summit",
     "year": 2024,
-    "doi": "",
+    "doi": "10.1109/Cloud-Summit61220.2024.00019",
     "pdf": "",
     "url": "https://doi.org/10.1109/Cloud-Summit61220.2024.00019",
     "award": "",
+    "acceptanceRate": "",
+    "note": "",
     "keywords": []
   },
   {
@@ -389,15 +465,17 @@
     ],
     "venue": "2024 IEEE 48th Annual Computers, Software, and Applications Conference (COMPSAC)",
     "year": 2024,
-    "doi": "",
+    "doi": "10.1109/COMPSAC61105.2024.00041",
     "pdf": "",
     "url": "https://doi.org/10.1109/COMPSAC61105.2024.00041",
     "award": "",
+    "acceptanceRate": "24%",
+    "note": "Acceptance rate: 24%",
     "keywords": []
   },
   {
     "key": "zaeed2024characterize",
-    "title": "Characterize and compare the performance of deep learning optimizers in recurrent neural network architectures",
+    "title": "Characterize and Compare the Performance of Deep Learning Optimizers in Recurrent Neural Network Architectures",
     "authors": [
       "Zaeed, Mohammad",
       "Islam, Tanzima Z",
@@ -405,10 +483,12 @@
     ],
     "venue": "2024 IEEE 48th Annual Computers, Software, and Applications Conference (COMPSAC)",
     "year": 2024,
-    "doi": "",
+    "doi": "10.1109/COMPSAC61105.2024.00016",
     "pdf": "",
     "url": "https://doi.org/10.1109/COMPSAC61105.2024.00016",
     "award": "",
+    "acceptanceRate": "24%",
+    "note": "Acceptance rate: 24%",
     "keywords": []
   },
   {
@@ -424,12 +504,14 @@
       "Ross, Robert B",
       "Pouchard, Line C"
     ],
-    "venue": "SC24-W: Workshops of the International Conference for High Performance Computing, Networking, Storage and Analysis",
+    "venue": "2024 IEEE/ACM Workshop on Workflows in Support of Large-Scale Science (WORKS), SC24 Workshops",
     "year": 2024,
-    "doi": "",
+    "doi": "10.1109/SCW63240.2024.00254",
     "pdf": "",
     "url": "https://doi.org/10.1109/SCW63240.2024.00254",
     "award": "",
+    "acceptanceRate": "",
+    "note": "",
     "keywords": []
   },
   {
@@ -437,36 +519,40 @@
     "title": "Automatic Parallelization of Cellular Automata for Heterogeneous Platforms",
     "authors": [
       "Phelps, Chase",
-      "Islam, Tanzima"
+      "Islam, Tanzima Z"
     ],
     "venue": "2023 IEEE 47th Annual Computers, Software, and Applications Conference (COMPSAC)",
     "year": 2023,
-    "doi": "",
+    "doi": "10.1109/COMPSAC57700.2023.00055",
     "pdf": "",
     "url": "https://doi.org/10.1109/COMPSAC57700.2023.00055",
     "award": "",
+    "acceptanceRate": "27%",
+    "note": "Acceptance rate: 27%",
     "keywords": []
   },
   {
     "key": "dey2023signal",
-    "title": "Signal processing based method for real-time anomaly detection in high-performance computing",
+    "title": "Signal Processing Based Method for Real-Time Anomaly Detection in High-Performance Computing",
     "authors": [
       "Dey, Arunavo",
-      "Islam, Tanzima",
       "Phelps, Chase",
+      "Islam, Tanzima Z",
       "Kelly, Christopher"
     ],
     "venue": "2023 IEEE 47th Annual Computers, Software, and Applications Conference (COMPSAC)",
     "year": 2023,
-    "doi": "",
+    "doi": "10.1109/COMPSAC57700.2023.00037",
     "pdf": "",
     "url": "https://doi.org/10.1109/COMPSAC57700.2023.00037",
     "award": "",
+    "acceptanceRate": "27%",
+    "note": "Acceptance rate: 27%",
     "keywords": []
   },
   {
     "key": "nicolae2023building",
-    "title": "Building the i (interoperability) of fair for performance reproducibility of large-scale composable workflows in recup",
+    "title": "Building the I (Interoperability) of FAIR for Performance Reproducibility of Large-Scale Composable Workflows in RECUP",
     "authors": [
       "Nicolae, Bogdan",
       "Islam, Tanzima Z",
@@ -478,19 +564,22 @@
       "Turilli, Matteo",
       "Wang, Tianle",
       "Kilic, Ozgur O",
-      "others"
+      "Jha, Shantenu",
+      "Pouchard, Line C"
     ],
     "venue": "2023 IEEE 19th International Conference on e-Science (e-Science)",
     "year": 2023,
-    "doi": "",
+    "doi": "10.1109/e-Science58273.2023.10254808",
     "pdf": "",
-    "url": "",
+    "url": "https://doi.org/10.1109/e-Science58273.2023.10254808",
     "award": "",
+    "acceptanceRate": "",
+    "note": "",
     "keywords": []
   },
   {
     "key": "ramadan2023novel",
-    "title": "Novel representation learning technique using graphs for performance analytics",
+    "title": "Novel Representation Learning Technique Using Graphs for Performance Analytics",
     "authors": [
       "Ramadan, Tarek",
       "Lahiry, Ankur",
@@ -498,10 +587,12 @@
     ],
     "venue": "2023 International Conference on Machine Learning and Applications (ICMLA)",
     "year": 2023,
-    "doi": "",
+    "doi": "10.1109/ICMLA58977.2023.00198",
     "pdf": "",
-    "url": "",
+    "url": "https://doi.org/10.1109/ICMLA58977.2023.00198",
     "award": "",
+    "acceptanceRate": "",
+    "note": "",
     "keywords": []
   },
   {
@@ -522,6 +613,8 @@
     "pdf": "",
     "url": "",
     "award": "",
+    "acceptanceRate": "",
+    "note": "",
     "keywords": []
   },
   {
@@ -539,23 +632,27 @@
     "pdf": "",
     "url": "",
     "award": "",
+    "acceptanceRate": "",
+    "note": "Poster. r̆lhttps://sc23.supercomputing.org/proceedings/tech_poster/poster_files/rpost184s3-file3.pdf",
     "keywords": []
   },
   {
     "key": "guite2022interactive",
     "title": "Interactive Visual Analysis Tool for Anomaly Provenance Data",
     "authors": [
-      "Guite, A",
-      "Islam, T",
-      "Kelley, C",
-      "Xu, W"
+      "Guite, Alicia",
+      "Islam, Tanzima Z",
+      "Kelly, Chris",
+      "Xu, Wei"
     ],
-    "venue": "",
+    "venue": "International Conference for High Performance Computing, Networking, Storage and Analysis (SC'22)",
     "year": 2022,
     "doi": "",
     "pdf": "",
     "url": "https://sc22.supercomputing.org/proceedings/tech_poster/poster_files/rpost159s3-file3.pdf",
     "award": "",
+    "acceptanceRate": "",
+    "note": "poster r̆lhttps://sc22.supercomputing.org/proceedings/tech_poster/poster_files/rpost159s3-file2.pdf",
     "keywords": []
   },
   {
@@ -569,12 +666,14 @@
       "Luo, Hengrui",
       "Liu, Yang"
     ],
-    "venue": "",
+    "venue": "International Conference for High Performance Computing, Networking, Storage and Analysis (SC'22)",
     "year": 2022,
     "doi": "",
     "pdf": "",
     "url": "https://sc22.supercomputing.org/proceedings/tech_poster/poster_files/rpost183s3-file3.pdf",
     "award": "",
+    "acceptanceRate": "",
+    "note": "poster r̆lhttps://sc22.supercomputing.org/proceedings/tech_poster/poster_files/rpost183s3-file2.pdf",
     "keywords": []
   },
   {
@@ -584,19 +683,21 @@
       "Schutte, Holland",
       "Phelps, Chase",
       "Marathe, Aniruddha",
-      "Islam, Tanzima"
+      "Islam, Tanzima Z"
     ],
     "venue": "2022 IEEE 46th Annual Computers, Software, and Applications Conference (COMPSAC)",
     "year": 2022,
-    "doi": "",
+    "doi": "10.1109/COMPSAC54236.2022.00019",
     "pdf": "",
     "url": "https://doi.org/10.1109/COMPSAC54236.2022.00019",
     "award": "",
+    "acceptanceRate": "",
+    "note": "",
     "keywords": []
   },
   {
     "key": "abhinit2022novel",
-    "title": "Novel proposals for FAIR, automated, recommendable, and robust workflows",
+    "title": "Novel Proposals for FAIR, Automated, Recommendable, and Robust Workflows",
     "authors": [
       "Abhinit, Ishan",
       "Adams, Emily K",
@@ -605,33 +706,49 @@
       "Deelman, Ewa",
       "Gorenstein, Lev",
       "Hudson, Stephen",
-      "Islam, Tanzima",
+      "Islam, Tanzima Z",
       "Larson, Jeffrey",
       "Lentner, Geoffrey",
-      "others"
+      "Mandal, Anirban",
+      "Navarro, John-Luke",
+      "Nicolae, Bogdan",
+      "Pouchard, Line",
+      "Ross, Rob",
+      "Roy, Banani",
+      "Rynge, Mats",
+      "Serebrenik, Alexander",
+      "Vahi, Karan",
+      "Wild, Stefan",
+      "Xin, Yufeng",
+      "da Silva, Rafael Ferreira",
+      "Filgueira, Rosa"
     ],
     "venue": "2022 IEEE/ACM Workshop on Workflows in Support of Large-Scale Science (WORKS)",
     "year": 2022,
-    "doi": "",
+    "doi": "10.1109/WORKS56498.2022.00016",
     "pdf": "",
-    "url": "",
+    "url": "https://doi.org/10.1109/WORKS56498.2022.00016",
     "award": "",
+    "acceptanceRate": "",
+    "note": "",
     "keywords": []
   },
   {
     "key": "pouchard2022challenges",
-    "title": "Challenges for implementing fair digital objects with high performance workflows",
+    "title": "Challenges for Implementing FAIR Digital Objects with High Performance Workflows",
     "authors": [
-      "Pouchard, Line",
-      "Islam, Tanzima",
+      "Pouchard, Line C",
+      "Islam, Tanzima Z",
       "Nicolae, Bogdan"
     ],
     "venue": "Research Ideas and Outcomes",
     "year": 2022,
-    "doi": "",
+    "doi": "10.3897/rio.8.e94835",
     "pdf": "",
-    "url": "",
+    "url": "https://doi.org/10.3897/rio.8.e94835",
     "award": "",
+    "acceptanceRate": "",
+    "note": "",
     "keywords": []
   },
   {
@@ -651,47 +768,53 @@
     "pdf": "",
     "url": "https://doi.org/10.1007/978-3-031-05914-8_4",
     "award": "",
+    "acceptanceRate": "",
+    "note": "",
     "keywords": []
   },
   {
-    "key": "ramadan2021comparative",
-    "title": "Comparative code structure analysis using deep learning for performance prediction",
+    "key": "pinnow2021comparative",
+    "title": "Comparative Code Structure Analysis using Deep Learning for Performance Prediction",
     "authors": [
+      "Pinnow, Nathan",
       "Ramadan, Tarek",
       "Islam, Tanzima Z",
       "Phelps, Chase",
-      "Pinnow, Nathan",
       "Thiagarajan, Jayaraman J"
     ],
     "venue": "2021 IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS)",
     "year": 2021,
-    "doi": "",
+    "doi": "10.1109/ISPASS51385.2021.00032",
     "pdf": "",
     "url": "https://doi.org/10.1109/ISPASS51385.2021.00032",
     "award": "",
+    "acceptanceRate": "36%",
+    "note": "Acceptance rate: 36%",
     "keywords": []
   },
   {
     "key": "islam2021hpc",
-    "title": "HPC@ SCALE: a hands-on approach for training next-gen HPC software architects",
+    "title": "HPC@SCALE: A Hands-on Approach for Training Next-Gen HPC Software Architects",
     "authors": [
       "Islam, Tanzima Z",
       "Phelps, Chase"
     ],
-    "venue": "2021 IEEE 28th International Conference on High Performance Computing, Data and Analytics Workshop (HiPCW)",
+    "venue": "EduHiPC Workshop at the 28th IEEE International Conference on High Performance Computing, Data, and Analytics (HiPC)",
     "year": 2021,
-    "doi": "",
+    "doi": "10.1109/HiPCW54834.2021.00011",
     "pdf": "",
     "url": "https://doi.org/10.1109/HiPCW54834.2021.00011",
     "award": "",
+    "acceptanceRate": "",
+    "note": "Invited paper.",
     "keywords": []
   },
   {
     "key": "islam2021college",
-    "title": "College life is hard!-shedding light on stress prediction for autistic college students using data-driven analysis",
+    "title": "College Life is Hard! Shedding Light on Stress Prediction for Autistic College Students using Data-Driven Analysis",
     "authors": [
       "Islam, Tanzima Z",
-      "Liang, Philip Wu",
+      "Liang, Philip",
       "Sweeney, Forest",
       "Pragner, Cody",
       "Thiagarajan, Jayaraman J",
@@ -700,19 +823,21 @@
     ],
     "venue": "2021 IEEE 45th Annual Computers, Software, and Applications Conference (COMPSAC)",
     "year": 2021,
-    "doi": "",
+    "doi": "10.1109/COMPSAC51774.2021.00066",
     "pdf": "",
-    "url": "",
+    "url": "https://doi.org/10.1109/COMPSAC51774.2021.00066",
     "award": "",
+    "acceptanceRate": "",
+    "note": "",
     "keywords": []
   },
   {
     "key": "jensen2021filcio",
-    "title": "FILCIO: Application agnostic I/O aggregation to scale scientific workflows",
+    "title": "FILCIO: Application Agnostic I/O Aggregation to Scale Scientific Workflows",
     "authors": [
       "Jensen, Quentin",
       "Jagodzinski, Filip",
-      "Islam, Tanzima"
+      "Islam, Tanzima Z"
     ],
     "venue": "2021 IEEE 45th Annual Computers, Software, and Applications Conference (COMPSAC)",
     "year": 2021,
@@ -720,70 +845,78 @@
     "pdf": "",
     "url": "",
     "award": "",
+    "acceptanceRate": "",
+    "note": "",
     "keywords": []
   },
   {
     "key": "stratton2020towards",
-    "title": "Towards aggregation based i/o optimization for scaling bioinformatics applications",
+    "title": "Towards Aggregation Based I/O Optimization for Scaling Bioinformatics Applications",
     "authors": [
       "Stratton, Jack",
       "Albert, Michael",
       "Jensen, Quentin",
       "Ismailov, Max",
       "Jagodzinski, Filip",
-      "Islam, Tanzima"
+      "Islam, Tanzima Z"
     ],
     "venue": "2020 IEEE 44th Annual Computers, Software, and Applications Conference (COMPSAC)",
     "year": 2020,
-    "doi": "",
+    "doi": "10.1109/COMPSAC48688.2020.00-85",
     "pdf": "",
-    "url": "",
+    "url": "https://doi.org/10.1109/COMPSAC48688.2020.00-85",
     "award": "",
+    "acceptanceRate": "",
+    "note": "",
     "keywords": []
   },
   {
     "key": "patki2019performance",
-    "title": "Performance optimality or reproducibility: that is the question",
+    "title": "Performance Optimality or Reproducibility: That is the Question",
     "authors": [
       "Patki, Tapasya",
       "Thiagarajan, Jayaraman J",
       "Ayala, Alexis",
       "Islam, Tanzima Z"
     ],
-    "venue": "Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis",
+    "venue": "International Conference for High Performance Computing, Networking, Storage and Analysis (SC)",
     "year": 2019,
     "doi": "",
     "pdf": "",
     "url": "",
     "award": "",
+    "acceptanceRate": "20%",
+    "note": "Acceptance rate: 20%",
     "keywords": []
   },
   {
     "key": "islam2019toward",
-    "title": "Toward a programmable analysis and visualization framework for interactive performance analytics",
+    "title": "Toward A Programmable Analysis and Visualization Framework for Interactive Performance Analytics",
     "authors": [
-      "Islam, Tanzima",
+      "Islam, Tanzima Z",
       "Ayala, Alexis",
       "Jensen, Quentin",
       "Ibrahim, Khaled"
     ],
-    "venue": "2019 IEEE/ACM International Workshop on Programming and Performance Visualization Tools (ProTools)",
+    "venue": "2019 IEEE/ACM International Workshop on Programming and Performance Visualization Tools (ProTools), held with SC",
     "year": 2019,
     "doi": "",
     "pdf": "",
     "url": "",
     "award": "",
+    "acceptanceRate": "",
+    "note": "",
     "keywords": []
   },
   {
     "key": "thiagarajan2018paddle",
-    "title": "Paddle: Performance analysis using a data-driven learning environment",
+    "title": "PADDLE: Performance Analysis using a Data-driven Learning Environment",
     "authors": [
       "Thiagarajan, Jayaraman J",
       "Anirudh, Rushil",
       "Kailkhura, Bhavya",
       "Jain, Nikhil",
-      "Islam, Tanzima",
+      "Islam, Tanzima Z",
       "Bhatele, Abhinav",
       "Yeom, Jae-Seung",
       "Gamblin, Todd"
@@ -792,8 +925,10 @@
     "year": 2018,
     "doi": "",
     "pdf": "",
-    "url": "",
+    "url": "https://ieeexplore.ieee.org/abstract/document/8425232",
     "award": "",
+    "acceptanceRate": "24.5%",
+    "note": "Acceptance rate: 24.5%",
     "keywords": []
   },
   {
@@ -803,14 +938,16 @@
       "Majeske, Nicholas",
       "Jagodzinski, Filip",
       "Hutchinson, Brian",
-      "Islam, Tanzima"
+      "Islam, Tanzima Z"
     ],
-    "venue": "Proceedings of the 2018 ACM International Conference on Bioinformatics, Computational Biology, and Health Informatics",
+    "venue": "ACM International Conference on Bioinformatics, Computational Biology, and Health Informatics (BCB)",
     "year": 2018,
     "doi": "",
     "pdf": "",
     "url": "",
     "award": "",
+    "acceptanceRate": "",
+    "note": "",
     "keywords": []
   },
   {
@@ -823,34 +960,38 @@
       "Menon, Harshitha",
       "Schordan, Markus",
       "Lloyd, G Scott",
-      "Islam, Tanzima"
+      "Islam, Tanzima Z"
     ],
-    "venue": "",
+    "venue": "International Conference for High Performance Computing, Networking, Storage and Analysis (SC'18)",
     "year": 2018,
     "doi": "",
     "pdf": "",
     "url": "",
     "award": "",
+    "acceptanceRate": "",
+    "note": "Poster.",
     "keywords": []
   },
   {
     "key": "wang2017metakv",
-    "title": "Metakv: A key-value store for metadata management of distributed burst buffers",
+    "title": "MetaKV: A Key-Value Store for Metadata Management of Distributed Burst Buffers",
     "authors": [
       "Wang, Teng",
       "Moody, Adam",
       "Zhu, Yue",
       "Mohror, Kathryn",
       "Sato, Kento",
-      "Islam, Tanzima",
+      "Islam, Tanzima Z",
       "Yu, Weikuan"
     ],
     "venue": "2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)",
     "year": 2017,
-    "doi": "",
+    "doi": "10.1109/IPDPS.2017.39",
     "pdf": "",
-    "url": "",
+    "url": "https://ieeexplore.ieee.org/abstract/document/7967207",
     "award": "",
+    "acceptanceRate": "22%",
+    "note": "Acceptance rate: 22%",
     "keywords": []
   },
   {
@@ -860,7 +1001,7 @@
       "Banerjee, Tania",
       "Hackl, Jason",
       "Shringarpure, Mrugesh",
-      "Islam, Tanzima",
+      "Islam, Tanzima Z",
       "Balachandar, S",
       "Jackson, Thomas",
       "Ranka, Sanjay"
@@ -871,11 +1012,13 @@
     "pdf": "",
     "url": "",
     "award": "",
+    "acceptanceRate": "",
+    "note": "",
     "keywords": []
   },
   {
     "key": "islam2016machine",
-    "title": "A machine learning framework for performance coverage analysis of proxy applications",
+    "title": "A Machine-Learning Framework for Performance Coverage Analysis of Proxy Applications",
     "authors": [
       "Islam, Tanzima Z",
       "Thiagarajan, Jayaraman J",
@@ -883,68 +1026,76 @@
       "Schulz, Martin",
       "Gamblin, Todd"
     ],
-    "venue": "SC'16: Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis",
+    "venue": "International Conference for High Performance Computing, Networking, Storage and Analysis (SC)",
     "year": 2016,
     "doi": "",
     "pdf": "",
-    "url": "",
+    "url": "https://ieeexplore.ieee.org/abstract/document/7877124/",
     "award": "",
+    "acceptanceRate": "23%",
+    "note": "Acceptance rate: 23%",
     "keywords": []
   },
   {
     "key": "islam2016exploring",
-    "title": "Exploring the MPI tool information interface: features and capabilities",
+    "title": "Exploring the MPI Tool Information Interface: Features and Capabilities",
     "authors": [
-      "Islam, Tanzima",
+      "Islam, Tanzima Z",
       "Mohror, Kathryn",
       "Schulz, Martin"
     ],
-    "venue": "The International Journal of High Performance Computing Applications",
+    "venue": "The International Journal of High Performance Computing Applications (IJHPCA)",
     "year": 2016,
-    "doi": "",
+    "doi": "10.1177/1094342015600507",
     "pdf": "",
-    "url": "",
+    "url": "https://doi.org/10.1177/1094342015600507",
     "award": "",
+    "acceptanceRate": "",
+    "note": "",
     "keywords": []
   },
   {
-    "key": "lee2016aware",
-    "title": "I/O aware power shifting",
+    "key": "savoie2016io",
+    "title": "I/O Aware Power Shifting",
     "authors": [
-      "Lee, Savoie",
+      "Savoie, Lee",
       "Lowenthal, David K",
-      "De Supinski, Bronis R",
-      "Islam, Tanzima",
+      "de Supinski, Bronis R",
+      "Islam, Tanzima Z",
       "Mohror, Kathryn",
       "Rountree, Barry",
       "Schulz, Martin"
     ],
     "venue": "2016 IEEE International Parallel and Distributed Processing Symposium (IPDPS)",
     "year": 2016,
-    "doi": "",
+    "doi": "10.1109/IPDPS.2016.15",
     "pdf": "",
-    "url": "",
+    "url": "https://ieeexplore.ieee.org/abstract/document/7516070/",
     "award": "",
+    "acceptanceRate": "23%",
+    "note": "Acceptance rate: 23%",
     "keywords": []
   },
   {
     "key": "banerjee2016cmt",
-    "title": "Cmt-bone—a proxy application for compressible multiphase turbulent flows",
+    "title": "CMT-Bone — A Proxy Application for Compressible Multiphase Turbulent Flows",
     "authors": [
       "Banerjee, Tania",
       "Hackl, Jason",
       "Shringarpure, Mrugesh",
-      "Islam, Tanzima",
-      "Balachandar, S",
+      "Islam, Tanzima Z",
+      "Balachandar, Sivaramakrishnan",
       "Jackson, Thomas",
       "Ranka, Sanjay"
     ],
-    "venue": "2016 IEEE 23rd International Conference on High Performance Computing (HiPC)",
+    "venue": "IEEE International Conference on High Performance Computing, Data, and Analytics (HiPC)",
     "year": 2016,
-    "doi": "",
+    "doi": "10.1109/HiPC.2016.029",
     "pdf": "",
-    "url": "",
+    "url": "https://doi.org/10.1109/HiPC.2016.029",
     "award": "",
+    "acceptanceRate": "",
+    "note": "",
     "keywords": []
   },
   {
@@ -963,6 +1114,8 @@
     "pdf": "",
     "url": "",
     "award": "",
+    "acceptanceRate": "",
+    "note": "",
     "keywords": []
   },
   {
@@ -972,7 +1125,7 @@
       "Fang, Aiman",
       "Laguna, Ignacio",
       "Sato, Kento",
-      "Islam, Tanzima",
+      "Islam, Tanzima Z",
       "Mohror, Kathryn"
     ],
     "venue": "ExaMPI15 Exascale MPI at Supercomputing 2015 (SC15)",
@@ -981,38 +1134,44 @@
     "pdf": "",
     "url": "",
     "award": "",
+    "acceptanceRate": "",
+    "note": "",
     "keywords": []
   },
   {
     "key": "islam2014reliable",
-    "title": "Reliable and efficient distributed checkpointing system for grid environments",
+    "title": "Reliable and Efficient Distributed Checkpointing System for Grid Environments",
     "authors": [
       "Islam, Tanzima Zerin",
       "Bagchi, Saurabh",
       "Eigenmann, Rudolf"
     ],
-    "venue": "Journal of grid computing",
+    "venue": "Journal of Grid Computing (JoGC)",
     "year": 2014,
-    "doi": "",
+    "doi": "10.1007/s10723-014-9297-4",
     "pdf": "",
-    "url": "",
+    "url": "https://doi.org/10.1007/s10723-014-9297-4",
     "award": "",
+    "acceptanceRate": "",
+    "note": "",
     "keywords": []
   },
   {
     "key": "islam2014exploring",
     "title": "Exploring the Capabilities of the New MPI_T Interface",
     "authors": [
-      "Islam, Tanzima",
+      "Islam, Tanzima Z",
       "Mohror, Kathryn",
       "Schulz, Martin"
     ],
-    "venue": "Proceedings of the 21st European MPI Users' Group Meeting",
+    "venue": "Proceedings of the 21st European MPI Users' Group Meeting (EuroMPI)",
     "year": 2014,
     "doi": "",
     "pdf": "",
     "url": "",
     "award": "",
+    "acceptanceRate": "",
+    "note": "",
     "keywords": []
   },
   {
@@ -1020,51 +1179,78 @@
     "title": "Lossy Compression for Checkpointing: Fallible or Feasible?",
     "authors": [
       "Ni, Xiang",
-      "Kale, Laxmikant",
-      "Islam, Tanzima",
+      "Islam, Tanzima Z",
       "Mohror, Kathryn",
-      "Moody, Adam"
+      "Moody, Adam",
+      "Kale, Laxmikant V"
     ],
-    "venue": "International Conference for High Performance Computing, Networking, Storage, and Analysis",
+    "venue": "International Conference for High Performance Computing, Networking, Storage and Analysis (SC'14)",
     "year": 2014,
     "doi": "",
     "pdf": "",
     "url": "",
     "award": "",
+    "acceptanceRate": "",
+    "note": "Poster.",
     "keywords": []
   },
   {
     "key": "mohan2014batchsubmit",
-    "title": "Batchsubmit: a high-volume batch submission system for earthquake engineering simulation",
+    "title": "BatchSubmit: A High-Volume Batch Submission System for Earthquake Engineering Simulation",
     "authors": [
       "Mohan, Anup",
       "Hacker, Thomas",
       "Rodgers, Gregory P",
-      "Islam, Tanzima"
+      "Islam, Tanzima Z"
     ],
     "venue": "Concurrency and Computation: Practice and Experience",
     "year": 2014,
     "doi": "",
     "pdf": "",
-    "url": "",
+    "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/cpe.3234",
     "award": "",
+    "acceptanceRate": "",
+    "note": "",
     "keywords": []
   },
   {
     "key": "tramm2014xsbench",
-    "title": "XSBench -- the development and verification of a performance abstraction for Monte Carlo reactor analysis",
+    "title": "XSBench — the Development and Verification of a Performance Abstraction for Monte Carlo Reactor Analysis",
     "authors": [
       "Tramm, John R",
       "Siegel, Andrew R",
-      "Islam, Tanzima",
+      "Islam, Tanzima Z",
       "Schulz, Martin"
     ],
-    "venue": "Proceedings of PHYSOR 2014, Kyoto, Japan, Sep 28 -- Oct 3, 2014",
+    "venue": "The Role of Reactor Physics toward a Sustainable Future (PHYSOR)",
     "year": 2014,
     "doi": "",
     "pdf": "",
     "url": "",
     "award": "",
+    "acceptanceRate": "",
+    "note": "",
+    "keywords": []
+  },
+  {
+    "key": "islam2013mcrengine",
+    "title": "McrEngine: A Scalable Checkpointing System Using Data-Aware Aggregation and Compression",
+    "authors": [
+      "Islam, Tanzima Zerin",
+      "Mohror, Kathryn",
+      "Bagchi, Saurabh",
+      "Moody, Adam",
+      "de Supinski, Bronis R",
+      "Eigenmann, Rudolf"
+    ],
+    "venue": "Scientific Programming",
+    "year": 2013,
+    "doi": "",
+    "pdf": "",
+    "url": "https://www.hindawi.com/journals/sp/2013/341672/abs/",
+    "award": "",
+    "acceptanceRate": "",
+    "note": "",
     "keywords": []
   },
   {
@@ -1079,11 +1265,13 @@
     "pdf": "",
     "url": "",
     "award": "",
+    "acceptanceRate": "",
+    "note": "",
     "keywords": []
   },
   {
     "key": "2388996.2389020",
-    "title": "McrEngine: a scalable checkpointing system using data-aware aggregation and compression",
+    "title": "McrEngine: A Scalable Checkpointing System Using Data-aware Aggregation and Compression",
     "authors": [
       "Islam, Tanzima Zerin",
       "Mohror, Kathryn",
@@ -1096,8 +1284,10 @@
     "year": 2012,
     "doi": "",
     "pdf": "",
-    "url": "",
-    "award": "",
+    "url": "http://dl.acm.org/citation.cfm?id=2388996.2389020",
+    "award": "Best Student Paper Finalist",
+    "acceptanceRate": "20%",
+    "note": "Acceptance rate: 20%. Best Student Paper Finalist",
     "keywords": []
   },
   {
@@ -1116,11 +1306,13 @@
     "pdf": "",
     "url": "",
     "award": "",
+    "acceptanceRate": "",
+    "note": "Fast abstract. r̆lhttps://docs.lib.purdue.edu/ecetr/422/",
     "keywords": []
   },
   {
     "key": "10.1145/1654059.1654110",
-    "title": "FALCON: a system for reliable checkpoint recovery in shared grid environments",
+    "title": "FALCON: A System for Reliable Checkpoint Recovery in Shared Grid Environments",
     "authors": [
       "Islam, Tanzima Zerin",
       "Bagchi, Saurabh",
@@ -1131,7 +1323,9 @@
     "doi": "10.1145/1654059.1654110",
     "pdf": "",
     "url": "https://doi.org/10.1145/1654059.1654110",
-    "award": "",
+    "award": "Best Student Paper Finalist",
+    "acceptanceRate": "",
+    "note": "Best Student Paper Finalist",
     "keywords": [
       "reliability",
       "failure model",
@@ -1156,6 +1350,8 @@
     "pdf": "",
     "url": "",
     "award": "",
+    "acceptanceRate": "",
+    "note": "",
     "keywords": [
       "Network-on-a-chip",
       "Object oriented modeling",
@@ -1185,6 +1381,8 @@
     "pdf": "",
     "url": "",
     "award": "",
+    "acceptanceRate": "",
+    "note": "",
     "keywords": []
   }
 ]

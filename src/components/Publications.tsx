@@ -10,6 +10,8 @@ interface Publication {
   pdf: string;
   url: string;
   award: string;
+  acceptanceRate?: string;
+  note?: string;
   keywords: string[];
 }
 
@@ -169,6 +171,14 @@ export default function Publications() {
                     {pub.year > 0 && (
                       <span itemProp="datePublished" style={{ fontSize: '0.8rem', color: 'var(--color-muted)', fontFamily: 'JetBrains Mono, monospace' }}>
                         {pub.year}
+                      </span>
+                    )}
+                    {pub.acceptanceRate && (
+                      <span
+                        title="Conference acceptance rate"
+                        style={{ fontSize: '0.7rem', color: 'var(--color-muted)', border: '1px solid var(--color-border)', borderRadius: '9999px', padding: '1px 8px', fontFamily: 'JetBrains Mono, monospace' }}
+                      >
+                        {pub.acceptanceRate} acceptance
                       </span>
                     )}
                   </div>
