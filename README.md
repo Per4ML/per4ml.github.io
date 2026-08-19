@@ -2,6 +2,26 @@
 <img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
 </div>
 
+## 👋 Lab members start here
+
+Want to **add one of your photos to the gallery**, or **link your name on _Meet the
+Team_ to your own website**? Follow the step-by-step guide:
+
+### → **[CONTRIBUTING.md](CONTRIBUTING.md)**
+
+Everything in it can be done from your browser — nothing to install, no clone
+required. Two things to know before you start:
+
+- Ask Dr. Islam for **write access** to this repo, and accept the emailed invitation.
+- `main` is protected, so you can't push to it directly. Commit to a branch and open
+  a **pull request** for Dr. Islam to approve. The site redeploys on its own about
+  1–2 minutes after your PR is merged.
+
+The rest of this README is the maintainer's reference for updating publications,
+news, projects, and funders.
+
+---
+
 # Run and deploy your AI Studio app
 
 This contains everything you need to run your app locally.
