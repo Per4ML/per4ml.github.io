@@ -66,19 +66,6 @@
     "active": true
   },
   {
-    "id": "elvis-fefey",
-    "name": "Elvis Fefey",
-    "level": "PhD",
-    "image": "images/members/elvis.png",
-    "url": "",
-    "interests": [
-      "Few-Shot Learning",
-      "Cross-Platform Transfer"
-    ],
-    "joined": "2021",
-    "active": true
-  },
-  {
     "id": "mohammad-zaeed",
     "name": "Mohammad Zaeed",
     "level": "PhD",
@@ -107,7 +94,7 @@
   {
     "id": "yugesh-bhattarai",
     "name": "Yugesh Bhattarai",
-    "level": "PhD",
+    "level": "Undergraduate",
     "image": "images/members/yugesh.jpeg",
     "url": "",
     "interests": [
@@ -129,19 +116,6 @@
     ],
     "joined": "2022",
     "active": false
-  },
-  {
-    "id": "jaya-sravani",
-    "name": "Jaya Sravani",
-    "level": "MS",
-    "image": "images/members/jaya.jpeg",
-    "url": "",
-    "interests": [
-      "Machine Learning",
-      "HPC"
-    ],
-    "joined": "2023",
-    "active": true
   },
   {
     "id": "avaneesh-ramesh",
@@ -167,5 +141,15 @@
     ],
     "joined": "2024",
     "active": false
+  },
+  {
+    "id": "prajan-mk-rekha",
+    "name": "Prajan M. K. Rekha",
+    "level": "Undergraduate",
+    "image": "images/members/prajan.jpg",
+    "url": "",
+    "interests": [],
+    "joined": "2026",
+    "active": true
   }
 ]

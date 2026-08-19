@@ -1,5 +1,15 @@
 [
   {
+    "id": "elvis-fefey",
+    "name": "Dr. Elvis Fefey",
+    "note": "Ph.D., 2026, Intel"
+  },
+  {
+    "id": "jaya-sravani",
+    "name": "Jaya Sravani",
+    "note": "M.S., TXST"
+  },
+  {
     "id": "tarek-ramadan",
     "name": "Tarek Ramadan",
     "note": "M.Sc., Oracle"
