@@ -74,14 +74,20 @@ function PhotoCard({ photo, onOpen }: { photo: Photo; onOpen: () => void }) {
         />
       </div>
 
+      {/* Fixed two-line block, like the project card's title region, so a long
+          caption wraps without making its card taller than the others. */}
       <figcaption title={photo.caption} style={{
         padding: '0.9rem 1.15rem',
         fontSize: '0.95rem',
         fontWeight: 700,
         color: 'var(--color-text)',
-        whiteSpace: 'nowrap',
+        lineHeight: 1.35,
+        height: '2.7rem',
+        boxSizing: 'content-box',
+        display: '-webkit-box',
+        WebkitLineClamp: 2,
+        WebkitBoxOrient: 'vertical',
         overflow: 'hidden',
-        textOverflow: 'ellipsis',
       }}>
         {photo.caption}
       </figcaption>
