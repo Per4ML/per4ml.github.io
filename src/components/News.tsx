@@ -8,6 +8,8 @@ interface NewsEntry {
   headline: string;
   body: string;
   image?: string;
+  link?: string;
+  linkLabel?: string;
 }
 
 const news = newsData as NewsEntry[];
@@ -141,6 +143,25 @@ export default function News() {
                     <p style={{ margin: 0, fontSize: '1rem', color: 'var(--color-muted)', lineHeight: 1.65 }}>
                       {item.body}
                     </p>
+
+                    {item.link && (
+                      <a
+                        href={item.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        style={{
+                          display: 'inline-block',
+                          marginTop: '0.6rem',
+                          fontSize: '0.85rem',
+                          fontFamily: 'JetBrains Mono, monospace',
+                          color: dotColor,
+                          textDecoration: 'none',
+                          borderBottom: `1px solid ${dotColor}`,
+                        }}
+                      >
+                        {item.linkLabel || 'Read more'} ↗
+                      </a>
+                    )}
                   </div>
                 </article>
               );

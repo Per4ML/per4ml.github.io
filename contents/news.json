@@ -1,5 +1,14 @@
 [
   {
+    "date": "2026-08",
+    "emoji": "🎤",
+    "category": "Talk",
+    "headline": "MUG '26 Poster",
+    "body": "Congratulations to Zaeed for presenting his work at the 14th Annual MVAPICH User Group (MUG) Conference: \"From Hardware Characterization to AI-Guided Optimization: A Unified Framework for Automated HPC Performance Engineering,\" Mohammad Zaeed, Texas State University. MUG is a close-knit meeting where everyone shares a single conference hall, and the posters stayed up for three days — the DASHING pipeline drew the most interest from attendees.",
+    "link": "https://mug.mvapich.cse.ohio-state.edu",
+    "linkLabel": "MUG 2026"
+  },
+  {
     "date": "2026-07",
     "emoji": "💰",
     "category": "Funding",
