@@ -36,11 +36,10 @@ The group works on, and welcomes collaborators and students in, the following to
 - Ashna Nawar Ahmed (PhD)
 - Banooqa Banday (PhD)
 - Chase Phelps (PhD)
-- Elvis Fefey (PhD)
 - Mohammad Zaeed (PhD)
 - Nawshin Tabassum Tanny (PhD)
-- Yugesh Bhattarai (PhD)
-- Jaya Sravani (MS)
+- Yugesh Bhattarai (Undergraduate)
+- Prajan M. K. Rekha (Undergraduate)
 
 ## Selected Projects
 - CESAR Co-Design Project: Comparative Performance analysis — Performance
@@ -128,6 +127,8 @@ The group works on, and welcomes collaborators and students in, the following to
 - Development of an Improved General Purpose Simulator for Network-On-Chip (2006). Authors: Al-Nayeem, Abdullah, Islam, Tanzima Zerin
 
 ## Alumni / Past Members
+- Dr. Elvis Fefey (Ph.D., 2026, Intel)
+- Jaya Sravani (M.S., TXST)
 - Tarek Ramadan (M.Sc., Oracle)
 - Russell Hernandez Ruiz (B.Sc., TxState)
 - Ethan Greene (B.Sc., TxState)
