@@ -14,6 +14,16 @@
     "active": true
   },
   {
+    "id": "sana-alamgeer",
+    "name": "Dr. Sana Alamgeer",
+    "level": "Postdoc",
+    "image": "images/members/sana.jpg",
+    "url": "",
+    "interests": [],
+    "joined": "2026",
+    "active": true
+  },
+  {
     "id": "ankur-lahiri",
     "name": "Ankur Lahiri",
     "level": "PhD",

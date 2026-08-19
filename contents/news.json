@@ -1,6 +1,13 @@
 [
   {
     "date": "2026-08",
+    "emoji": "👋",
+    "category": "Team",
+    "headline": "Welcome Dr. Sana Alamgeer",
+    "body": "We are excited to announce that Dr. Sana Alamgeer joins Per4ML as a postdoctoral researcher. Welcome to the group!"
+  },
+  {
+    "date": "2026-08",
     "emoji": "🎤",
     "category": "Talk",
     "headline": "MUG '26 Poster",
