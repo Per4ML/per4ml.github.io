@@ -74,7 +74,7 @@ function PhotoCard({ photo, onOpen }: { photo: Photo; onOpen: () => void }) {
         />
       </div>
 
-      <figcaption style={{
+      <figcaption title={photo.caption} style={{
         padding: '0.9rem 1.15rem',
         fontSize: '0.95rem',
         fontWeight: 700,
