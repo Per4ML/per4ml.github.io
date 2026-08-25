@@ -26,15 +26,16 @@ CATEGORY_MAP = {
 }
 
 
-EMOJI_MAP = {
-    "Publication": "📄",
-    "Funding": "💰",
-    "Award": "🏆",
-    "Service": "🎤",
-    "Talk": "🎤",
-    "Research": "🔬",
-    "News": "📰",
-}
+EMOJI_PATTERN = re.compile(
+    "["
+    "\U0001F000-\U0001FAFF"   # pictographs, emoticons, transport, symbols
+    "\U00002600-\U000027BF"   # misc symbols and dingbats
+    "\U00002B00-\U00002BFF"   # misc symbols and arrows
+    "\U0000FE0F"              # variation selector-16
+    "\U0000200D"              # zero-width joiner
+    "\U000020E3"              # combining enclosing keycap
+    "]+"
+)
 
 
 def clean_html(text):
@@ -44,6 +45,7 @@ def clean_html(text):
     text = unescape(text)
     text = re.sub(r"<[^>]+>", "", text)
     text = text.replace("\xa0", " ")
+    text = EMOJI_PATTERN.sub("", text)
     text = re.sub(r"\s+", " ", text)
 
     return text.strip()
@@ -120,11 +122,9 @@ def row_to_news_item(row):
     date = parse_date(row)
 
     category = normalize_category(row.get("Category", ""))
-    emoji = EMOJI_MAP.get(category, "📰")
 
     return {
         "date": date,
-        "emoji": emoji,
         "category": category,
         "headline": headline,
         "body": body,

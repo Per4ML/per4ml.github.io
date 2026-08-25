@@ -18,6 +18,23 @@
     "keywords": []
   },
   {
+    "key": "zaeed2026optimasdata",
+    "title": "OPTIMAS Experiment Dataset: Prompts, LLM Responses, and Runtime Measurements for Diagnostic-Informed GPU Code Optimization",
+    "authors": [
+      "Zaeed, Mohammad",
+      "Islam, Tanzima Z"
+    ],
+    "venue": "Zenodo (Dataset)",
+    "year": 2026,
+    "doi": "10.5281/zenodo.20499116",
+    "pdf": "",
+    "url": "https://zenodo.org/records/20499116",
+    "award": "",
+    "acceptanceRate": "",
+    "note": "Dataset. 3,410 experiments across 9 GPU benchmarks and three LLMs (GPT-5, Gemini 2.5 Pro, Llama 3.1 70B) on an NVIDIA H100.",
+    "keywords": []
+  },
+  {
     "key": "lahiry2026compass",
     "title": "COMPASS: A Unified Decision-Intelligence System for Navigating Performance Trade-off in HPC",
     "authors": [

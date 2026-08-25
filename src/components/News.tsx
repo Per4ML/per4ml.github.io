@@ -3,7 +3,6 @@ import newsData from '../../contents/news.json';
 
 interface NewsEntry {
   date: string;
-  emoji: string;
   category: string;
   headline: string;
   body: string;
@@ -126,12 +125,9 @@ export default function News() {
 
                   <div style={{ flex: 1, minWidth: '280px' }}>
                     <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', gap: '1rem', flexWrap: 'wrap', marginBottom: '0.5rem' }}>
-                      <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-                        <span style={{ fontSize: '1.1rem' }} role="img" aria-label={item.category}>{item.emoji}</span>
-                        <span style={{ fontSize: '0.72rem', fontFamily: 'JetBrains Mono, monospace', fontWeight: 500, color: dotColor, border: `1px solid ${dotColor}`, borderRadius: '9999px', padding: '1px 8px' }}>
-                          {item.category}
-                        </span>
-                      </div>
+                      <span style={{ fontSize: '0.72rem', fontFamily: 'JetBrains Mono, monospace', fontWeight: 500, color: dotColor, border: `1px solid ${dotColor}`, borderRadius: '9999px', padding: '1px 8px' }}>
+                        {item.category}
+                      </span>
                       <time dateTime={item.date} style={{ fontSize: '0.8rem', color: 'var(--color-muted)', fontFamily: 'JetBrains Mono, monospace', flexShrink: 0 }}>
                         {item.date}
                       </time>

@@ -1,12 +1,12 @@
 # Per4ML Research Group — Data-Efficient AI/ML for HPC
 
-> Dr. Tanzima Z. Islam is an Associate Professor of Computer Science at Texas State University. She leads the Per4ML laboratory, which develops data-efficient AI and ML methods for intelligent HPC systems. She holds the NSF CAREER Award (2025), the DOE Early Career Award (2022), and the R&D 100 Award (2019). She has secured over $5.35M in research funding from NSF, DOE, AMD, and national laboratories including LLNL, BNL, ORNL, and LBNL. She is also the co-founder of Bangladeshi Women in Computer Science and Engineering (BWCSE).
+> Dr. Tanzima Z. Islam is an Associate Professor of Computer Science at Texas State University. She leads the Per4ML laboratory, which develops data-efficient AI and ML methods for intelligent HPC systems. She holds the NSF CAREER Award (2025), the DOE Early Career Award (2022), and the R&D 100 Award (2019). She has secured over $5.25M in research funding from NSF, DOE, AMD, and national laboratories including LLNL, BNL, ORNL, and LBNL. She is also the co-founder of Bangladeshi Women in Computer Science and Engineering (BWCSE).
 
 - Principal Investigator: Tanzima Z. Islam, Associate Professor, Computer Science, Texas State University
 - Website: https://per4ml.github.io
 - PI website: https://www.tanzimaislam.com
 - Google Scholar: https://scholar.google.com/citations?user=q56uneAAAAAJ&hl=en
-- Research funding secured: $5.35M+ (NSF, DOE, AMD, LLNL, BNL, ORNL, LBNL)
+- Research funding secured: $5.25M+ (NSF, DOE, AMD, LLNL, BNL, ORNL, LBNL)
 
 ## Research Areas
 The group works on, and welcomes collaborators and students in, the following topics:
@@ -60,6 +60,7 @@ The group works on, and welcomes collaborators and students in, the following to
 
 ## Publications
 - OPTIMAS: An Intelligent Analytics-Informed Generative AI Framework for Performance Optimization (2026). 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD). Authors: Zaeed, Mohammad, Islam, Tanzima Z, Inđić, Vladimir. https://arxiv.org/abs/2604.23892
+- OPTIMAS Experiment Dataset: Prompts, LLM Responses, and Runtime Measurements for Diagnostic-Informed GPU Code Optimization (2026). Zenodo (Dataset). Authors: Zaeed, Mohammad, Islam, Tanzima Z. https://zenodo.org/records/20499116
 - COMPASS: A Unified Decision-Intelligence System for Navigating Performance Trade-off in HPC (2026). arXiv preprint arXiv:2604.22688. Authors: Lahiry, Ankur, Banday, Banooqa, Bhattarai, Yugesh, Zaeed, Mohammad, Islam, Tanzima Z
 - Data-driven analysis to understand GPU hardware resource usage of optimizations (2026). The International Journal of High Performance Computing Applications. Authors: Islam, Tanzima Z, Schutte, Holland, Zaeed, Mohammad, Marathe, Aniruddha. https://doi.org/10.1177/10943420251404998
 - ModelXc: A Novel Data-Efficient Personalization for Fall Detection (2026). International Conference on Digital Health. Authors: Yasmin, Awatif, Mahmud, Tarek, Alamgeer, Sana, Islam, Tanzima Z, Ngu, Anne
