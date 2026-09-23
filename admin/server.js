@@ -145,6 +145,7 @@ const alumniMgr = listManager('alumni.json', 'alum', (f) => ({
   note: (f.note || '').trim(),
   url: (f.url || '').trim(),
   internships: splitList(f.internships),
+  ...(f.inMemoriam ? { inMemoriam: f.inMemoriam.trim() } : {}),
 }));
 const collaboratorMgr = listManager('collaborators.json', 'collaborator', (f) => ({ affiliation: (f.affiliation || '').trim() }));
 

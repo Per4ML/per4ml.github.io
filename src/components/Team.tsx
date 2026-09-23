@@ -16,7 +16,7 @@ interface Member {
   internships?: string[];  // "<Lab> <year>" per summer, e.g. "LLNL 2024"
 }
 
-interface Alum { id: string; name: string; note: string; url?: string; internships?: string[] }
+interface Alum { id: string; name: string; note: string; url?: string; internships?: string[]; inMemoriam?: string }
 interface Collaborator { id: string; name: string; affiliation: string }
 
 const members = membersData as Member[];
@@ -42,9 +42,10 @@ function formatInternships(list: string[] = [], short = false): string {
 }
 
 // Alumni note with the internship appended, e.g. "M.Sc., currently at LLNL; intern, LLNL 2018"
-function alumNote(note: string, internships?: string[]): string {
+function alumNote(note: string, internships?: string[], inMemoriam?: string): string {
   const interned = formatInternships(internships);
-  return [note, interned && `intern, ${interned}`].filter(Boolean).join('; ');
+  return [note, interned && `intern, ${interned}`, inMemoriam && `in memoriam, ${inMemoriam}`]
+    .filter(Boolean).join('; ');
 }
 
 const LEVEL_ORDER = ['PI', 'Postdoc', 'PhD', 'MS', 'Undergraduate', 'Alumni'];
@@ -80,11 +81,12 @@ export default function Team() {
   const loopedMembers = [...sortedMembers, ...sortedMembers];
 
   // Alumni list = curated alumni.json + members marked inactive (auto-moved here).
+  // A curated alumni.json entry wins over the auto-generated one for the same name.
   const activeNames = new Set(activeMembers.map(m => m.name.toLowerCase()));
   const inactiveAsAlumni: Alum[] = members
     .filter(m => !m.active)
     .map(m => ({ id: m.id, name: m.name, note: LEVEL_DEGREE[m.level] || m.level, internships: m.internships }));
-  const mergedAlumni = [...inactiveAsAlumni, ...alumniList]
+  const mergedAlumni = [...alumniList, ...inactiveAsAlumni]
     .filter(a => !activeNames.has(a.name.toLowerCase()))
     .filter((a, i, arr) => arr.findIndex(x => x.name.toLowerCase() === a.name.toLowerCase()) === i)
     .sort((a, b) => a.name.localeCompare(b.name));
@@ -108,7 +110,7 @@ export default function Team() {
 
         <MemberCarousel members={loopedMembers} />
 
-        <NameList title="Alumni" items={mergedAlumni.map(a => ({ name: a.name, note: alumNote(a.note, a.internships), url: a.url }))} />
+        <NameList title="Alumni" items={mergedAlumni.map(a => ({ name: a.name, note: alumNote(a.note, a.internships, a.inMemoriam), url: a.url }))} />
         <NameList title="Collaborators" items={collaborators.map(c => ({ name: c.name, note: c.affiliation }))} />
       </div>
     </section>

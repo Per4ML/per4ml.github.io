@@ -169,7 +169,8 @@ def main():
     if alumni:
         L.append("## Alumni / Past Members")
         for a in alumni:
-            L.append(f"- {a['name']}" + (f" ({a.get('note','')})" if a.get("note") else ""))
+            note = "; ".join(p for p in (a.get("note", ""), a.get("inMemoriam") and f"in memoriam, {a['inMemoriam']}") if p)
+            L.append(f"- {a['name']}" + (f" ({note})" if note else ""))
         L.append("")
     if collaborators:
         L.append("## Collaborators")
