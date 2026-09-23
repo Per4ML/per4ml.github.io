@@ -134,6 +134,26 @@
     "active": true
   },
   {
+    "id": "abhinav-pyakurel",
+    "name": "Abhinav Pyakurel",
+    "level": "Undergraduate",
+    "image": "images/members/abhinav.jpg",
+    "url": "",
+    "interests": [],
+    "joined": "",
+    "active": true
+  },
+  {
+    "id": "ayesha-imam",
+    "name": "Ayesha Imam",
+    "level": "Undergraduate",
+    "image": "images/members/ayesha.jpg",
+    "url": "",
+    "interests": [],
+    "joined": "",
+    "active": true
+  },
+  {
     "id": "yugesh-bhattarai",
     "name": "Yugesh Bhattarai",
     "level": "Undergraduate",
