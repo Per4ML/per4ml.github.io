@@ -13,9 +13,10 @@ interface Member {
   interests: string[];
   joined: string;
   active: boolean;
+  internships?: string[];  // "<Lab> <year>" per summer, e.g. "LLNL 2024"
 }
 
-interface Alum { id: string; name: string; note: string }
+interface Alum { id: string; name: string; note: string; url?: string; internships?: string[] }
 interface Collaborator { id: string; name: string; affiliation: string }
 
 const members = membersData as Member[];
@@ -26,6 +27,25 @@ const collaborators = collaboratorsData as Collaborator[];
 const LEVEL_DEGREE: Record<string, string> = {
   PhD: 'Ph.D.', MS: 'M.Sc.', Undergraduate: 'B.Sc.', Postdoc: 'Postdoc', PI: 'PI',
 };
+
+// ["LLNL 2021", "BNL 2022", "BNL 2023"] -> "LLNL 2021; BNL 2022, 2023" (or '21 / '22 when short)
+function formatInternships(list: string[] = [], short = false): string {
+  const byLab = new Map<string, string[]>();
+  for (const item of list) {
+    const m = item.trim().match(/^(.*\S)\s+(\d{4})$/);
+    const lab = m ? m[1] : item.trim();
+    const year = m ? (short ? `'${m[2].slice(2)}` : m[2]) : '';
+    if (!byLab.has(lab)) byLab.set(lab, []);
+    if (year) byLab.get(lab)!.push(year);
+  }
+  return [...byLab].map(([lab, years]) => [lab, years.join(', ')].filter(Boolean).join(' ')).join('; ');
+}
+
+// Alumni note with the internship appended, e.g. "M.Sc., currently at LLNL; intern, LLNL 2018"
+function alumNote(note: string, internships?: string[]): string {
+  const interned = formatInternships(internships);
+  return [note, interned && `intern, ${interned}`].filter(Boolean).join('; ');
+}
 
 const LEVEL_ORDER = ['PI', 'Postdoc', 'PhD', 'MS', 'Undergraduate', 'Alumni'];
 const LEVEL_COLORS: Record<string, string> = {
@@ -63,7 +83,7 @@ export default function Team() {
   const activeNames = new Set(activeMembers.map(m => m.name.toLowerCase()));
   const inactiveAsAlumni: Alum[] = members
     .filter(m => !m.active)
-    .map(m => ({ id: m.id, name: m.name, note: LEVEL_DEGREE[m.level] || m.level }));
+    .map(m => ({ id: m.id, name: m.name, note: LEVEL_DEGREE[m.level] || m.level, internships: m.internships }));
   const mergedAlumni = [...inactiveAsAlumni, ...alumniList]
     .filter(a => !activeNames.has(a.name.toLowerCase()))
     .filter((a, i, arr) => arr.findIndex(x => x.name.toLowerCase() === a.name.toLowerCase()) === i)
@@ -88,7 +108,7 @@ export default function Team() {
 
         <MemberCarousel members={loopedMembers} />
 
-        <NameList title="Alumni" items={mergedAlumni.map(a => ({ name: a.name, note: a.note }))} />
+        <NameList title="Alumni" items={mergedAlumni.map(a => ({ name: a.name, note: alumNote(a.note, a.internships), url: a.url }))} />
         <NameList title="Collaborators" items={collaborators.map(c => ({ name: c.name, note: c.affiliation }))} />
       </div>
     </section>
@@ -96,7 +116,7 @@ export default function Team() {
 }
 
 // ─── Simple "Name (note)" list used for Alumni & Collaborators ───────────────
-function NameList({ title, items }: { title: string; items: { name: string; note: string }[] }) {
+function NameList({ title, items }: { title: string; items: { name: string; note: string; url?: string }[] }) {
   if (items.length === 0) return null;
   return (
     <div style={{ marginTop: '4rem' }}>
@@ -114,7 +134,9 @@ function NameList({ title, items }: { title: string; items: { name: string; note
       }}>
         {items.map(item => (
           <div key={item.name} style={{ fontSize: '0.92rem', lineHeight: 1.4, color: 'var(--color-muted)' }}>
-            <span style={{ fontWeight: 600, color: 'var(--color-text)' }}>{item.name}</span>
+            {item.url
+              ? <a href={item.url} target="_blank" rel="noopener noreferrer" style={{ fontWeight: 600, color: 'var(--color-accent)', textDecoration: 'none' }}>{item.name}</a>
+              : <span style={{ fontWeight: 600, color: 'var(--color-text)' }}>{item.name}</span>}
             {item.note && <span> ({item.note})</span>}
           </div>
         ))}
@@ -305,6 +327,14 @@ function MemberCard({ member, levelColor }: { member: Member; levelColor: string
         }}>
           {member.level}
         </span>
+        {/* Fixed 2-line slot, blank when empty, so every card keeps the same height */}
+        <p style={{
+          margin: '0.45rem 0 0', height: '1.9rem', fontSize: '0.66rem', lineHeight: 1.4,
+          color: 'var(--color-muted)',
+          display: '-webkit-box', WebkitLineClamp: 2, WebkitBoxOrient: 'vertical', overflow: 'hidden',
+        }}>
+          {member.internships?.length ? `Intern: ${formatInternships(member.internships, true)}` : ''}
+        </p>
       </div>
     </Tag>
   );

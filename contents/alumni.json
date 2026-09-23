@@ -27,17 +27,26 @@
   {
     "id": "holland-schutte",
     "name": "Holland Schutte",
-    "note": "B.Sc., WWU"
+    "note": "B.Sc., WWU",
+    "internships": [
+      "LLNL 2019"
+    ]
   },
   {
     "id": "gian-carlo-defazio",
     "name": "Gian-Carlo DeFazio",
-    "note": "B.Sc., currently at LLNL"
+    "note": "B.Sc., currently at LLNL",
+    "internships": [
+      "LLNL 2018"
+    ]
   },
   {
     "id": "nathan-pinnow",
     "name": "Nathan Pinnow",
-    "note": "M.Sc., currently at LLNL"
+    "note": "M.Sc., currently at LLNL",
+    "internships": [
+      "LLNL 2018"
+    ]
   },
   {
     "id": "nicholas-majeske",
@@ -56,8 +65,9 @@
   },
   {
     "id": "david-smith",
-    "name": "David Smith",
-    "note": "B.Sc., WWU"
+    "name": "Dr. David H. Smith IV",
+    "note": "B.Sc., WWU, now Assistant Professor at Virginia Tech",
+    "url": "https://website.cs.vt.edu/people/faculty/david-h-smith-iv.html"
   },
   {
     "id": "tony-dinh",
@@ -77,12 +87,18 @@
   {
     "id": "alexis-ayala",
     "name": "Alexis Ayala",
-    "note": "B.Sc., graduate student at WWU"
+    "note": "B.Sc., graduate student at WWU",
+    "internships": [
+      "LBNL 2019"
+    ]
   },
   {
     "id": "quentin-jensen",
     "name": "Quentin Jensen",
-    "note": "B.Sc., graduate student at WWU"
+    "note": "B.Sc., graduate student at WWU",
+    "internships": [
+      "LBNL 2019"
+    ]
   },
   {
     "id": "philip-wu-liang",
@@ -98,5 +114,13 @@
     "id": "cody-pragner",
     "name": "Cody Pragner",
     "note": "B.Sc., WWU"
+  },
+  {
+    "id": "alicia-guite",
+    "name": "Alicia Guite",
+    "note": "B.Sc., TXST, then Virginia Tech",
+    "internships": [
+      "BNL 2022"
+    ]
   }
 ]
