@@ -75,6 +75,7 @@ async function addMember(f) {
     interests: splitList(f.interests),
     joined: f.joined || '',
     active: f.active !== false,
+    internships: splitList(f.internships),
   };
 
   let verb;
@@ -140,7 +141,10 @@ function listManager(file, noun, build) {
   return { add, remove };
 }
 
-const alumniMgr = listManager('alumni.json', 'alum', (f) => ({ note: (f.note || '').trim() }));
+const alumniMgr = listManager('alumni.json', 'alum', (f) => ({
+  note: (f.note || '').trim(),
+  internships: splitList(f.internships),
+}));
 const collaboratorMgr = listManager('collaborators.json', 'collaborator', (f) => ({ affiliation: (f.affiliation || '').trim() }));
 
 async function addNews(f) {

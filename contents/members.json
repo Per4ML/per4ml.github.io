@@ -24,6 +24,20 @@
     "active": true
   },
   {
+    "id": "aakash-dhakal",
+    "name": "Aakash Dhakal",
+    "level": "PhD",
+    "image": "images/members/aakash.jpg",
+    "url": "",
+    "interests": [],
+    "joined": "2023",
+    "active": true,
+    "internships": [
+      "LLNL 2024",
+      "LLNL 2025"
+    ]
+  },
+  {
     "id": "ankur-lahiri",
     "name": "Ankur Lahiri",
     "level": "PhD",
@@ -34,7 +48,10 @@
       "Performance Variability"
     ],
     "joined": "2021",
-    "active": true
+    "active": true,
+    "internships": [
+      "BNL 2022"
+    ]
   },
   {
     "id": "ashna-nawar-ahmed",
@@ -47,7 +64,10 @@
       "Scientific Computing"
     ],
     "joined": "2023",
-    "active": true
+    "active": true,
+    "internships": [
+      "ORNL 2024"
+    ]
   },
   {
     "id": "banooqa-banday",
@@ -60,7 +80,10 @@
       "HPC"
     ],
     "joined": "2022",
-    "active": true
+    "active": true,
+    "internships": [
+      "BNL 2023"
+    ]
   },
   {
     "id": "chase-phelps",
@@ -73,7 +96,12 @@
       "Scaling"
     ],
     "joined": "2020",
-    "active": true
+    "active": true,
+    "internships": [
+      "LLNL 2021",
+      "BNL 2022",
+      "BNL 2023"
+    ]
   },
   {
     "id": "mohammad-zaeed",
@@ -86,7 +114,10 @@
       "Performance Optimization"
     ],
     "joined": "2021",
-    "active": true
+    "active": true,
+    "internships": [
+      "LBNL 2021"
+    ]
   },
   {
     "id": "nawshin-tabassum-tanny",
@@ -150,7 +181,10 @@
       "Foundation model"
     ],
     "joined": "2024",
-    "active": false
+    "active": false,
+    "internships": [
+      "ORNL (QSC) 2026"
+    ]
   },
   {
     "id": "prajan-mk-rekha",

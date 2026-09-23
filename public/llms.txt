@@ -33,6 +33,7 @@ The group works on, and welcomes collaborators and students in, the following to
 ## Current Team
 - Tanzima Z. Islam (PI)
 - Dr. Sana Alamgeer (Postdoc)
+- Aakash Dhakal (PhD)
 - Ankur Lahiri (PhD)
 - Ashna Nawar Ahmed (PhD)
 - Banooqa Banday (PhD)
@@ -150,6 +151,7 @@ The group works on, and welcomes collaborators and students in, the following to
 - Philip Wu Liang (B.Sc., WWU)
 - Forest Sweeney (B.Sc., WWU)
 - Cody Pragner (B.Sc., WWU)
+- Alicia Guite (B.Sc., TXST, then Virginia Tech)
 
 ## Collaborators
 - Khaled Ibrahim (LBNL)
