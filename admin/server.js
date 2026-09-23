@@ -143,6 +143,7 @@ function listManager(file, noun, build) {
 
 const alumniMgr = listManager('alumni.json', 'alum', (f) => ({
   note: (f.note || '').trim(),
+  url: (f.url || '').trim(),
   internships: splitList(f.internships),
 }));
 const collaboratorMgr = listManager('collaborators.json', 'collaborator', (f) => ({ affiliation: (f.affiliation || '').trim() }));

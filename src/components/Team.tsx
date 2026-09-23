@@ -16,7 +16,7 @@ interface Member {
   internships?: string[];  // "<Lab> <year>" per summer, e.g. "LLNL 2024"
 }
 
-interface Alum { id: string; name: string; note: string; internships?: string[] }
+interface Alum { id: string; name: string; note: string; url?: string; internships?: string[] }
 interface Collaborator { id: string; name: string; affiliation: string }
 
 const members = membersData as Member[];
@@ -108,7 +108,7 @@ export default function Team() {
 
         <MemberCarousel members={loopedMembers} />
 
-        <NameList title="Alumni" items={mergedAlumni.map(a => ({ name: a.name, note: alumNote(a.note, a.internships) }))} />
+        <NameList title="Alumni" items={mergedAlumni.map(a => ({ name: a.name, note: alumNote(a.note, a.internships), url: a.url }))} />
         <NameList title="Collaborators" items={collaborators.map(c => ({ name: c.name, note: c.affiliation }))} />
       </div>
     </section>
@@ -116,7 +116,7 @@ export default function Team() {
 }
 
 // ─── Simple "Name (note)" list used for Alumni & Collaborators ───────────────
-function NameList({ title, items }: { title: string; items: { name: string; note: string }[] }) {
+function NameList({ title, items }: { title: string; items: { name: string; note: string; url?: string }[] }) {
   if (items.length === 0) return null;
   return (
     <div style={{ marginTop: '4rem' }}>
@@ -134,7 +134,9 @@ function NameList({ title, items }: { title: string; items: { name: string; note
       }}>
         {items.map(item => (
           <div key={item.name} style={{ fontSize: '0.92rem', lineHeight: 1.4, color: 'var(--color-muted)' }}>
-            <span style={{ fontWeight: 600, color: 'var(--color-text)' }}>{item.name}</span>
+            {item.url
+              ? <a href={item.url} target="_blank" rel="noopener noreferrer" style={{ fontWeight: 600, color: 'var(--color-accent)', textDecoration: 'none' }}>{item.name}</a>
+              : <span style={{ fontWeight: 600, color: 'var(--color-text)' }}>{item.name}</span>}
             {item.note && <span> ({item.note})</span>}
           </div>
         ))}
