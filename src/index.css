@@ -250,3 +250,41 @@ section[id] {
     overflow-x: auto;
   }
 }
+
+/* ─── Project details page (/projects/) ──────────────────────────── */
+.project-index {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+.project-index__link {
+  padding: 0.55rem 0.8rem;
+  border: 1px solid var(--color-border);
+  border-radius: 0.5rem;
+  background: var(--color-surface);
+  color: var(--color-text);
+  font-size: 0.85rem;
+  line-height: 1.35;
+  text-decoration: none;
+  transition: border-color 0.2s, color 0.2s;
+}
+.project-index__link:hover { border-color: var(--color-accent); color: var(--color-accent); }
+.project-detail__head {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+.project-detail__img {
+  flex-shrink: 0;
+  width: 200px;
+  height: 125px;
+  object-fit: cover;
+  border-radius: 0.75rem;
+  border: 1px solid var(--color-border);
+  background: var(--color-surface);
+}
+@media (max-width: 640px) {
+  .project-detail__head { flex-direction: column; align-items: flex-start; }
+  .project-detail__img { width: 100%; height: 160px; }
+}

@@ -3,6 +3,8 @@ import * as d3 from 'd3';
 import cloud from 'd3-cloud';
 // ─── Edit project data in: contents/projects.json ───────────────────────────
 import projectsRaw from '../../contents/projects.json';
+// Projects with an entry here link to their section on /projects/
+import detailsRaw from '../../contents/project-details.json';
 
 interface KeywordEntry { text: string; value: number }
 type CloudWord = cloud.Word & { text: string; value: number; size: number }
@@ -19,6 +21,12 @@ interface Project {
 }
 
 const allProjects = projectsRaw as Project[];
+const detailIds = new Set((detailsRaw as { id: string }[]).map(d => d.id));
+
+// Detail section on /projects/ first; otherwise the project's external url
+function projectHref(p: Project): string {
+  return detailIds.has(p.id) ? `/projects/#${p.id}` : p.url;
+}
 
 // ─────────────────────────────────────────────────────────────────────────────
 // Word Cloud
@@ -90,6 +98,7 @@ function ProjectCard({ project }: { project: Project }) {
   const [hovered, setHovered] = useState(false);
   // Show first 2 sentences of the abstract
   const snippet = project.abstract.split(/(?<=\.)\s+/).slice(0, 2).join(' ');
+  const href = projectHref(project);
 
   return (
     <article
@@ -102,12 +111,16 @@ function ProjectCard({ project }: { project: Project }) {
         overflow: 'hidden',
         transition: 'border-color 0.2s, box-shadow 0.2s',
         boxShadow: hovered ? '0 8px 24px rgba(0,201,167,0.12)' : '0 2px 8px rgba(0,0,0,0.2)',
-        cursor: project.url ? 'pointer' : 'default',
+        cursor: href ? 'pointer' : 'default',
         userSelect: 'none',
       }}
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
-      onClick={() => { if (project.url) window.open(project.url, '_blank', 'noopener,noreferrer'); }}
+      onClick={() => {
+        if (!href) return;
+        if (href.startsWith('/')) window.location.href = href;
+        else window.open(href, '_blank', 'noopener,noreferrer');
+      }}
       aria-label={project.title}
     >
       {/* Image / placeholder */}
@@ -164,7 +177,7 @@ function ProjectCard({ project }: { project: Project }) {
           {snippet}
         </p>
         <div style={{ height: '1.5rem', marginTop: '0.75rem' }}>
-          {project.url && (
+          {href && (
             <span style={{ display: 'inline-block', fontSize: '0.8rem', color: 'var(--color-accent)', fontWeight: 600 }}>
               Learn More →
             </span>

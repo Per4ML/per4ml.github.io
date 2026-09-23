@@ -43,20 +43,20 @@ The group works on, and welcomes collaborators and students in, the following to
 - Prajan M. K. Rekha (Undergraduate)
 
 ## Selected Projects
-- CESAR Co-Design Project: Comparative Performance analysis — Performance
-- CESAR Co-Design Project: Proxy Application Development and Validation — Performance
-- Cache Bottleneck Characterization — Cache Analysis
-- Data-driven decision making — Optimization
-- ECRP+Fractal: Few-Shot Transfer Learning for Performance — Few-Shot Learning, HPC, Performance, Prediction, Transfer Learning
-- ECRP: PerfGen: Synthesizing Performance using GenAI — GAN, GenAI, HPC, LLM, Machine Learning, Optimization, Performance
-- ECRP: Performance-in-a-Graph (PinG) — HPC, Machine Learning, Performance
-- MPI and MPI_T — Performance
+- AI for Code Optimization — LLMs, GPU Performance, Code Optimization, Performance Analytics, Multi-agent Systems
+- AI for HPC Decision Making — Decision Support, Counterfactuals, Multi-objective Optimization, Job Scheduling, Digital Twins
+- Few-Shot Transfer Learning for Performance — Few-Shot Learning, HPC, Performance, Prediction, Transfer Learning
+- Representation Learning for Performance — Graph Neural Networks, Representation Learning, Anomaly Detection, GenAI, Code Performance
 - Performance Characterization — HPC, Optimization, Performance
-- Performance-Aware Application Development — Machine Learning, Performance
-- Ph.D. Thesis: Scalable Checkpoint/Restart — Fault Tolerance, Performance
-- Power-Aware Resilience — HPC, Performance
-- RECUP: Perf. Reproducibility — HPC, Performance, Reproducibility
-- Reliable and Efficient Checkpointing for Cycle-sharing Systems — Fault Tolerance, Transfer Learning
+- Performance Reproducibility — Performance Variability, Reproducibility, FAIR, Workflows, Provenance
+- HPC+Edge Scheduling — Edge Computing, Heterogeneous Scheduling, DL Inference, Real-time Systems
+- Applications — Health, Bioinformatics, Wearables, Transfer Learning, Parallel Code Generation
+- Tools and Systems — Storage, Science Gateways, Anomaly Detection, Simulation, HPC
+- Education — Education, Workforce, Parallel I/O, Community
+- CESAR Co-Design: Proxy Application Development and Validation — Proxy Applications, Co-Design, Performance Analysis, Machine Learning, Hardware Counters
+- MPI and MPI_T — Performance
+- Performance under Power and Resilience — Checkpoint/Restart, Fault Tolerance, Data Compression, Power Capping, HPC I/O
+- Cache Bottleneck Characterization — Cache Analysis
 
 ## Publications
 - OPTIMAS: An Intelligent Analytics-Informed Generative AI Framework for Performance Optimization (2026). 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD). Authors: Zaeed, Mohammad, Islam, Tanzima Z, Inđić, Vladimir. https://arxiv.org/abs/2604.23892
@@ -65,6 +65,7 @@ The group works on, and welcomes collaborators and students in, the following to
 - Data-driven analysis to understand GPU hardware resource usage of optimizations (2026). The International Journal of High Performance Computing Applications. Authors: Islam, Tanzima Z, Schutte, Holland, Zaeed, Mohammad, Marathe, Aniruddha. https://doi.org/10.1177/10943420251404998
 - ModelXc: A Novel Data-Efficient Personalization for Fall Detection (2026). International Conference on Digital Health. Authors: Yasmin, Awatif, Mahmud, Tarek, Alamgeer, Sana, Islam, Tanzima Z, Ngu, Anne
 - Load-Aware Offline Scheduling for Heterogeneous Edge Deep Learning Inference (2026). IEEE Cloud Summit. Authors: Fefey, Elvis G, Islam, Tanzima Z
+- Report of the 2026 Workshop on Next-Generation Ecosystems for Scientific Computing: Harnessing Community, Software, and AI for Cross-Disciplinary Team Science (2026). arXiv preprint arXiv:2608.26519. Authors: McInnes, Lois Curfman, Arnold, Dorian, Balaprakash, Prasanna, Bernhardt, Mike, Cappello, Franck, Cerny, Beth, DiazGranados, Deborah, Dubey, Anshu, Etienne, Nichole, Giles, Roscoe, Gomez-Zara, Diego, Hood, Denice Ward, Leung, Mary Ann, Lopez-Marrero, Vanessa, Newton, Olivia B, Qualters, Irene, Teranishi, Keita, Wild, Stefan M, Allen, Gabrielle, Arthur, Richard, Ballow, Alexandra, Baylis, Tony, Bernholdt, David E, Bielich, Daniel, Cohoon, Johanna, Crampton, Jeremy, Ferenbaugh, Charles, Fiore, Stephen M, Herault, Thomas, Islam, Tanzima Z, Jacobsohn, Stephen, Lin, Meifeng, Lively, Charles, Matsuoka, Satoshi, Milojevic, Stasa, Nichols, Daniel, Oehmen, Chris, Ospina Tabares, Santiago, Papka, Michael E, Riley, Katherine, Rouson, Damian, Seal, Sudip K, Segundo, Brittany, Shalf, John, Siegel, Andrew, Taylor, Valerie, Willenbring, Jim, Woodley, Lou. https://arxiv.org/abs/2608.26519
 - Attention-Informed Surrogates for Navigating Power-Performance Trade-offs in HPC (2025). Workshop on ML for Systems in Conjunction with NeurIPS. Authors: Ahmed, Ashna N, Banday, Banooqa, Jones, Terry, Islam, Tanzima Z. https://arxiv.org/abs/2601.15399
 - Report of the 2025 Workshop on Next-Generation Ecosystems for Scientific Computing: Harnessing Community, Software, and AI for Cross-Disciplinary Team Science (2025). arXiv preprint arXiv:2510.03413. Authors: McInnes, Lois Curfman, Arnold, Dorian, Balaprakash, Prasanna, Bernhardt, Mike, Cerny, Beth, Dubey, Anshu, Giles, Roscoe, Hood, Denice Ward, Leung, Mary Ann, Lopez-Marrero, Vanessa, others
 - Reproducibility for HPC and Distributed Environments: Committees, Nondeterminism, Performance and Workflows (2025). ACM Conference on Reproducibility and Replicability (ACM REP). Authors: Sirvent, Raül, Carratalá-Saez, Rocı́o, Gueroudji, Amal, Islam, Tanzima Z, Pouchard, Line, Taufer, Michela. https://doi.org/10.1145/3736731.3746141

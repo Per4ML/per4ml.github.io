@@ -37,9 +37,11 @@ function MoonIcon() {
 interface NavBarProps {
   theme: 'dark' | 'light';
   toggleTheme: () => void;
+  // '/' on pages other than the home page, so '#about' becomes '/#about'
+  linkPrefix?: string;
 }
 
-export default function NavBar({ theme, toggleTheme }: NavBarProps) {
+export default function NavBar({ theme, toggleTheme, linkPrefix = '' }: NavBarProps) {
   const [scrolled, setScrolled] = useState(false);
   const [active, setActive] = useState('');
 
@@ -86,7 +88,7 @@ export default function NavBar({ theme, toggleTheme }: NavBarProps) {
         aria-label="Main navigation"
       >
         <a
-          href="#hero"
+          href={`${linkPrefix}#hero`}
           style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', fontFamily: 'Plus Jakarta Sans, Inter, sans-serif', fontWeight: 800, fontSize: '1.2rem', color: 'var(--color-accent)', textDecoration: 'none', letterSpacing: '-0.02em', flexShrink: 0 }}
         >
           <img
@@ -103,7 +105,7 @@ export default function NavBar({ theme, toggleTheme }: NavBarProps) {
           {NAV_LINKS.map(link => (
             <li key={link.href}>
               <a
-                href={link.href}
+                href={linkPrefix + link.href}
                 className="site-nav__link"
                 style={{
                   fontWeight: active === link.href.slice(1) ? 600 : 400,
@@ -156,7 +158,7 @@ export default function NavBar({ theme, toggleTheme }: NavBarProps) {
           </button>
 
           <a
-            href="#contact"
+            href={`${linkPrefix}#contact`}
             style={{
               padding: '0.4rem 1rem',
               borderRadius: '0.375rem',

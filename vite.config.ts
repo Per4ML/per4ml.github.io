@@ -10,6 +10,15 @@ export default defineConfig(({mode}) => {
     define: {
       'process.env.GEMINI_API_KEY': JSON.stringify(env.GEMINI_API_KEY),
     },
+    build: {
+      // Two pages: the single-page home site and /projects/ (anchored project details).
+      rollupOptions: {
+        input: {
+          main: path.resolve(__dirname, 'index.html'),
+          projects: path.resolve(__dirname, 'projects/index.html'),
+        },
+      },
+    },
     resolve: {
       alias: {
         '@': path.resolve(__dirname, '.'),

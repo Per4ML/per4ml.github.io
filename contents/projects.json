@@ -1,55 +1,39 @@
 [
   {
-    "id": "cesar-co-design-project-comparative-performance-analysis",
-    "title": "CESAR Co-Design Project: Comparative Performance analysis",
-    "abstract": "My research developed principled approach for comparing performance between applications. The application of this methodology was proxy application validation, which is important for DOE's co-design centers. This project resulted in many publications, and open-source software tools",
-    "image": "images/projects/veritas-struct.png",
+    "id": "ai-for-code-optimization",
+    "title": "AI for Code Optimization",
+    "abstract": "We build frameworks that turn GPU performance diagnostics into code changes that a large language model (LLM) writes, compiles, and checks. Our OPTIMAS framework produced correct code in all 3,410 experiments and a speedup in over 98.82% of them on an NVIDIA H100. We release every prompt, response, and runtime measurement as an open dataset.",
+    "image": "images/projects/optimas.png",
     "tags": [
-      "Performance"
+      "LLMs",
+      "GPU Performance",
+      "Code Optimization",
+      "Performance Analytics",
+      "Multi-agent Systems"
     ],
     "url": "",
     "featured": true,
     "active": true
   },
   {
-    "id": "cesar-co-design-project-proxy-application-development-and-validation",
-    "title": "CESAR Co-Design Project: Proxy Application Development and Validation",
-    "abstract": "Proxy applications are written to represent subsets of performance behaviors of larger, and more complex applications that often have distribution restrictions. In this research, we developed a systematic methodology for quantitatively compare how well proxies match with their parents.",
-    "image": "images/projects/cmtbone-comm.png",
+    "id": "ai-for-hpc-decision-making",
+    "title": "AI for HPC Decision Making",
+    "abstract": "We build decision-support systems that tell HPC users and schedulers how to configure a job, how to change a past run, and what will happen if a parameter changes. Each suggestion comes with the evidence behind it and a trust label. In a scheduler simulator on production traces, COMPASS cut average job turnaround time by 25.53% and allocated 67.77% fewer nodes than ModelX, a state-of-the-art ML-based scheduler.",
+    "image": "images/projects/compass.png",
     "tags": [
-      "Performance"
+      "Decision Support",
+      "Counterfactuals",
+      "Multi-objective Optimization",
+      "Job Scheduling",
+      "Digital Twins"
     ],
     "url": "",
     "featured": true,
     "active": true
   },
   {
-    "id": "cache-bottleneck-characterization",
-    "title": "Cache Bottleneck Characterization",
-    "abstract": "In this project, I built a robust low-level library for Intel's PEBS counter collection in user space, and developed an analysis approach for correlating PEBS data with application-specific information such as line number to characterize cache-access bottlenecks of applications.",
-    "image": "images/projects/cache.png",
-    "tags": [
-      "Cache Analysis"
-    ],
-    "url": "",
-    "featured": true,
-    "active": true
-  },
-  {
-    "id": "data-driven-decision-making",
-    "title": "Data-driven decision making",
-    "abstract": "This new direction of my research investigates the viability of leveraging automated data-driven analysis in decision making for various domains including job scheduling, resource management, health care, transportation planning and more. There are several collaborative research opportunities currently pursue in my lab and I am looking for students interests in optimizations to join my team.",
-    "image": "images/projects/ml_for_ddm.png",
-    "tags": [
-      "Optimization"
-    ],
-    "url": "",
-    "featured": true,
-    "active": true
-  },
-  {
-    "id": "ecrpfractal-few-shot-transfer-learning-for-performance",
-    "title": "ECRP+Fractal: Few-Shot Transfer Learning for Performance",
+    "id": "few-shot-transfer-learning",
+    "title": "Few-Shot Transfer Learning for Performance",
     "abstract": "Few-shot transfer learning and generative AI significantly enhance the prediction of relative performance in HPC environments. By using a few samples from the target application, few-shot learning adapts the source model to improve generalizability, while generative AI synthesizes performance samples to mitigate data scarcity, ensuring accurate and efficient knowledge transfer across different platforms.",
     "image": "images/projects/fractal.png",
     "tags": [
@@ -64,44 +48,16 @@
     "active": true
   },
   {
-    "id": "ecrp-perfgen-synthesizing-performance-using-genai",
-    "title": "ECRP: PerfGen: Synthesizing Performance using GenAI",
-    "abstract": "The PerfGen project addresses the critical need for extensive performance data in HPC environments, where traditional data collection is often time-consuming and resource-intensive. By developing generative AI methods, specifically using GAN-based and LLM-based approaches, PerfGen synthesizes high-fidelity performance data, with LLM-based methods showing superior performance. The framework also introduces a new dissimilarity metric to evaluate the quality of the generated data, ensuring it supports accurate and effective downstream machine learning tasks. This innovative approach enables scalable and efficient performance optimization in HPC systems.",
-    "image": "images/projects/perfgen.png",
-    "tags": [
-      "GAN",
-      "GenAI",
-      "HPC",
-      "LLM",
-      "Machine Learning",
-      "Optimization",
-      "Performance"
-    ],
-    "url": "",
-    "featured": true,
-    "active": true
-  },
-  {
-    "id": "ecrp-performance-in-a-graph-ping",
-    "title": "ECRP: Performance-in-a-Graph (PinG)",
-    "abstract": "The performance analytics domain in High Performance Computing (HPC) uses tabular data to solve regression problems, such as predicting the execution time. Existing Machine Learning (ML) techniques leverage the correlations among features given tabular datasets, not leveraging the relationships between samples directly. Moreover, since high-quality embed-dings from raw features improve the fidelity of the downstream predictive models, existing methods rely on extensive feature engineering and pre-processing steps, costing time and manual effort. To fill these two gaps, we propose a novel idea of transforming tabular performance data into graphs to leverage the advancement of Graph Neural Network-based (GNN) techniques in capturing complex relationships between features and samples. In contrast to other ML application domains, such as social networks, the graph is not given; instead, we need to build it. To address this gap, we propose graph-building methods where nodes represent samples, and the edges are automatically inferred iteratively based on the similarity between the features in the samples. We evaluate the effectiveness of the generated embeddings from GNNs based on how well they make even a simple feed-forward neural network perform for regression tasks compared to other state-of-the-art representation learning techniques. Our evaluation demonstrates that even with up to 25 % random missing values for each dataset, our method outperforms commonly used graph and Deep Neural Network (DNN)-based approaches and achieves up to 61.67% & 78.56 % improvement in MSE loss over the DNN baseline respectively for HPC dataset and Machine Learning Datasets.",
+    "id": "representation-learning-for-performance",
+    "title": "Representation Learning for Performance",
+    "abstract": "We represent performance runs, anomalies, and source code as graphs and trees, so models learn from how samples relate to each other and not only from the features inside each one. Our PinG embeddings cut regression error by up to 61.67% on HPC data, and a graph model classified Chimbuko anomalies with 95% accuracy against 80% for XGBoost. When data is scarce, PerfGen synthesizes performance samples with generative AI.",
     "image": "images/projects/ping.png",
     "tags": [
-      "HPC",
-      "Machine Learning",
-      "Performance"
-    ],
-    "url": "",
-    "featured": true,
-    "active": true
-  },
-  {
-    "id": "mpi-and-mpi-t",
-    "title": "MPI and MPI_T",
-    "abstract": "In the past I have contributed to designing fault-tolerant interface for MPI. I developed performance measurement tools for assessing the performance of MPI_T interface.",
-    "image": "images/projects/fta.png",
-    "tags": [
-      "Performance"
+      "Graph Neural Networks",
+      "Representation Learning",
+      "Anomaly Detection",
+      "GenAI",
+      "Code Performance"
     ],
     "url": "",
     "featured": true,
@@ -122,66 +78,134 @@
     "active": true
   },
   {
-    "id": "performance-aware-application-development",
-    "title": "Performance-Aware Application Development",
-    "abstract": "My group is developing machine learning models to predict the impact of a code change on application performance. This project aims to help application developers assess how their proposed code changes will impact that application's performance before the code is executed. We envision that the performance information collected over time from nightly tests provided as feedback to the model will significantly improve its accuracy.",
-    "image": "images/projects/comparative_code.png",
-    "tags": [
-      "Machine Learning",
-      "Performance"
-    ],
-    "url": "",
-    "featured": true,
-    "active": true
-  },
-  {
-    "id": "phd-thesis-scalable-checkpointrestart",
-    "title": "Ph.D. Thesis: Scalable Checkpoint/Restart",
-    "abstract": "My Ph.D. thesis built scalable checkpoint/restart systems for both high-throughput (Grid using Condor) and high-performance computing environments. A significant part of my thesis contributed to the Scalable Checkpoint Restart framework that won the R&D 100 award in 2019.",
-    "image": "images/projects/phdthesis.png",
-    "tags": [
-      "Fault Tolerance",
-      "Performance"
-    ],
-    "url": "",
-    "featured": true,
-    "active": true
-  },
-  {
-    "id": "power-aware-resilience",
-    "title": "Power-Aware Resilience",
-    "abstract": "This project developed several algorithms for shifting power in an I/O-aware manner to other applications in an HPC system to improve performance. Since I/O phases of applications use less power, moving it to applications or processes crunching numbers accelerates their computation.",
-    "image": "images/projects/power-io.png",
-    "tags": [
-      "HPC",
-      "Performance"
-    ],
-    "url": "",
-    "featured": true,
-    "active": true
-  },
-  {
-    "id": "recup-perf-reproducibility",
-    "title": "RECUP: Perf. Reproducibility",
-    "abstract": "Studying performance reproducibility is vital in the era of heterogeneous supercomputing due to increased performance variation and reduced consistency across runs. Understanding how factors like network traffic, power limits, concurrency tuning, and job interference impact performance is essential for achieving both optimal and reproducible outcomes in HPC environments.",
+    "id": "performance-reproducibility",
+    "title": "Performance Reproducibility",
+    "abstract": "The same job, run twice with the same configuration on the same system, can take different amounts of time because of network traffic, power limits, task placement, and other jobs. We measure which settings drive this run-to-run variation, record the provenance and performance metadata needed to explain it in workflows, and find its causes inside large GPU traces. On a production cluster, our analysis cut the number of configurations a user must test to get fast and repeatable runs by up to 97%.",
     "image": "images/projects/recup.png",
     "tags": [
-      "HPC",
-      "Performance",
-      "Reproducibility"
+      "Performance Variability",
+      "Reproducibility",
+      "FAIR",
+      "Workflows",
+      "Provenance"
     ],
     "url": "",
     "featured": true,
     "active": true
   },
   {
-    "id": "reliable-and-efficient-checkpointing-for-cycle-sharing-systems",
-    "title": "Reliable and Efficient Checkpointing for Cycle-sharing Systems",
-    "abstract": "This research developed failure models for high-throughput systems, e.g. Grids, and developed a scalable data transfer and checkpoint storing mechanism to provide high fault-tolerance in a volatile environment.",
-    "image": "images/projects/falcon.png",
+    "id": "hpc-edge-scheduling",
+    "title": "HPC+Edge Scheduling",
+    "abstract": "We schedule deep learning inference across the CPU and integrated GPU on a single edge node, so neither device sits idle. Our schedulers improved inference performance by 1.5% to 48.1% over single-device and even-split baselines, and our 2025 ILP-based rate monotonic scheduler received the Best Paper Award at IEEE Cloud Summit. Our latest scheduler builds schedules offline and cuts runtime scheduling overhead by about 28x.",
+    "image": "images/projects/edge-scheduling.png",
     "tags": [
+      "Edge Computing",
+      "Heterogeneous Scheduling",
+      "DL Inference",
+      "Real-time Systems"
+    ],
+    "url": "",
+    "featured": true,
+    "active": true
+  },
+  {
+    "id": "applications",
+    "title": "Applications",
+    "abstract": "The methods we build for performance data also apply to health care and biology, where labeled data is scarce. We have predicted stress onset in autistic college students from wearable data, personalized fall-detection models with ModelXc, and predicted the effect of protein mutation pairs from a quarter of the possible mutants. Our stress models reached 69% accuracy for autistic students and 72% for neurotypical students.",
+    "image": "images/projects/ml_for_ddm.png",
+    "tags": [
+      "Health",
+      "Bioinformatics",
+      "Wearables",
+      "Transfer Learning",
+      "Parallel Code Generation"
+    ],
+    "url": "",
+    "featured": true,
+    "active": true
+  },
+  {
+    "id": "tools-and-systems",
+    "title": "Tools and Systems",
+    "abstract": "We build the software that connects scientists to large systems: metadata stores for burst buffers, batch submission gateways, in-situ anomaly detection, and hardware simulators. MetaKV sped up metadata put and get operations by up to 2.66x and 6.29x over state-of-the-art key-value stores.",
+    "image": "images/projects/tools.png",
+    "tags": [
+      "Storage",
+      "Science Gateways",
+      "Anomaly Detection",
+      "Simulation",
+      "HPC"
+    ],
+    "url": "",
+    "featured": true,
+    "active": true
+  },
+  {
+    "id": "education",
+    "title": "Education",
+    "abstract": "We train students to build HPC software that scales, including parallel I/O, which most curricula leave out. HPC@SCALE is our hands-on course at Texas State, and we help set community priorities for the scientific computing workforce through the NGE workshop series.",
+    "image": "images/projects/education.png",
+    "tags": [
+      "Education",
+      "Workforce",
+      "Parallel I/O",
+      "Community"
+    ],
+    "url": "",
+    "featured": true,
+    "active": true
+  },
+  {
+    "id": "cesar-co-design",
+    "title": "CESAR Co-Design: Proxy Application Development and Validation",
+    "abstract": "Proxy applications stand in for large production codes during hardware procurement and co-design, but whether a proxy behaves like its parent was usually judged by the developer's intuition. We built a machine-learning method that measures, per hardware resource, how much of the parent's performance behavior a proxy covers. Applied to XSBench, RSBench, and CMT-Bone, it shows which resources each proxy covers and which ones it misses.",
+    "image": "images/projects/cmtbone-comm.png",
+    "tags": [
+      "Proxy Applications",
+      "Co-Design",
+      "Performance Analysis",
+      "Machine Learning",
+      "Hardware Counters"
+    ],
+    "url": "",
+    "featured": true,
+    "active": true
+  },
+  {
+    "id": "mpi-and-mpi-t",
+    "title": "MPI and MPI_T",
+    "abstract": "In the past I have contributed to designing fault-tolerant interface for MPI. I developed performance measurement tools for assessing the performance of MPI_T interface.",
+    "image": "images/projects/fta.png",
+    "tags": [
+      "Performance"
+    ],
+    "url": "",
+    "featured": true,
+    "active": true
+  },
+  {
+    "id": "performance-under-power-and-resilience",
+    "title": "Performance under Power and Resilience",
+    "abstract": "Large simulations lose work when machines fail and lose speed when power is capped. We built checkpointing systems that make saving and restoring state cheap enough to do often, on shared Condor grids and on supercomputers, and algorithms that move unused power from jobs writing I/O to jobs computing. McrEngine cut checkpoint overhead by up to 87%, and I/O-aware power shifting sped up a high-priority job by up to 32%.",
+    "image": "images/projects/phdthesis.png",
+    "tags": [
+      "Checkpoint/Restart",
       "Fault Tolerance",
-      "Transfer Learning"
+      "Data Compression",
+      "Power Capping",
+      "HPC I/O"
+    ],
+    "url": "",
+    "featured": true,
+    "active": true
+  },
+  {
+    "id": "cache-bottleneck-characterization",
+    "title": "Cache Bottleneck Characterization",
+    "abstract": "In this project, I built a robust low-level library for Intel's PEBS counter collection in user space, and developed an analysis approach for correlating PEBS data with application-specific information such as line number to characterize cache-access bottlenecks of applications.",
+    "image": "images/projects/cache.png",
+    "tags": [
+      "Cache Analysis"
     ],
     "url": "",
     "featured": true,

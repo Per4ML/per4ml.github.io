@@ -207,6 +207,8 @@ def main():
         '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
         f"  <url>\n    <loc>{BASE_URL}/</loc>\n    <lastmod>{today}</lastmod>\n"
         "    <changefreq>weekly</changefreq>\n    <priority>1.0</priority>\n  </url>\n"
+        f"  <url>\n    <loc>{BASE_URL}/projects/</loc>\n    <lastmod>{today}</lastmod>\n"
+        "    <changefreq>monthly</changefreq>\n    <priority>0.8</priority>\n  </url>\n"
         f"  <url>\n    <loc>{BASE_URL}/llms.txt</loc>\n    <lastmod>{today}</lastmod>\n  </url>\n"
         "</urlset>\n"
     )
