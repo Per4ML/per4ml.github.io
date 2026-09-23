@@ -40,6 +40,8 @@ The group works on, and welcomes collaborators and students in, the following to
 - Chase Phelps (PhD)
 - Mohammad Zaeed (PhD)
 - Nawshin Tabassum Tanny (PhD)
+- Abhinav Pyakurel (Undergraduate)
+- Ayesha Imam (Undergraduate)
 - Yugesh Bhattarai (Undergraduate)
 - Prajan M. K. Rekha (Undergraduate)
 
@@ -155,6 +157,9 @@ The group works on, and welcomes collaborators and students in, the following to
 - Arunavo Dey (M.Sc., currently Ph.D. student at Oregon State University)
 - Dr. Md Abdul Motaleb Faysal (Postdoc, now Senior Lecturer at Idaho State University)
 - Ayush Pokharel (M.Sc., TXST)
+- Jeffrey Boerger (B.Sc., TXST)
+- Jessica Rubin (NSF REU, Howard University)
+- Avaneesh Ramesh (High school intern, now undergraduate at UT Austin)
 
 ## Collaborators
 - Khaled Ibrahim (LBNL)

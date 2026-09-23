@@ -143,5 +143,23 @@
     "id": "ayush-pokharel",
     "name": "Ayush Pokharel",
     "note": "M.Sc., TXST"
+  },
+  {
+    "id": "jeffrey-boerger",
+    "name": "Jeffrey Boerger",
+    "note": "B.Sc., TXST",
+    "internships": [
+      "BNL 2023"
+    ]
+  },
+  {
+    "id": "jessica-rubin",
+    "name": "Jessica Rubin",
+    "note": "NSF REU, Howard University"
+  },
+  {
+    "id": "avaneesh-ramesh",
+    "name": "Avaneesh Ramesh",
+    "note": "High school intern, now undergraduate at UT Austin"
   }
 ]
