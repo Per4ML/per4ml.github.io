@@ -62,7 +62,7 @@
   {
     "id": "jack-stratton",
     "name": "Jack Stratton",
-    "note": "B.Sc., WWU, currently at DocuSign"
+    "note": "M.Sc., WWU, currently at DocuSign"
   },
   {
     "id": "david-smith",
@@ -83,7 +83,7 @@
   {
     "id": "chloe-dawson",
     "name": "Chloe Dawson",
-    "note": "B.Sc., WWU, currently at Heritage Bank",
+    "note": "M.Sc., WWU, currently at Heritage Bank",
     "internships": [
       "PNNL"
     ]
@@ -161,5 +161,30 @@
     "id": "avaneesh-ramesh",
     "name": "Avaneesh Ramesh",
     "note": "High school intern, now undergraduate at UT Austin"
+  },
+  {
+    "id": "advay-arashanapalli",
+    "name": "Advay Arashanapalli",
+    "note": "High school intern"
+  },
+  {
+    "id": "chris-daw",
+    "name": "Chris Daw",
+    "note": "M.Sc., WWU"
+  },
+  {
+    "id": "michael-albert",
+    "name": "Michael Albert",
+    "note": "B.Sc., WWU"
+  },
+  {
+    "id": "max-ismailov",
+    "name": "Max Ismailov",
+    "note": "B.Sc., WWU"
+  },
+  {
+    "id": "brian-barragan-cruz",
+    "name": "Brian Barragan Cruz",
+    "note": "B.Sc., WWU"
   }
 ]
