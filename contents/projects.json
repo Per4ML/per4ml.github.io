@@ -50,7 +50,7 @@
   {
     "id": "representation-learning-for-performance",
     "title": "Representation Learning for Performance",
-    "abstract": "We represent performance runs, anomalies, and source code as graphs and trees, so models learn from how samples relate to each other and not only from the features inside each one. Our PinG embeddings cut regression error by up to 61.67% on HPC data, and a graph model classified Chimbuko anomalies with 95% accuracy against 80% for XGBoost. When data is scarce, PerfGen synthesizes performance samples with generative AI.",
+    "abstract": "Flat neural networks learn only feature-to-feature relationships, so they miss the structure that separates a symptom from a root cause. We represent source code as trees and performance runs and anomalies as graphs, and add lightweight detection for real-time monitoring. Our PinG embeddings cut regression error by up to 61.67% on HPC data, and a graph model classified Chimbuko anomalies with 95% accuracy against 80% for XGBoost.",
     "image": "images/projects/ping.png",
     "tags": [
       "Graph Neural Networks",
@@ -127,13 +127,13 @@
   {
     "id": "tools-and-systems",
     "title": "Tools and Systems",
-    "abstract": "We build the software that connects scientists to large systems: metadata stores for burst buffers, batch submission gateways, in-situ anomaly detection, and hardware simulators. MetaKV sped up metadata put and get operations by up to 2.66x and 6.29x over state-of-the-art key-value stores.",
+    "abstract": "Every layer between a scientist and the hardware can become the bottleneck, from the network on a chip to the gateway that reaches the machine. We build tools at each layer: a network-on-chip simulator, automatic mixed-precision code generation, a metadata store for burst buffers, and a science gateway for earthquake engineering. MetaKV sped up metadata put and get operations by up to 2.66x and 6.29x.",
     "image": "images/projects/tools.png",
     "tags": [
+      "Simulation",
+      "Mixed Precision",
       "Storage",
       "Science Gateways",
-      "Anomaly Detection",
-      "Simulation",
       "HPC"
     ],
     "url": "",

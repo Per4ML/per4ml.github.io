@@ -116,7 +116,8 @@ def load_bib(path: str):
 def job1_publications(entries: list) -> list:
     pubs = []
     for e in entries:
-        venue = clean_latex(e.get("booktitle") or e.get("journal") or "")
+        # Theses and tech reports have no booktitle/journal; fall back to school/institution
+        venue = clean_latex(e.get("booktitle") or e.get("journal") or e.get("school") or e.get("institution") or "")
         note_raw = e.get("note", "")
         award = extract_award(note_raw)
         keywords_raw = e.get("keywords", "")

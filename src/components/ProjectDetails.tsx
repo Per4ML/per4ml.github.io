@@ -25,7 +25,10 @@ interface ProjectDetail {
   challenges: string;
   approach: string;
   impact: string;
-  papers: string[];  // BibTeX keys from contents/pubs.bib
+  papers: string[];  // BibTeX keys from contents/pubs.bib, one per piece of work
+  // Other versions of the same work (journal extension, poster, tech report),
+  // shown on one line under the primary entry instead of as separate papers
+  versions?: Record<string, string[]>;
 }
 
 interface Publication {
@@ -36,6 +39,7 @@ interface Publication {
   year: number;
   doi: string;
   url: string;
+  pdf: string;
   award: string;
 }
 
@@ -48,7 +52,7 @@ const entries = details
   .map(d => ({ detail: d, project: projects.find(p => p.id === d.id && p.active) }))
   .filter((e): e is { detail: ProjectDetail; project: Project } => Boolean(e.project));
 
-const SUBSECTIONS: { field: keyof Omit<ProjectDetail, 'id' | 'papers'>; label: string }[] = [
+const SUBSECTIONS: { field: keyof Omit<ProjectDetail, 'id' | 'papers' | 'versions'>; label: string }[] = [
   { field: 'problem',    label: 'The problem' },
   { field: 'importance', label: 'Why it matters' },
   { field: 'challenges', label: 'Why it is hard' },
@@ -67,16 +71,40 @@ function shortName(author: string) {
   return initials ? `${initials} ${last}` : last;
 }
 
-function PaperItem({ pub }: { pub: Publication }) {
-  const href = pub.doi ? `https://doi.org/${pub.doi}` : pub.url;
+function pubHref(pub: Publication) {
+  return pub.doi ? `https://doi.org/${pub.doi}` : (pub.url || pub.pdf);
+}
+
+const linkStyle = { color: 'var(--color-accent)', textDecoration: 'none' } as const;
+
+function PaperItem({ pub, others }: { pub: Publication; others: Publication[] }) {
+  const href = pubHref(pub);
   return (
     <li style={{ marginBottom: '0.6rem', lineHeight: 1.55, fontSize: '0.9rem', color: 'var(--color-muted)' }}>
       {href
         ? <a href={href} target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-text)', fontWeight: 600, textDecoration: 'none' }}>{pub.title}</a>
         : <span style={{ color: 'var(--color-text)', fontWeight: 600 }}>{pub.title}</span>}
       {'. '}
-      {pub.authors.map(shortName).join(', ')}. <em>{pub.venue}</em>, {pub.year}.
+      {pub.authors.map(shortName).join(', ')}. {pub.venue && <><em>{pub.venue}</em>, </>}{pub.year}.
       {pub.award && <span style={{ marginLeft: '0.5rem', color: 'var(--color-gold)', fontWeight: 600 }}>{pub.award}</span>}
+      {pub.pdf && pub.pdf !== href && (
+        <> <a href={pub.pdf} target="_blank" rel="noopener noreferrer" style={linkStyle}>[PDF]</a></>
+      )}
+      {others.length > 0 && (
+        <div style={{ fontSize: '0.82rem' }}>
+          Also: {others.map((o, i) => {
+            const h = pubHref(o);
+            const label = o.venue ? `${o.venue}, ${o.year}` : String(o.year);
+            return (
+              <span key={o.key}>
+                {i > 0 && '; '}
+                {h ? <a href={h} target="_blank" rel="noopener noreferrer" style={linkStyle}>{label}</a> : label}
+                {o.pdf && o.pdf !== h && <> <a href={o.pdf} target="_blank" rel="noopener noreferrer" style={linkStyle}>[PDF]</a></>}
+              </span>
+            );
+          })}
+        </div>
+      )}
     </li>
   );
 }
@@ -126,7 +154,16 @@ function ProjectSection({ project, detail }: { project: Project; detail: Project
             Papers
           </h3>
           <ul style={{ margin: 0, paddingLeft: '1.1rem' }}>
-            {pubs.map(p => <Fragment key={p.key}><PaperItem pub={p} /></Fragment>)}
+            {pubs.map(p => (
+              <Fragment key={p.key}>
+                <PaperItem
+                  pub={p}
+                  others={(detail.versions?.[p.key] ?? [])
+                    .map(k => pubsByKey.get(k))
+                    .filter((o): o is Publication => Boolean(o))}
+                />
+              </Fragment>
+            ))}
           </ul>
         </div>
       )}
