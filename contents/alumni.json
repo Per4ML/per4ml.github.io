@@ -27,10 +27,11 @@
   {
     "id": "holland-schutte",
     "name": "Holland Schutte",
-    "note": "B.Sc., WWU",
+    "note": "B.Sc., WWU, later at Qualcomm",
     "internships": [
       "LLNL 2019"
-    ]
+    ],
+    "inMemoriam": "2024"
   },
   {
     "id": "gian-carlo-defazio",
@@ -61,7 +62,7 @@
   {
     "id": "jack-stratton",
     "name": "Jack Stratton",
-    "note": "B.Sc., WWU"
+    "note": "B.Sc., WWU, currently at DocuSign"
   },
   {
     "id": "david-smith",
@@ -77,17 +78,20 @@
   {
     "id": "trevor-marcus",
     "name": "Trevor Marcus",
-    "note": "B.Sc., WWU"
+    "note": "B.Sc., WWU, co-founder of KATforge Studios"
   },
   {
     "id": "chloe-dawson",
     "name": "Chloe Dawson",
-    "note": "B.Sc., WWU"
+    "note": "B.Sc., WWU, currently at Heritage Bank",
+    "internships": [
+      "PNNL"
+    ]
   },
   {
     "id": "alexis-ayala",
     "name": "Alexis Ayala",
-    "note": "B.Sc., graduate student at WWU",
+    "note": "M.Sc., WWU, currently at Atlassian",
     "internships": [
       "LBNL 2019"
     ]
@@ -95,20 +99,21 @@
   {
     "id": "quentin-jensen",
     "name": "Quentin Jensen",
-    "note": "B.Sc., graduate student at WWU",
+    "note": "M.Sc., WWU, currently CS Instructor at Portland Community College",
     "internships": [
       "LBNL 2019"
     ]
   },
   {
     "id": "philip-wu-liang",
-    "name": "Philip Wu Liang",
-    "note": "B.Sc., WWU"
+    "name": "Phillip Wu Liang",
+    "note": "B.Sc., WWU, currently at Körber Supply Chain"
   },
   {
     "id": "forest-sweeney",
     "name": "Forest Sweeney",
-    "note": "B.Sc., WWU"
+    "note": "B.Sc., WWU, currently Senior Software Developer at Accenture",
+    "url": "https://www.linkedin.com/in/4st-sweeney"
   },
   {
     "id": "cody-pragner",
@@ -122,5 +127,10 @@
     "internships": [
       "BNL 2022"
     ]
+  },
+  {
+    "id": "arunavo-dey",
+    "name": "Arunavo Dey",
+    "note": "M.Sc., currently Ph.D. student at Oregon State University"
   }
 ]
