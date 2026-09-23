@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-09",
+    "category": "Award",
+    "headline": "SC'26 Best Research Poster Nominee",
+    "body": "OptimasX has been accepted at SC'26 and nominated for the Best Research Poster Award! OptimasX makes GPU code optimization, which usually takes deep expertise and as many as 30 manual steps, as simple as asking an AI assistant, \"Can you make my code run faster?\" This work is supported by the NSF CAREER award and this summer's CRA REU program."
+  },
+  {
+    "date": "2026-09",
+    "category": "Talk",
+    "headline": "Per4ML at CCDSC",
+    "body": "Per4ML was at CCDSC, where Dr. Islam gave a talk titled \"What Decisions Should HPC Make So You Do Not Have To?\" Pictures coming soon!"
+  },
+  {
     "date": "2026-08",
     "category": "Research",
     "headline": "OPTIMAS Dataset Released",
