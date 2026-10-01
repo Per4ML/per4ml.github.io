@@ -1,6 +1,7 @@
 import { useEffect, useState, type ReactNode } from 'react';
 import NavBar from './components/NavBar';
 import Hero from './components/Hero';
+import FeaturedVideo from './components/FeaturedVideo';
 import About from './components/About';
 import Research from './components/Research';
 import News from './components/News';
@@ -75,6 +76,7 @@ export default function App() {
       <main>
         {/* Zone 1 — bg */}
         <Hero theme={theme} />
+        <FeaturedVideo />
 
         {/* bg → surface */}
         <WaveDivider surface={true} />

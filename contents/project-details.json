@@ -8,6 +8,7 @@
     "impact": "Across 1,640 Opal experiments on eight GPU applications and 68 input configurations, every generated version but one passed the benchmark's correctness tests, and edits cut execution time by up to 87.6% (33.3% on average). OPTIMAS, published at KDD 2026 (18.5% acceptance rate), generated correct code in all 3,410 experiments and improved performance in more than 98.82% of them, with average gains of 8.02% to 79.09% on NVIDIA GPUs.\n\nOne optimization iteration takes under 10 minutes, while collecting profiles for SW4Lite took 16 to 24 hours, and the full set of GPT-5 experiments cost $9.83 in API fees. We released every prompt, LLM response, and runtime measurement as an open dataset. Supported by an AMD academic gift, we are integrating Opal into AMD's ROCm software stack.",
     "papers": [
       "zaeed2026optimas",
+      "bhattarai2026optimasx",
       "zaeed2025opal",
       "zaeed2026optimasdata"
     ]
