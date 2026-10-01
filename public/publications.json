@@ -1540,26 +1540,6 @@
     "keywords": []
   },
   {
-    "key": "hossain2011eunomia",
-    "title": "Eunomia: A fast and collaborative interference avoidance technique for wireless medical devices",
-    "authors": [
-      "Hossain, Mohammad S",
-      "Islam, Tanzima Zerin",
-      "Wei, Jinliang",
-      "Raghunathan, Vijay",
-      "Bagchi, Saurabh"
-    ],
-    "venue": "",
-    "year": 2011,
-    "doi": "",
-    "pdf": "",
-    "url": "",
-    "award": "",
-    "acceptanceRate": "",
-    "note": "Fast abstract. r̆lhttps://docs.lib.purdue.edu/ecetr/422/",
-    "keywords": []
-  },
-  {
     "key": "islam2010data",
     "title": "Data-Aware Inter-Process Checkpoint Compression",
     "authors": [
@@ -1596,6 +1576,25 @@
     "award": "SRC 2nd Place",
     "acceptanceRate": "",
     "note": "Poster. ACM Student Research Competition Second Place Winner.",
+    "keywords": []
+  },
+  {
+    "key": "hossain2009fast",
+    "title": "Fast and Collaborative Interference Avoidance for Wireless Medical Devices",
+    "authors": [
+      "Hossain, Mohammad S",
+      "Islam, Tanzima Z",
+      "Bagchi, Saurabh",
+      "Raghunathan, Vijay"
+    ],
+    "venue": "International Conference on Dependable Systems and Networks (DSN), Fast Abstracts",
+    "year": 2009,
+    "doi": "",
+    "pdf": "",
+    "url": "https://docs.lib.purdue.edu/ecetr/422/",
+    "award": "",
+    "acceptanceRate": "",
+    "note": "Fast abstract. Extended version: Purdue ECE Technical Report 422 (2011), r̆lhttps://docs.lib.purdue.edu/ecetr/422/",
     "keywords": []
   },
   {
