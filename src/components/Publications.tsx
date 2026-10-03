@@ -22,6 +22,8 @@ export default function Publications() {
   const [search, setSearch] = useState('');
   const [filterYear, setFilterYear] = useState('all');
   const [filterKeyword, setFilterKeyword] = useState('');
+  const [pageSize, setPageSize] = useState<number>(10); // 0 means all
+  const [page, setPage] = useState(0);
 
   useEffect(() => {
     // Check for keyword param from Research word-cloud deep link
@@ -66,6 +68,18 @@ export default function Publications() {
     });
   }, [pubs, search, filterYear, filterKeyword]);
 
+  // Any change to the filters or the page size starts again from the first page.
+  useEffect(() => { setPage(0); }, [search, filterYear, filterKeyword, pageSize]);
+
+  const perPage = pageSize || filtered.length || 1;
+  const totalPages = Math.max(1, Math.ceil(filtered.length / perPage));
+  const shown = filtered.slice(page * perPage, page * perPage + perPage);
+
+  const goToPage = (p: number) => {
+    setPage(p);
+    sectionRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  };
+
   return (
     <section
       id="publications"
@@ -102,6 +116,14 @@ export default function Publications() {
             <option value="all">All Years</option>
             {years.map(y => <option key={y} value={String(y)}>{y}</option>)}
           </select>
+          <select
+            value={pageSize}
+            onChange={e => setPageSize(Number(e.target.value))}
+            aria-label="Publications per page"
+            style={{ ...inputStyle, maxWidth: 130, cursor: 'pointer' }}
+          >
+            {PAGE_SIZES.map(n => <option key={n} value={n}>{n ? `Show ${n}` : 'Show all'}</option>)}
+          </select>
           {filterKeyword && (
             <button
               onClick={() => setFilterKeyword('')}
@@ -125,7 +147,7 @@ export default function Publications() {
         </p>
 
         <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
-          {filtered.map(pub => (
+          {shown.map(pub => (
             <article
               key={pub.key}
               itemScope
@@ -207,8 +229,52 @@ export default function Publications() {
             </p>
           )}
         </div>
+
+        {totalPages > 1 && (
+          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '1.5rem', marginTop: '3rem' }}>
+            <PageButton label="Previous page" disabled={page === 0} onClick={() => goToPage(page - 1)}>‹</PageButton>
+            <div style={{ fontSize: '0.85rem', fontFamily: 'JetBrains Mono, monospace', color: 'var(--color-muted)', fontWeight: 500 }}>
+              {page * perPage + 1}–{Math.min((page + 1) * perPage, filtered.length)} of {filtered.length}
+            </div>
+            <PageButton label="Next page" disabled={page === totalPages - 1} onClick={() => goToPage(page + 1)}>›</PageButton>
+          </div>
+        )}
       </div>
     </section>
+  );
+}
+
+const PAGE_SIZES = [10, 25, 50, 0];
+
+// Same round arrow buttons as the News pager.
+function PageButton({ label, disabled, onClick, children }: {
+  label: string; disabled: boolean; onClick: () => void; children: import('react').ReactNode;
+}) {
+  return (
+    <button
+      onClick={onClick}
+      disabled={disabled}
+      aria-label={label}
+      style={{
+        width: 40,
+        height: 40,
+        borderRadius: '50%',
+        border: '1.5px solid var(--color-accent)',
+        background: 'transparent',
+        color: 'var(--color-accent)',
+        cursor: disabled ? 'not-allowed' : 'pointer',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        fontSize: '1.2rem',
+        transition: 'all 0.2s',
+        opacity: disabled ? 0.5 : 1,
+      }}
+      onMouseEnter={e => { if (!disabled) (e.currentTarget as HTMLElement).style.background = 'rgba(0,201,167,0.1)'; }}
+      onMouseLeave={e => { (e.currentTarget as HTMLElement).style.background = 'transparent'; }}
+    >
+      {children}
+    </button>
   );
 }
 
