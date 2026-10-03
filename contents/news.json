@@ -10,6 +10,22 @@
   {
     "date": "2026-09",
     "category": "Award",
+    "headline": "2026 ACM SIGHPC Emerging Woman Leader in Technical Computing",
+    "body": "I am honored to receive the 2026 ACM SIGHPC Emerging Woman Leader in Technical Computing Award, together with Olga Pearce. The citation recognizes \"sustained technical excellence in HPC and a rare depth of leadership in research, mentoring, and community building.\" The award will be presented at SC'26.",
+    "link": "https://www.sighpc.org/opportunities/emerging-woman-leader-in-technical-computing-award/2026-ewltc-award-winner",
+    "linkLabel": "ACM SIGHPC announcement"
+  },
+  {
+    "date": "2026-09",
+    "category": "Service",
+    "headline": "IPDPS 2027 General Co-Chair",
+    "body": "I will serve as General Co-Chair of IEEE IPDPS 2027 with Manish Parashar. IPDPS is one of the premier conferences in parallel and distributed computing, and it will be held in Seattle, Washington, June 1–5, 2027. We invite work that crosses traditional boundaries, including AI/ML, quantum and neuromorphic computing, and green HPC. Please consider submitting!",
+    "link": "https://cs.txst.edu/about-us/news/tanzima-islam-co-general-chair-ieeeconference.html",
+    "linkLabel": "TXST CS news"
+  },
+  {
+    "date": "2026-09",
+    "category": "Award",
     "headline": "SC'26 Best Research Poster Nominee",
     "body": "OptimasX has been accepted at SC'26 and [nominated for the Best Research Poster Award](https://www.youtube.com/watch?v=tFrO_1K9598)! OptimasX makes GPU code optimization, which usually takes deep expertise and as many as 30 manual steps, as simple as asking an AI assistant, \"Can you make my code run faster?\" This work is supported by the NSF CAREER award and this summer's CRA REU program. Check out our one-minute OptimasX demo video!",
     "link": "https://www.youtube.com/watch?v=tFrO_1K9598",
@@ -60,6 +76,14 @@
     "category": "Funding",
     "headline": "CRA Funding",
     "body": "Thanks to CRA for a $10K grant supporting an undergraduate research student during Summer 2026."
+  },
+  {
+    "date": "2026-03",
+    "category": "News",
+    "headline": "Featured by SC for Women's History Month",
+    "body": "I am honored to be featured by the SC Conference Series for Women's History Month (#WHM26, #HPCunites). I shared how HPC found me through an internship at Lawrence Livermore National Laboratory in the third year of my PhD, why our lab builds AI/ML methods that let HPC systems observe, reason, and optimize their own performance, and how the BWCSE Club, which I co-founded in 2014, has mentored 100+ women into research careers. My advice to students: \"Chase what excites you, keep moving, and trust the path will reveal itself.\" In one line: \"I make supercomputers intelligent so that everyone has access to efficient computing.\"",
+    "link": "https://www.linkedin.com/feed/update/urn:li:activity:7439434183229288449/",
+    "linkLabel": "Read the feature"
   },
   {
     "date": "2025-11",

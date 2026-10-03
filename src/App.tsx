@@ -6,6 +6,7 @@ import About from './components/About';
 import Research from './components/Research';
 import News from './components/News';
 import Gallery from './components/Gallery';
+import Press from './components/Press';
 import Team from './components/Team';
 import Publications from './components/Publications';
 import Funding from './components/Funding';
@@ -88,8 +89,8 @@ export default function App() {
 
         {/* bg → surface */}
         <WaveDivider surface={true} />
-        {/* Gallery shares the News band — no divider between them */}
-        <Zone surface={true}><News /><Gallery /></Zone>
+        {/* Gallery and Press share the News band — no divider between them */}
+        <Zone surface={true}><News /><Gallery /><Press /></Zone>
 
         {/* surface → bg */}
         <WaveDivider surface={false} flip />
