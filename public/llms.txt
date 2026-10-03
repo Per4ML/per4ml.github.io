@@ -8,6 +8,13 @@
 - Google Scholar: https://scholar.google.com/citations?user=q56uneAAAAAJ&hl=en
 - Research funding secured: $5.25M+ (NSF, DOE, AMD, LLNL, BNL, ORNL, LBNL)
 
+## Featured: OptimasX demo video (SC'26 Best Research Poster nominee)
+- Video: https://www.youtube.com/watch?v=tFrO_1K9598
+- Title: OptimasX: An Agentic End-to-End GPU Performance Optimization Workflow in the Code Editor
+- Authors: Bhattarai, Yugesh; Rubin, Jessica; Manoj Rekha, Prajan Kumar; Zaeed, Mohammad; Islam, Tanzima Z
+- Summary: A one-minute demo of OptimasX, an agentic, end-to-end GPU performance optimization workflow that runs inside the code editor. OptimasX turns GPU code optimization, which usually takes deep expertise and as many as 30 manual steps, into one request to an AI assistant: "Can you make my code run faster?" Research poster at SC'26, nominated for the Best Research Poster Award.
+- Who it is for: GPU, CUDA, and HPC developers, and anyone who uses an AI coding assistant in their editor and wants faster code.
+
 ## Research Areas
 The group works on, and welcomes collaborators and students in, the following topics:
 

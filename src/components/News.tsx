@@ -22,6 +22,20 @@ const DOT_COLORS: Record<string, string> = {
   'Talk':        '#f472b6',
 };
 
+// A body may hold inline links written as [text](https://...).
+function renderBody(body: string, color: string) {
+  return body.split(/(\[[^\]]+\]\(https?:\/\/[^)\s]+\))/).map((part, i) => {
+    const m = part.match(/^\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)$/);
+    if (!m) return part;
+    return (
+      <a key={i} href={m[2]} target="_blank" rel="noopener noreferrer"
+         style={{ color, textDecoration: 'underline', textUnderlineOffset: '2px' }}>
+        {m[1]}
+      </a>
+    );
+  });
+}
+
 export default function News() {
   const sectionRef = useRef<HTMLElement>(null);
   const [visible, setVisible] = useState(false);
@@ -137,7 +151,7 @@ export default function News() {
                       {item.headline}
                     </h3>
                     <p style={{ margin: 0, fontSize: '1rem', color: 'var(--color-muted)', lineHeight: 1.65 }}>
-                      {item.body}
+                      {renderBody(item.body, dotColor)}
                     </p>
 
                     {item.link && (

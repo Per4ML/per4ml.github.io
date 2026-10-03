@@ -17,6 +17,7 @@ import json
 import os
 import re
 from datetime import date
+from xml.sax.saxutils import escape
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CONTENTS = os.path.join(ROOT, "contents")
@@ -25,6 +26,29 @@ INDEX_HTML = os.path.join(ROOT, "index.html")
 SRC_DATA = os.path.join(ROOT, "src", "data")
 
 BASE_URL = "https://per4ml.github.io"
+
+# The video featured on the home page (keep in sync with
+# src/components/FeaturedVideo.tsx). Described as a schema.org VideoObject,
+# listed in llms.txt, and added to the sitemap so search engines and AI
+# assistants can find it.
+FEATURED_VIDEO = {
+    "id": "tFrO_1K9598",
+    "name": "OptimasX: An Agentic End-to-End GPU Performance Optimization "
+            "Workflow in the Code Editor",
+    "description": (
+        "A one-minute demo of OptimasX, an agentic, end-to-end GPU performance "
+        "optimization workflow that runs inside the code editor. OptimasX turns "
+        "GPU code optimization, which usually takes deep expertise and as many "
+        "as 30 manual steps, into one request to an AI assistant: \"Can you make "
+        "my code run faster?\" Research poster at SC'26, nominated for the Best "
+        "Research Poster Award."),
+    "uploadDate": "2026-09-30T20:17:11-07:00",
+    "duration": "PT1M5S",
+    "pub_key": "bhattarai2026optimasx",
+    "keywords": ["GPU performance optimization", "CUDA", "agentic AI",
+                 "LLM code optimization", "AI coding assistant",
+                 "code editor", "HPC", "SC'26 research poster"],
+}
 
 
 def load(path, default):
@@ -99,8 +123,28 @@ def main():
         "about": {"@id": f"{BASE_URL}/#org"},
         "keywords": ", ".join(keywords),
     }
+    v = FEATURED_VIDEO
+    watch_url = f"https://www.youtube.com/watch?v={v['id']}"
+    video_pub = next((p for p in pubs if p.get("key") == v["pub_key"]), {})
+    video_node = {
+        "@type": "VideoObject",
+        "@id": f"{BASE_URL}/#featured-video",
+        "name": v["name"],
+        "description": v["description"],
+        "thumbnailUrl": [f"https://i.ytimg.com/vi/{v['id']}/maxresdefault.jpg",
+                         f"https://i.ytimg.com/vi/{v['id']}/hqdefault.jpg"],
+        "uploadDate": v["uploadDate"],
+        "duration": v["duration"],
+        "embedUrl": f"https://www.youtube.com/embed/{v['id']}",
+        "url": watch_url,
+        "inLanguage": "en",
+        "keywords": ", ".join(v["keywords"]),
+        "author": [{"@type": "Person", "name": a} for a in video_pub.get("authors", [])],
+        "publisher": {"@id": f"{BASE_URL}/#org"},
+        "isPartOf": {"@id": f"{BASE_URL}/#org"},
+    }
     graph = {"@context": "https://schema.org",
-             "@graph": [org_node, pi_node, website_node] + pub_nodes}
+             "@graph": [org_node, pi_node, website_node, video_node] + pub_nodes}
     json_ld = ('<script type="application/ld+json">\n'
                + json.dumps(graph, indent=2, ensure_ascii=False)
                + "\n</script>")
@@ -136,6 +180,15 @@ def main():
     if pi.get("funding_total"):
         L.append(f"- Research funding secured: {pi['funding_total']} "
                  f"({', '.join(pi.get('funding_agencies', []))})")
+    L.append("")
+    L.append("## Featured: OptimasX demo video (SC'26 Best Research Poster nominee)")
+    L.append(f"- Video: {watch_url}")
+    L.append(f"- Title: {v['name']}")
+    if video_pub.get("authors"):
+        L.append(f"- Authors: {'; '.join(video_pub['authors'])}")
+    L.append(f"- Summary: {v['description']}")
+    L.append("- Who it is for: GPU, CUDA, and HPC developers, and anyone who "
+             "uses an AI coding assistant in their editor and wants faster code.")
     L.append("")
     L.append("## Research Areas")
     L.append("The group works on, and welcomes collaborators and students in, "
@@ -205,9 +258,18 @@ def main():
     # ── 5. sitemap.xml ───────────────────────────────────────────────────────
     sitemap = (
         '<?xml version="1.0" encoding="UTF-8"?>\n'
-        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"\n'
+        '        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">\n'
         f"  <url>\n    <loc>{BASE_URL}/</loc>\n    <lastmod>{today}</lastmod>\n"
-        "    <changefreq>weekly</changefreq>\n    <priority>1.0</priority>\n  </url>\n"
+        "    <changefreq>weekly</changefreq>\n    <priority>1.0</priority>\n"
+        "    <video:video>\n"
+        f"      <video:thumbnail_loc>https://i.ytimg.com/vi/{v['id']}/hqdefault.jpg</video:thumbnail_loc>\n"
+        f"      <video:title>{escape(v['name'])}</video:title>\n"
+        f"      <video:description>{escape(v['description'])}</video:description>\n"
+        f"      <video:player_loc>https://www.youtube.com/embed/{v['id']}</video:player_loc>\n"
+        "      <video:duration>65</video:duration>\n"
+        f"      <video:publication_date>{v['uploadDate']}</video:publication_date>\n"
+        "    </video:video>\n  </url>\n"
         f"  <url>\n    <loc>{BASE_URL}/projects/</loc>\n    <lastmod>{today}</lastmod>\n"
         "    <changefreq>monthly</changefreq>\n    <priority>0.8</priority>\n  </url>\n"
         f"  <url>\n    <loc>{BASE_URL}/llms.txt</loc>\n    <lastmod>{today}</lastmod>\n  </url>\n"

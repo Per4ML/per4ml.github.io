@@ -3,7 +3,7 @@
     "date": "2026-10",
     "category": "Research",
     "headline": "OptimasX Demo Is Online",
-    "body": "Our one-minute OptimasX demo is now on YouTube. OptimasX is an agentic, end-to-end GPU performance optimization workflow that runs inside the code editor. OptimasX is also nominated for the Best Research Poster Award at SC'26 this November.",
+    "body": "Our one-minute OptimasX demo is now on YouTube. OptimasX is an agentic, end-to-end GPU performance optimization workflow that runs inside the code editor. OptimasX is also [nominated for the Best Research Poster Award at SC'26](https://www.youtube.com/watch?v=tFrO_1K9598) this November.",
     "link": "https://www.youtube.com/watch?v=tFrO_1K9598",
     "linkLabel": "Watch the demo"
   },
@@ -11,7 +11,7 @@
     "date": "2026-09",
     "category": "Award",
     "headline": "SC'26 Best Research Poster Nominee",
-    "body": "OptimasX has been accepted at SC'26 and nominated for the Best Research Poster Award! OptimasX makes GPU code optimization, which usually takes deep expertise and as many as 30 manual steps, as simple as asking an AI assistant, \"Can you make my code run faster?\" This work is supported by the NSF CAREER award and this summer's CRA REU program. Check out our one-minute OptimasX demo video!",
+    "body": "OptimasX has been accepted at SC'26 and [nominated for the Best Research Poster Award](https://www.youtube.com/watch?v=tFrO_1K9598)! OptimasX makes GPU code optimization, which usually takes deep expertise and as many as 30 manual steps, as simple as asking an AI assistant, \"Can you make my code run faster?\" This work is supported by the NSF CAREER award and this summer's CRA REU program. Check out our one-minute OptimasX demo video!",
     "link": "https://www.youtube.com/watch?v=tFrO_1K9598",
     "linkLabel": "Watch the demo"
   },
