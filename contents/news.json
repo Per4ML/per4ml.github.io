@@ -1,9 +1,35 @@
 [
   {
+    "date": "2026-10",
+    "category": "Research",
+    "headline": "OptimasX Demo Is Online",
+    "body": "Our one-minute OptimasX demo is now on YouTube. OptimasX is an agentic, end-to-end GPU performance optimization workflow that runs inside the code editor. OptimasX is also [nominated for the Best Research Poster Award at SC'26](https://www.youtube.com/watch?v=tFrO_1K9598) this November.",
+    "link": "https://www.youtube.com/watch?v=tFrO_1K9598",
+    "linkLabel": "Watch the demo"
+  },
+  {
+    "date": "2026-09",
+    "category": "Award",
+    "headline": "2026 ACM SIGHPC Emerging Woman Leader in Technical Computing",
+    "body": "I am honored to receive the 2026 ACM SIGHPC Emerging Woman Leader in Technical Computing Award, together with Olga Pearce. The citation recognizes \"sustained technical excellence in HPC and a rare depth of leadership in research, mentoring, and community building.\" The award will be presented at SC'26.",
+    "link": "https://www.sighpc.org/opportunities/emerging-woman-leader-in-technical-computing-award/2026-ewltc-award-winner",
+    "linkLabel": "ACM SIGHPC announcement"
+  },
+  {
+    "date": "2026-09",
+    "category": "Service",
+    "headline": "IPDPS 2027 General Co-Chair",
+    "body": "I will serve as General Co-Chair of IEEE IPDPS 2027 with Manish Parashar. IPDPS is one of the premier conferences in parallel and distributed computing, and it will be held in Seattle, Washington, June 1–5, 2027. We invite work that crosses traditional boundaries, including AI/ML, quantum and neuromorphic computing, and green HPC. Please consider submitting!",
+    "link": "https://cs.txst.edu/about-us/news/tanzima-islam-co-general-chair-ieeeconference.html",
+    "linkLabel": "TXST CS news"
+  },
+  {
     "date": "2026-09",
     "category": "Award",
     "headline": "SC'26 Best Research Poster Nominee",
-    "body": "OptimasX has been accepted at SC'26 and nominated for the Best Research Poster Award! OptimasX makes GPU code optimization, which usually takes deep expertise and as many as 30 manual steps, as simple as asking an AI assistant, \"Can you make my code run faster?\" This work is supported by the NSF CAREER award and this summer's CRA REU program."
+    "body": "OptimasX has been accepted at SC'26 and [nominated for the Best Research Poster Award](https://www.youtube.com/watch?v=tFrO_1K9598)! OptimasX makes GPU code optimization, which usually takes deep expertise and as many as 30 manual steps, as simple as asking an AI assistant, \"Can you make my code run faster?\" This work is supported by the NSF CAREER award and this summer's CRA REU program. Check out our one-minute OptimasX demo video!",
+    "link": "https://www.youtube.com/watch?v=tFrO_1K9598",
+    "linkLabel": "Watch the demo"
   },
   {
     "date": "2026-09",
@@ -41,9 +67,9 @@
   },
   {
     "date": "2026-05",
-    "category": "paper",
+    "category": "Publication",
     "headline": "KDD'26",
-    "body": "Congratulations to Zaeed for his paper OPTIMAS: for being accepted at KDD'26. This year, KDD received 3252 valid submissions, with an overall acceptance rate of ~18.5%."
+    "body": "Congratulations to Zaeed: his paper OPTIMAS has been accepted at KDD'26. This year, KDD received 3252 valid submissions, with an overall acceptance rate of ~18.5%."
   },
   {
     "date": "2026-05",
@@ -52,34 +78,24 @@
     "body": "Thanks to CRA for a $10K grant supporting an undergraduate research student during Summer 2026."
   },
   {
+    "date": "2026-03",
+    "category": "News",
+    "headline": "Featured by SC for Women's History Month",
+    "body": "I am honored to be featured by the SC Conference Series for Women's History Month (#WHM26, #HPCunites). I shared how HPC found me through an internship at Lawrence Livermore National Laboratory in the third year of my PhD, why our lab builds AI/ML methods that let HPC systems observe, reason, and optimize their own performance, and how the BWCSE Club, which I co-founded in 2014, has mentored 100+ women into research careers. My advice to students: \"Chase what excites you, keep moving, and trust the path will reveal itself.\" In one line: \"I make supercomputers intelligent so that everyone has access to efficient computing.\"",
+    "link": "https://www.linkedin.com/feed/update/urn:li:activity:7439434183229288449/",
+    "linkLabel": "Read the feature"
+  },
+  {
     "date": "2025-11",
     "category": "Funding",
     "headline": "AMD Research Gift",
     "body": "Thank you to AMD for their generous research gift supporting our work on data-efficient ML for HPC systems."
   },
   {
-    "date": "2025-11",
-    "category": "Funding",
-    "headline": "AMD Gift",
-    "body": "Thank you to AMD for their generous research gift supporting our work."
-  },
-  {
     "date": "2025-10",
     "category": "Publication",
-    "headline": "Paper Accepted at ACM REP",
-    "body": "The lab's paper on performance reproducibility in HPC was accepted at the ACM Conference on Reproducibility and Replicability (REP)."
-  },
-  {
-    "date": "2025-10",
-    "category": "paper",
-    "headline": "ACM REP",
+    "headline": "Paper at ACM REP'25",
     "body": "Our paper titled \"Reproducibility for HPC and Distributed Environments: Committees, Nondeterminism, Performance and Workflows\" was published at ACM REP and is now available in the ACM Digital Library."
-  },
-  {
-    "date": "2025-09",
-    "category": "Publication",
-    "headline": "Paper at NeurIPS MLForSys Workshop",
-    "body": "Our work on few-shot transfer learning for HPC performance prediction was accepted at the NeurIPS 2025 Machine Learning for Systems workshop."
   },
   {
     "date": "2025-09",
@@ -95,44 +111,20 @@
   },
   {
     "date": "2025-08",
-    "category": "Service",
-    "headline": "SC'26 Track Chair",
-    "body": "Dr. Islam will serve as Track Chair for Supercomputing 2026 (SC'26), helping shape the premier international conference on HPC."
-  },
-  {
-    "date": "2025-08",
-    "category": "Talk",
-    "headline": "Invited Talk at EuroPar'25",
-    "body": "Dr. Islam delivered an invited talk at the European Conference on Parallel and Distributed Computing (Euro-Par 2025)."
-  },
-  {
-    "date": "2025-08",
     "category": "Talk",
     "headline": "Invited Talk at MDC'25",
-    "body": "Dr. Islam gave an invited talk at the Middleware for Data Centers workshop (MDC'25), presenting the lab's latest work on ML-driven performance optimization."
-  },
-  {
-    "date": "2025-08",
-    "category": "Research",
-    "headline": "MDC'25",
     "body": "Invited Talk @ Monterey Data Conference (Monterey, CA) — Exciting discussions on deploying ModelX into HPC production facilities!"
   },
   {
     "date": "2025-08",
-    "category": "Awards",
-    "headline": "Promotion",
-    "body": "Promoted to Associate Professor! Grateful to my students, collaborators, mentors, and the Almighty."
-  },
-  {
-    "date": "2025-08",
-    "category": "Papers",
-    "headline": "EuroPar'25",
+    "category": "Talk",
+    "headline": "Invited Talk at Euro-Par'25",
     "body": "Honored to give an invited talk at EuroPar's Women in HPC session on bridging key gaps in performance-aware code development."
   },
   {
     "date": "2025-08",
-    "category": "Awards",
-    "headline": "Track Chair@SC'26",
+    "category": "Service",
+    "headline": "SC'26 Performance Track Chair",
     "body": "Honored to serve as Performance Track Chair for SC’26."
   },
   {
@@ -142,33 +134,15 @@
     "body": "Elvis Fefey received the Best Paper Award at the IEEE Cloud Summit 2025. Congratulations, Elvis!"
   },
   {
-    "date": "2025-07",
-    "category": "Publication",
-    "headline": "Best Paper Award",
-    "body": "My Ph.D. student Elvis Fefey’s research on heterogeneous scheduling algorithms just won the Best Paper Award at IEEE Cloud Summit! Proud advisor moment!"
-  },
-  {
     "date": "2025-06",
     "category": "Talk",
     "headline": "Invited Talk at PASC'25",
-    "body": "Dr. Islam presented an invited talk at the Platform for Advanced Scientific Computing (PASC) Conference 2025."
-  },
-  {
-    "date": "2025-06",
-    "category": "Research",
-    "headline": "PASC'25",
     "body": "Invited Talk @ ML4SW Workshop (PASC’25, Switzerland) — Great interest in integrating ModelX into HPC+AI/ML libraries!"
   },
   {
     "date": "2025-05",
     "category": "Publication",
-    "headline": "QuantumX Paper at ICS'25",
-    "body": "Our paper introducing QuantumX — a few-shot learning approach for quantum performance modeling in HPC — was accepted at the ACM International Conference on Supercomputing (ICS'25)."
-  },
-  {
-    "date": "2025-05",
-    "category": "Publication",
-    "headline": "ICS'25",
+    "headline": "QuantumX at ICS'25",
     "body": "Our paper \"QuantumX: A Few-Shot-Learning Approach for Quantum Performance Modeling in HPC\" has been accepted at the International Workshop on Software Frameworks for Integrating Quantum and HPC Ecosystems in conjunction with ICS'25!"
   },
   {
@@ -239,9 +213,9 @@
   },
   {
     "date": "2024-09",
-    "category": "News",
-    "headline": "ISC'25 Poster",
-    "body": "I am co-chairing the poster session at ISC'24. Please consider submitting your work. If you would like to serve as a reviewer, please contact me."
+    "category": "Service",
+    "headline": "ISC'25 Poster Deputy Chair",
+    "body": "I am serving as the deputy chair (vice chair) of the poster session at ISC'25. Please consider submitting your work. If you would like to serve as a reviewer, please contact me."
   },
   {
     "date": "2024-05",
@@ -275,13 +249,13 @@
   },
   {
     "date": "2023-09",
-    "category": "Papers",
+    "category": "Publication",
     "headline": "SC'23 poster",
     "body": "Our research poster, \"Graph-Based Anomaly Detection in Chimbuko: Feasible or Fallible?\" has been accepted in the SC'23 research poster session."
   },
   {
     "date": "2023-08",
-    "category": "Papers",
+    "category": "Publication",
     "headline": "REWORDS'23",
     "body": "Our paper titled \"Building the I (Interoperability) of FAIR for performance reproducibility of large-scale composable workflows in RECUP\" has been accepted at the Reproducible Workflows, Data Management, and Security workshop."
   },

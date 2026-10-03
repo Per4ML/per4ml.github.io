@@ -1,0 +1,114 @@
+[
+  {
+    "date": "2026-09",
+    "title": "ACM SIGHPC Names Tanzima Z. Islam and Olga Pearce 2026 Emerging Woman Leader in Technical Computing",
+    "outlet": "ACM SIGHPC",
+    "link": "https://www.sighpc.org/opportunities/emerging-woman-leader-in-technical-computing-award/2026-ewltc-award-winner",
+    "also": [
+      { "label": "TXST CS", "link": "https://cs.txst.edu/about-us/news/tanzima-emerging-woman-leader-in-technical-computing-award.html" }
+    ]
+  },
+  {
+    "date": "2026-09",
+    "title": "Dr. Islam: Co-General Chair of upcoming IEEE Conference (IPDPS 2027)",
+    "outlet": "TXST Department of Computer Science",
+    "link": "https://cs.txst.edu/about-us/news/tanzima-islam-co-general-chair-ieeeconference.html",
+    "also": [
+      { "label": "Sustainable Horizons Institute", "link": "https://shinstitute.org/ieee-ipdps-2027-cfs/" }
+    ]
+  },
+  {
+    "date": "2026-07",
+    "title": "TXST faculty lead Department of Energy Genesis Mission projects to advance efficient, reliable science",
+    "outlet": "Texas State University Newsroom",
+    "link": "https://news.txst.edu/research-and-innovation/2026/doe-genesis-mission.html",
+    "also": [
+      { "label": "Brookhaven National Laboratory", "link": "https://www.bnl.gov/newsroom/news.php?a=223070" },
+      { "label": "DOE awards list", "link": "https://www.energy.gov/sites/default/files/2026-07/GM-RFA-Awards-List.pdf" }
+    ]
+  },
+  {
+    "date": "2026-03",
+    "title": "Women's History Month feature: \"HPC found me\"",
+    "outlet": "SC Conference Series",
+    "link": "https://www.linkedin.com/feed/update/urn:li:activity:7439434183229288449/"
+  },
+  {
+    "date": "2025-04",
+    "title": "TXST's Tanzima Islam awarded NSF CAREER grant to improve supercomputer efficiency",
+    "outlet": "Texas State University Newsroom",
+    "link": "https://news.txst.edu/featured-faculty/2025/tanzima-islam-receives-career-award.html",
+    "also": [
+      { "label": "TXST CS", "link": "https://cs.txst.edu/about-us/news/tanzima-islam-nsf-career-award.html" }
+    ]
+  },
+  {
+    "date": "2025-02",
+    "title": "Embracing artificial intelligence could elevate TXST",
+    "outlet": "The University Star",
+    "link": "https://universitystar.com/29431/opinions/embracing-artificial-intelligence-could-elevate-txst/"
+  },
+  {
+    "date": "2024-02",
+    "title": "SRP at the DOE ASCR Computer Science PI Meeting",
+    "outlet": "Sustainable Horizons Institute",
+    "link": "https://shinstitute.org/srp-at-ascr-cs-pi-meeting/"
+  },
+  {
+    "date": "2023-11",
+    "title": "CSI in the Sky: Brookhaven Lab Heads to SC23 in Denver",
+    "outlet": "Brookhaven National Laboratory Newsroom",
+    "link": "https://www.bnl.gov/newsroom/news.php?a=221542"
+  },
+  {
+    "date": "2023-11",
+    "title": "Presidential Award Winners 2023",
+    "outlet": "Texas State University, Office of the President",
+    "link": "https://www.president.txst.edu/presidential-award-winners/2023.html"
+  },
+  {
+    "date": "2023-05",
+    "title": "Berkeley Lab Computing Sciences Takes Novel Approach to Science Workforce Development and Diversity",
+    "outlet": "Berkeley Lab Computing Sciences News",
+    "link": "https://cs.lbl.gov/news-and-events/news/2023/berkeley-lab-computing-sciences-takes-novel-approach-to-science-workforce-development-and-diversity/"
+  },
+  {
+    "date": "2022-11",
+    "title": "Brookhaven Scientists Ready to Show how 'HPC Accelerates' at SC22",
+    "outlet": "Brookhaven National Laboratory Newsroom",
+    "link": "https://www.bnl.gov/newsroom/news.php?a=220913"
+  },
+  {
+    "date": "2022-07",
+    "title": "SRP Paves the Way for DOE Early Career Award",
+    "outlet": "Berkeley Lab Computing Sciences News",
+    "link": "https://cs.lbl.gov/news-and-events/news/2022/srp-paves-the-way-for-doe-early-career-award/"
+  },
+  {
+    "date": "2022-06",
+    "title": "Tanzima Islam's innovative computing work garners Early Career Research Program award",
+    "outlet": "Texas State University Newsroom",
+    "link": "https://news.txst.edu/featured-faculty/2022/tanzima-islam-early-career-research-program-award.html",
+    "also": [
+      { "label": "DOE awards list", "link": "https://science.osti.gov/-/media/early-career/pdf/2022-Early-Career-Research-Program-Awards---List.pdf" }
+    ]
+  },
+  {
+    "date": "2022-05",
+    "title": "Translational Health at Texas State University (video)",
+    "outlet": "AMD HPC Fund",
+    "link": "https://www.youtube.com/watch?v=si1nwv6UhLA"
+  },
+  {
+    "date": "2019-11",
+    "title": "LLNL researchers win four R&D 100 awards",
+    "outlet": "Lawrence Livermore National Laboratory News",
+    "link": "https://www.llnl.gov/news/llnl-researchers-win-four-rd-100-awards"
+  },
+  {
+    "date": "2010-10",
+    "title": "Graduate student Tanzima Zerin Islam wins award in ACM Student Research Competition",
+    "outlet": "Purdue University, School of Electrical and Computer Engineering",
+    "link": "https://engineering.purdue.edu/ECE/News/2010/GraduatestudentTanzimaZerinIslamwinsawardinACMStude"
+  }
+]

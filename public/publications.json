@@ -14,7 +14,7 @@
     "url": "https://arxiv.org/abs/2604.23892",
     "award": "",
     "acceptanceRate": "18.5%",
-    "note": "Accepted. Acceptance rate: 18.5%",
+    "note": "Acceptance rate: 18.5%",
     "keywords": []
   },
   {
@@ -32,6 +32,60 @@
     "award": "",
     "acceptanceRate": "",
     "note": "Dataset. 3,410 experiments across 9 GPU benchmarks and three LLMs (GPT-5, Gemini 2.5 Pro, Llama 3.1 70B) on an NVIDIA H100.",
+    "keywords": []
+  },
+  {
+    "key": "bhattarai2026optimasx",
+    "title": "OptimasX: An Agentic End-to-End GPU Performance Optimization Workflow in the Code Editor",
+    "authors": [
+      "Bhattarai, Yugesh",
+      "Rubin, Jessica",
+      "Manoj Rekha, Prajan Kumar",
+      "Zaeed, Mohammad",
+      "Islam, Tanzima Z"
+    ],
+    "venue": "International Conference for High Performance Computing, Networking, Storage and Analysis (SC'26)",
+    "year": 2026,
+    "doi": "",
+    "pdf": "",
+    "url": "https://www.youtube.com/watch?v=tFrO_1K9598",
+    "award": "Best Poster Nominee",
+    "acceptanceRate": "",
+    "note": "Poster. Nominated for the Best Poster Award. Demo video: https://www.youtube.com/watch?v=tFrO_1K9598",
+    "keywords": []
+  },
+  {
+    "key": "lahiry2026decisions",
+    "title": "What Decisions Should HPC Make So You Don't Have To?",
+    "authors": [
+      "Lahiry, Ankur",
+      "Islam, Tanzima Z"
+    ],
+    "venue": "New York Scientific Data Summit (NYSDS'26)",
+    "year": 2026,
+    "doi": "",
+    "pdf": "",
+    "url": "",
+    "award": "",
+    "acceptanceRate": "",
+    "note": "Poster.",
+    "keywords": []
+  },
+  {
+    "key": "zaeed2026hardware",
+    "title": "From Hardware Characterization to AI-Guided Optimization: A Unified Framework for Automated HPC Performance Engineering",
+    "authors": [
+      "Zaeed, Mohammad",
+      "Islam, Tanzima Z"
+    ],
+    "venue": "14th Annual MVAPICH User Group Conference (MUG'26)",
+    "year": 2026,
+    "doi": "",
+    "pdf": "",
+    "url": "https://mug.mvapich.cse.ohio-state.edu",
+    "award": "",
+    "acceptanceRate": "",
+    "note": "Poster.",
     "keywords": []
   },
   {
@@ -90,7 +144,7 @@
     "url": "https://ieeexplore.ieee.org/document/11662207",
     "award": "",
     "acceptanceRate": "32.4%",
-    "note": "Accepted. Acceptance rate: 32.4%",
+    "note": "Acceptance rate: 32.4%",
     "keywords": []
   },
   {
@@ -107,7 +161,7 @@
     "url": "",
     "award": "",
     "acceptanceRate": "34.4%",
-    "note": "Accepted. Acceptance rate: 34.4%",
+    "note": "Acceptance rate: 34.4%",
     "keywords": []
   },
   {
@@ -190,6 +244,42 @@
     "award": "",
     "acceptanceRate": "",
     "note": "Accepted.",
+    "keywords": []
+  },
+  {
+    "key": "fefey2025optimizing",
+    "title": "Optimizing Deep Learning Inference on Heterogeneous Devices on the Edge: An ILP-Based Rate Monotonic Scheduling Approach",
+    "authors": [
+      "Fefey, Elvis G",
+      "Islam, Tanzima Z"
+    ],
+    "venue": "2025 IEEE Cloud Summit",
+    "year": 2025,
+    "doi": "",
+    "pdf": "",
+    "url": "",
+    "award": "Best Paper",
+    "acceptanceRate": "",
+    "note": "Best Paper Award.",
+    "keywords": []
+  },
+  {
+    "key": "ahmed2025intelligent",
+    "title": "Intelligent Surrogates Pay Attention to Data, Improving Multi-Objective HPC Optimization",
+    "authors": [
+      "Ahmed, Ashna Nawar",
+      "Banday, Banooqa H",
+      "Jones, Terry",
+      "Islam, Tanzima Z"
+    ],
+    "venue": "International Conference for High Performance Computing, Networking, Storage and Analysis (SC'25)",
+    "year": 2025,
+    "doi": "",
+    "pdf": "",
+    "url": "",
+    "award": "",
+    "acceptanceRate": "",
+    "note": "Poster.",
     "keywords": []
   },
   {
@@ -595,6 +685,22 @@
     "keywords": []
   },
   {
+    "key": "siam2024taskforce",
+    "title": "SIAM Task Force Anticipates Future Directions of Computational Science",
+    "authors": [
+      "SIAM Task Force on the Future of Computational Science"
+    ],
+    "venue": "SIAM News",
+    "year": 2024,
+    "doi": "",
+    "pdf": "",
+    "url": "",
+    "award": "",
+    "acceptanceRate": "",
+    "note": "",
+    "keywords": []
+  },
+  {
     "key": "phelps2023automatic",
     "title": "Automatic Parallelization of Cellular Automata for Heterogeneous Platforms",
     "authors": [
@@ -951,6 +1057,34 @@
     "keywords": []
   },
   {
+    "key": "arora2020future",
+    "title": "Future Directions of the Cyberinfrastructure for Sustained Scientific Innovation (CSSI) Program",
+    "authors": [
+      "Arora, Ritu",
+      "Li, Xiaosong",
+      "Hurwitz, Bonnie",
+      "Fay, Daniel",
+      "Panda, Dhabaleswar K",
+      "Valeev, Edward",
+      "Wang, Shaowen",
+      "Moore, Shirley",
+      "Chandrasekaran, Sunita",
+      "Cao, Ting",
+      "Bik, Holly",
+      "Curry, Matthew",
+      "Islam, Tanzima Z"
+    ],
+    "venue": "arXiv preprint arXiv:2010.15584",
+    "year": 2020,
+    "doi": "",
+    "pdf": "",
+    "url": "https://arxiv.org/abs/2010.15584",
+    "award": "",
+    "acceptanceRate": "",
+    "note": "",
+    "keywords": []
+  },
+  {
     "key": "patki2019performance",
     "title": "Performance Optimality or Reproducibility: That is the Question",
     "authors": [
@@ -1219,6 +1353,41 @@
     "keywords": []
   },
   {
+    "key": "chasapis2015toward",
+    "title": "Toward Scientific-Data Compression Using Variable Clustering",
+    "authors": [
+      "Chasapis, Konstantinos",
+      "Islam, Tanzima Z"
+    ],
+    "venue": "LLNL Annual Scholars Poster Symposium",
+    "year": 2015,
+    "doi": "",
+    "pdf": "",
+    "url": "",
+    "award": "Best Poster",
+    "acceptanceRate": "",
+    "note": "Poster. Best Poster Award (Computation Special Recognition).",
+    "keywords": []
+  },
+  {
+    "key": "smarr2015modular",
+    "title": "Modular Extensible Framework for Performance Comparative Analysis",
+    "authors": [
+      "Smarr, Simone",
+      "Islam, Tanzima Z",
+      "Rankin, Yolanda"
+    ],
+    "venue": "ACM Richard Tapia Celebration of Diversity in Computing Conference",
+    "year": 2015,
+    "doi": "",
+    "pdf": "",
+    "url": "",
+    "award": "",
+    "acceptanceRate": "",
+    "note": "Poster.",
+    "keywords": []
+  },
+  {
     "key": "islam2014reliable",
     "title": "Reliable and Efficient Distributed Checkpointing System for Grid Environments",
     "authors": [
@@ -1269,9 +1438,9 @@
     "doi": "",
     "pdf": "https://sc14.supercomputing.org/sites/all/themes/sc14/files/archive/tech_poster/poster_files/post271s2-file3.pdf",
     "url": "",
-    "award": "",
+    "award": "Best Poster",
     "acceptanceRate": "",
-    "note": "Poster.",
+    "note": "Poster. Best Poster Award, 2014 LLNL Annual Scholars Poster Symposium.",
     "keywords": []
   },
   {
@@ -1371,23 +1540,61 @@
     "keywords": []
   },
   {
-    "key": "hossain2011eunomia",
-    "title": "Eunomia: A fast and collaborative interference avoidance technique for wireless medical devices",
+    "key": "islam2010data",
+    "title": "Data-Aware Inter-Process Checkpoint Compression",
     "authors": [
-      "Hossain, Mohammad S",
-      "Islam, Tanzima Zerin",
-      "Wei, Jinliang",
-      "Raghunathan, Vijay",
-      "Bagchi, Saurabh"
+      "Islam, Tanzima Z",
+      "Mohror, Kathryn",
+      "Moody, Adam",
+      "de Supinski, Bronis R",
+      "Bagchi, Saurabh",
+      "Eigenmann, Rudolf"
     ],
-    "venue": "",
-    "year": 2011,
+    "venue": "International Conference for High Performance Computing, Networking, Storage and Analysis (SC'10)",
+    "year": 2010,
     "doi": "",
     "pdf": "",
     "url": "",
     "award": "",
     "acceptanceRate": "",
-    "note": "Fast abstract. r̆lhttps://docs.lib.purdue.edu/ecetr/422/",
+    "note": "Poster.",
+    "keywords": []
+  },
+  {
+    "key": "islam2010harnessing",
+    "title": "Harnessing Multiple Cores for Efficient Checkpointing in Grid Systems",
+    "authors": [
+      "Islam, Tanzima Z",
+      "Bagchi, Saurabh",
+      "Eigenmann, Rudolf"
+    ],
+    "venue": "ACM Student Research Competition (SRC) at Grace Hopper Celebration of Women in Computing",
+    "year": 2010,
+    "doi": "",
+    "pdf": "",
+    "url": "",
+    "award": "SRC 2nd Place",
+    "acceptanceRate": "",
+    "note": "Poster. ACM Student Research Competition Second Place Winner.",
+    "keywords": []
+  },
+  {
+    "key": "hossain2009fast",
+    "title": "Fast and Collaborative Interference Avoidance for Wireless Medical Devices",
+    "authors": [
+      "Hossain, Mohammad S",
+      "Islam, Tanzima Z",
+      "Bagchi, Saurabh",
+      "Raghunathan, Vijay"
+    ],
+    "venue": "International Conference on Dependable Systems and Networks (DSN), Fast Abstracts",
+    "year": 2009,
+    "doi": "",
+    "pdf": "",
+    "url": "https://docs.lib.purdue.edu/ecetr/422/",
+    "award": "",
+    "acceptanceRate": "",
+    "note": "Fast abstract. Extended version: Purdue ECE Technical Report 422 (2011), r̆lhttps://docs.lib.purdue.edu/ecetr/422/",
     "keywords": []
   },
   {

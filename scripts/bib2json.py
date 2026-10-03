@@ -77,6 +77,9 @@ _AWARD_PATTERNS = [
     (r"best\s+student\s+paper", "Best Student Paper"),
     (r"best\s+paper\s+finalist", "Best Paper Finalist"),
     (r"best\s+paper", "Best Paper"),
+    (r"nominated\s+for\s+the\s+best\s+poster", "Best Poster Nominee"),
+    (r"best\s+poster", "Best Poster"),
+    (r"student\s+research\s+competition\s+second\s+place", "SRC 2nd Place"),
     (r"student\s+research\s+competition.*prize", "SRC Prize Winner"),
 ]
 
